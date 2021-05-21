@@ -576,6 +576,121 @@
           "title": "Freelance Development Pricing Guide – Should Freelancers Bill by the Hour?"
         }
       ]
+    },
+    {
+      "title": "DEV Community",
+      "feedUrl": "https://dev.to/rss",
+      "siteUrl": "https://dev.to",
+      "articles": [
+        {
+          "id": "https://dev.to/scotty252/let-s-start-the-journey-to-learn-together-full-stack-development-40a0",
+          "author": "scotty252",
+          "description": "Hello, My name is James Scott and I am a students of CS, as most students would know just got into college for Bachelors.\nI will be utilizing this summer to learn Web development basic languages like HTML, CSS, JavaScript and more...\n🙏 🌍, I decided to create this space with the aim of documenting my programming road, organizing materials and inspirations that I have saved in millions of folders 🗂️ and notes 📚.\nYou want to join me?👀\nI am working hard towards becoming a Full Stack Web Developer, learning…",
+          "link": "https://dev.to/scotty252/let-s-start-the-journey-to-learn-together-full-stack-development-40a0",
+          "publishedOn": "2021-05-21T15:59:06.000Z",
+          "wordCount": 643,
+          "title": "Let's start the journey to learn together Full-Stack Development"
+        },
+        {
+          "id": "https://dev.to/aws-builders/build-serverless-applications-using-cdk-and-sam-4oig",
+          "author": "Lorenz Vanthillo",
+          "description": "AWS recently announced the public preview of Serverless Application Model (SAM) support for CDK. SAM is an open-source framework that can be used to build, test and deploy serverless applications on AWS. It provides a Lambda-like execution environment that lets you locally build, test, and debug applications. Previously this could only be defined by SAM templates but now it is also possible through the AWS Cloud Development Kit (CDK)!\n\nI will guide you through a small demo project to demonstrate how to buil…",
+          "link": "https://dev.to/aws-builders/build-serverless-applications-using-cdk-and-sam-4oig",
+          "publishedOn": "2021-05-21T15:56:56.000Z",
+          "wordCount": 1206,
+          "title": "Build Serverless Applications using CDK and SAM"
+        },
+        {
+          "id": "https://dev.to/blaketweeted/sublime-text-4-is-here-can-it-convert-you-snack-pack-6-53p0",
+          "author": "Blake Campbell",
+          "description": "It hasn't converted me.\n\n\n\n\n\n\n  \n  \n  Benefits Large files and memory\n\n\nVSCode is without a doubt a fantastic experience when you get your workflow set up. VSCode also is a memory hog in comparison to Sublime Text 4. \nNot an extensive test. \nMy VSCode has extensions running vs. a clean install of Sublime Text 4. The same project and tabs are open in each editor.\nThe difference in memory is vast. \n\n\nThis doesn't bug me. My laptop has plenty of memory to use. If your workstation is limited, it's worth the men…",
+          "link": "https://dev.to/blaketweeted/sublime-text-4-is-here-can-it-convert-you-snack-pack-6-53p0",
+          "publishedOn": "2021-05-21T15:42:21.000Z",
+          "wordCount": 652,
+          "title": "Sublime Text 4 is here, can it convert you? (Snack Pack #6)"
+        },
+        {
+          "id": "https://dev.to/sabbir185/javascript-tricky-interview-questions-26ho",
+          "author": "SABBIR AHMMED",
+          "description": "What are the truthy and falsy values of javascript?\n\n\nJavaScript falsy means false of boolean condition context. Mainly, six expressions are called falsy. They are false, ‘’(empty string), undefined, null, NaN and 0. And the rest of the expression treats truthy. For example –\nlet value = NaN;\n\nif(value) {\n    console.log( “Truthy value”);\n} else {\n    console.log( “Falsy value” );\n}\n\nOutput: False value, because here boolean condition expression is false.\nnull and undefined both are reserve keywords of java…",
+          "link": "https://dev.to/sabbir185/javascript-tricky-interview-questions-26ho",
+          "publishedOn": "2021-05-21T15:37:29.000Z",
+          "wordCount": 1094,
+          "title": "JavaScript tricky interview questions"
+        },
+        {
+          "id": "https://dev.to/aws-builders/building-rest-api-using-aws-with-serverless-node-js-express-2bk3",
+          "author": "Salah856",
+          "description": "Getting started\n\n\nTo get started, you'll need the Serverless Framework installed. You'll also need your environment configured with AWS credentials. \nThen, let's install a few dependencies. We'll install the express framework, as well as the serverless-http:\n$ npm install --save express serverless-http \n\nThen create a file index.js and initialize it like so:\nconst serverless = require('serverless-http');\nconst express = require('express')\nconst app = express()\n\napp.get('/', function (req, res) {\n  res.send(…",
+          "link": "https://dev.to/aws-builders/building-rest-api-using-aws-with-serverless-node-js-express-2bk3",
+          "publishedOn": "2021-05-21T15:14:06.000Z",
+          "wordCount": 545,
+          "title": "Building REST API using AWS with Serverless, Node.js, Express"
+        },
+        {
+          "id": "https://dev.to/newday-technology/api-s-from-dev-to-production-part-10-9j1",
+          "author": "Pete King",
+          "description": "Series Introduction\n\n\nWelcome to Part 10 of this blog series that will go from the most basic example of a .net 5 webapi in C#, and the journey from development to production with a shift-left mindset. We will use Azure, Docker, GitHub, GitHub Actions for CI/C-Deployment and Infrastructure as Code using Pulumi.\nIn this post we will be looking at:\nSAST - Static Application Security Testing is used to secure software by reviewing/scanning the source code of the software to identify sources of vulnerabilities.…",
+          "link": "https://dev.to/newday-technology/api-s-from-dev-to-production-part-10-9j1",
+          "publishedOn": "2021-05-21T15:08:05.000Z",
+          "wordCount": 1782,
+          "title": "API's From Dev to Production - Part 10"
+        },
+        {
+          "id": "https://dev.to/somanathgoudar/facebook-clone-using-just-html-css-beginners-tutorial-2fe5",
+          "author": "Somanath Goudar",
+          "description": "I Built Facebook Clone using just HTML & CSS. I Just Love to build these to practice my HTML & CSS Skills. I made a tutorial video to help beginners to improve there html & css skills to build real world projects.\nTutorial Video:\n\n\n\n\nGithub: https://github.com/somanath-goudar/html-css-projects\nChannel: https://www.youtube.com/channel/UC_nTrhTr5fnBGjOxnkPUmmA\nTiktok Clone & Instagram Reels Clone with just HTML & CSS.\nYou may also like my other posts:\nBuild a YouTube Clone with just HTML & CSS + Responsive - …",
+          "link": "https://dev.to/somanathgoudar/facebook-clone-using-just-html-css-beginners-tutorial-2fe5",
+          "publishedOn": "2021-05-21T15:03:47.000Z",
+          "wordCount": 576,
+          "title": "FACEBOOK Clone Using just HTML & CSS - Beginners Tutorial"
+        },
+        {
+          "id": "https://dev.to/sunilc_/how-i-make-an-average-of-250-every-month-on-twitter-3c60",
+          "author": "Sunil Kumar",
+          "description": "I realised the importance of having an online presence sometime in the last year when I saw how much money people were making by using Twitter as a Marketing channel. Since I was new to marketing & selling products on the internet, it was shocking to me how one can leverage social media to build businesses online.\nI didn't know how to make money through an online presence, but the main thing I realised was that having an online presence is important and it can definitely benefit me one way or the other in t…",
+          "link": "https://dev.to/sunilc_/how-i-make-an-average-of-250-every-month-on-twitter-3c60",
+          "publishedOn": "2021-05-21T14:32:53.000Z",
+          "wordCount": 1801,
+          "title": "How I Make an Average of 250$ Every Month on Twitter"
+        },
+        {
+          "id": "https://dev.to/glenstack/how-we-re-building-glenstack-8p4",
+          "author": "Greg Brimble",
+          "description": "Glenstack is a production-ready, modern data platform. And as such, we are embracing the latest and greatest technologies as we deliver our application quickly, securely, and with the features our customers demand.\nWe want Glenstack to be performant for users, regardless of where they are located. To us, this means we must be distributed. We can't have a single server in us-east-1 because every single user would have to wait for a round-trip request to Virginia which is a significant delay for most of the w…",
+          "link": "https://dev.to/glenstack/how-we-re-building-glenstack-8p4",
+          "publishedOn": "2021-05-21T14:25:41.000Z",
+          "wordCount": 1321,
+          "title": "How We're Building Glenstack"
+        },
+        {
+          "id": "https://dev.to/devshy/string-em-python-47a3",
+          "author": "DevShy",
+          "description": "O que é uma string?\n\n\n Como criar uma string em python?\n\n\n Strings são como matrizes!\n\n\n Como acessar estes elementos?\n\n\n Iterando Strings?!\n\n\n Tamanho de uma string!\n\n\n Validando caracteres em uma string!\n\n\n Conclusão \nSummaryze Forem 🌱\n\n\n\n  \n  \n  O que é uma string?\n\n\nEm python, uma string são sequências imutáveis de caractere. Ou seja, eles são imutáveis já que para se modificar uma string é necessário que se crie uma nova. \nPara criar uma string, é bastante fácil. Basta criarmos uma variável, e atribui…",
+          "link": "https://dev.to/devshy/string-em-python-47a3",
+          "publishedOn": "2021-05-21T14:10:05.000Z",
+          "wordCount": 828,
+          "title": "String em Python!!"
+        },
+        {
+          "id": "https://dev.to/codesphere/creating-data-visualizations-with-d3-and-reactjs-10ei",
+          "author": "Saji Wang",
+          "description": "D3 is a lot more than just a graphing library, it's a toolset for efficiently editing the DOM and creating visualizations based on data.\nIf all you want is to quickly insert a generic bar graph into your app, then D3 is probably not for you, but if you want the ability to customize your visualizations from the ground up, then D3 is the industry standard.\nIn this tutorial, we are going to create three different simple visualizations with D3 in React. \nNow while these things can be done without D3 and aren't …",
+          "link": "https://dev.to/codesphere/creating-data-visualizations-with-d3-and-reactjs-10ei",
+          "publishedOn": "2021-05-21T13:58:59.000Z",
+          "wordCount": 1312,
+          "title": "Creating Data Visualizations with D3 and ReactJS"
+        },
+        {
+          "id": "https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-21st-may-2021-2c6h",
+          "author": "Iain Freestone",
+          "description": "Trending Projects is available as a weekly newsletter please sign up at www.iainfreestone.com to ensure you never miss an issue.\nDocz makes it easy to write and publish beautiful interactive documentation for your code. Create MDX files showcasing your code and Docz turns them into a live-reloading, production-ready site.\n / \n        docz\n      \n    \n\n\n\n\n  \n    \n  \n  \n    \n  \n  \n    \n  \n\n\nDocz makes it easy to write and publish beautiful interactive documentation for your code.\nCreate MDX files showcasing y…",
+          "link": "https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-21st-may-2021-2c6h",
+          "publishedOn": "2021-05-21T13:50:17.000Z",
+          "wordCount": 3756,
+          "title": "🚀10 Trending projects on GitHub for web developers - 21st May 2021"
+        }
+      ]
     }
   ],
   "cliVersion": "1.7.2"

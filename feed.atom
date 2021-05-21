@@ -1,10 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-21T16:04:36.804Z</id>
+    <id>urn:2021-05-21T16:12:57.792Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-21T16:04:36.804Z</updated>
+    <updated>2021-05-21T16:12:57.792Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Let's start the journey to learn together Full-Stack Development]]></title>
+        <id>https://dev.to/scotty252/let-s-start-the-journey-to-learn-together-full-stack-development-40a0</id>
+        <link href="https://dev.to/scotty252/let-s-start-the-journey-to-learn-together-full-stack-development-40a0"/>
+        <updated>2021-05-21T15:59:06.000Z</updated>
+        <summary type="html"><![CDATA[Hello, My name is James Scott and I am a students of CS, as most students would know just got into college for Bachelors.
+I will be utilizing this summer to learn Web development basic languages like HTML, CSS, JavaScript and more...
+🙏 🌍, I decided to create this space with the aim of documenting my programming road, organizing materials and inspirations that I have saved in millions of folders 🗂️ and notes 📚.
+You want to join me?👀
+I am working hard towards becoming a Full Stack Web Developer, learning…]]></summary>
+        <author>
+            <name>scotty252</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Serverless Applications using CDK and SAM]]></title>
+        <id>https://dev.to/aws-builders/build-serverless-applications-using-cdk-and-sam-4oig</id>
+        <link href="https://dev.to/aws-builders/build-serverless-applications-using-cdk-and-sam-4oig"/>
+        <updated>2021-05-21T15:56:56.000Z</updated>
+        <summary type="html"><![CDATA[AWS recently announced the public preview of Serverless Application Model (SAM) support for CDK. SAM is an open-source framework that can be used to build, test and deploy serverless applications on AWS. It provides a Lambda-like execution environment that lets you locally build, test, and debug applications. Previously this could only be defined by SAM templates but now it is also possible through the AWS Cloud Development Kit (CDK)!
+
+I will guide you through a small demo project to demonstrate how to buil…]]></summary>
+        <author>
+            <name>Lorenz Vanthillo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sublime Text 4 is here, can it convert you? (Snack Pack #6)]]></title>
+        <id>https://dev.to/blaketweeted/sublime-text-4-is-here-can-it-convert-you-snack-pack-6-53p0</id>
+        <link href="https://dev.to/blaketweeted/sublime-text-4-is-here-can-it-convert-you-snack-pack-6-53p0"/>
+        <updated>2021-05-21T15:42:21.000Z</updated>
+        <summary type="html"><![CDATA[It hasn't converted me.
+
+
+
+
+
+
+  
+  
+  Benefits Large files and memory
+
+
+VSCode is without a doubt a fantastic experience when you get your workflow set up. VSCode also is a memory hog in comparison to Sublime Text 4. 
+Not an extensive test. 
+My VSCode has extensions running vs. a clean install of Sublime Text 4. The same project and tabs are open in each editor.
+The difference in memory is vast. 
+
+
+This doesn't bug me. My laptop has plenty of memory to use. If your workstation is limited, it's worth the men…]]></summary>
+        <author>
+            <name>Blake Campbell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript tricky interview questions]]></title>
+        <id>https://dev.to/sabbir185/javascript-tricky-interview-questions-26ho</id>
+        <link href="https://dev.to/sabbir185/javascript-tricky-interview-questions-26ho"/>
+        <updated>2021-05-21T15:37:29.000Z</updated>
+        <summary type="html"><![CDATA[What are the truthy and falsy values of javascript?
+
+
+JavaScript falsy means false of boolean condition context. Mainly, six expressions are called falsy. They are false, ‘’(empty string), undefined, null, NaN and 0. And the rest of the expression treats truthy. For example –
+let value = NaN;
+
+if(value) {
+    console.log( “Truthy value”);
+} else {
+    console.log( “Falsy value” );
+}
+
+Output: False value, because here boolean condition expression is false.
+null and undefined both are reserve keywords of java…]]></summary>
+        <author>
+            <name>SABBIR AHMMED</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The JavaScript Array Handbook – JS Array Methods Explained with Examples]]></title>
         <id>6098ce302cd0545b5e944d0b</id>
@@ -13,6 +90,75 @@
         <summary type="html"><![CDATA[In programming, an array is a collection of elements or items. Arrays store data as elements and retrieve them back when you need them.  The array data structure is widely used in all programming languages that support it. In this handbook, I'll teach you all about arrays in JavaScript. You'll]]></summary>
         <author>
             <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building REST API using AWS with Serverless, Node.js, Express]]></title>
+        <id>https://dev.to/aws-builders/building-rest-api-using-aws-with-serverless-node-js-express-2bk3</id>
+        <link href="https://dev.to/aws-builders/building-rest-api-using-aws-with-serverless-node-js-express-2bk3"/>
+        <updated>2021-05-21T15:14:06.000Z</updated>
+        <summary type="html"><![CDATA[Getting started
+
+
+To get started, you'll need the Serverless Framework installed. You'll also need your environment configured with AWS credentials. 
+Then, let's install a few dependencies. We'll install the express framework, as well as the serverless-http:
+$ npm install --save express serverless-http 
+
+Then create a file index.js and initialize it like so:
+const serverless = require('serverless-http');
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send(…]]></summary>
+        <author>
+            <name>Salah856</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API's From Dev to Production - Part 10]]></title>
+        <id>https://dev.to/newday-technology/api-s-from-dev-to-production-part-10-9j1</id>
+        <link href="https://dev.to/newday-technology/api-s-from-dev-to-production-part-10-9j1"/>
+        <updated>2021-05-21T15:08:05.000Z</updated>
+        <summary type="html"><![CDATA[Series Introduction
+
+
+Welcome to Part 10 of this blog series that will go from the most basic example of a .net 5 webapi in C#, and the journey from development to production with a shift-left mindset. We will use Azure, Docker, GitHub, GitHub Actions for CI/C-Deployment and Infrastructure as Code using Pulumi.
+In this post we will be looking at:
+SAST - Static Application Security Testing is used to secure software by reviewing/scanning the source code of the software to identify sources of vulnerabilities.…]]></summary>
+        <author>
+            <name>Pete King</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FACEBOOK Clone Using just HTML & CSS - Beginners Tutorial]]></title>
+        <id>https://dev.to/somanathgoudar/facebook-clone-using-just-html-css-beginners-tutorial-2fe5</id>
+        <link href="https://dev.to/somanathgoudar/facebook-clone-using-just-html-css-beginners-tutorial-2fe5"/>
+        <updated>2021-05-21T15:03:47.000Z</updated>
+        <summary type="html"><![CDATA[I Built Facebook Clone using just HTML & CSS. I Just Love to build these to practice my HTML & CSS Skills. I made a tutorial video to help beginners to improve there html & css skills to build real world projects.
+Tutorial Video:
+
+
+
+
+Github: https://github.com/somanath-goudar/html-css-projects
+Channel: https://www.youtube.com/channel/UC_nTrhTr5fnBGjOxnkPUmmA
+Tiktok Clone & Instagram Reels Clone with just HTML & CSS.
+You may also like my other posts:
+Build a YouTube Clone with just HTML & CSS + Responsive - …]]></summary>
+        <author>
+            <name>Somanath Goudar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Make an Average of 250$ Every Month on Twitter]]></title>
+        <id>https://dev.to/sunilc_/how-i-make-an-average-of-250-every-month-on-twitter-3c60</id>
+        <link href="https://dev.to/sunilc_/how-i-make-an-average-of-250-every-month-on-twitter-3c60"/>
+        <updated>2021-05-21T14:32:53.000Z</updated>
+        <summary type="html"><![CDATA[I realised the importance of having an online presence sometime in the last year when I saw how much money people were making by using Twitter as a Marketing channel. Since I was new to marketing & selling products on the internet, it was shocking to me how one can leverage social media to build businesses online.
+I didn't know how to make money through an online presence, but the main thing I realised was that having an online presence is important and it can definitely benefit me one way or the other in t…]]></summary>
+        <author>
+            <name>Sunil Kumar</name>
         </author>
     </entry>
     <entry>
@@ -39,6 +185,104 @@ The post CSS Hell appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How We're Building Glenstack]]></title>
+        <id>https://dev.to/glenstack/how-we-re-building-glenstack-8p4</id>
+        <link href="https://dev.to/glenstack/how-we-re-building-glenstack-8p4"/>
+        <updated>2021-05-21T14:25:41.000Z</updated>
+        <summary type="html"><![CDATA[Glenstack is a production-ready, modern data platform. And as such, we are embracing the latest and greatest technologies as we deliver our application quickly, securely, and with the features our customers demand.
+We want Glenstack to be performant for users, regardless of where they are located. To us, this means we must be distributed. We can't have a single server in us-east-1 because every single user would have to wait for a round-trip request to Virginia which is a significant delay for most of the w…]]></summary>
+        <author>
+            <name>Greg Brimble</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[String em Python!!]]></title>
+        <id>https://dev.to/devshy/string-em-python-47a3</id>
+        <link href="https://dev.to/devshy/string-em-python-47a3"/>
+        <updated>2021-05-21T14:10:05.000Z</updated>
+        <summary type="html"><![CDATA[O que é uma string?
+
+
+ Como criar uma string em python?
+
+
+ Strings são como matrizes!
+
+
+ Como acessar estes elementos?
+
+
+ Iterando Strings?!
+
+
+ Tamanho de uma string!
+
+
+ Validando caracteres em uma string!
+
+
+ Conclusão 
+Summaryze Forem 🌱
+
+
+
+  
+  
+  O que é uma string?
+
+
+Em python, uma string são sequências imutáveis de caractere. Ou seja, eles são imutáveis já que para se modificar uma string é necessário que se crie uma nova. 
+Para criar uma string, é bastante fácil. Basta criarmos uma variável, e atribui…]]></summary>
+        <author>
+            <name>DevShy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating Data Visualizations with D3 and ReactJS]]></title>
+        <id>https://dev.to/codesphere/creating-data-visualizations-with-d3-and-reactjs-10ei</id>
+        <link href="https://dev.to/codesphere/creating-data-visualizations-with-d3-and-reactjs-10ei"/>
+        <updated>2021-05-21T13:58:59.000Z</updated>
+        <summary type="html"><![CDATA[D3 is a lot more than just a graphing library, it's a toolset for efficiently editing the DOM and creating visualizations based on data.
+If all you want is to quickly insert a generic bar graph into your app, then D3 is probably not for you, but if you want the ability to customize your visualizations from the ground up, then D3 is the industry standard.
+In this tutorial, we are going to create three different simple visualizations with D3 in React. 
+Now while these things can be done without D3 and aren't …]]></summary>
+        <author>
+            <name>Saji Wang</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[🚀10 Trending projects on GitHub for web developers - 21st May 2021]]></title>
+        <id>https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-21st-may-2021-2c6h</id>
+        <link href="https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-21st-may-2021-2c6h"/>
+        <updated>2021-05-21T13:50:17.000Z</updated>
+        <summary type="html"><![CDATA[Trending Projects is available as a weekly newsletter please sign up at www.iainfreestone.com to ensure you never miss an issue.
+Docz makes it easy to write and publish beautiful interactive documentation for your code. Create MDX files showcasing your code and Docz turns them into a live-reloading, production-ready site.
+ / 
+        docz
+      
+    
+
+
+
+
+  
+    
+  
+  
+    
+  
+  
+    
+  
+
+
+Docz makes it easy to write and publish beautiful interactive documentation for your code.
+Create MDX files showcasing y…]]></summary>
+        <author>
+            <name>Iain Freestone</name>
         </author>
     </entry>
     <entry>
