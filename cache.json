@@ -6,12 +6,30 @@
       "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
       "articles": [
         {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "author": null,
+          "description": "Fixed: UnhandledPromiseRejectionWarning: Error: At least one option must be a string",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.1",
+          "publishedOn": "2021-05-23T05:40:12.000Z",
+          "wordCount": 282,
+          "title": "v1.8.1"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "author": null,
+          "description": "Changed: Smart summary truncation. When there is no dedicated summary (only Atom feed has it, and many sites don't use it) from the source, we check if the content/description (Both Atom and RSS) field is long enough to be full text. If so, it will be truncated into a \"pseudo\" summary. If not, we assume the source used the content field as summary, and it will be displayed in full length.\nThank you: @LooperXX.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.8.0",
+          "publishedOn": "2021-05-23T05:12:08.000Z",
+          "wordCount": 341,
+          "title": "v1.8.0"
+        },
+        {
           "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "author": null,
           "description": "⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: \"16\" in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example\nChore: Reorganize to monorepo with npm workspace.",
           "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
           "publishedOn": "2021-05-17T05:32:19.000Z",
-          "wordCount": 340,
+          "wordCount": 336,
           "title": "v1.7.2"
         },
         {
@@ -76,24 +94,6 @@
           "publishedOn": "2021-05-05T05:19:26.000Z",
           "wordCount": 293,
           "title": "v1.3.0"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "author": null,
-          "description": "Changed: favicon update.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
-          "publishedOn": "2021-05-05T05:19:03.000Z",
-          "wordCount": 270,
-          "title": "v1.2.3"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "author": null,
-          "description": "Added: Display CLI version in footer.",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
-          "publishedOn": "2021-05-05T05:18:52.000Z",
-          "wordCount": 273,
-          "title": "v1.2.1"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "description": "Stefan Judis, two days before I mouthed off about using (X, X, X, X) for talking about specificity, has a great blog post not only using that format, but advocating that browser DevTools should show us that value by …\nThe post Should DevTools teach the CSS cascade? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/",
           "publishedOn": "2021-05-21T23:22:54.000Z",
-          "wordCount": 1166,
+          "wordCount": 1168,
           "title": "Should DevTools teach the CSS cascade?"
         },
         {
@@ -117,7 +117,7 @@
           "description": "This post is an accelerated introduction to Svelte from the point of view of someone with solid experience with React. I’ll provide a quick introduction, and then shift focus to things like state management and DOM interoperability, among other things. …\nThe post Svelte for the Experienced React Dev appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/svelte-for-the-experienced-react-dev/",
           "publishedOn": "2021-05-21T14:30:59.000Z",
-          "wordCount": 3256,
+          "wordCount": 3343,
           "title": "Svelte for the Experienced React Dev"
         },
         {
@@ -135,7 +135,7 @@
           "description": "Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …\nThe post JSON in CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/json-in-css/",
           "publishedOn": "2021-05-20T22:29:53.000Z",
-          "wordCount": 929,
+          "wordCount": 1030,
           "title": "JSON in CSS"
         },
         {
@@ -216,7 +216,7 @@
           "description": "I see you. In the back there, behind JavaScript and React and PHP and all those “real” programming languages, I see you. And I appreciate you.\nThe post A Love Letter to HTML & CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/a-love-letter-to-html-css/",
           "publishedOn": "2021-05-17T14:27:22.000Z",
-          "wordCount": 2908,
+          "wordCount": 2963,
           "title": "A Love Letter to HTML & CSS"
         },
         {
@@ -469,7 +469,7 @@
       "articles": [
         {
           "id": "6098ce302cd0545b5e944d0b",
-          "author": "",
+          "author": null,
           "description": "In programming, an array is a collection of elements or items. Arrays store data as elements and retrieve them back when you need them.  The array data structure is widely used in all programming languages that support it. In this handbook, I'll teach you all about arrays in JavaScript. You'll",
           "link": "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
           "publishedOn": "2021-05-21T15:33:45.000Z",
@@ -478,7 +478,7 @@
         },
         {
           "id": "60a6b3ab906c5207e3a7f5fa",
-          "author": "",
+          "author": null,
           "description": "Angular is one of the most popular web frameworks. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create an Angular 11 project from scratch. It uses a public API to create a game database website. You will gain a great foundation",
           "link": "https://www.freecodecamp.org/news/angular-11-tutorial-code-a-project-from-scratch/",
           "publishedOn": "2021-05-20T19:14:48.000Z",
@@ -487,7 +487,7 @@
         },
         {
           "id": "60a694ab906c5207e3a7f544",
-          "author": "",
+          "author": null,
           "description": "A lot of C++ courses teach you how to build toy projects with no real-world application. But it can often be more helpful to write programs people would actually use. We just released a 5-hour C++ course that will teach you how to write modern C++ code by building an",
           "link": "https://www.freecodecamp.org/news/learn-modern-cpp-by-building-an-audio-plugin/",
           "publishedOn": "2021-05-20T17:12:29.000Z",
@@ -496,7 +496,7 @@
         },
         {
           "id": "60a4b5c7906c5207e3a7e2bb",
-          "author": "",
+          "author": null,
           "description": "In this tutorial, you'll learn what version control is and how you can contribute to open-source projects using Git.  We'll get through the fundamentals of Git and I'll give you the knowledge that is indispensable for any web developer. What is Git?Git is a version control software which lets",
           "link": "https://www.freecodecamp.org/news/get-started-with-version-control-and-git/",
           "publishedOn": "2021-05-20T15:20:53.000Z",
@@ -505,7 +505,7 @@
         },
         {
           "id": "60a36742906c5207e3a7da6e",
-          "author": "",
+          "author": null,
           "description": "Over the last four months, I have recorded what is probably the most interactive JavaScript course that has ever been created. The reason I have done this is because I often see new coders fall into the same pitfalls again and again when trying to learn JavaScript, with the most",
           "link": "https://www.freecodecamp.org/news/learn-javascript-interactive-course/",
           "publishedOn": "2021-05-20T14:53:38.000Z",
@@ -514,7 +514,7 @@
         },
         {
           "id": "60a341f5906c5207e3a7da61",
-          "author": "",
+          "author": null,
           "description": "CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been",
           "link": "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
           "publishedOn": "2021-05-19T23:17:21.000Z",
@@ -523,7 +523,7 @@
         },
         {
           "id": "60a42386906c5207e3a7dfe2",
-          "author": "",
+          "author": null,
           "description": "The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.",
           "link": "https://www.freecodecamp.org/news/what-is-web3/",
           "publishedOn": "2021-05-19T21:09:01.000Z",
@@ -532,7 +532,7 @@
         },
         {
           "id": "60a469ec906c5207e3a7e1b9",
-          "author": "",
+          "author": null,
           "description": "Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second",
           "link": "https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/",
           "publishedOn": "2021-05-19T17:30:08.000Z",
@@ -541,7 +541,7 @@
         },
         {
           "id": "60a53182906c5207e3a7e588",
-          "author": "",
+          "author": null,
           "description": "Lately, I've been talking about my move into the Web3, Ethereum, and crypto space since making the switch from a traditional web, mobile, and cloud background. Since making that move, a shocking number of people have reached out to me who are also thinking about doing the same.  It's really",
           "link": "https://www.freecodecamp.org/news/breaking-into-ethereum-crypto-web3-as-a-developer/",
           "publishedOn": "2021-05-18T21:04:00.000Z",
@@ -550,7 +550,7 @@
         },
         {
           "id": "60a3780f906c5207e3a7db5f",
-          "author": "",
+          "author": null,
           "description": "If you offer your services as a freelance developer, you have a major say in how you price your project.  But how do you go about charging for a website project? \"Well, I just bill by the hour and send an invoice every week or month.\" ...I hear you say.",
           "link": "https://www.freecodecamp.org/news/the-different-ways-to-charge-for-a-website/",
           "publishedOn": "2021-05-18T17:12:59.000Z",
@@ -565,115 +565,115 @@
       "siteUrl": "https://dev.to",
       "articles": [
         {
-          "id": "https://dev.to/neon_affogato/como-crear-un-historial-de-productos-visitados-con-django-y-redis-291l",
-          "author": "Eduardo Zepeda",
-          "description": "Estás navegando en un ecommerce, un producto llama tu atención y haces click para verlo, no te convence. Decides ver otras opciones, haces click en un nuevo producto y, cuando haces scroll al fondo de la página, la página te muestra el primer producto que viste bajo la leyenda \"Vistos recientemente\". Tú puedes hacer lo mismo con django y redis.\nAgregar una sección de productos visitados aumenta las ventas en un ecommerce y mantiene al usuario más tiempo en la página. Es normal añadir este historial a un usu…",
-          "link": "https://dev.to/neon_affogato/como-crear-un-historial-de-productos-visitados-con-django-y-redis-291l",
-          "publishedOn": "2021-05-22T23:18:50.000Z",
-          "wordCount": 2701,
-          "title": "¿Cómo crear un historial de productos visitados con django y redis?"
+          "id": "https://dev.to/manuthecoder/creating-a-material-design-sidenav-using-pure-javascript-kie",
+          "author": "𝙼𝚊𝚗𝚞𝚃𝚑𝚎𝙲𝚘𝚍𝚎𝚛",
+          "description": "The sidenav components are designed to add side content to a fullscreen app.  The drawer component is designed to add side content to a small section of your app.\nHere's how to achieve this using pure JS!\nCodepen: https://codepen.io/ManuTheCoder/pen/YzZVyjo\nWe're going to use the Material Icons webfont for the icons\n<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n\nHere's the code for the sidenav:\n<a href=\"#\" onclick=\"sidenav.open('demo_sidenav')\">Open Sidenav</a>\n<div id=\"demo_sidenav\" class=\"sidenav\">\n  <ul>\n    <li><a href=\"#\" class=\"active_link\"><i class=\"material-icons\">home</i> Home</a></li>\n    <li><a href=\"#\"><i class=\"material-icons\">book</i> News</a></li>\n    <li><a href=\"#\"><i class=\"material-icons\">forum</i> Forum</a></li>\n    <li><a href=\"…",
+          "link": "https://dev.to/manuthecoder/creating-a-material-design-sidenav-using-pure-javascript-kie",
+          "publishedOn": "2021-05-24T01:06:41.000Z",
+          "wordCount": 1065,
+          "title": "Creating a material design sidenav using pure JavaScript"
         },
         {
-          "id": "https://dev.to/evathora/making-a-popsicle-with-css-only-29gi",
-          "author": "Eva Thora Karlsdottir",
-          "description": "Getting creative with CSS illustrations\n\n\nEven though CSS illustrations might not be ideal for production (let's face it, a simple SVG is a lot less painful), they are a great way to improve your CSS skills and let your creative spirit fly! \nIn this project we'll make a refreshing popsicle with a small animation on hover.\n\n\n\n\n\n  \n  \n  Setting up the HTML\n\n\nWe start with setting up the HTML. In this case, the structure is simple:\n<div class=\"container\">\n  <div class=\"popsicle-container\">\n    <div class=\"pops…",
-          "link": "https://dev.to/evathora/making-a-popsicle-with-css-only-29gi",
-          "publishedOn": "2021-05-22T22:30:59.000Z",
-          "wordCount": 1356,
-          "title": "Making a popsicle with CSS only!"
+          "id": "https://dev.to/vicnovais/what-are-micro-frontends-4amf",
+          "author": "Victor Novais",
+          "description": "This is a term that has been growing for past years. But, what is exactly a micro frontend?\nSince the dawn of the internet era, we have been writing code to make the web interactive. For the past decade, the term web application has became a thing. All this time the frontend code was just a big, solid and entangled monolith.\nWhen we write web apps, we usually choose a framework to help us (React, Vue, Angular, Svelte, and others) and architect it over layers such as models, views and controllers. All the code happily lives in one great repository.\nAs the monolith grows, it becomes more and more difficult to understand all of the code and draw a clear line of the business requirements\nBig compiled javascript monoliths can take a long time to build\nEven if we change a little part of it, we n…",
+          "link": "https://dev.to/vicnovais/what-are-micro-frontends-4amf",
+          "publishedOn": "2021-05-24T01:00:57.000Z",
+          "wordCount": 1304,
+          "title": "What are micro frontends?"
         },
         {
-          "id": "https://dev.to/elijahtrillionz/why-you-should-use-oauth-for-your-app-2f23",
-          "author": "Elijah Trillionz",
-          "description": "Imagine how cool it would be not to have to create a username, verify your email for every website you create an account in.\nImage how cool it would be not to have to create passwords regularly and try to recall which is which for every website you visit and create an account in.\nThe internet is a massive world that keeps growing day after day with different tools rising up daily.\nAs an Internet user who wants all the assistance you can get in your career, you are going to be using (or trying out) different…",
-          "link": "https://dev.to/elijahtrillionz/why-you-should-use-oauth-for-your-app-2f23",
-          "publishedOn": "2021-05-22T21:29:38.000Z",
-          "wordCount": 1715,
-          "title": "Why you should use OAuth for your App."
+          "id": "https://dev.to/thesystemsprogrammer/virtualizing-memory-4b0m",
+          "author": "thesystemsprogrammer",
+          "description": "In the last article, we asked ourselves how the operating system gives each process the illusion that it has its own address space despite only having one hardware RAM. This is one of the most important and most complicated virtualization techniques that the operating system performs. Because of that we will discuss memory virtualization in three separate articles. The goals of the operating system with respect to memory are as follows:\nGive processes a contiguous address space\nGive processes memory isolation from each other\nDo both of the above efficiently with respect to memory usage and processing speed\nLet’s first talk about what memory is. Memory can be thought of as a series of slots. 32-bit memory has 32-bit slots and 64-bit memory has 64-bit slots. The size of a computer’s memory c…",
+          "link": "https://dev.to/thesystemsprogrammer/virtualizing-memory-4b0m",
+          "publishedOn": "2021-05-24T00:05:40.000Z",
+          "wordCount": 2106,
+          "title": "Virtualizing Memory"
         },
         {
-          "id": "https://dev.to/nickbulljs/hidden-door-i-d-use-to-get-a-software-eengineer-job-at-apple-3k0c",
-          "author": "Nick Bull",
-          "description": "Most engineers don't realize that there is always a hidden door to enter any company if traditional ways, such as sending a resume, don't work for you.\nNo one talks about these doors because it's hard to find them and they look unique to everyone. But I'll disclose today, how one type of hidden doors might look like.\nTo get an interview at Apple I'd use such door.\nI'd go to eBay and buy Macintosh System Boot Disk 6.X.X for $11.99.\n\nI'd buy a high-quality paper and pen and write this letter to Tim Cook:\n“Hi,…",
-          "link": "https://dev.to/nickbulljs/hidden-door-i-d-use-to-get-a-software-eengineer-job-at-apple-3k0c",
-          "publishedOn": "2021-05-22T21:26:11.000Z",
-          "wordCount": 1025,
-          "title": "Hidden Door I'd Use To Get A Software eEngineer Job At Apple"
+          "id": "https://dev.to/lorenzofelletti/how-to-build-a-regex-engine-in-python-part-2-the-lexer-2b4n",
+          "author": "Lorenzo Felletti",
+          "description": "In the previous article, we spoke about grammar and what we need to complete this project.\nIt’s now time to finally dig into the coding part.\nTo set up the environment we first need to create a folder for the project and the virtualenv we’ll use for it.\nmkdir pyregex  \ncd pyregexpython3 -m venv venv  \nsource venv/bin/activate\n\nFor this project, we will use a couple of python libraries:\npip3 install numpy  \npip3 install autopep8\n\nAutopep8 isn’t needed for the project itself, but I use it to help me with keeping formatting uniform throughout the codebase.\nOn the other hand, we’ll use NumPy to build the AST.\nInside pyregex, we create an src folder where we will place all our code.\nThe __init__.py files you see are empty files needed by python to navigate through the project.\n\nA Lexer (or Scan…",
+          "link": "https://dev.to/lorenzofelletti/how-to-build-a-regex-engine-in-python-part-2-the-lexer-2b4n",
+          "publishedOn": "2021-05-23T22:08:06.000Z",
+          "wordCount": 1244,
+          "title": "How to Build a RegEx Engine in Python (Part 2: The Lexer)"
         },
         {
-          "id": "https://dev.to/chetanx/the-art-of-solving-an-algorithm-jie",
+          "id": "https://dev.to/retool/the-best-mongodb-guis-in-2021-updated-18j4",
+          "author": "kevbosaurus",
+          "description": "MongoDB is a NoSQL database that more than a quarter of developers use in some capacity. What makes MongoDB and other NoSQL DBs attractive is flexibility; instead of being held to a rigid schema that scales vertically, you can evolve your schema as you grow and scale horizontally. MongoDB went public in 2017 and is worth more than $17 billion today.\nDocument DBs work through nested key-value pairs instead of relational tables and columns. You’re going to need to parse data for your front-end eventually, and with document DBs, your data is already stored in the right format (give or take a .map or .reduce). Working with MongoDB through the command line isn’t exactly a cakewalk: This post will walk through the best MongoDB GUIs available for reading from and writing to your MongoDB clusters.…",
+          "link": "https://dev.to/retool/the-best-mongodb-guis-in-2021-updated-18j4",
+          "publishedOn": "2021-05-23T21:28:10.000Z",
+          "wordCount": 2539,
+          "title": "The best MongoDB GUIs in 2021 (Updated)"
+        },
+        {
+          "id": "https://dev.to/skioppetto/tdd-with-platformio-1-55dp",
+          "author": "Alberto Coppini",
+          "description": "hi all, this is my first post on this amazing platform. \nI'd like and I'll try to use this tool to talk about my hobbies, or at least, what was my job when I was I developer... but you know, who is born developer will be always a developer, it's a matter of finding the right place to spread the passion :)\nanother thing before starting: sorry for my english, this is not my natural language and I'll write smoothly so I'm sure you'll find some errors. \nLet's start now\nfirst of all, a brief introduction to TDD and why everyone should use it. \nprinciple 3) Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.\nprinciple 9) Continuous attention to technical excellence and good design enhances agility.\nthis two princicples co…",
+          "link": "https://dev.to/skioppetto/tdd-with-platformio-1-55dp",
+          "publishedOn": "2021-05-23T21:03:31.000Z",
+          "wordCount": 1132,
+          "title": "TDD with PlatformIO #1"
+        },
+        {
+          "id": "https://dev.to/ibrahimcesar/we-need-to-talk-more-about-equality-in-tech-4g2k",
+          "author": "Ibrahim Cesar",
+          "description": "This post is an invitation by Salma from Unbreak.tech that aims to be “a platform for MEN to educate other MEN about the need for change and equality in tech”. Politics is a taboo in tech circles. I’m out of my base here, but in some camps politics led to a meltdown after some gems of privileged men in power. But we are social animals. Politics is everywhere because is about everything we do. As simple as a Wikipedia definition can be, politics “is the set of activities that are associated with deciding in groups, or other forms of power relations between individuals, such as the distribution of resources or status\". And I will talk direct with you, my fellow men.\nEven if you cannot see there’s a context, a structural web of power relations codified in the public speech, gender norms, cult…",
+          "link": "https://dev.to/ibrahimcesar/we-need-to-talk-more-about-equality-in-tech-4g2k",
+          "publishedOn": "2021-05-23T21:02:38.000Z",
+          "wordCount": 1854,
+          "title": "We need to talk more about equality in tech"
+        },
+        {
+          "id": "https://dev.to/digitalbrainjs/custom-hooks-to-deal-with-complex-asynchronous-code-in-react-1hei",
+          "author": "Dmitriy Mozgovoy",
+          "description": "You've probably encountered asynchronous tasks many times inside React components. A typical approach is to split a complex asynchronous task into multiple synchronous ones, wrap them with useEffect, and synchronize those effects through dependencies. In very simple cases, this is not that difficult and expensive, although our component is re-rendered every time we change state, even if some state variables are not used in JSX rendering. But when the task gets more complex, we have to worry about these unnecessary re-renders, using the useMemo hook and other techniques. We can't just use asynchronous functions inside components as we cannot get state updates during its execution due to the nature of JavaScript closures. Moreover, we have to cancel the running asynchronous tasks when compon…",
+          "link": "https://dev.to/digitalbrainjs/custom-hooks-to-deal-with-complex-asynchronous-code-in-react-1hei",
+          "publishedOn": "2021-05-23T20:25:59.000Z",
+          "wordCount": 1513,
+          "title": "Custom hooks to deal with complex asynchronous code in React"
+        },
+        {
+          "id": "https://dev.to/stevesims2/azure-devops-2019-1-build-agent-running-on-a-pod-in-my-kubernetes-cluster-4m8c",
+          "author": "SteveSims2",
+          "description": "As a \"toy\" I decided to try and revive an old version of Microsoft's Azure Pipelines Agent on an image from before they made that Azure Services Only.   However, I updated the agent on the ubuntu-16.04-tfs-2018-u2 image to a later version of the linux agent.  (2.140.2)\nhttps://hub.docker.com/_/microsoft-azure-pipelines-vsts-agent\nI had to also update the Team Explorer Everywhere (TEE/TEE-cli) that was embedded in that to the latest version. And upgrade java to version 11.   But once that was done, it works well.  Its a tad on the large size for an image.  (1gb), but it seems ok on its memory and CPU usage.  See the kubebox graph at the bottom.\n\n\nDoes anyone think this could be more than just a toy ?  I'm a novice at most Kubernetes stuff compared to the folks here, but I wanted to share this.",
+          "link": "https://dev.to/stevesims2/azure-devops-2019-1-build-agent-running-on-a-pod-in-my-kubernetes-cluster-4m8c",
+          "publishedOn": "2021-05-23T20:13:12.000Z",
+          "wordCount": 511,
+          "title": "Azure Devops 2019.1 Build Agent running on a pod in my Kubernetes cluster"
+        },
+        {
+          "id": "https://dev.to/codingandfun/profitability-margin-analysis-with-python-20pd",
+          "author": "codingandfunpython",
+          "description": "Profitability ratios are financial metrics offering insights on how good a company is able to generate earnings from revenues, assets and equity. In this post, we will perform a profitability margin analysis with Python by comparing profitability ratios across peer companies. Below are the 5 different related profitability ratios that we will calculate and analyse:\n  Net Profit Margin\n  Gross Profit\n  Operating Profit\n  Return on Assets\n  Return on Equity\n\nPhoto by Anna Nekrashevich on Pexels.com\nBefore starting with the Python code to identify peer companies and analyse profitability margins, we will introduce each of the ratios in this section. \nMargin ratios are very useful to understand how efficient a company is able to transform revenues into operating and net income. We will cover t…",
+          "link": "https://dev.to/codingandfun/profitability-margin-analysis-with-python-20pd",
+          "publishedOn": "2021-05-23T20:11:15.000Z",
+          "wordCount": 1434,
+          "title": "Profitability Margin Analysis with Python"
+        },
+        {
+          "id": "https://dev.to/okonetchnikov/netlifycms-with-github-oauth-authentication-hosted-on-vercel-3309",
+          "author": "Andrey Okonetchnikov",
+          "description": "Recently, I was moving www.danielamulle.at to Vercel while transitioning to Next.js from Gatsby. The transition went quite smooth in general, but one thing I didn't expect troubles with was  making NetlifyCMS work on Vercel.\nNetlifyCMS is a great headless content management system that has good defaults, is flexible enough to fulfill most needs, has a pluggable API, and works well if you host your content on GitHub. I have also contributed to the project when it was at the very early stage. For obvious reasons, Netlify CMS works really well when you host on Netlify but unfortunately things become a bit more complicated if you decide to move to another hosting provider.\nThis is due to a requirement of GitHub’s authentication flow. To use a GitHub backend with NetlifyCMS, you have to run you…",
+          "link": "https://dev.to/okonetchnikov/netlifycms-with-github-oauth-authentication-hosted-on-vercel-3309",
+          "publishedOn": "2021-05-23T20:05:53.000Z",
+          "wordCount": 1021,
+          "title": "NetlifyCMS with GitHub OAuth authentication hosted on Vercel"
+        },
+        {
+          "id": "https://dev.to/chp/top-10-websites-for-developers-435h",
           "author": "Chaitanya Prabuddha",
-          "description": "What Is An Algorithm? If you find this question on google, you will get “It is a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.” But when I had seen this definition initially, I wasn’t able to understand anything, It emerged as a piece of literature for me. I was drastically surprised by how complexly a simple definition can be presented. Since I know this by now, so let me help you to understand it.\nAn algorithm is a process of doing so…",
-          "link": "https://dev.to/chetanx/the-art-of-solving-an-algorithm-jie",
-          "publishedOn": "2021-05-22T21:21:48.000Z",
-          "wordCount": 1152,
-          "title": "The Art Of Solving An Algorithm"
-        },
-        {
-          "id": "https://dev.to/gouravkhunger/introducing-quotes-app-2ih0",
-          "author": "Gourav Khunger",
-          "description": "This article was originally published at my blog. Please try reading it there for a better experience :)\nHi everyone, how are y'all doing 😃\nIt's been a long time since I published my last blog post and all that is because it was getting difficult to manage studies and blogging. But in the meantime, I have been working on a really awesome project and this article is all about explaining that ✨\nIf you ever read even one of my android articles, you will definitely be knowing I used Java to make android apps.\n…",
-          "link": "https://dev.to/gouravkhunger/introducing-quotes-app-2ih0",
-          "publishedOn": "2021-05-22T19:58:40.000Z",
-          "wordCount": 1475,
-          "title": "Introducing Quotes App"
-        },
-        {
-          "id": "https://dev.to/mari_dff/postgresql-como-permitir-acesso-de-leitura-a-apenas-algumas-colunas-de-uma-tabela-2918",
-          "author": "Mariana Ferreira",
-          "description": "Como fornecer acesso de leitura a algumas colunas de uma tabela e impedir o acesso as demais colunas para um certo usuário?\nPara exemplificar esse cenário, vou usar a base de dados Chinook e a ferramenta DBeaver para administrar a base de dados.\nPrimeiro, crie um usuário:\nCREATE USER mariana WITH PASSWORD 'sua_senha';\n\nDepois, crie uma view com apenas as colunas da tabela que você deseja permitir o acesso. Nesse caso, estou criando com as colunas \"EmployeeId\", \"LastName\", \"FirstName\", \"Title\", \"Email\" da ta…",
-          "link": "https://dev.to/mari_dff/postgresql-como-permitir-acesso-de-leitura-a-apenas-algumas-colunas-de-uma-tabela-2918",
-          "publishedOn": "2021-05-22T19:55:02.000Z",
-          "wordCount": 597,
-          "title": "PostgreSQL: como permitir acesso de leitura a apenas algumas colunas de uma tabela?"
-        },
-        {
-          "id": "https://dev.to/vivirenremoto/doom-captcha-33hp",
-          "author": "Miquel Camps",
-          "description": "Hi there!\nMy name is Miquel Camps, I'm a web developer based in Spain, you can find me on twitter and linkedin.\nTLDR: You can visit the demo here\nhttps://vivirenremoto.github.io/doomcaptcha/\n\nHow to use this captcha?\nSimply add this code before the submit form button.\n<script src=\"https://vivirenremoto.github.io/doomcaptcha/script.js?version=1\" sound=\"on\" label=\"Captcha\"></script>\n\nParameters\nsound: on / off\nlabel: Text before captcha, you can leave it empty\nversion: Current version 1",
-          "link": "https://dev.to/vivirenremoto/doom-captcha-33hp",
-          "publishedOn": "2021-05-22T19:43:57.000Z",
-          "wordCount": 523,
-          "title": "Doom Captcha"
-        },
-        {
-          "id": "https://dev.to/halissonalves/how-does-css-works-behind-the-scenes-2f9g",
-          "author": "Halisson Alves",
-          "description": "With the arrival of so much technology and novelty in the development market, many programmers end up leaving aside concepts that are essential for the complete understanding of a web application. One of them is the working of the CSS behind the scenes.\nHave you stopped to think about the number of processes that run in the background of a browser while you access a web page? Of course, we will not explore all the details of these processes here, but we will cover enough to understand the path that our belo…",
-          "link": "https://dev.to/halissonalves/how-does-css-works-behind-the-scenes-2f9g",
-          "publishedOn": "2021-05-22T19:29:22.000Z",
-          "wordCount": 1438,
-          "title": "How does CSS works behind the scenes?"
-        },
-        {
-          "id": "https://dev.to/ishakmohmed/the-art-of-writing-clean-code-my-5-go-to-tricks-4mcl",
-          "author": "Mohmed Ishak",
-          "description": "Anyone can code, but can you code cleanly? In this article, I'll show you my go-to clean coding techniques for better code understanding and folder structure. This applies to any tech stack you work with.\nThis is one of the best decisions you can make. Using a color palette, not only you'll write cleaner code, you'll also be able to change the entire theme of your app by only changing 6 characters of code (referring to hex code). Let's take a look at a color palette I've used in my React Native project.\n// …",
-          "link": "https://dev.to/ishakmohmed/the-art-of-writing-clean-code-my-5-go-to-tricks-4mcl",
-          "publishedOn": "2021-05-22T19:23:00.000Z",
-          "wordCount": 1086,
-          "title": "The Art Of Writing Clean Code: My 5 Go-To Tricks."
-        },
-        {
-          "id": "https://dev.to/said_mounaim/react-hooks-portfolio-4if9",
-          "author": "Said Mounaim",
-          "description": "Said MOUNAIM\n\n\n\n  \n    \n  \n\n\n\n  \n  \n  To view a live example, click here.\n\n\n\n  \n  \n  Getting Started\n\n\nThese instructions will get you a copy of the project up and running on your local machine for development and testing purposes.\nYou'll need Git and Node.js (which comes with npm) installed on your computer.\nnode@v10.16.0 or higher\nnpm@6.9.0 or higher\ngit@2.17.1 or higher\n\nFrom your command line, clone and run SMPortfolio:\n# Clone this repository\n$ git clone https://github.com/saidMounaim/SMPortfolio.git\n\n…",
-          "link": "https://dev.to/said_mounaim/react-hooks-portfolio-4if9",
-          "publishedOn": "2021-05-22T18:50:42.000Z",
-          "wordCount": 463,
-          "title": "React Hooks Portfolio 😍"
-        },
-        {
-          "id": "https://dev.to/lukegarrigan/what-is-simulated-annealing-kpn",
-          "author": "Luke Garrigan",
-          "description": "What Is Simulated Annealing?\n\n\nToday I’ve been playing around with  simulated annealing, which is just a  probabilistic technique for approximating the global optimum. Don’t let that put you off, it sounds far more complicated than it really is.\nThe name of the algorithm is stolen from  metallurgy. Annealing is a heat treatment that alters the physical and sometimes chemical properties of a material, it involves heating a metal and then slowly cooling at a specific rate.\nI have put together a really simple …",
-          "link": "https://dev.to/lukegarrigan/what-is-simulated-annealing-kpn",
-          "publishedOn": "2021-05-22T18:31:47.000Z",
-          "wordCount": 1092,
-          "title": "What Is Simulated Annealing?"
+          "description": "IndieHackers.com\nIf you are starting to make your own internet startup or company, IndieHackers is one best places for you to start a internet company without raising money. \nIndieHackers is a community of developers and entrepreneurs who are trying to build profitable internet companies without raising money.\nVisit Here - https://www.indiehackers.com\nUdemy\nUdemy is one of the biggest video tutorial websites in the world. It has amazing tutorials on almost every tech-related topic.\nYou can learn anything from there without getting broke, Or just if you are a student and you don't have thousand's to spend on. \nVisit - https://www.udemy.com\nCoursera\nCoursera is also one of the biggest place to learn but it costs more. Coursera courses are definitely more valuable for your certification, as t…",
+          "link": "https://dev.to/chp/top-10-websites-for-developers-435h",
+          "publishedOn": "2021-05-23T20:05:16.000Z",
+          "wordCount": 759,
+          "title": "Top 10 Websites for Developers"
         }
       ]
     }
   ],
-  "cliVersion": "1.7.2"
+  "cliVersion": "1.8.1"
 }
