@@ -1,200 +1,430 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-24T01:12:21.754Z</id>
+    <id>urn:2021-05-25T01:09:46.435Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-24T01:12:21.754Z</updated>
+    <updated>2021-05-25T01:09:46.435Z</updated>
     <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Creating a material design sidenav using pure JavaScript]]></title>
-        <id>https://dev.to/manuthecoder/creating-a-material-design-sidenav-using-pure-javascript-kie</id>
-        <link href="https://dev.to/manuthecoder/creating-a-material-design-sidenav-using-pure-javascript-kie"/>
-        <updated>2021-05-24T01:06:41.000Z</updated>
-        <summary type="html"><![CDATA[The sidenav components are designed to add side content to a fullscreen app.  The drawer component is designed to add side content to a small section of your app.
-Here's how to achieve this using pure JS!
-Codepen: https://codepen.io/ManuTheCoder/pen/YzZVyjo
-We're going to use the Material Icons webfont for the icons
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title type="html"><![CDATA[How to Use Node Environment Variables with a DotEnv File for Node.js and npm]]></title>
+        <id>60abc6d011ffb70827ef630f</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-node-environment-variables-with-a-dotenv-file-for-node-js-and-npm/"/>
+        <updated>2021-05-25T00:48:45.000Z</updated>
+        <summary type="html"><![CDATA[Environment variables are variables that are set outside of a program, often through a cloud provider or operating system.  In Node, environment variables are a great way to securely and conveniently configure things that don't change often, like URLs, authentication keys, and passwords. How to Create Environment VariablesEnvironment variables are]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java Tutorial - 2 Control Flow (selection)]]></title>
+        <id>https://dev.to/nadirbasalamah/java-tutorial-2-control-flow-selection-2b7m</id>
+        <link href="https://dev.to/nadirbasalamah/java-tutorial-2-control-flow-selection-2b7m"/>
+        <updated>2021-05-25T00:21:56.000Z</updated>
+        <summary type="html"><![CDATA[The condition selection is a commonly used in Java to execute a certain code based on the specific condition.
+To create an if statement, use this syntax.
+if (condition) {
+    // code..
+}
 
-Here's the code for the sidenav:
-<a href="#" onclick="sidenav.open('demo_sidenav')">Open Sidenav</a>
-<div id="demo_sidenav" class="sidenav">
-  <ul>
-    <li><a href="#" class="active_link"><i class="material-icons">home</i> Home</a></li>
-    <li><a href="#"><i class="material-icons">book</i> News</a></li>
-    <li><a href="#"><i class="material-icons">forum</i> Forum</a></li>
-    <li><a href="…]]></summary>
-        <author>
-            <name>𝙼𝚊𝚗𝚞𝚃𝚑𝚎𝙲𝚘𝚍𝚎𝚛</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What are micro frontends?]]></title>
-        <id>https://dev.to/vicnovais/what-are-micro-frontends-4amf</id>
-        <link href="https://dev.to/vicnovais/what-are-micro-frontends-4amf"/>
-        <updated>2021-05-24T01:00:57.000Z</updated>
-        <summary type="html"><![CDATA[This is a term that has been growing for past years. But, what is exactly a micro frontend?
-Since the dawn of the internet era, we have been writing code to make the web interactive. For the past decade, the term web application has became a thing. All this time the frontend code was just a big, solid and entangled monolith.
-When we write web apps, we usually choose a framework to help us (React, Vue, Angular, Svelte, and others) and architect it over layers such as models, views and controllers. All the code happily lives in one great repository.
-As the monolith grows, it becomes more and more difficult to understand all of the code and draw a clear line of the business requirements
-Big compiled javascript monoliths can take a long time to build
-Even if we change a little part of it, we n…]]></summary>
-        <author>
-            <name>Victor Novais</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Virtualizing Memory]]></title>
-        <id>https://dev.to/thesystemsprogrammer/virtualizing-memory-4b0m</id>
-        <link href="https://dev.to/thesystemsprogrammer/virtualizing-memory-4b0m"/>
-        <updated>2021-05-24T00:05:40.000Z</updated>
-        <summary type="html"><![CDATA[In the last article, we asked ourselves how the operating system gives each process the illusion that it has its own address space despite only having one hardware RAM. This is one of the most important and most complicated virtualization techniques that the operating system performs. Because of that we will discuss memory virtualization in three separate articles. The goals of the operating system with respect to memory are as follows:
-Give processes a contiguous address space
-Give processes memory isolation from each other
-Do both of the above efficiently with respect to memory usage and processing speed
-Let’s first talk about what memory is. Memory can be thought of as a series of slots. 32-bit memory has 32-bit slots and 64-bit memory has 64-bit slots. The size of a computer’s memory c…]]></summary>
-        <author>
-            <name>thesystemsprogrammer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Build a RegEx Engine in Python (Part 2: The Lexer)]]></title>
-        <id>https://dev.to/lorenzofelletti/how-to-build-a-regex-engine-in-python-part-2-the-lexer-2b4n</id>
-        <link href="https://dev.to/lorenzofelletti/how-to-build-a-regex-engine-in-python-part-2-the-lexer-2b4n"/>
-        <updated>2021-05-23T22:08:06.000Z</updated>
-        <summary type="html"><![CDATA[In the previous article, we spoke about grammar and what we need to complete this project.
-It’s now time to finally dig into the coding part.
-To set up the environment we first need to create a folder for the project and the virtualenv we’ll use for it.
-mkdir pyregex  
-cd pyregexpython3 -m venv venv  
-source venv/bin/activate
+This is the example of if usage to detect a number is an even or odd number.
+public class MyApp {
+    public static void main(String[] args){
+        int num = 24;
+        if (num % 2 == 0) {
+            System.out.println("Even number");
+        }
+    }
+}
 
-For this project, we will use a couple of python libraries:
-pip3 install numpy  
-pip3 install autopep8
-
-Autopep8 isn’t needed for the project itself, but I use it to help me with keeping formatting uniform throughout the codebase.
-On the other hand, we’ll use NumPy to build the AST.
-Inside pyregex, we create an src folder where we will place all our code.
-The __init__.py files you see are empty files needed by python to navigate through the project.
-
-A Lexer (or Scan…]]></summary>
-        <author>
-            <name>Lorenzo Felletti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best MongoDB GUIs in 2021 (Updated)]]></title>
-        <id>https://dev.to/retool/the-best-mongodb-guis-in-2021-updated-18j4</id>
-        <link href="https://dev.to/retool/the-best-mongodb-guis-in-2021-updated-18j4"/>
-        <updated>2021-05-23T21:28:10.000Z</updated>
-        <summary type="html"><![CDATA[MongoDB is a NoSQL database that more than a quarter of developers use in some capacity. What makes MongoDB and other NoSQL DBs attractive is flexibility; instead of being held to a rigid schema that scales vertically, you can evolve your schema as you grow and scale horizontally. MongoDB went public in 2017 and is worth more than $17 billion today.
-Document DBs work through nested key-value pairs instead of relational tables and columns. You’re going to need to parse data for your front-end eventually, and with document DBs, your data is already stored in the right format (give or take a .map or .reduce). Working with MongoDB through the command line isn’t exactly a cakewalk: This post will walk through the best MongoDB GUIs available for reading from and writing to your MongoDB clusters.…]]></summary>
-        <author>
-            <name>kevbosaurus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TDD with PlatformIO #1]]></title>
-        <id>https://dev.to/skioppetto/tdd-with-platformio-1-55dp</id>
-        <link href="https://dev.to/skioppetto/tdd-with-platformio-1-55dp"/>
-        <updated>2021-05-23T21:03:31.000Z</updated>
-        <summary type="html"><![CDATA[hi all, this is my first post on this amazing platform. 
-I'd like and I'll try to use this tool to talk about my hobbies, or at least, what was my job when I was I developer... but you know, who is born developer will be always a developer, it's a matter of finding the right place to spread the passion :)
-another thing before starting: sorry for my english, this is not my natural language and I'll write smoothly so I'm sure you'll find some errors. 
-Let's start now
-first of all, a brief introduction to TDD and why everyone should use it. 
-principle 3) Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
-principle 9) Continuous attention to technical excellence and good design enhances agility.
-this two princicples co…]]></summary>
-        <author>
-            <name>Alberto Coppini</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We need to talk more about equality in tech]]></title>
-        <id>https://dev.to/ibrahimcesar/we-need-to-talk-more-about-equality-in-tech-4g2k</id>
-        <link href="https://dev.to/ibrahimcesar/we-need-to-talk-more-about-equality-in-tech-4g2k"/>
-        <updated>2021-05-23T21:02:38.000Z</updated>
-        <summary type="html"><![CDATA[This post is an invitation by Salma from Unbreak.tech that aims to be “a platform for MEN to educate other MEN about the need for change and equality in tech”. Politics is a taboo in tech circles. I’m out of my base here, but in some camps politics led to a meltdown after some gems of privileged men in power. But we are social animals. Politics is everywhere because is about everything we do. As simple as a Wikipedia definition can be, politics “is the set of activities that are associated with deciding in groups, or other forms of power relations between individuals, such as the distribution of resources or status". And I will talk direct with you, my fellow men.
-Even if you cannot see there’s a context, a structural web of power relations codified in the public speech, gender norms, cult…]]></summary>
-        <author>
-            <name>Ibrahim Cesar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Custom hooks to deal with complex asynchronous code in React]]></title>
-        <id>https://dev.to/digitalbrainjs/custom-hooks-to-deal-with-complex-asynchronous-code-in-react-1hei</id>
-        <link href="https://dev.to/digitalbrainjs/custom-hooks-to-deal-with-complex-asynchronous-code-in-react-1hei"/>
-        <updated>2021-05-23T20:25:59.000Z</updated>
-        <summary type="html"><![CDATA[You've probably encountered asynchronous tasks many times inside React components. A typical approach is to split a complex asynchronous task into multiple synchronous ones, wrap them with useEffect, and synchronize those effects through dependencies. In very simple cases, this is not that difficult and expensive, although our component is re-rendered every time we change state, even if some state variables are not used in JSX rendering. But when the task gets more complex, we have to worry about these unnecessary re-renders, using the useMemo hook and other techniques. We can't just use asynchronous functions inside components as we cannot get state updates during its execution due to the nature of JavaScript closures. Moreover, we have to cancel the running asynchronous tasks when compon…]]></summary>
-        <author>
-            <name>Dmitriy Mozgovoy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Devops 2019.1 Build Agent running on a pod in my Kubernetes cluster]]></title>
-        <id>https://dev.to/stevesims2/azure-devops-2019-1-build-agent-running-on-a-pod-in-my-kubernetes-cluster-4m8c</id>
-        <link href="https://dev.to/stevesims2/azure-devops-2019-1-build-agent-running-on-a-pod-in-my-kubernetes-cluster-4m8c"/>
-        <updated>2021-05-23T20:13:12.000Z</updated>
-        <summary type="html"><![CDATA[As a "toy" I decided to try and revive an old version of Microsoft's Azure Pipelines Agent on an image from before they made that Azure Services Only.   However, I updated the agent on the ubuntu-16.04-tfs-2018-u2 image to a later version of the linux agent.  (2.140.2)
-https://hub.docker.com/_/microsoft-azure-pipelines-vsts-agent
-I had to also update the Team Explorer Everywhere (TEE/TEE-cli) that was embedded in that to the latest version. And upgrade java to version 11.   But once that was done, it works well.  Its a tad on the large size for an image.  (1gb), but it seems ok on its memory and CPU usage.  See the kubebox graph at the bottom.
+This is the output:
+Even number
 
 
-Does anyone think this could be more than just a toy ?  I'm a novice at most Kubernetes stuff compared to the folks here, but I wanted to share this.]]></summary>
-        <author>
-            <name>SteveSims2</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Profitability Margin Analysis with Python]]></title>
-        <id>https://dev.to/codingandfun/profitability-margin-analysis-with-python-20pd</id>
-        <link href="https://dev.to/codingandfun/profitability-margin-analysis-with-python-20pd"/>
-        <updated>2021-05-23T20:11:15.000Z</updated>
-        <summary type="html"><![CDATA[Profitability ratios are financial metrics offering insights on how good a company is able to generate earnings from revenues, assets and equity. In this post, we will perform a profitability margin analysis with Python by comparing profitability ratios across peer companies. Below are the 5 different related profitability ratios that we will calculate and analyse:
-  Net Profit Margin
-  Gross Profit
-  Operating Profit
-  Return on Assets
-  Return on Equity
+Based on the code above, the variable called num is compared using == operator to check if the result of num % 2 (num mod 2) is equals zero. If it is true, the Even number text is printed out.
+This is the list of comparation operator that can be used in Java.
 
-Photo by Anna Nekrashevich on Pexels.com
-Before starting with the Python code to identify peer companies and analyse profitability margins, we will introduce each of the ratios in this section. 
-Margin ratios are very useful to understand how efficient a company is able to transform revenues into operating and net income. We will cover t…]]></summary>
+
+
+Operator
+Description
+
+
+
+
+==
+Equals to
+
+
+!=
+Not equals to
+…]]></summary>
         <author>
-            <name>codingandfunpython</name>
+            <name>nadirbasalamah</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NetlifyCMS with GitHub OAuth authentication hosted on Vercel]]></title>
-        <id>https://dev.to/okonetchnikov/netlifycms-with-github-oauth-authentication-hosted-on-vercel-3309</id>
-        <link href="https://dev.to/okonetchnikov/netlifycms-with-github-oauth-authentication-hosted-on-vercel-3309"/>
-        <updated>2021-05-23T20:05:53.000Z</updated>
-        <summary type="html"><![CDATA[Recently, I was moving www.danielamulle.at to Vercel while transitioning to Next.js from Gatsby. The transition went quite smooth in general, but one thing I didn't expect troubles with was  making NetlifyCMS work on Vercel.
-NetlifyCMS is a great headless content management system that has good defaults, is flexible enough to fulfill most needs, has a pluggable API, and works well if you host your content on GitHub. I have also contributed to the project when it was at the very early stage. For obvious reasons, Netlify CMS works really well when you host on Netlify but unfortunately things become a bit more complicated if you decide to move to another hosting provider.
-This is due to a requirement of GitHub’s authentication flow. To use a GitHub backend with NetlifyCMS, you have to run you…]]></summary>
+        <title type="html"><![CDATA[Keep Calm and Hack The Box – Nibbles]]></title>
+        <id>60626dc29618b008528a9589</id>
+        <link href="https://www.freecodecamp.org/news/keep-calm-and-hack-the-box-nibbles/"/>
+        <updated>2021-05-25T00:20:22.000Z</updated>
+        <summary type="html"><![CDATA[Walkthrough for Hack The Box Nibbles machine]]></summary>
         <author>
-            <name>Andrey Okonetchnikov</name>
+            <name>freeCodeCamp.org</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Top 10 Websites for Developers]]></title>
-        <id>https://dev.to/chp/top-10-websites-for-developers-435h</id>
-        <link href="https://dev.to/chp/top-10-websites-for-developers-435h"/>
-        <updated>2021-05-23T20:05:16.000Z</updated>
-        <summary type="html"><![CDATA[IndieHackers.com
-If you are starting to make your own internet startup or company, IndieHackers is one best places for you to start a internet company without raising money. 
-IndieHackers is a community of developers and entrepreneurs who are trying to build profitable internet companies without raising money.
-Visit Here - https://www.indiehackers.com
-Udemy
-Udemy is one of the biggest video tutorial websites in the world. It has amazing tutorials on almost every tech-related topic.
-You can learn anything from there without getting broke, Or just if you are a student and you don't have thousand's to spend on. 
-Visit - https://www.udemy.com
-Coursera
-Coursera is also one of the biggest place to learn but it costs more. Coursera courses are definitely more valuable for your certification, as t…]]></summary>
+        <title type="html"><![CDATA[¿Cómo empecé a programar? Mi (no tan) maravilloso viaje por el mundo de sistemas]]></title>
+        <id>https://dev.to/iamdoomling/como-empece-a-programar-mi-no-tan-maravilloso-viaje-por-el-mundo-de-sistemas-5glh</id>
+        <link href="https://dev.to/iamdoomling/como-empece-a-programar-mi-no-tan-maravilloso-viaje-por-el-mundo-de-sistemas-5glh"/>
+        <updated>2021-05-25T00:09:59.000Z</updated>
+        <summary type="html"><![CDATA[Mi nombre es Bel Rey, tengo 34 años, soy desarrolladora fullstack, co-founder en CourseIt y creadora de contenido en teloexplicocongatitos.com. Desde que decidí empezar a compartir contenido recibo por varios medios las mismas preguntas una y otra vez. Es lógico, y no me molesta para nada, porque yo también estuve ahí. Cuando se está empezando en un área es normal tener muchas dudas y pocas certezas, y algunas de estas no se resuelven simplemente googleando.
+Las preguntas más comunes son: "Como aprendiste a programar", "cómo conseguiste tu primer trabajo en tech" y "como empezaste a emprender"
+Por eso para centralizar un poco estas respuestas decidí hacer un recuento corto de como fue mi trayectoria por la programación, centrándome en analizar las partes que yo creo fueron clave para mi de…]]></summary>
         <author>
-            <name>Chaitanya Prabuddha</name>
+            <name>Bel Rey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sexy, accessible show-hide animations in any web framework]]></title>
+        <id>https://dev.to/bholmesdev/sexy-accessible-show-hide-animations-in-any-web-framework-4hpk</id>
+        <link href="https://dev.to/bholmesdev/sexy-accessible-show-hide-animations-in-any-web-framework-4hpk"/>
+        <updated>2021-05-24T23:18:22.000Z</updated>
+        <summary type="html"><![CDATA[This entry comes from my web wizardry newsletter, where I explore evergreen solutions to common web dev problems (no matter your favorite framework). If you like what you see, go sign up for free 🪄
+Using JS to show and hide something is a web dev rite of passage. Heck, it's the first demo that comes to mind when you think about "state management" (just behind building a counter 😆).
+But when you do the classic "hide whenever X variable is false," there's some accessibility concerns you might be forgetting:
+can keyboard users still access that hidden element?
+do screen readers actually know what your button is trying to show and hide?
+Don't worry, I have the answers for you! Let's explore a universal solution you can bring to React, Svelte, Vue, etc, along with some debugging tips using a …]]></summary>
+        <author>
+            <name>Ben Holmes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Como transformar visual studio code em uma IDE [PT-Br]]]></title>
+        <id>https://dev.to/coodexpie/como-transformar-visual-studio-code-em-uma-ide-pt-br-3ale</id>
+        <link href="https://dev.to/coodexpie/como-transformar-visual-studio-code-em-uma-ide-pt-br-3ale"/>
+        <updated>2021-05-24T22:24:43.000Z</updated>
+        <summary type="html"><![CDATA[suporte para linguagens
+
+
+Abrindo o visual studio code (que aqui será chamado de vs code), selecione a opção mostrada na imagem, sem clicar nos nomes em azul.
+
+A janela de extensões sera aberta
+
+Selecione as linguagens que você desejar instalar o suporte.
+eslint: javascript
+
+No caso, irei instalar suporte para as linguagens python, javascript, html, css, javascript, c, c++ e c#. É sempre bom estar prevenido não é?
+Deixar o código mais bonito é sempre bom.
+
+Com essa extensão, poderemos interpretar códigos no terminal.
+
+Primeiro vamos limpar a barra de pesquisa
+
+Agora vemos as extenssões instaladas
+
+Na barra de pesquisa, vamos escrever "code spell checker"
+
+Essa extensão irá servir para auxiliar nos erros de escrita e dar nomes melhores às variáveis
+
+Com a extensão instalada, agora vamos ins…]]></summary>
+        <author>
+            <name>Gabriel Lamarth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[react-router: Three Route Rendering Methods (component, render, and children)]]></title>
+        <id>https://dev.to/raaynaldo/react-router-three-route-rendering-methods-component-render-and-children-2eng</id>
+        <link href="https://dev.to/raaynaldo/react-router-three-route-rendering-methods-component-render-and-children-2eng"/>
+        <updated>2021-05-24T22:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+In the last post, I talked about react-router setup tutorial. If you don't read the previous post, click it here!. I want to add several important topics about Route Rendering Methods.
+There are several ways to render Component or Tag HTML with a <Route>. I used this way in my last post.
+<Route path="/">
+  <Home />
+</Route>
+
+Nothing is wrong with this snippet, and the <Home/> component will be rendered. However, you will not have access to three route props that are match, location, and history. I will talk about these three props in the next post. Stay tuned! So, let's take a look at how we can access those props if we are using these three route rendering methods.
+<Route component/>
+
+
+The first rendering method is very simple. We just need to put the component as a prop in…]]></summary>
+        <author>
+            <name>Raynaldo Sutisna</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links on Performance]]></title>
+        <id>https://css-tricks.com/?p=340808</id>
+        <link href="https://css-tricks.com/links-on-performance/"/>
+        <updated>2021-05-24T22:03:30.000Z</updated>
+        <summary type="html"><![CDATA[Making GitHub’s new homepage fast and performant — Tobias Ahlin describes how the scrolling effects are done more performantly thanks to IntersectionObserver and the fact that it avoids the use of methods that trigger reflows, like getBoundingClientRect. Also, 
+…
+The post Links on Performance appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOLID: Interface Segregation Principle]]></title>
+        <id>https://dev.to/victorpinzon1988eng/solid-interface-segregation-principle-31c2</id>
+        <link href="https://dev.to/victorpinzon1988eng/solid-interface-segregation-principle-31c2"/>
+        <updated>2021-05-24T21:54:43.000Z</updated>
+        <summary type="html"><![CDATA[This principle was developed by Robert C. Martin while working at Xerox as a consultant. Martin was in charge of developing a new printing management system that could carry out tasks concurrently, which was new by the time.
+While developing this new printing system, Martin noticed that small changes in the design caused large-scale deployments. In some same cases caused deployments on modules out of the scope of the change. The problem was mainly caused by a large fat interface used throughout all the modules of the system.
+The solution given by Robert C. Martin is what we now know as Interface Segregation Principle (ISP). Which is defined as follows:
+Clients should not be forced to depend upon interfaces that they do not use.
+This principle is simple and clear, classes should not be forc…]]></summary>
+        <author>
+            <name>Victor Manuel Pinzon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interface Segregation Principle]]></title>
+        <id>https://dev.to/josuerodriguez98/interface-segregation-principle-2jnk</id>
+        <link href="https://dev.to/josuerodriguez98/interface-segregation-principle-2jnk"/>
+        <updated>2021-05-24T21:46:35.000Z</updated>
+        <summary type="html"><![CDATA[The Interface Segregation Principle states that a client should never be forced to implement an interface that it does not use, or clients shouldn't be forced to depend on methods they do not use. 
+A client should never be forced to implement an interface that it does not use, or clients shouldn't be forced to depend on methods they do not use. 
+The objective behind this principle is to remove unnecessary
+I'll be giving two examples, one with JavaScript since it's the programming language we've been using on the previous principles, and another general example on how to implement this principle on different programming languages.
+Since JavaScript does not implement interfaces, we'll be demonstrating this principle through composition by adding pieces of functionality to the classes that ne…]]></summary>
+        <author>
+            <name>Josué Rodríguez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jamstack comments suck - but they don't have to]]></title>
+        <id>https://dev.to/darrendube/jamstack-comments-suck-but-they-don-t-have-to-5509</id>
+        <link href="https://dev.to/darrendube/jamstack-comments-suck-but-they-don-t-have-to-5509"/>
+        <updated>2021-05-24T21:34:23.000Z</updated>
+        <summary type="html"><![CDATA[Let's face it - Jamstack websites have many advantages, but adding comments easily isn't one of them.
+And for those of us with blogs, we know that a blog is never fully complete without comments. Blogging is meant to be a two way exchange, a way to build a community.
+Jamstack's static nature means that comments don't come natively, but there is no shortage of third party comments providers - Disqus, Commentbox, Facebook Comments, among others. 
+The problem is that most of them are either not free, or they have ads and privacy concerns.
+This is why I was excited when I discovered a comments app that's free, open source, and has no privacy issues.
+Utterances is a free, open source application that essentially acts as a widget on your blog post, storing comments on Github Issues. It creates a…]]></summary>
+        <author>
+            <name>darrendube</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Small and Sustainable Habits to Get Your First Dev Job]]></title>
+        <id>60aaba5911ffb70827ef5ffc</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-small-sustainable-habits-to-get-your-first-dev-job/"/>
+        <updated>2021-05-24T21:30:43.000Z</updated>
+        <summary type="html"><![CDATA[Achieving a big goal like transitioning into a new career can be extremely challenging and overwhelming. The amount of information isn't the problem. We have access to more information than we ever have. The problem is knowing how to effectively execute on the information available to us. The more I]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to scale Hangfire with docker]]></title>
+        <id>https://dev.to/moesmp/how-to-scale-hangfire-with-docker-553o</id>
+        <link href="https://dev.to/moesmp/how-to-scale-hangfire-with-docker-553o"/>
+        <updated>2021-05-24T21:05:56.000Z</updated>
+        <summary type="html"><![CDATA[Hangfire is an open-source framework that helps you to create, process and manage your background jobs and an easy way to perform fire-and-forget, delayed and recurring jobs inside .NET applications. This post does not cover the basics of Hanfgire so read this article to learn the basics of Hangfire.
+This post covers:
+How to config Hangfire to have multiple queues
+How to config worker count
+How to scale Hangfir worker service 
+I'm going to implement a sample project that contains a producer service that produces and exposes messages via web API and a consumer service which every second fetch messages from the producer service and enqueue messages into Hangfire. Each message has a different priority to process, so we enqueue each message to different queues based on priority and a worker se…]]></summary>
+        <author>
+            <name>Mohsen Esmailpour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ngx-awesome-popup Interactive modals on steroids 🚀]]></title>
+        <id>https://dev.to/costlydeveloper/ngx-awesome-popup-interactive-modals-on-steroids-2ej3</id>
+        <link href="https://dev.to/costlydeveloper/ngx-awesome-popup-interactive-modals-on-steroids-2ej3"/>
+        <updated>2021-05-24T20:59:35.000Z</updated>
+        <summary type="html"><![CDATA[What is it?
+
+
+It's the npm library made for the Angular 9+
+It provides:
+Evoking dynamic components in popup
+Toast Notifications
+Alert Box
+Confirm Box
+Cookie GDPR banner
+It has:
+Clean API
+Better documented than others
+Easy to use
+d.ts files
+Awesome snippet generator
+Ability of global or local configuration
+Predefined styles
+Easy to change colors 
+Button generator
+Simple and powerful Dependency Injection 
+Okay
+toastNotification() {
+        const newToastNotification = new ToastNotificationInitializer();
+        newToastNotification.setTitle('Title!');
+        newToastNotification.setMessage('Message!');
+        newToastNotification.setConfig({
+            LayoutType: DialogLayoutDisplay.INFO // SUCCESS | INFO | NONE | DANGER | WARNING
+        });
+        newToastNotification.openToastNotification$();
+    }
+
+confirmBox() {
+        const confirmBox = new ConfirmBoxInitializer();
+        confirmBox.setTitle('Title!');
+        confirmBox.setMessage('Message!');
+        confirmBox.setButtonLabels('Button1', 'Button2'); 
+        confirmBox.setConfig({
+            LayoutType: DialogLayoutDisplay.SUCCESS // SUCCESS | INFO | NONE | DANGER | WARNING
+        });
+        const subscription = confirmBox.openConfirmBox$().subscribe(resp => {
+            // button response
+            subscription.unsubscribe();
+        });
+    }
+
+dialog() {
+        const dialogPopup = new DialogInitializer(AnyAngularComponent);
+        dialogPopup.setCustomData({myData}); 
+        dialogPopup.setConfig({
+            Width     : '500px',
+        );
+
+        dialogPopup.setButtons([
+            new ButtonMaker('Submit', 'submit', ButtonLayoutDisplay.SUCCESS),
+            new ButtonMaker('Cancel', 'cancel', ButtonLayoutDisplay.SECONDARY)
+        ]);
+
+        const subscription = dialogPopup.openDialog$().subscribe(resp => {
+            // button response
+            subscription.unsubscribe();
+        });
+    }
+
+Here's how!
+
+
+
+Toast - playground
+Toast - StackBlitz
+Confirm box - playground
+Confirm box - StackBlitz
+Dialog - playground]]></summary>
+        <author>
+            <name>Boris Jenicek</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use CSS Media Queries to Create Responsive Websites]]></title>
+        <id>60ac07ec11ffb70827ef66e4</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-css-media-queries-to-create-responsive-websites/"/>
+        <updated>2021-05-24T20:36:07.000Z</updated>
+        <summary type="html"><![CDATA[CSS Media Queries allow you to create responsive websites that look good on all screen sizes, from desktop to mobile. We just released a course on the freeCodeCamp channel that will teach you how to create CSS Media Queries. After learning the basics, you will learn how to use media]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DJPADE]]></title>
+        <id>https://dev.to/marianvelani/djpade-27ad</id>
+        <link href="https://dev.to/marianvelani/djpade-27ad"/>
+        <updated>2021-05-24T20:34:41.000Z</updated>
+        <summary type="html"><![CDATA[Abstract:
+
+Aim and Objectives:
+“Reducing cost and time to create music tracks for new idea.”
+We need a lot of tools to do mixing and composing track. Which is expansive and time consuming and also requires skilled team members. Which become major problem for trying new ideas on music.
+For more:
+Visit my blog]]></summary>
+        <author>
+            <name>MarianVelani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How you'd write a reactive calculator with x-HTML in 5 mins]]></title>
+        <id>https://dev.to/chrisczopp/how-you-d-write-a-reactive-calculator-with-x-html-in-5-mins-57oa</id>
+        <link href="https://dev.to/chrisczopp/how-you-d-write-a-reactive-calculator-with-x-html-in-5-mins-57oa"/>
+        <updated>2021-05-24T20:25:25.000Z</updated>
+        <summary type="html"><![CDATA[In this article you won't see the millionth way of writing a calculator with the tools that are well covered by many others. Instead, I'm going to show you how to do it with much less effort in a tool you probably haven't heard of yet. And it is a big deal since it automates and abstracts away frontend web app development by the ways you haven't seen elsewhere. And yeah, the calculator is a trivial app, yet it's a good example to present a few interesting concepts.
+
+OK, enough of the intro, here are few steps to follow:  
+Go to: https://ide.glue.codes.
+Create a new project.
+Write the below code, you can click preview to see changes as your'e typing.
+Export it to a self-contained app based on SolidJS and JSX.
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=…]]></summary>
+        <author>
+            <name>chris-czopp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Generate a Code Coverage Report with CodeCov and GitHub Actions]]></title>
+        <id>60aa161211ffb70827ef5f2c</id>
+        <link href="https://www.freecodecamp.org/news/how-to-generate-code-coverage-report-with-codecov-and-github-actions/"/>
+        <updated>2021-05-24T19:40:36.000Z</updated>
+        <summary type="html"><![CDATA[Software testing is an important part of the software development process. You run tests at different stages of the software development life cycle, and you'll want to make sure that you have good test coverage.  Here are some key reasons for writing software tests:  Testing prevents you from introducing breaking]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[proxy-www]]></title>
+        <id>https://css-tricks.com/?p=341153</id>
+        <link href="https://github.com/justjavac/proxy-www"/>
+        <updated>2021-05-24T19:09:59.000Z</updated>
+        <summary type="html"><![CDATA[I like a good trick. What if… a URL was…  a promise… that fetched said URL?
+www.codepen.io.then((response) ={
+  console.log(response);
+});
+That’s what @justjavac did with JavaScript Proxys. A clever trick, that. Don’t @ me about the practicality. Trick…
+The post proxy-www appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best No-Code Tools for Developers in 2021]]></title>
+        <id>60a5248c906c5207e3a7e54b</id>
+        <link href="https://www.freecodecamp.org/news/best-no-code-tools-for-developers/"/>
+        <updated>2021-05-24T14:54:42.000Z</updated>
+        <summary type="html"><![CDATA[No-code tools let people across the world build different products and applications without writing code.   Before no-code tools, building simple websites or mobile applications took weeks or months and only experienced software developers could do it.  But that's not the case anymore. Now, you can spin up blogs, websites, and]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wrangling Control Over PDFs with the Adobe PDF Embed API]]></title>
+        <id>https://css-tricks.com/?p=340626</id>
+        <link href="https://css-tricks.com/wrangling-control-over-pdfs-with-the-adobe-pdf-embed-api/"/>
+        <updated>2021-05-24T13:57:21.000Z</updated>
+        <summary type="html"><![CDATA[By our last estimate, there are now more PDFs in the world than atoms in the universe (not verified by outside sources) so chances are, from time to time, you’re going to run into a PDF document or two. Browsers …
+The post Wrangling Control Over PDFs with the Adobe PDF Embed API appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Raymond Camden</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Container Queries: Use-Cases And Migration Strategies]]></title>
+        <id>https://smashingmagazine.com/2021/05/css-container-queries-use-cases-migration-strategies/</id>
+        <link href="https://smashingmagazine.com/2021/05/css-container-queries-use-cases-migration-strategies/"/>
+        <updated>2021-05-24T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[CSS Container queries bring media queries closer to the target elements themselves and enables them to adapt to virtually any given container or layout. In this article, we’re going to cover CSS container query basics and how to use them today with progressive enhancement or polyfills.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Adrian Bece)</name>
         </author>
     </entry>
     <entry>
@@ -331,16 +561,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn JavaScript - A Free 7-hour Interactive Tutorial]]></title>
-        <id>60a36742906c5207e3a7da6e</id>
-        <link href="https://www.freecodecamp.org/news/learn-javascript-interactive-course/"/>
-        <updated>2021-05-20T14:53:38.000Z</updated>
-        <summary type="html"><![CDATA[Over the last four months, I have recorded what is probably the most interactive JavaScript course that has ever been created. The reason I have done this is because I often see new coders fall into the same pitfalls again and again when trying to learn JavaScript, with the most]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Can We Create a “Resize Hack” With Container Queries?]]></title>
         <id>https://css-tricks.com/?p=340715</id>
         <link href="https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/"/>
@@ -397,36 +617,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Use CSS Selectors to Style Your Web Page]]></title>
-        <id>60a341f5906c5207e3a7da61</id>
-        <link href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"/>
-        <updated>2021-05-19T23:17:21.000Z</updated>
-        <summary type="html"><![CDATA[CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Web3? The Decentralized Internet of the Future Explained]]></title>
-        <id>60a42386906c5207e3a7dfe2</id>
-        <link href="https://www.freecodecamp.org/news/what-is-web3/"/>
-        <updated>2021-05-19T21:09:01.000Z</updated>
-        <summary type="html"><![CDATA[The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Optimize for Change in Software Development]]></title>
-        <id>60a469ec906c5207e3a7e1b9</id>
-        <link href="https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/"/>
-        <updated>2021-05-19T17:30:08.000Z</updated>
-        <summary type="html"><![CDATA[Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[svg-loader: A Different Way to Work With External SVG]]></title>
         <id>https://css-tricks.com/?p=340692</id>
         <link href="https://css-tricks.com/svg-loader-a-different-way-to-work-with-external-svg/"/>
@@ -449,16 +639,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Break into Ethereum, Crypto, and Web3 as a Developer]]></title>
-        <id>60a53182906c5207e3a7e588</id>
-        <link href="https://www.freecodecamp.org/news/breaking-into-ethereum-crypto-web3-as-a-developer/"/>
-        <updated>2021-05-18T21:04:00.000Z</updated>
-        <summary type="html"><![CDATA[Lately, I've been talking about my move into the Web3, Ethereum, and crypto space since making the switch from a traditional web, mobile, and cloud background. Since making that move, a shocking number of people have reached out to me who are also thinking about doing the same.  It's really]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Pinned Audio WordPress Theme]]></title>
         <id>https://css-tricks.com/?p=340613</id>
         <link href="https://css-tricks.com/pinned-audio-wordpress-theme/"/>
@@ -469,16 +649,6 @@ The post Pinned Audio WordPress Theme appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Freelance Development Pricing Guide – Should Freelancers Bill by the Hour?]]></title>
-        <id>60a3780f906c5207e3a7db5f</id>
-        <link href="https://www.freecodecamp.org/news/the-different-ways-to-charge-for-a-website/"/>
-        <updated>2021-05-18T17:12:59.000Z</updated>
-        <summary type="html"><![CDATA[If you offer your services as a freelance developer, you have a major say in how you price your project.  But how do you go about charging for a website project? "Well, I just bill by the hour and send an invoice every week or month." ...I hear you say.]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
         </author>
     </entry>
     <entry>
@@ -528,30 +698,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Love Letter to HTML & CSS]]></title>
-        <id>https://css-tricks.com/?p=339522</id>
-        <link href="https://css-tricks.com/a-love-letter-to-html-css/"/>
-        <updated>2021-05-17T14:27:22.000Z</updated>
-        <summary type="html"><![CDATA[I see you. In the back there, behind JavaScript and React and PHP and all those “real” programming languages, I see you. And I appreciate you.
-The post A Love Letter to HTML & CSS appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Ashley Kolodziej</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Euismod]]></title>
-        <id>https://css-tricks.com/?p=340594</id>
-        <link href="https://www.euismod.dev/"/>
-        <updated>2021-05-17T14:27:13.000Z</updated>
-        <summary type="html"><![CDATA[An interactive tool for learning grid syntax from Etesam Ansari. In the Learn section, it teaches you some concepts (involving multiple bits of the grid syntax) then gives you a task to complete by filling out the right syntax. I’m …
-The post Euismod appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How We Improved Our Core Web Vitals (Case Study)]]></title>
         <id>https://smashingmagazine.com/2021/05/core-web-vitals-case-study/</id>
         <link href="https://smashingmagazine.com/2021/05/core-web-vitals-case-study/"/>
@@ -592,18 +738,6 @@ Chore: rendering logic refactoring. Adopting functional paradigm.
 Thank you @tianheg, @onnyyonn]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Auto-Generated Social Media Images]]></title>
-        <id>https://css-tricks.com/?p=340136</id>
-        <link href="https://css-tricks.com/auto-generated-social-media-images/"/>
-        <updated>2021-05-14T20:34:49.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been thinking about social media images again. You know, the images that (can) show up when you share a link in places like Twitter, Facebook, or iMessage. You’re essentially leaving money on the table without them, because they …
-The post Auto-Generated Social Media Images appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
         </author>
     </entry>
     <entry>
