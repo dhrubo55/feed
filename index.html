@@ -20,65 +20,686 @@
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What I Learned Building a Word Game App With Nuxt on Google Play</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/what-i-learned-building-a-word-game-app-with-nuxt-on-google-play/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(25 min)</span>
+                    <span>I fell in love with coding the moment I created my first CSS :hover effect. Years later, that initial bite into interactivity on the web led me to a new goal: making a game.
+Table of contents
+What’s the game 
+…
+The post What I Learned Building a Word Game App With Nuxt on Google Play appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Java Tutorial - 2 Control Flow (selection)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/nadirbasalamah/java-tutorial-2-control-flow-selection-2b7m">
+                <summary class="article-expander__title">Pretty printing JSON.stringify</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/siddharthshyniben/pretty-printing-json-stringify-4pd3">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>The condition selection is a commonly used in Java to execute a certain code based on the specific condition.
-To create an if statement, use this syntax.
-if (condition) {
-    // code..
-}
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Most of use JSON.stringify a lot to avoid the infamous &quot;[object Object]&quot;. But did you know that it had a few more arguments?
+JSON.stringify takes a total of 3 arguments. The first one is the data, the second is a replacer function, and the third one is the indentation.
+The main topic of this article is the third argument. If you provide a string as the third argument, that string will be used as indentation. Here&#x27;s an example:
+JSON.stringify({a: &#x27;B&#x27;, c: {d: &#x27;e&#x27;}})
+// &#x3D;&gt; {&quot;a&quot;:&quot;B&quot;,&quot;c&quot;:{&quot;d&quot;:&quot;e&quot;}}
+JSON.stringify({a: &#x27;B&#x27;, c: {d: &#x27;e&#x27;}}, null, &quot;  &quot;)
+// &#x3D;&gt; 
+// {
+//   &quot;a&quot;: &quot;B&quot;,
+//   &quot;c&quot;: {
+//     &quot;d&quot;: &quot;e&quot;
+//   }
+// }
+JSON.stringify({a: &#x27;B&#x27;, c: {d: &#x27;e&#x27;}}, null, &quot;test&quot;)
+// &#x3D;&gt;
+// {
+// test&quot;a&quot;: &quot;B&quot;,
+// test&quot;c&quot;: {
+// testtest&quot;d&quot;: &quot;e&quot;
+// test}
+// }
 
-This is the example of if usage to detect a number is an even or odd number.
-public class MyApp {
-    public static void main(String[] args){
-        int num &#x3D; 24;
-        if (num % 2 &#x3D;&#x3D; 0) {
-            System.out.println(&quot;Even number&quot;);
-        }
-    }
-}
+You can also pass in a number instead. If you do so, that many spaces will be inserted as indentation:
+JSON.stringify({a: &#x27;B&#x27;, c: {d: &#x27;e&#x27;}}, null, 2)
+// &#x3D;&gt; 
+// {
+//   &quot;a&quot;: &quot;B&quot;,
+//   &quot;c&quot;: {
+//     &quot;d&quot;: &quot;e&quot;
+//   }
+// }
 
-This is the output:
-Even number
-
-
-Based on the code above, the variable called num is compared using &#x3D;&#x3D; operator to check if the result of num % 2 (num mod 2) is equals zero. If it is true, the Even number text is printed out.
-This is the list of comparation operator that can be used in Java.
-
-
-
-Operator
-Description
-
-
-
-
-&#x3D;&#x3D;
-Equals to
-
-
-!&#x3D;
-Not equals to
-…</span>
+Hope this helps you while debugging sometime!</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">¿Cómo empecé a programar? Mi (no tan) maravilloso viaje por el mundo de sistemas</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/iamdoomling/como-empece-a-programar-mi-no-tan-maravilloso-viaje-por-el-mundo-de-sistemas-5glh">
+                <summary class="article-expander__title">Generating unique IDs in a Large scale Distributed environment</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/apoorvtyagi/generating-unique-ids-in-a-large-scale-distributed-environment-257d">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Mi nombre es Bel Rey, tengo 34 años, soy desarrolladora fullstack, co-founder en CourseIt y creadora de contenido en teloexplicocongatitos.com. Desde que decidí empezar a compartir contenido recibo por varios medios las mismas preguntas una y otra vez. Es lógico, y no me molesta para nada, porque yo también estuve ahí. Cuando se está empezando en un área es normal tener muchas dudas y pocas certezas, y algunas de estas no se resuelven simplemente googleando.
-Las preguntas más comunes son: &quot;Como aprendiste a programar&quot;, &quot;cómo conseguiste tu primer trabajo en tech&quot; y &quot;como empezaste a emprender&quot;
-Por eso para centralizar un poco estas respuestas decidí hacer un recuento corto de como fue mi trayectoria por la programación, centrándome en analizar las partes que yo creo fueron clave para mi de…</span>
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Introduction
+
+
+Recently at work, We were looking for a way to generate unique IDs across a distributed system that could also be used as the primary keys in the MySQL tables.
+We knew in a single MySQL database we can simply use an auto-increment ID as the primary key, But this won’t work in a sharded MySQL database.
+So I looked at various existing solutions for this and finally learned about Twitter Snowflake - a simple 64-bit unique ID generator.
+UUIDs are 128-bit hexadecimal numbers that are globally unique. The chances of the same UUID getting generated twice are negligible.
+The problem with UUIDs is that they are very big in size and don’t index well. When your dataset increases, the index size increases as well and the query performance degrades.
+Another problem with UUIDs is related …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Want to compress your pdf files ?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/burakcank/want-to-compress-your-pdf-files-5ff9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Are you tired of scanning images and trying to shrink them under 25 mbs just so you can send them via email ? Look no further, I am here to save you from this trouble. (that kinda rhymed.)
+This basic shell script uses ghostscript to compress your scanned pdfs significantly. Just yesterday I scanned 100 pages of documents and it was over 90 mbs. I searched for a way to compress them under 25 mbs and voila. Here I was with only 6 mbs of pdfs. Much wow. Such compression.
+Why we need it,
+Fast.
+Ez.
+No need to go online. Especially no need to upload company top-secret documents to any website you see on the Internet.
+Possible huge compression without notable loss.
+Command usage:
+./shrinkpdf.sh in.pdf out.pdf
+ghostscript.
+
+
+
+
+
+If you are in a situation exactly like me where there are 100 pdf files under one folder that you want to compress altogether, a simple for loop will suffice.
+import os
+import subprocess
+import sys
+
+infolder &#x3D; sys.argv[1]
+outfolder &#x3D; &quot;compressed_&quot; + infolder
+os.mkdir(outfolder)
+
+for f in os.listdir(infolder):
+    subprocess.run([&quot;./shrinkpdf.sh&quot;, os.path.join(infolder, f), os.path.join(outfolder, f)])
+
+Run this python script,
+python shrink.py pdfs/
+and all of your pdfs will be put under compressed_pdfs/.
+http://www.alfredklomp.com/programming/shrinkpdf/
+All the relevant details and more, inside. I humbly wanted to let you know such a useful tool exists.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Persisting Typed Objects with DataStore</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/yalematta/persisting-typed-objects-with-datastore-apc">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>In a previous post we have explored how to use Preferences DataStore to migrate our SharedPreferences. And in this post we will focus on Proto DataStore.
+Proto DataStore different? 🤔
+
+
+While both Preferences and Proto DataStore allow saving data, they do this in different ways. One important feature is applied only when using Proto DataStore, and it is Type Safety. 
+With Proto DataStore we don&#x27;t have to use keys. Instead we define a schema using Protocol Buffers. And with Protocol Buffers we can persist strongly typed data.
+One of the downsides of SharedPreferences and Preferences DataStore is that there is no way to ensure that keys are accessed with the correct type. Using Proto DataStore, we know what types are stored and we will just provide them.
+Protocol Buffers were developed by Go…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Best Hosting for Developer (With Free Trial)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/goonlinetools/best-hosting-for-developer-with-free-trial-di7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Hi,
+If you’re a web developer, you need a web hosting provider that offers the cheapest hosting plan, best hosting features, and as well as excellent support and full backend access.
+I recommend 4 web hosting company that can serve you faster and reliably each time so that your website visitors can have a great experience.
+Cloudways - 3 Days Free
+
+
+
+Cloudways is a managed hosting provider that emphasizes performance and simplicity. From the simple server and application launch to the ongoing server maintenance, Cloudways takes away all the hassles of server management so that you can continue to focus on growing your business.
+Linode - 100$ Free Credit
+
+
+
+Linode is a cloud hosting provider that focuses on providing Linux powered virtual machines to support a wide range of applications. Given its roots, many experts do not see it as a beginner-friendly.
+DigitalOcean - 100$ Free Credit
+
+
+
+DigitalOcean is a cloud infrastructure provider that provides cloud computing services to business entities. It is used to scale by deploying DigitalOcean applications that run parallel across multiple cloud servers without compromising performance.
+Vultr - 100$ Free Credit
+
+
+
+Vultr provides high-performance SSD cloud servers that boast a global footprint. It aims to create the most reliable and efficient service for launching a blazing fast SSD cloud server.
+I tried these 4 hosting presonally for my sites and every hosting perform well but cloud hosting provider doesn&#x27;t provide contact support only for server, no extra support.
+If you want good contact support and security in cloud hosting then i recommend Cloudways.
+If you manage complete server and server security from your own then you can go with any hosting listed above but i recommend Linode.
+I hope you will choose right hosting :)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Top 10 (+/-) Linux skills for landing a Linux job</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/asciiden/top-10-linux-skills-for-landing-a-linux-job-1i5m">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Introduction
+
+
+Hey now, you have probably went through numerous job-hunting websites and you memorized all the buzzwords (Junior Sysadmin; Junior Site Reliability Engineer; NOC Engineer; System support; etc.) that can get you in IT with zero experience, or even zero education. Well, let me tell you - you are on the right track! However, there are some insights that a lot of you don&#x27;t know as you haven&#x27;t got a real Linux job. Well now, except you are on the right track, you are on the post, as well!
+I am going to note down &amp; explain the top 10 Linux skills (in the opinion of a person who had a Linux job as a first) that you should have before rushing into the interview.
+Linux skills? But I know a lot of commands already!
+It is not up to the commands you know but the ability to imply them at…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Coding Goals for 2021: the Reasons to Learn Java</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/alexxxismyname/coding-goals-for-2021-the-reasons-to-learn-java-5b0p">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>In terms of a pandemic situation, many large companies were forced to take all their processes online. So, they need someone who can build an enterprise-level server-side application, create website content, and keep up maintaining it promptly. In this case, many projects choose Java to build the apps and, consequently, need as many Java programmers as possible to implement that. So, if you still ask yourself “Why should I learn Java”, this is supposed to be an answer.
+But, this is not the only reason, and I will explain why becoming a Java developer in 2021 is a fresh start.
+Right before considering the other reasons for starting to master Java, it makes sense, to begin with fundamentals and discover what’s so good about becoming a programmer.
+Software engineering is a fairly stable indus…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The difference between a Cryptocurrency and a Token</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/owans/the-difference-between-a-cryptocurrency-and-a-token-3ee4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>In broad terms, a digital asset is a non-tangible asset that is created, traded, and stored in a digital format. Using this definition In the context of blockchains, digital assets include cryptocurrency and crypto tokens.
+The blockchain terms; token and cryptocurrency are often used interchangeably, as these are both digital assets on blockchains. The biggest difference between a cryptocurrency and a token is that cryptocurrencies are the native asset of a
+
+blockchain like BTC, RBTC, or ETH, whereas tokens are built on an existing blockchain, using smart contracts. Most commonly, these are EIP-20 tokens.
+The following chart summarises the similarities between the two:
+
+As we can see, these are largely the same from the perspective of the end user. However, there are large technical differ…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Linux Command Line for Beginners</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/harvey/linux-command-line-for-beginners-16n8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The Linux command line is for power users. It is not for the faint of heart or for people who are afraid to take a risk. 
+If you are new to Linux and are afraid to take the plunge into using the command line interface, then this tutorial is a good start. 
+Linux is an open source operating system that is used on everything from smart phones to main frame computers. 
+Linux provides a command line interface (CLI) that provides a quick and powerful way to control and manipulate your computer. Once mastered, the Linux CLI can save you time and provide a powerful tool to aid in your daily tasks.
+The command line can be intimidating but learning the basics will give you access to a world of scripts and automation tools that will make your life a lot easier and more productive.
+The Basics: You will be using the command line to type various commands and tasks. Commands are what Linux runs. In Linux, the Command Line can be used for various things.
+
+To start, open up a terminal. Now, let&#x27;s try using some basic Linux commands! 
+Most of these commands are applicable for all Linux distributions. Linux is case sensitive (capitalization matters).
+Navigation
+ls    List directory
+cd DIR Change the current directory to the DIR directory
+cd ~  Change to home directory
+cd /      Change the current directory to the root directory
+cd ..     Go one directory lower
+pwd   Show name of current working directory 
+File Commands
+mkdir -p DIR Create directory DIR 
+rm FILE Remove FILE
+rm -r DIR Remove DIR and its contents recursively
+rm -f FILE Force remove FILE 
+System Info
+date  Print or set the system date and time
+cal   Displays a calendar
+uptime Tell how long the system has been running
+w     Show who is logged on and what they are doing
+whoami  Print effective userid</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Node.JS - Foal framework - version 2.4 is here</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/loicpoullain/node-js-foal-framework-version-2-4-is-here-dhh">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Version 2.4 of Foal has been released! Here are the improvements that it brings.
+$data references for validation
+
+
+Version 2.4 allows you to enable the AJV $data option so that you can use the verified data values as validators for other values.
+config/default.json
+{
+  &quot;settings&quot;: {
+    &quot;ajv&quot;: {
+      &quot;$data&quot;: true
+    }
+  }
+}
+
+Example of auth controller
+import { Context, Post, ValidateBody } from &#x27;@foal/core&#x27;;
+
+export class AuthController {
+  @Post(&#x27;/signup&#x27;)
+  @ValidateBody({
+    type: &#x27;object&#x27;,
+    properties: {
+      username: { type: &#x27;string&#x27; },
+      password: { type: &#x27;string&#x27; },
+      // &quot;password&quot; and &quot;confirmPassword&quot; should be identical.
+      confirmPassword: {
+        const: {
+          $data: &#x27;1/password&#x27;,
+        },
+        type: &#x27;string&#x27;,
+      },
+    }
+    required: [ &#x27;username&#x27;, &#x27;password&#x27;, &#x27;confirmPassword&#x27; ],
+    additionalProperties: false
+  })
+  signup(ctx: Context) {
+    // Do something.
+  }
+}
+
+
+Starting from version 2.4 the Disk.createHttpResponse method accepts an optional parameter to specify the value of the Cache-Control header.
+import { Context, dependency, Get } from &#x27;@foal/core&#x27;;
+import { Disk } from &#x27;@foal/storage&#x27;;
+
+import { User } from &#x27;../entities&#x27;;
+
+export class ProfileController {
+  @dependency
+  disk: Disk;
+
+  @Get(&#x27;/avatar&#x27;)
+  async readProfileImage(ctx: Context) {
+    return this.disk.createHttpResponse(ctx.user.avatar, {
+      cache: &#x27;no-cache&#x27;
+    });
+  }
+
+See issue #930.
+@ZakRabe</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Applying monkey patches in Rails</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayushn21/applying-monkey-patches-in-rails-1bj1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Monkey patching is one of Ruby&#x27;s most powerful features. It allows programmers to add methods to core classes which can result in some very elegant APIs. However it&#x27;s quite easy to shoot yourself in the foot if you don&#x27;t know what you&#x27;re doing.  
+This post from Justin Weiss is a brilliant guide on how to monkey patch responsibly. However he doesn&#x27;t describe how to actually include your monkey patches in a Rails app, so that&#x27;s what I&#x27;m going to describe in this post.  
+Following Justin&#x27;s advice, the implementation of all our monkey patches should go in the lib/core_extensions directory. So we might have some files like this:  
+lib/core_extensions/array.rb
+module CoreExtensions
+  module Array
+    def to_set
+      Set.new(self)
+    end
+  end
+end
+
+lib/core_extensions/hash.rb
+module CoreExtensi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Amazing Specific Select File Using HTML CSS &amp; JS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/nikhil27b/amazing-specific-select-file-using-html-css-js-1366">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Today I created a Amazing Specific with HTML &amp; JS. I use JavaScript to select this file name and upload this file you can be use a post method after choose the file using axios or http I hope you like this also comments about your thoughts.
+For more content follow me on Instagram  @developer_nikhil27.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The End Of Power Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-end-of-power-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-end-of-power-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: The End Of Power explains why the old positions of power aren’t as powerful as they used to be due to recent changes in society and technology and how this shift has put more influence in the hands of everyday citizens like you and what it might mean for the future of our governments […]
+The post The End Of Power Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Launch HN: Fig (YC S20) – Autocomplete for the Terminal</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fig.io?ref&#x3D;hn">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Show HN: Build internal apps and dashboards using Google Sheets</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://chartmat.com">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">It&#x27;s probably time to stop recommending Clean Code (2020)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://qntm.org/clean?tw&#x3D;">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(41 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Arm Announces New Mobile Armv9 CPU Microarchitectures</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.anandtech.com/show/16693/arm-announces-mobile-armv9-cpu-microarchitectures-cortexx2-cortexa710-cortexa510">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Button Cheat Sheet</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.buttoncheatsheet.com/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Economist&#x27;s excess deaths model</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/TheEconomist/covid-19-the-economist-global-excess-deaths-model">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">WASM SYNTH, or, how music taught me the beauty of math</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://timdaub.github.io/2020/02/19/wasm-synth/#f1">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(14 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Jerikan: A configuration management system for network teams</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://vincent.bernat.ch/en/blog/2021-network-jerikan-ansible">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(14 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Data portability, the forgotten right of GDPR</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.alias.dev/report">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Laws of Fun (2009)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.lesswrong.com/posts/qZJBighPrnv9bSqTZ/31-laws-of-fun">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(19 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Fractional (YC W21) is hiring a product engineer</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.ycombinator.com/companies/fractional/jobs/YftyxZJ-product-engineer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Immudb 1.0 – open-source, immutable database with SQL and verified timetravel</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.codenotary.com/blog/immudb-release-1-0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google now lets you password-protect the page that shows all your searches</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theverge.com/2021/5/24/22452122/google-my-activity-page-password-privacy-verification-web-and-app-history">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">German regulator probes Google&#x27;s market position, data use</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://apnews.com/article/europe-technology-business-d7c3819420c7bb5221e7ed8cb8042520">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GCHQ’s mass data-sharing violated right to privacy, court rules</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/uk-news/2021/may/25/gchqs-mass-data-sharing-violated-right-to-privacy-court-rules">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The downfall of Malaysia’s biggest sugar daddy platform</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://restofworld.org/2021/inside-the-downfall-of-sugarbook-malaysias-biggest-site-for-sex-work/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Magit 3.0 Released</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://emacsair.me/2021/05/25/magit-3.0/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Italian seaside residents hit with bygone feudal tax</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.smh.com.au/world/europe/it-s-absurd-italian-seaside-residents-hit-with-bygone-feudal-tax-20210525-p57uxi.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Going Unconscious</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.nybooks.com/articles/1995/04/20/going-unconscious/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(29 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google is officially releasing Fuchsia OS, starting with a first-gen Nest Hub</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://9to5google.com/2021/05/25/google-releases-fuchsia-os-nest-hub/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Use native context menus on Mac OS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://bugzilla.mozilla.org/show_bug.cgi?id&#x3D;34572">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(17 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ask HN: How to get started with audio programming?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;27273706">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(20 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ORBIS: The Stanford Geospatial Network Model of the Roman World</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://orbis.stanford.edu/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Bird Architecture</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://mitpress.mit.edu/blog/hidden-architecture-birds">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Drunk as a Lord: the Regency Bottle Men</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://about1816.wordpress.com/2021/05/23/drunk-as-a-lord-the-regency-bottle-men/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Researchhub: GitHub for Science</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.researchhub.com/about">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -107,6 +728,34 @@ Por eso para centralizar un poco estas respuestas decidí hacer un recuento cort
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
                     <span>Walkthrough for Hack The Box Nibbles machine</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Guide To Undoing Mistakes With Git (Part 2)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/05/undoing-mistakes-git-part2/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Mistakes. These cruel villains do not even stop at the beautiful world of software development. But although we cannot avoid making mistakes, we can learn to undo them! This post will show the right tools for your daily work with Git.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A New Way To Reduce Font Loading Impact: CSS Font Descriptors</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/05/reduce-font-loading-impact-css-descriptors/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Web fonts are often terrible for web performance and none of the font loading strategies are particularly effective to address that. Upcoming font options may finally deliver on the promise of making it easier to align fallback fonts to the final fonts.</span>
                   </div>
                 </a>
               </details>
@@ -170,266 +819,66 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Sexy, accessible show-hide animations in any web framework</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/bholmesdev/sexy-accessible-show-hide-animations-in-any-web-framework-4hpk">
+                <summary class="article-expander__title">Spark Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/spark-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;spark-summary">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>This entry comes from my web wizardry newsletter, where I explore evergreen solutions to common web dev problems (no matter your favorite framework). If you like what you see, go sign up for free 🪄
-Using JS to show and hide something is a web dev rite of passage. Heck, it&#x27;s the first demo that comes to mind when you think about &quot;state management&quot; (just behind building a counter 😆).
-But when you do the classic &quot;hide whenever X variable is false,&quot; there&#x27;s some accessibility concerns you might be forgetting:
-can keyboard users still access that hidden element?
-do screen readers actually know what your button is trying to show and hide?
-Don&#x27;t worry, I have the answers for you! Let&#x27;s explore a universal solution you can bring to React, Svelte, Vue, etc, along with some debugging tips using a …</span>
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>1-Sentence-Summary: Spark teaches you how to become an influential, un-fireable asset to your team at work by taking on the role of a leader regardless of your position, utilizing the power of creative thinking to make better decisions, and learning how to be more self-aware and humble. Read in: 4 minutes Favorite quote from the […]
+The post Spark Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">RefinedC: Automating Foundational Verification of C Code with Refined Ownership</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://plv.mpi-sws.org/refinedc/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Como transformar visual studio code em uma IDE [PT-Br]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/coodexpie/como-transformar-visual-studio-code-em-uma-ide-pt-br-3ale">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>suporte para linguagens
-
-
-Abrindo o visual studio code (que aqui será chamado de vs code), selecione a opção mostrada na imagem, sem clicar nos nomes em azul.
-
-A janela de extensões sera aberta
-
-Selecione as linguagens que você desejar instalar o suporte.
-eslint: javascript
-
-No caso, irei instalar suporte para as linguagens python, javascript, html, css, javascript, c, c++ e c#. É sempre bom estar prevenido não é?
-Deixar o código mais bonito é sempre bom.
-
-Com essa extensão, poderemos interpretar códigos no terminal.
-
-Primeiro vamos limpar a barra de pesquisa
-
-Agora vemos as extenssões instaladas
-
-Na barra de pesquisa, vamos escrever &quot;code spell checker&quot;
-
-Essa extensão irá servir para auxiliar nos erros de escrita e dar nomes melhores às variáveis
-
-Com a extensão instalada, agora vamos ins…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">react-router: Three Route Rendering Methods (component, render, and children)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/raaynaldo/react-router-three-route-rendering-methods-component-render-and-children-2eng">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Introduction
-
-
-In the last post, I talked about react-router setup tutorial. If you don&#x27;t read the previous post, click it here!. I want to add several important topics about Route Rendering Methods.
-There are several ways to render Component or Tag HTML with a . I used this way in my last post.
-
-  
-
-
-Nothing is wrong with this snippet, and the  component will be rendered. However, you will not have access to three route props that are match, location, and history. I will talk about these three props in the next post. Stay tuned! So, let&#x27;s take a look at how we can access those props if we are using these three route rendering methods.
-
-
-
-The first rendering method is very simple. We just need to put the component as a prop in…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SOLID: Interface Segregation Principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/victorpinzon1988eng/solid-interface-segregation-principle-31c2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>This principle was developed by Robert C. Martin while working at Xerox as a consultant. Martin was in charge of developing a new printing management system that could carry out tasks concurrently, which was new by the time.
-While developing this new printing system, Martin noticed that small changes in the design caused large-scale deployments. In some same cases caused deployments on modules out of the scope of the change. The problem was mainly caused by a large fat interface used throughout all the modules of the system.
-The solution given by Robert C. Martin is what we now know as Interface Segregation Principle (ISP). Which is defined as follows:
-Clients should not be forced to depend upon interfaces that they do not use.
-This principle is simple and clear, classes should not be forc…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Interface Segregation Principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/josuerodriguez98/interface-segregation-principle-2jnk">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The Interface Segregation Principle states that a client should never be forced to implement an interface that it does not use, or clients shouldn&#x27;t be forced to depend on methods they do not use. 
-A client should never be forced to implement an interface that it does not use, or clients shouldn&#x27;t be forced to depend on methods they do not use. 
-The objective behind this principle is to remove unnecessary
-I&#x27;ll be giving two examples, one with JavaScript since it&#x27;s the programming language we&#x27;ve been using on the previous principles, and another general example on how to implement this principle on different programming languages.
-Since JavaScript does not implement interfaces, we&#x27;ll be demonstrating this principle through composition by adding pieces of functionality to the classes that ne…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Jamstack comments suck - but they don&#x27;t have to</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/darrendube/jamstack-comments-suck-but-they-don-t-have-to-5509">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Let&#x27;s face it - Jamstack websites have many advantages, but adding comments easily isn&#x27;t one of them.
-And for those of us with blogs, we know that a blog is never fully complete without comments. Blogging is meant to be a two way exchange, a way to build a community.
-Jamstack&#x27;s static nature means that comments don&#x27;t come natively, but there is no shortage of third party comments providers - Disqus, Commentbox, Facebook Comments, among others. 
-The problem is that most of them are either not free, or they have ads and privacy concerns.
-This is why I was excited when I discovered a comments app that&#x27;s free, open source, and has no privacy issues.
-Utterances is a free, open source application that essentially acts as a widget on your blog post, storing comments on Github Issues. It creates a…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to scale Hangfire with docker</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/moesmp/how-to-scale-hangfire-with-docker-553o">
+                <summary class="article-expander__title">Discovering Goroutine Leaks with Semgrep</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.trailofbits.com/post/discovering-goroutine-leaks-with-semgrep">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
-                    <span>Hangfire is an open-source framework that helps you to create, process and manage your background jobs and an easy way to perform fire-and-forget, delayed and recurring jobs inside .NET applications. This post does not cover the basics of Hanfgire so read this article to learn the basics of Hangfire.
-This post covers:
-How to config Hangfire to have multiple queues
-How to config worker count
-How to scale Hangfir worker service 
-I&#x27;m going to implement a sample project that contains a producer service that produces and exposes messages via web API and a consumer service which every second fetch messages from the producer service and enqueue messages into Hangfire. Each message has a different priority to process, so we enqueue each message to different queues based on priority and a worker se…</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">ngx-awesome-popup Interactive modals on steroids 🚀</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/costlydeveloper/ngx-awesome-popup-interactive-modals-on-steroids-2ej3">
+                <summary class="article-expander__title">Better Thinking and Incentives: Lessons from Shakespeare</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fs.blog/2021/05/lessons-shakespeare/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>What is it?
-
-
-It&#x27;s the npm library made for the Angular 9+
-It provides:
-Evoking dynamic components in popup
-Toast Notifications
-Alert Box
-Confirm Box
-Cookie GDPR banner
-It has:
-Clean API
-Better documented than others
-Easy to use
-d.ts files
-Awesome snippet generator
-Ability of global or local configuration
-Predefined styles
-Easy to change colors 
-Button generator
-Simple and powerful Dependency Injection 
-Okay
-toastNotification() {
-        const newToastNotification &#x3D; new ToastNotificationInitializer();
-        newToastNotification.setTitle(&#x27;Title!&#x27;);
-        newToastNotification.setMessage(&#x27;Message!&#x27;);
-        newToastNotification.setConfig({
-            LayoutType: DialogLayoutDisplay.INFO // SUCCESS | INFO | NONE | DANGER | WARNING
-        });
-        newToastNotification.openToastNotification$();
-    }
-
-confirmBox() {
-        const confirmBox &#x3D; new ConfirmBoxInitializer();
-        confirmBox.setTitle(&#x27;Title!&#x27;);
-        confirmBox.setMessage(&#x27;Message!&#x27;);
-        confirmBox.setButtonLabels(&#x27;Button1&#x27;, &#x27;Button2&#x27;); 
-        confirmBox.setConfig({
-            LayoutType: DialogLayoutDisplay.SUCCESS // SUCCESS | INFO | NONE | DANGER | WARNING
-        });
-        const subscription &#x3D; confirmBox.openConfirmBox$().subscribe(resp &#x3D;&gt; {
-            // button response
-            subscription.unsubscribe();
-        });
-    }
-
-dialog() {
-        const dialogPopup &#x3D; new DialogInitializer(AnyAngularComponent);
-        dialogPopup.setCustomData({myData}); 
-        dialogPopup.setConfig({
-            Width     : &#x27;500px&#x27;,
-        );
-
-        dialogPopup.setButtons([
-            new ButtonMaker(&#x27;Submit&#x27;, &#x27;submit&#x27;, ButtonLayoutDisplay.SUCCESS),
-            new ButtonMaker(&#x27;Cancel&#x27;, &#x27;cancel&#x27;, ButtonLayoutDisplay.SECONDARY)
-        ]);
-
-        const subscription &#x3D; dialogPopup.openDialog$().subscribe(resp &#x3D;&gt; {
-            // button response
-            subscription.unsubscribe();
-        });
-    }
-
-Here&#x27;s how!
-
-
-
-Toast - playground
-Toast - StackBlitz
-Confirm box - playground
-Confirm box - StackBlitz
-Dialog - playground</span>
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">DJPADE</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/marianvelani/djpade-27ad">
+                <summary class="article-expander__title">The Great Hanoi Rat Massacre of 1902 Did Not Go as Planned (2017)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.atlasobscura.com/articles/hanoi-rat-massacre-1902.html">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Abstract:
-
-Aim and Objectives:
-“Reducing cost and time to create music tracks for new idea.”
-We need a lot of tools to do mixing and composing track. Which is expansive and time consuming and also requires skilled team members. Which become major problem for trying new ideas on music.
-For more:
-Visit my blog</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How you&#x27;d write a reactive calculator with x-HTML in 5 mins</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/chrisczopp/how-you-d-write-a-reactive-calculator-with-x-html-in-5-mins-57oa">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>In this article you won&#x27;t see the millionth way of writing a calculator with the tools that are well covered by many others. Instead, I&#x27;m going to show you how to do it with much less effort in a tool you probably haven&#x27;t heard of yet. And it is a big deal since it automates and abstracts away frontend web app development by the ways you haven&#x27;t seen elsewhere. And yeah, the calculator is a trivial app, yet it&#x27;s a good example to present a few interesting concepts.
-
-OK, enough of the intro, here are few steps to follow:  
-Go to: https://ide.glue.codes.
-Create a new project.
-Write the below code, you can click preview to see changes as your&#x27;e typing.
-Export it to a self-contained app based on SolidJS and JSX.
-
-
-
-
-
-
-
-  
-  &lt;meta name&#x3D;…</span>
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -540,6 +989,28 @@ Thank you: @LooperXX.</span>
     </ul>
   </section>
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-22">2021-05-22</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Science and Technology links (May 22nd 2021)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/22/science-and-technology-links-may-22nd-2021/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Most computer chips today in flagship phones and computers use a process based on a 5 nm or larger resolution. Finer resolutions usually translate into lower energy usage and lower heat production. Given that many of our systems are limited by heat or power, finer resolutions lead to higher performance. The large Taiwanese chip maker … Continue reading Science and Technology links (May 22nd 2021)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-05-21">2021-05-21</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -583,6 +1054,41 @@ From Stefánia Péter.
 Clever idea for a site! Some of them are little mind-twisters that could bite you, and some of them are honing in on best practices that …
 The post CSS Hell appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Gift Of Fear Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-gift-of-fear-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-gift-of-fear-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: The Gift Of Fear is a guide to understanding how your fear and instincts about other people can protect you by showing you how to recognize and understand the warning signs that criminals and violent people exhibit before they strike. Read in: 4 minutes Favorite quote from the author: Michael Cantrell is a police […]
+The post The Gift Of Fear Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Counting the number of matching characters in two ASCII strings</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/21/counting-the-number-of-matching-characters-in-two-ascii-strings/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Suppose that you give me two ASCII strings having the same number of characters. I wish to compute efficiently the number of matching characters (same position, same character). E.g., the strings ‘012c’ and ‘021c’ have two matching characters (‘0’ and ‘c’). The conventional approach in C would look as follow: uint64_t standard_matching_bytes(char * c1, char … Continue reading Counting the number of matching characters in two ASCII strings</span>
                   </div>
                 </a>
               </details>
@@ -680,6 +1186,24 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
                     <span>Here’s some hardcore deep-dive CSS nerdery from PPK. If you can wrap your mind around min-content (the smallest an element can be based on the content it contains) and max-content (the largest the content of an element can push it) …
 The post fit-content and fit-content() appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Double Helix Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-double-helix-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-double-helix-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: The Double Helix tells the story of the discovery of DNA, which is one of the most significant scientific findings in all of history, by explaining the rivalries, struggles of the prideful scientific community to work together, and other roadblocks that James Watson had on the way to making the breakthrough of a lifetime […]
+The post The Double Helix Summary appeared first on Four Minute Books.</span>
                   </div>
                 </a>
               </details>
@@ -792,6 +1316,24 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Think Again Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/think-again-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;think-again-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: Think Again will make you more intelligent, persuasive, and self-aware by identifying the power of being humble about what you don’t know, how to recognize blind spots in your thinking before they start causing you problems, and what you can do to become more effective at convincing others of your way of thinking. Read […]
+The post Think Again Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
           <section class="articles-per-source">
             <article>
@@ -847,6 +1389,24 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Dark Net Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-dark-net-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-dark-net-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>1-Sentence-Summary: The Dark Net dives into the details of the wildest and most dangerous parts of the digital world, including self-harmers, cryptocurrency programmers, computer scientists, hackers, extremists, pornographers, vigilantes, and much more. Read in: 4 minutes Favorite quote from the author: The internet has completely revolutionized pretty much everything we do in today’s world. It […]
+The post The Dark Net Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
           <section class="articles-per-source">
             <article>
@@ -880,19 +1440,16 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Humble &#x60;img&#x60; Element And Core Web Vitals</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/">
+                <summary class="article-expander__title">Forgiving What You Can’t Forget Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/forgiving-what-you-cant-forget-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;forgiving-what-you-cant-forget-summary">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(18 min)</span>
-                    <span>Addy Osmani on images in HTML:
-The humble  element has gained some superpowers over the years. Given how central it is to image optimization on the web, let’s catch up on what it can do and how it can 
-…
-The post The Humble &#x60;img&#x60; Element And Core Web Vitals appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.</span>
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: Forgiving What You Can’t Forget teaches you how to heal from past traumas that still haunt you today by going through the lessons that author Lysa TerKeurst learned from childhood abuse and an unfaithful spouse, which have helped her find peace even in tough situations by forgiving those who have wronged her. Read in: […]
+The post Forgiving What You Can’t Forget Summary appeared first on Four Minute Books.</span>
                   </div>
                 </a>
               </details>
@@ -911,6 +1468,23 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
                     <span class="article-reading-time">(1 min)</span>
                     <span>⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: &quot;16&quot; in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example
 Chore: Reorganize to monorepo with npm workspace.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Converting binary integers to ASCII characters: Apple M1 vs AMD Zen2</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/17/converting-binary-integers-to-ascii-characters-apple-m1-vs-amd-zen2/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Programmers often need to write integers as characters. Thus given the 32-bit value 1234, you might need a function that writes the characters 1234. We can use the fact that the ASCII numeral characters are in sequence in the ASCII table: ‘0’+0 is ‘0’, ‘0’+1 is ‘1’ and so forth. With this optimization in mind, … Continue reading Converting binary integers to ASCII characters: Apple M1 vs AMD Zen2</span>
                   </div>
                 </a>
               </details>
@@ -972,8 +1546,48 @@ Thank you @tianheg, @onnyyonn</span>
     </ul>
   </section>
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-15">2021-05-15</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Science and Technology links (May 15th 2021)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/15/science-and-technology-links-may-15th-2021/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>There were rainforests near the south pole 90 million years ago. Though commercial exchanges are typically win-win for both the buyer and the seller, people tend to view the buyer as more likely to be taken advantage of. People with low self-esteem are more likely to blame the political system for their personal problems. Moscona … Continue reading Science and Technology links (May 15th 2021)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-05-14">2021-05-14</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Caste Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/caste-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;caste-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: Caste unveils the hidden cultural and societal rules of our class system, including where it comes from, why it’s so deeply entrenched in society, and how we can dismantle it forever and finally allow all people to have the equality they deserve.  Read in: 4 minutes Favorite quote from the author: Imagine you inherited […]
+The post Caste Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
@@ -994,8 +1608,49 @@ Thank you @tianheg, @onnyyonn</span>
     </ul>
   </section>
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-13">2021-05-13</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2030 Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/2030-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;2030-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: 2030 uses the current trajectory of the world, based on sociological, demographic, and technological trends, to outline the changes we can expect to happen in our lives by the beginning of the next decade. Read in: 4 minutes Favorite quote from the author: If you told someone in 2019 about everything that would happen […]
+The post 2030 Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-05-12">2021-05-12</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The End Of Illness Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-end-of-illness-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-end-of-illness-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: The End Of Illness will change the way that you think of sickness and health by identifying the problems with the current mindset around them and how focusing on the systems within your body instead of disease will help you make better-informed decisions that will keep you on the path of good health. Read […]
+The post The End Of Illness Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
@@ -1224,6 +1879,23 @@ Chore: Refactored parameter passing for enrich step.</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Constructing arrays of Boolean values in Java</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/05/constructing-arrays-of-boolean-values-in-java/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>It is not uncommon that we need to represent an array of Boolean (true or false) values. There are multiple ways to do it. The most natural way could be to construct an array of booleans (the native Java type). It is likely that when stored in an array, Java uses a byte per value. … Continue reading Constructing arrays of Boolean values in Java</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1250,7 +1922,7 @@ Chore: Refactored parameter passing for enrich step.</span>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">A Guide To Undoing Mistakes With Git</summary>
+                <summary class="article-expander__title">A Guide To Undoing Mistakes With Git (Part 1)</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/05/undoing-mistakes-git-part1/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
@@ -1288,6 +1960,28 @@ Chore: Refactored parameter passing for enrich step.</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(7 min)</span>
                     <span>Web-oriented databases, frameworks like Nuxt and Next.js, and even frameworkless approaches are evolving the Jamstack, but the core principles are more powerful than ever.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-05-01">2021-05-01</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Science and Technology links (May 1st 2021)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/05/01/science-and-technology-links-may-1st-2021/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Growing your own food could lower your carbon footprint by 3-5%. In recent years, we have acquired the ability to measure biological age: your chronological age does not necessarily match your biological since some people age faster. We measure biological aging with gene expression. Researchers found that an eight-week program of diet, exercise, and meditation … Continue reading Science and Technology links (May 1st 2021)</span>
                   </div>
                 </a>
               </details>
@@ -1343,6 +2037,23 @@ Chore: Refactored parameter passing for enrich step.</span>
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-04-28">2021-04-28</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ideal divisors: when a division compiles down to just a multiplication</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/04/28/ideal-divisors-when-a-division-compiles-down-to-just-a-multiplication/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>The division instruction is one of the most expensive instruction in your CPU. Thus optimizing compilers often compile divisions by known constants down to a multiplication followed by a shift. However, in some lucky cases, the compiler does not even need a shift. I call the corresponding divisors ideal. For the math. geeks, they are … Continue reading Ideal divisors: when a division compiles down to just a multiplication</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
@@ -1408,7 +2119,7 @@ Chore: Refactored parameter passing for enrich step.</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-05-25T01:09:46.410Z">2021-05-25T01:09:46.410Z</time>
+    <time id="build-timestamp" datetime="2021-05-25T15:36:41.231Z">2021-05-25T15:36:41.231Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.8.1</a></span>
   </footer>
   <script src="index.js"></script>
