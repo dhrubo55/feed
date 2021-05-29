@@ -1,428 +1,332 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-05-28T01:47:07.741Z</id>
+    <id>urn:2021-05-29T02:01:25.556Z</id>
     <title>osmos::feed</title>
-    <updated>2021-05-28T01:47:07.741Z</updated>
+    <updated>2021-05-29T02:01:25.556Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Etleap (YC W13) Is Hiring a Technical End User Documentation Writer]]></title>
-        <id>https://news.ycombinator.com/item?id=27310586</id>
-        <link href="https://news.ycombinator.com/item?id=27310586"/>
-        <updated>2021-05-28T01:00:14.000Z</updated>
+        <title type="html"><![CDATA[Greywing (YC W21) Is Hiring (Remote) Front End Lead Engineers]]></title>
+        <id>https://www.ycombinator.com/companies/greywing/jobs/J2SJ4dn-frontend-lead</id>
+        <link href="https://www.ycombinator.com/companies/greywing/jobs/J2SJ4dn-frontend-lead"/>
+        <updated>2021-05-29T01:00:15.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[QUIC is now RFC 9000]]></title>
-        <id>https://www.fastly.com/blog/quic-is-now-rfc-9000</id>
-        <link href="https://www.fastly.com/blog/quic-is-now-rfc-9000"/>
-        <updated>2021-05-28T00:25:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A six figure meme making job at a legit company]]></title>
-        <id>https://twitter.com/nateliason/status/1397719837204418561</id>
-        <link href="https://twitter.com/nateliason/status/1397719837204418561"/>
-        <updated>2021-05-28T00:25:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stuffed Dormouse and Fish Gut Sauce: The Flavors of Pompeii (2019)]]></title>
-        <id>https://www.nytimes.com/2019/08/07/arts/design/rome-food-last-supper-in-pompeii.html</id>
-        <link href="https://www.nytimes.com/2019/08/07/arts/design/rome-food-last-supper-in-pompeii.html"/>
-        <updated>2021-05-28T00:05:28.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Exploring DEV.to API]]></title>
-        <id>https://dev.to/mwrpwr/exploring-dev-to-api-45ni</id>
-        <link href="https://dev.to/mwrpwr/exploring-dev-to-api-45ni"/>
-        <updated>2021-05-28T00:02:12.000Z</updated>
-        <summary type="html"><![CDATA[You often forget that APIs exist for most of the platforms you use. While some companies lock down their APIs to only provide very limited information, DEV.to goes the extra mile to provide an extremely robust API. Let’s go over what is available!
-
-
-
-
-Link to Project: https://www.josephamaurer.com/Projects/DevAPI/RecentDevPosts.html 
-Link to DEV API Documentation: https://docs.forem.com/api/ 
-DEV’s API allows for lots of interesting functionality. In the video above, I go over a use case where you pull the latest 100 posts, and create bootstrap cards for each. In each card I display three buttons. The first is either active or disabled if the user has a twitter account. This is useful because I like to retweet articles and tag their creators. The second button is a link to the DEV post. Finally the third button opens the API response for the article.
-While my example showed articles, there are lots of different things that the API can return to you. One of the more interesting functionality is the ability to post an article completely from the API. I have no idea why you would want to do that, but it could be useful. 
-All in all, it’s cool to think that this functionality exists, even if you can’t find a practical use case for it. One of the more useful use cases might just be populating your recent articles from your blog to your website. 
-Let me know what you would want to do with this API!]]></summary>
-        <author>
-            <name>Joseph Maurer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simple GUI on Linux Using Zenity and Node.js]]></title>
-        <id>https://dev.to/ferfox1981/simple-gui-on-linux-using-zenity-and-node-js-2kei</id>
-        <link href="https://dev.to/ferfox1981/simple-gui-on-linux-using-zenity-and-node-js-2kei"/>
-        <updated>2021-05-27T23:42:59.000Z</updated>
-        <summary type="html"><![CDATA[It is incredible the amount of "secret" features on Linux that are not well known until today.
-My goal is to do the following:
-Use Node.js to access financial data related to Brazilian Treasury Bonds (Tesouro Direto in Brazil);
-Create a mechanism to sistematically check instant treasury rates;
-Use Zenity to pop-up a notification to user;
-Tesouro Direto Rates can be found here. In addition, if you press F12 and check Network Tab, you'll see that the following json is received by the browser:  https://www.tesourodireto.com.br/json/br/com/b3/tesourodireto/service/api/treasurybondsinfo.json 
-const axios = require('axios');
-const { exec } = require("child_process");
-const https = require('https');
-
-
-
-const instance = axios.create({
-  httpsAgent: new https.Agent({
-    rejectUnauthorized: false
- …]]></summary>
-        <author>
-            <name>Fernando Raposo da Camara Silva</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to send web push notifications in Java]]></title>
-        <id>https://dev.to/marcushellberg/how-to-send-web-push-notifications-in-java-21lo</id>
-        <link href="https://dev.to/marcushellberg/how-to-send-web-push-notifications-in-java-21lo"/>
-        <updated>2021-05-27T23:42:24.000Z</updated>
-        <summary type="html"><![CDATA[Web push notifications are a way of informing your app users when something important has happened. 
-Users can receive web push notifications even when they are not actively using your application, for instance, if the app is open in a background tab or even if it's not open. 
-
-Push notifications are widely supported by all browsers except for Safari: 78% of web users use a browser that supports them.
-In this tutorial, I'll show you how to subscribe to notifications in the browser and how to send notifications from a Java server. 
-
+        <title type="html"><![CDATA[Containerize your Dev environment! Forget about painful project setup. (Beginner friendly)]]></title>
+        <id>https://dev.to/alwaysup/containerize-your-dev-environment-forget-about-painful-setup-beginner-friendly-10bp</id>
+        <link href="https://dev.to/alwaysup/containerize-your-dev-environment-forget-about-painful-setup-beginner-friendly-10bp"/>
+        <updated>2021-05-29T00:24:31.000Z</updated>
+        <summary type="html"><![CDATA[NOTE: IDE will not work on Windows. Please read windows section.
+Install docker
+For Windows: install wsl
 
 
 
 
   
   
-  A bit of background: how web push notifications work
+  Key Concepts
 
 
-Web push notifications rely on two web standards: Notification API and Push API (which in turn uses ServiceWorker). They require HTTPS to work. 
-The server shares its public key with the browser
-…]]></summary>
+I don't intend to leave behind the many developers that are just getting started. So, here's the general breakdown that you HAVE TO know.
+Container is just as it sounds, a box to separate out resources used by it. This is somewhere between running apps directly in your host vs running in a VM (Virtual Machine). In a VM only the hardware resources are shared. However, in docker the OS kernel is shared. This does mean that the security of your container can be compromised if you let it (That's a whole another beast of its own, so I'll leave that out. Yes, this does mean you should not just pull down some random image and run exactly as the writer tells you to 😭…]]></summary>
         <author>
-            <name>Marcus Hellberg</name>
+            <name>Adnan Alam</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building Microservices in Go: REST APIs - HTTP Handlers]]></title>
-        <id>https://dev.to/mariocarrion/building-microservices-in-go-rest-apis-http-handlers-578g</id>
-        <link href="https://dev.to/mariocarrion/building-microservices-in-go-rest-apis-http-handlers-578g"/>
-        <updated>2021-05-27T23:35:29.000Z</updated>
-        <summary type="html"><![CDATA[When building Microservices the de facto way to do it is to use both HTTP, as the protocol, and REST, as the way to represent resources. HTTP is literally the foundation of the World Wide Web and it is supported by multiple programmings in one way or another, so using HTTP is a no brainer because it could be used by any Frontend and Backend code with few to no external dependencies.
-REST is an acronym for REpresentational State Transfer coined by Roy Fielding and introduced in his doctoral dissertation, it is an architectural style that defines guidelines when building web services, it's not a standard but it does use standards like HTTP (and its verbs to represent actions) and payload/message formats (like JSON or XML), to mention a few.
-This is the first of a series of posts covering ste…]]></summary>
+        <title type="html"><![CDATA[Berkeley Lab Debuts Perlmutter, World’s Fastest AI Supercomputer]]></title>
+        <id>https://www.hpcwire.com/2021/05/27/nersc-debuts-perlmutter-worlds-fastest-ai-supercomputer/</id>
+        <link href="https://www.hpcwire.com/2021/05/27/nersc-debuts-perlmutter-worlds-fastest-ai-supercomputer/"/>
+        <updated>2021-05-28T23:39:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>Mario Carrion</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Oh My ZSH! Deixando seu terminal mais interessante]]></title>
-        <id>https://dev.to/computandoarte/oh-my-zsh-deixando-seu-terminal-mais-interessante-2ci7</id>
-        <link href="https://dev.to/computandoarte/oh-my-zsh-deixando-seu-terminal-mais-interessante-2ci7"/>
-        <updated>2021-05-27T23:19:45.000Z</updated>
-        <summary type="html"><![CDATA[Cover photo by Cookie the Pom on Unsplash
-Neste pequeno tutorial, vou mostrar como instalar o Oh My ZSH! e deixar seu terminal um pouco mais limpo, interessante e com as informações que importam para você.
-Atenção: Estou utilizando o MacOS Big Sur e o iTerm2 (versão 3.4.3). Para versões do Ubuntu 16+, o ZSH precisa estar instalado.
-Qualquer dúvida, pode mandar abaixo que responderei assim que for possível.
-Instale o Oh My ZSH!
-
-
-
-
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-Feche e abra novamente o terminal
-Abra o .zshrc para mudar o tema
-
-
-
-
-vim ~/.zshrc
-
-Mude o valor da variável de /ZSH_THEM="robbyrussell" para ZSH_THEME="kolo" (ou outro tema de sua preferência). Salve a modificação pressionando ESC e em seguida digite :wq
-
-Carregue o tema…]]></summary>
+        <title type="html"><![CDATA[Pwned passwords, open source in the .NET foundation and working with the FBI]]></title>
+        <id>https://www.troyhunt.com/pwned-passwords-open-source-in-the-dot-net-foundation-and-working-with-the-fbi/</id>
+        <link href="https://www.troyhunt.com/pwned-passwords-open-source-in-the-dot-net-foundation-and-working-with-the-fbi/"/>
+        <updated>2021-05-28T23:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>Erica Bertan</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Upload videos on GitHub (now GA!)]]></title>
-        <id>https://dev.to/n3wt0n/upload-videos-on-github-now-ga-2en0</id>
-        <link href="https://dev.to/n3wt0n/upload-videos-on-github-now-ga-2en0"/>
-        <updated>2021-05-27T23:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Today we talk about uploading and using videos in GitHub.
-As developers, the ability to collaborate through videos (for example, pair programming, demos, etc.) is an extremely important part of a software workflow, especially for communities and teams that are distributed.
-GitHub video support is now finally GA, so let's see how it works
-Let's quickly see how to upload a video in GitHub, and then let's explore few scenarios where this can be very helpful:
-
-
-
-
-Link to the video: https://youtu.be/h6fOErvWIGI
-As you have seen, uploading a video in GitHub Issues, Pull Requests and Discussions is super straight forward. I wanna share 3 scenarios in which uploading a video can be helpful.
-Bugs are something that every developer deals with, but sometimes words aren’t enough to help someone else r…]]></summary>
+        <title type="html"><![CDATA[My Developer Journey – How I Went from Making $1,000 to $100,000 a Year]]></title>
+        <id>60acf28e11ffb70827ef6dd9</id>
+        <link href="https://www.freecodecamp.org/news/my-developer-journey-how-i-went-from-1000-a-year-to-100000-as-a-dev/"/>
+        <updated>2021-05-28T22:58:18.000Z</updated>
+        <summary type="html"><![CDATA[Hey everyone, my name is Santosh. In this article, I will tell you how I ramped up my career and ended up making $100,000 a year as a developer.  I'll share what I learned from each job along the way, how you can stand out, tips for negotiating salary,]]></summary>
         <author>
-            <name>Davide Benvegnù</name>
+            <name>freeCodeCamp.org</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What’s new in Next.js 10.2]]></title>
-        <id>https://dev.to/fayvik/what-s-new-in-next-js-10-2-n34</id>
-        <link href="https://dev.to/fayvik/what-s-new-in-next-js-10-2-n34"/>
-        <updated>2021-05-27T23:00:52.000Z</updated>
-        <summary type="html"><![CDATA[Next.js is a framework for building React web applications, super-fast static websites, and single-page JavaScript applications. It was designed to help solve common problems associated with React development, including production optimizations such as code splitting, code bundlers (webpack), and code compilers (Babel).
-Next.js is also gaining popularity for its superior developer experience and many built-in features, notably automatic code splitting for faster page loading and client-side routing with optimized prefetching. 
-On 28 April 2021, the Next.js team announced the release of Next.js 10.2 with even more attractive new features. The new release enables developers to build hybrid applications containing both server-rendered and statically generated pages.
-In this guide, we’ll take …]]></summary>
+        <title type="html"><![CDATA[Apple has a decade-long lead in wearables]]></title>
+        <id>https://www.aboveavalon.com/notes/2021/5/27/apple-has-a-decade-long-lead-in-wearables</id>
+        <link href="https://www.aboveavalon.com/notes/2021/5/27/apple-has-a-decade-long-lead-in-wearables"/>
+        <updated>2021-05-28T22:43:25.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>favour vivian woka</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Git Tutorial: Learn Git Branching in 5 minutes]]></title>
-        <id>https://dev.to/educative/git-tutorial-learn-git-branching-in-5-minutes-1f8p</id>
-        <link href="https://dev.to/educative/git-tutorial-learn-git-branching-in-5-minutes-1f8p"/>
-        <updated>2021-05-27T22:49:57.000Z</updated>
-        <summary type="html"><![CDATA[Git is one of the most widely used version control systems and is an important tool for every developer to know. One of the greatest benefits of Git is its branching capabilities. Git branching is a fundamental aspect of your version control workflow. Today, we’ll discuss how to create, delete, merge, and rebase Git branches. Afterward, we’ll cover the next steps you can take to further your Git knowledge.
-We'll cover:
-What is branching?
-Creating branches
-Deleting branches
-Merging branches
-Rebasing branches
-Git concepts to learn next
-
-Imagine you’re working on a project with your team, and you’re creating a new feature that requires a lot of changes to the codebase. In the process, you discover a bug that needs to be fixed. This bug is related to your new feature, and you don’t want to aff…]]></summary>
+        <title type="html"><![CDATA[Configure Symbl.ai to Listen for Action Items in a WebSocket Call]]></title>
+        <id>https://dev.to/symbldotai/configure-symbl-ai-to-listen-for-action-items-in-a-websocket-call-2l5f</id>
+        <link href="https://dev.to/symbldotai/configure-symbl-ai-to-listen-for-action-items-in-a-websocket-call-2l5f"/>
+        <updated>2021-05-28T21:59:35.000Z</updated>
+        <summary type="html"><![CDATA[Symbl.ai, a conversation intelligence platform for developers to create new experiences around conversation data, empowers developers to extend beyond mere automated speech recognition to contextual insights. Contextual insights are the results of Symbl.ai's Natural Language Processing algorithms to recognize speaker intentions. Among a few of the most common intentions speakers express in speech are follow-ups, questions or action items. 
+In short, action-items as a conversational entity recognized by Symbl.ai's platform are a reflection of a speaker's call to action during his or her conversation at any time. 
+The first step to access action items as Symbl.ai's contextual insights is to sign up. Register for an account at Symbl.ai (i.e., platform.symbl.ai). Grab both your appId and your …]]></summary>
         <author>
-            <name>Erin Schaffer</name>
+            <name>NLP App Developer &amp; Advocate</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Welcome to the Golden Age of Developer Advocacy]]></title>
-        <id>https://dev.to/stripe/welcome-to-the-golden-age-of-developer-advocacy-51fe</id>
-        <link href="https://dev.to/stripe/welcome-to-the-golden-age-of-developer-advocacy-51fe"/>
-        <updated>2021-05-27T22:45:01.000Z</updated>
-        <summary type="html"><![CDATA[Summary: The displacement of in-person developer events has vaulted Developer Advocacy forward by years. The momentum of self-forming communities, better streaming capabilities, and the rise of scaled developer experiences are a peek into the direction of our field of work.
-A quick google search for Developer Advocate will present over 42 million results with the top results clearly showing a trend:
-"What the heck is a Developer Advocate?"
-"What is Developer Advocacy?"
-"What exactly is the job of a developer advocate?"
-At the end of this search, you will discover there's no singular answer. The shape of work depends on the organization's goals, the product offering, and existing expectations the community. For many Advocates, the answer comes into focus through the context of an individual…]]></summary>
+        <title type="html"><![CDATA[PWA myths and secrets revealed]]></title>
+        <id>https://dev.to/rafaelcg/pwa-myths-and-secrets-revealed-50fl</id>
+        <link href="https://dev.to/rafaelcg/pwa-myths-and-secrets-revealed-50fl"/>
+        <updated>2021-05-28T21:47:58.000Z</updated>
+        <summary type="html"><![CDATA[Here I'm going to tell you what nobody is going to tell you from the business and technical standpoint. The opposite side of the PWA word, the myths that might become the dark side of it for you. But first, let's cover what you hear from 99.9% of the agencies and developers, the good points. For those who understand more deeply the technology, I'm covering here PWA Headless which is the most sold solution.
+Disclaimer: I prefer PWA, I love the benefits that it provides to customers and merchants. I want to show what agencies and developers won't tell you about the experience working with PWA that they had. Some things will be hidden from you but will impact a lot your business decisions. The best method for anyone to apply PWA is when it wasn't a blind decision.
+When you hear about PWA, eve…]]></summary>
         <author>
-            <name>Chris Traganos</name>
+            <name>Rafael Corrêa Gomes</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[O Ciclo de Vida do Request no Phoenix]]></title>
-        <id>https://dev.to/maiquitome/o-ciclo-de-vida-do-request-no-phoenix-53e7</id>
-        <link href="https://dev.to/maiquitome/o-ciclo-de-vida-do-request-no-phoenix-53e7"/>
-        <updated>2021-05-27T22:43:58.000Z</updated>
-        <summary type="html"><![CDATA[O objetivo deste artigo é falar sobre o Ciclo de Vida do Request no framework web para a Linguagem de Programação Elixir chamado Phoenix. Esse assunto é introdutório para começarmos a aprender o framework, onde criaremos duas páginas ao longo do nosso projeto.
-Como base para este guia, foram retirados alguns trechos da documentação oficial do Phoenix, e de algumas ideias do bootcamp da Rocketseat.
-Primeiramente, vamos criar o projeto rodando o comando abaixo:
-$ mix phx.new hello_phoenix --no-ecto
-
-Note que usamos um underline para separar o nome hello_phoenix. Essa separação chamada de snake case é uma convenção da comunidade Elixir, usada bastante também para nomear arquivos. Com o underline, nossa aplicação vai conseguir converter o nome hello_phoenix para HelloPhoenix em nomes de módulo…]]></summary>
+        <title type="html"><![CDATA[Learning from React - part 1]]></title>
+        <id>https://dev.to/costinmanda/learning-from-react-part-1-d8o</id>
+        <link href="https://dev.to/costinmanda/learning-from-react-part-1-d8o"/>
+        <updated>2021-05-28T21:28:50.000Z</updated>
+        <summary type="html"><![CDATA[Original post at: https://siderite.dev/blog/learning-from-react---part-1/
+A billion years ago, Microsoft was trying to push a web development model that simulated Windows Forms development: ASP.Net Web Forms. It featured several ideas:
+component based design (input fields were a component, you could bundle two together into another component, the page was a component, etc)
+each component was rendering itself
+components were defined using both HTML-like language, Javascript, CSS and server .Net code bundled together, sometimes in the same file
+the rendering of the component was done on the server side and pushed to the client
+data changes or queries came from the client to the server via event messages
+partial rendering was possible using UpdatePanels, which were a wrapper over ajax calls t…]]></summary>
         <author>
-            <name>Maiqui Tomé</name>
+            <name>Costin Manda</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Platform.sh VueJS platform.sh gridsome  application deployment template]]></title>
-        <id>https://dev.to/leamsigc/platform-sh-vuejs-platform-sh-gridsome-application-deployment-template-45h2</id>
-        <link href="https://dev.to/leamsigc/platform-sh-vuejs-platform-sh-gridsome-application-deployment-template-45h2"/>
-        <updated>2021-05-27T22:15:48.000Z</updated>
-        <summary type="html"><![CDATA[Currently I need to deploy my application to  platform.sh but could find a good example for the template for a vue - grid some application so here it is:
-
-
-The application that I'm currently using for this test is this
-mendozaRoofing
-Mendoza roofing Wilmington NC <- Host in Netlify currently
-For the .platform.app.yaml file I have the fallowing configuration
-# .platform.app.yaml
-
-# The name of this application, which must be unique within a project.
-name: "vuejs"
-
-# The type key specifies the language and version for your application.
-type: "nodejs:14"
-
-build:
-  flavor: none
-
-# Build dependencies.
-dependencies:
-  nodejs:
-    "@gridsome/cli": "*"
-
-# The hooks that will be triggered when the package is deployed.
-hooks:
-  # Build hooks can modify the application files on disk but not access any services like databases.
-  build: |
-    npm i
-    gridsome build
-# The size of the persistent disk of the application (in MB).
-disk: 5120
-
-# The configuration of the application when it is exposed to the web.
-web:
-  locations:
-    "/":
-      # The public directory of the application relative to its root.
-      root: "dist" #The build directory if you have a custom output directory then you should change it
-      index: ["index.html"]
-      scripts: false
-      allow: true
-
-
-.platform folder
-
-
-For the router.yaml file that should go in the .platform directory
-# Each route describes how an incoming URL is going to be processed by Platform.sh.
-"https://www.{default}/":
-  type: upstream
-  upstream: "vuejs:http"
-#Remember the the name in the .platform.app.yaml  should be the same for the name before the :http
-
-"https://{default}/":
-  type: redirect
-  to: "https://www.{default}/"
-
-
-For the services.yaml file that should go in the .platform directory
-Currently, I have this file empty because is just a static site.
-The site link from the platform.sh 
-Deploy Site]]></summary>
+        <title type="html"><![CDATA[Can someone help me figure out how I can redistribute my game?]]></title>
+        <id>https://dev.to/baenencalin/can-someone-help-me-figure-out-how-i-can-redistribute-my-game-161i</id>
+        <link href="https://dev.to/baenencalin/can-someone-help-me-figure-out-how-i-can-redistribute-my-game-161i"/>
+        <updated>2021-05-28T21:27:34.000Z</updated>
+        <summary type="html"><![CDATA[Original tweet.
+I want people to test my game, and I got someone to test my game, but they got this strange error, and so I tried to fix it in a logical way, and it provided another error, and I'm not sure how I can fix this error.
+GitHub Issue (How do I redistribute my prototype-game? #135).]]></summary>
         <author>
-            <name>ismael garcia</name>
+            <name>Calin Baenen</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[awesome Css Loader in 2 min!]]></title>
-        <id>https://dev.to/mohammedelmredi/awesome-css-loader-in-2-min-2kb6</id>
-        <link href="https://dev.to/mohammedelmredi/awesome-css-loader-in-2-min-2kb6"/>
-        <updated>2021-05-27T22:12:02.000Z</updated>
-        <summary type="html"><![CDATA[Hello
+        <title type="html"><![CDATA[How to create a multilingual project in Laravel 8 (i18n)]]></title>
+        <id>https://dev.to/jeromew90/how-to-create-a-multilingual-project-in-laravel-internationalization-i18n-11ol</id>
+        <link href="https://dev.to/jeromew90/how-to-create-a-multilingual-project-in-laravel-internationalization-i18n-11ol"/>
+        <updated>2021-05-28T20:27:15.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial explains how to create a language system and be able to change the language in the menu with the corresponding translations.
+I will try to be clear and concise 😃
+First, you need to create a controller App/Http/Controllers to record the language in session and be able to retrieve it with the middleware we will create just after :
+namespace App\Http\Controllers;
 
+use App;
+use Illuminate\Http\RedirectResponse;
 
-If you have been working with CSS before you may have trouble with animation,transitions,etc...
-Create index.html file
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Loader!</title>
-</head>
-<body>
-<div class="loader" >
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-</div>
-</body>
-</html>
-
-<style type="text/css">
-body {
-background:#000;
+class LocalizationController extends Controller
+{
+    /**
+     * @param $locale
+     * @return RedirectResponse
+     */
+    public function index($locale)
+    {
+        App::setLocale($locale);
+        session()->put('locale', $locale);
+        return redirect()->back();
+    }
 }
 
-.loader {
-position:absolute;
-width:100px;
-height:100px;
-transform:translate(-50%, -50%);
-top:50%;
-left:50%;
-border-radius:50%;
-animation:rotate 1.3s ease infinite;
-}
+Now, you must create a middleware App/Http/Middleware to retrieve the language that was reco…]]></summary>
+        <author>
+            <name>Jérôme W</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ruby Money & BigDecimal]]></title>
+        <id>https://dev.to/delbetu/ruby-money-bigdecimal-1chb</id>
+        <link href="https://dev.to/delbetu/ruby-money-bigdecimal-1chb"/>
+        <updated>2021-05-28T20:26:54.000Z</updated>
+        <summary type="html"><![CDATA[The problem
+
+
+In my current job, we faced calculation errors when operating with float for Money.
+article
+Our first approach was to find every usage of money attributes and parse them with BigDecimal.
+
+This solution has some drawbacks. First, we would need to replace it in many places. Second, it doesn't prevent future developers to use float.  
+In order to overcome those issues, I wanted to enforce a validation over every money attribute. 
+money_attr = 233.0 (float) we could detect that error and report it.
+float->BigDecimal) rather than raising an error.
+So I'd like to write Ruby code to say: "hey if someone tries to assign a float to a money attribute then convert it to BigDecimal"
+In order to do that I came up with this solution:
+module BigDecimalCheck
+  def self.included(klass)
+    kl…]]></summary>
+        <author>
+            <name>M Bellucci</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Referrers on the web]]></title>
+        <id>https://dev.to/jordanfinners/referrers-on-the-web-n2b</id>
+        <link href="https://dev.to/jordanfinners/referrers-on-the-web-n2b"/>
+        <updated>2021-05-28T20:25:16.000Z</updated>
+        <summary type="html"><![CDATA[Contents
+
+
+
+ Intro
+
+ Referrer-Policy
+
+ Linking
+
+ Bonus: Server header
+
+ Summary
 
 
 
 
-.loader span {
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%, -50%);
-width:100%;
-animation:rotate 1.7s ease infinite;
-}
+  
+  
+  Intro 
 
-.loader span::before {
-content:"";
-position:absolute;
-top:50%;
-left:100%;
-transform:translate(-50%, -50%);
-width:4px;
-border-radius:50%;
-height:15px;
-background:#38f860;
-}
 
-.loader span:nth-child(1) {
-animation-delay:0.1s;
-}
-.loader span:nth-child(2) {
-animation-delay:0.2s;
-}
-.loader span:nth-child(3) {
-animation-delay:0.3s;
-}
-.loader span:nth-child(4) {
-animation-delay:0.4s;
-}
-.loader span:nth-child(5) {
-animation-delay:0.5s;
-}
-
-@keyframes rotate {
-
-0%{
-transform:translate(-50%, -50%) rotate(0deg);
-filter:hue-rotate(0deg);
-}
-50% {
-filter:hue-rotate(120deg);
-}
-100%{
-transform:translate(-50%, -50%) rotate(360deg);
-filter:hue-rotate(0deg);
-}
-}
+Continuing on from my previous blog about website security week, we're going to talk about a Referrers on the web.
+Referrers on the web allow sites you are visiting to see what site you have come from, as the Referer header (it is actually mispelled in the HTTP Specification) contains a absolute or partial url of the site you've come from if you have followed a link.
+commonly used for tracking and analytics, but it can also be used to steal information for example that contained in the URL of a reset password page or where a token is part of the URL, which is why it comes under security headers.
 
 
 
+This header indicates how much information can be shared in the Referer header on requests ma…]]></summary>
+        <author>
+            <name>Jordan Finneran</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minimizing Webpack bundle size]]></title>
+        <id>https://dev.to/useanvil/minimizing-webpack-bundle-size-38gg</id>
+        <link href="https://dev.to/useanvil/minimizing-webpack-bundle-size-38gg"/>
+        <updated>2021-05-28T20:24:34.000Z</updated>
+        <summary type="html"><![CDATA[The dreaded loading spinner
+
+
+The two key metrics in determining whether users will stay on your site is the time it takes to load the page and the time it takes to interact with it. The first is First Contentful Paint and the second is Time to Interactive. You can find these metrics for your own site by going to your developer tools and generating a report under the Lighthouse tab on Chrome.
+
+Lighthouse metrics for a random web app
+By minimizing the size of the bundle, we reduce the time it takes for browsers to download the JavaScript for our site, improving user experience. With every additional second of wait time, the user is more likely to close the tab. Consider all of the users that visit your site everyday and that can be thousands of seconds wasted. The chance of losing a potenti…]]></summary>
+        <author>
+            <name>Anvil Engineering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Projects to become a Fronted Master]]></title>
+        <id>https://dev.to/line/projects-to-become-a-fronted-master-151o</id>
+        <link href="https://dev.to/line/projects-to-become-a-fronted-master-151o"/>
+        <updated>2021-05-28T20:24:02.000Z</updated>
+        <summary type="html"><![CDATA[Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data. A person who does this is called a front-end developer.
+Being a frontend developer, you do one of the most important tasks for your company. To become a expert in it, it takes a lot of tasks and efforts. 
+Here are some projects that you can do to master frontend development- 
+1.Design and code your own portfolio website.
+It is the only place, where you can show your skills, personality & your work. This needs to be different. If you don't know anything about designing a website, make sure to take help from Dribbble, they are amazing thousands of designers around the world are posting their design there you can take inspirations from  there and put your 100% effort in coding the websites.
+2.Make a beautiful open-source project
+Take Hard designs from Dribbble as a project, and try your best to copy it by coding it. This could make your GitHub-profile a lot more strong as well as can make your skills better.
+https://linenewsletter.substack.com/
+
+
+3.Make a todo list app
+Try to make an todo list for yourself. Open-Source it and make sure to add all the features that you want from an todo-list app and Walla, you have your own app which is different from others.
+4.Make different projects with Angular AND VueJS
+One of the best JavaScript libraries, try to make make and app with VueJS and Also try to make an app from Angular 8.
+5.Make A Blog
+Make a using HTML,CSS and JavaScript.
+END]]></summary>
+        <author>
+            <name>Chaitanya Prabuddha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top React component libraries (2021)]]></title>
+        <id>https://dev.to/retool/top-react-component-libraries-2021-na9</id>
+        <link href="https://dev.to/retool/top-react-component-libraries-2021-na9"/>
+        <updated>2021-05-28T20:19:16.000Z</updated>
+        <summary type="html"><![CDATA[Because of React’s ubiquity (169k stars on GitHub), developers have a near-endless supply of UI libraries with custom components to draw upon to build applications. But not all React component libraries are created equal. Some are best for general purposes, others were created specifically for web development, and many are tailored for niche use cases like enterprise product production.
+We’ll review React component libraries in this post considering several factors like popularity, use cases, documentation, resources, support, etc.
+Material-UI
+Ant Design (AntD)
+React Bootstrap
+Grommet
+Rebass
+Blueprint
+Semantic UI React
+Retool
+Honorable mentions
+Fluent React UI
+Onsen UI
+Evergreen
+
+
+
+GitHub Stars
+Weekly NPM Downloads
+Stack Overflow Questions
+Origin
 
 
 
 
-</style>
+68k
 
+1,9M (May 2021)
+12.5k
+Google
+
+
+
+De…]]></summary>
+        <author>
+            <name>kevbosaurus</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Never mind the 1 percent: Let's talk about the 0.01 percent]]></title>
+        <id>https://review.chicagobooth.edu/economics/2017/article/never-mind-1-percent-lets-talk-about-001-percent</id>
+        <link href="https://review.chicagobooth.edu/economics/2017/article/never-mind-1-percent-lets-talk-about-001-percent"/>
+        <updated>2021-05-28T20:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Complete Guide To Deploy GitHub Project on Amazon EC2 Using GitHub Actions and AWS CodeDeploy]]></title>
+        <id>https://dev.to/ankushbehera/a-complete-guide-to-deploy-github-project-on-amazon-ec2-using-github-actions-and-aws-codedeploy-3f0b</id>
+        <link href="https://dev.to/ankushbehera/a-complete-guide-to-deploy-github-project-on-amazon-ec2-using-github-actions-and-aws-codedeploy-3f0b"/>
+        <updated>2021-05-28T20:08:59.000Z</updated>
+        <summary type="html"><![CDATA[Auto Deploy in Amazon EC2 on Git Commit. A complete guide to configure CodeDeploy and GitHub CI/CD Action.
 
 
 
@@ -431,36 +335,271 @@ filter:hue-rotate(0deg);
 
   
   
-  And that's it run the HTML file in the browser to see an awesome Loader]]></summary>
+  Prerequisite
+
+
+
+
+
+
+Create a GitHub account.
+Create AWS Account.
+Create IAM Role for EC2 and CodeDeploy
+Create EC2 Instance
+Launch EC2 Instance
+Install CodeDeploy Agent on EC2 Instance
+CodeDeploy Service Configuration
+GitHub Project
+GitHub Action
+Select a particular region of AWS Services which CodeDeploy Agent and GitHub will use.
+
+
+
+
+
+
+
+Create a role for EC2 Instance - 
+Select AWS Service as trusted entity and EC2 as usecase, click on Next:Permissions.
+On the Permissions page, select AmazonEC2RoleforAWSCodeDeploy Policy and Click on Next:Tags
+
+Ignore the tags and click Next:Review.
+Provide the role name as EC2_Role on the review page.
+
+
+Open the EC2_Role and go to Trust…]]></summary>
         <author>
-            <name>Mohammed-elmredi</name>
+            <name>ANkush</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Second-guessing the modern web (2020)]]></title>
-        <id>https://macwright.com/2020/05/10/spa-fatigue.html</id>
-        <link href="https://macwright.com/2020/05/10/spa-fatigue.html"/>
-        <updated>2021-05-27T21:48:11.000Z</updated>
+        <title type="html"><![CDATA[The Unix Game]]></title>
+        <id>https://unixgame.io/unix50</id>
+        <link href="https://unixgame.io/unix50"/>
+        <updated>2021-05-28T19:31:02.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[An Intuition for Lisp Syntax]]></title>
-        <id>https://stopa.io/post/265?repost=true</id>
-        <link href="https://stopa.io/post/265?repost=true"/>
-        <updated>2021-05-27T19:50:33.000Z</updated>
+        <title type="html"><![CDATA[Y Combinator backed MMO metaverse game is a blatant scam]]></title>
+        <id>https://www.pcgamer.com/dreamworld-infinite-world-mmo-kickstarter-fiasco/</id>
+        <link href="https://www.pcgamer.com/dreamworld-infinite-world-mmo-kickstarter-fiasco/"/>
+        <updated>2021-05-28T19:23:34.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The media's lab leak fiasco]]></title>
-        <id>https://www.slowboring.com/p/the-medias-lab-leak-fiasco</id>
-        <link href="https://www.slowboring.com/p/the-medias-lab-leak-fiasco"/>
-        <updated>2021-05-27T19:34:05.000Z</updated>
+        <title type="html"><![CDATA[Computing the number of digits of an integer quickly]]></title>
+        <id>https://lemire.me/blog/?p=19288</id>
+        <link href="https://lemire.me/blog/2021/05/28/computing-the-number-of-digits-of-an-integer-quickly/"/>
+        <updated>2021-05-28T19:03:35.000Z</updated>
+        <summary type="html"><![CDATA[Suppose I give you an integer. How many decimal digits would you need to write it out? The number ‘100’ takes 3 digits whereas the number ’99’ requires only two. You are effectively trying to compute the integer logarithm in base 10 of the number. I say ‘integer logarithm’ because you need to round up … Continue reading Computing the number of digits of an integer quickly]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's virtually impossible to read old iMessages and they take up tons of storage]]></title>
+        <id>https://keydiscussions.com/2021/05/28/apple-charges-for-storing-gigabytes-worth-of-old-imessages-you-cant-reliably-access/</id>
+        <link href="https://keydiscussions.com/2021/05/28/apple-charges-for-storing-gigabytes-worth-of-old-imessages-you-cant-reliably-access/"/>
+        <updated>2021-05-28T18:48:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Overwork killed more than 745k people in a year, WHO study finds]]></title>
+        <id>https://www.npr.org/2021/05/17/997462169/thousands-of-people-are-dying-from-working-long-hours-a-new-who-study-finds</id>
+        <link href="https://www.npr.org/2021/05/17/997462169/thousands-of-people-are-dying-from-working-long-hours-a-new-who-study-finds"/>
+        <updated>2021-05-28T18:46:39.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PID Controller: A Simple Control Loop Mechanism]]></title>
+        <id>https://vaclavkosar.com/ml/PID-controller-control-loop-mechanism</id>
+        <link href="https://vaclavkosar.com/ml/PID-controller-control-loop-mechanism"/>
+        <updated>2021-05-28T18:34:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anthropic AI]]></title>
+        <id>https://www.anthropic.com/</id>
+        <link href="https://www.anthropic.com/"/>
+        <updated>2021-05-28T17:25:17.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Russians do not smile (2002)]]></title>
+        <id>https://www.chicagomaroon.com/2002/04/12/why-russians-do-not-smile/</id>
+        <link href="https://www.chicagomaroon.com/2002/04/12/why-russians-do-not-smile/"/>
+        <updated>2021-05-28T17:02:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LibreFoodPantry – a community building FOSS for food pantries]]></title>
+        <id>https://librefoodpantry.org/</id>
+        <link href="https://librefoodpantry.org/"/>
+        <updated>2021-05-28T16:51:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I quit my job to focus on SerenityOS full time]]></title>
+        <id>https://awesomekling.github.io/I-quit-my-job-to-focus-on-SerenityOS-full-time/</id>
+        <link href="https://awesomekling.github.io/I-quit-my-job-to-focus-on-SerenityOS-full-time/"/>
+        <updated>2021-05-28T16:47:35.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: NextUX (YC S19) – Web UX editor and feedback tool for product teams]]></title>
+        <id>https://news.ycombinator.com/item?id=27317635</id>
+        <link href="https://news.ycombinator.com/item?id=27317635"/>
+        <updated>2021-05-28T16:46:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Secure Your Android App – Four Security Best Practices Every Android Dev Should Know]]></title>
+        <id>60b08d8811ffb70827ef8c7b</id>
+        <link href="https://www.freecodecamp.org/news/how-to-secure-your-android-app/"/>
+        <updated>2021-05-28T16:01:05.000Z</updated>
+        <summary type="html"><![CDATA[If you've been following the news lately, you may have noticed a worrisome tech trend. The frequency and severity of cybersecurity attacks are exploding.  We've seen news of a sprawling hack involving the SolarWinds management platform. That attack may have compromised the systems of over 18,000 SolarWinds customers.  Then,]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PostgreSQL EXPLAIN Output Explained]]></title>
+        <id>https://www.cybertec-postgresql.com/en/how-to-interpret-postgresql-explain-analyze-output/</id>
+        <link href="https://www.cybertec-postgresql.com/en/how-to-interpret-postgresql-explain-analyze-output/"/>
+        <updated>2021-05-28T16:01:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: An experimental, people-powered search engine]]></title>
+        <id>https://ninfex.com/hello</id>
+        <link href="https://ninfex.com/hello"/>
+        <updated>2021-05-28T15:42:21.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter confirms Twitter Blue]]></title>
+        <id>https://twitter.com/wongmjane/status/1398022730553860102</id>
+        <link href="https://twitter.com/wongmjane/status/1398022730553860102"/>
+        <updated>2021-05-28T14:57:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dynamic Favicons for WordPress]]></title>
+        <id>https://css-tricks.com/?p=341163</id>
+        <link href="https://css-tricks.com/dynamic-favicons-for-wordpress/"/>
+        <updated>2021-05-28T14:36:47.000Z</updated>
+        <summary type="html"><![CDATA[Typically, a single favicon is used across a whole domain. But there are times you wanna step it up with different favicons depending on context. A website might change the favicon to match the content being viewed. Or a site …
+The post Dynamic Favicons for WordPress appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Thomas Park</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Had Covid? You’ll probably make antibodies for a lifetime]]></title>
+        <id>https://www.nature.com/articles/d41586-021-01442-9</id>
+        <link href="https://www.nature.com/articles/d41586-021-01442-9"/>
+        <updated>2021-05-28T13:27:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Physical Warp Drives]]></title>
+        <id>https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e</id>
+        <link href="https://iopscience.iop.org/article/10.1088/1361-6382/abdf6e"/>
+        <updated>2021-05-28T12:58:08.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advanced Computer Vision with Python]]></title>
+        <id>60b0de2211ffb70827ef8d7c</id>
+        <link href="https://www.freecodecamp.org/news/advanced-computer-vision-with-python/"/>
+        <updated>2021-05-28T12:26:38.000Z</updated>
+        <summary type="html"><![CDATA[More and more applications are using computer vision these days. We just published a full course on the freeCodeCamp.org YouTube channel that will help you learn advanced computer vision using Python. You will learn state of the art computer vision techniques by building five projects with libraries such as]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four Hundred Souls Summary]]></title>
+        <id>https://fourminutebooks.com/?p=6242</id>
+        <link href="https://fourminutebooks.com/four-hundred-souls-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=four-hundred-souls-summary"/>
+        <updated>2021-05-28T12:00:46.000Z</updated>
+        <summary type="html"><![CDATA[1-Sentence-Summary: Four Hundred Souls tells the history of African Americans from the perspective of 90 authors who share insights on 400 years of conflict, oppression, and faith that with all the hard work of those fighting for equality, things would get better someday. Read in: 4 minutes Favorite quote from the author: Most American students can […]
+The post Four Hundred Souls Summary appeared first on Four Minute Books.]]></summary>
+        <author>
+            <name>Luke Rowley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adding A Commenting System To A WYSIWYG Editor]]></title>
+        <id>https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/</id>
+        <link href="https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/"/>
+        <updated>2021-05-28T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, we’ll be re-using the foundational WYSIWYG Editor built in the first article to build a commenting system for a WYSIWYG Editor that enables users to select text inside a document and share their comments on it. Let’s dig in!]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Shalabh Vyas)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What’s Wrong with Bob Dylan’s Biographers?]]></title>
+        <id>https://newrepublic.com/article/162533/whats-wrong-bob-dylans-biographers-clinton-heylin-review</id>
+        <link href="https://newrepublic.com/article/162533/whats-wrong-bob-dylans-biographers-clinton-heylin-review"/>
+        <updated>2021-05-28T04:43:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn American Sign Language Fingerspelling with Machine Learning]]></title>
+        <id>https://fingerspelling.xyz</id>
+        <link href="https://fingerspelling.xyz"/>
+        <updated>2021-05-27T21:40:40.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -482,16 +621,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JsonLogic]]></title>
-        <id>https://jsonlogic.com/</id>
-        <link href="https://jsonlogic.com/"/>
-        <updated>2021-05-27T18:16:58.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Improve Machine Learning Model Performance by Combining Categorical Features]]></title>
         <id>60af931811ffb70827ef85d3</id>
         <link href="https://www.freecodecamp.org/news/improve-machine-learning-model-performance-by-combining-categorical-features/"/>
@@ -502,50 +631,10 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New dark matter map reveals cosmic mystery]]></title>
-        <id>https://www.bbc.com/news/science-environment-57244708</id>
-        <link href="https://www.bbc.com/news/science-environment-57244708"/>
-        <updated>2021-05-27T17:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stacked Git – manage commits as a stack of patches]]></title>
-        <id>https://stacked-git.github.io/</id>
-        <link href="https://stacked-git.github.io/"/>
-        <updated>2021-05-27T17:17:51.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manifest v3 Update]]></title>
-        <id>https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/</id>
-        <link href="https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/"/>
-        <updated>2021-05-27T16:47:03.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Egyptian Circumnavigation of Africa ~600 BC]]></title>
-        <id>https://www.livius.org/sources/content/herodotus/herodotus-on-the-first-circumnavigation-of-africa/</id>
-        <link href="https://www.livius.org/sources/content/herodotus/herodotus-on-the-first-circumnavigation-of-africa/"/>
-        <updated>2021-05-27T16:37:04.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[V8 Sparkplug – A non-optimizing JavaScript compiler]]></title>
-        <id>https://v8.dev/blog/sparkplug</id>
-        <link href="https://v8.dev/blog/sparkplug"/>
-        <updated>2021-05-27T16:19:02.000Z</updated>
+        <title type="html"><![CDATA[Stay Calm and Stay in the Cab (2002) [video] (1999)]]></title>
+        <id>https://www.youtube.com/watch?v=6KejBRUTUjA</id>
+        <link href="https://www.youtube.com/watch?v=6KejBRUTUjA"/>
+        <updated>2021-05-27T16:11:16.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -559,36 +648,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <summary type="html"><![CDATA[In this article, I'll teach you how to make a basketball using materials and textures in Unity. You can extend this micro-concept to create any kind of ball like a football, tennis ball, or snooker balls.  That said, these techniques aren't just limited to creating round 3D objects like balls.]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Phil's Old Radios]]></title>
-        <id>https://antiqueradio.org/welcome.htm</id>
-        <link href="https://antiqueradio.org/welcome.htm"/>
-        <updated>2021-05-27T14:54:37.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: NocoDB – The Open Source Airtable Alternative]]></title>
-        <id>https://github.com/nocodb/nocodb</id>
-        <link href="https://github.com/nocodb/nocodb"/>
-        <updated>2021-05-27T14:47:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Convect – Instant Serverless Deployment of ML Models]]></title>
-        <id>https://convect.ml</id>
-        <link href="https://convect.ml"/>
-        <updated>2021-05-27T14:39:28.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -616,10 +675,10 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Marvell Announces First PCIe 5.0 NVMe SSD Controllers: Up to 14 GB/S]]></title>
-        <id>https://www.anandtech.com/show/16703/marvell-announces-first-pcie-50-nvme-ssd-controllers</id>
-        <link href="https://www.anandtech.com/show/16703/marvell-announces-first-pcie-50-nvme-ssd-controllers"/>
-        <updated>2021-05-27T14:01:04.000Z</updated>
+        <title type="html"><![CDATA[Show HN: Redact – Automated deletion for your content on social networks]]></title>
+        <id>https://redact.dev/?hn</id>
+        <link href="https://redact.dev/?hn"/>
+        <updated>2021-05-27T14:10:45.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -636,36 +695,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MDN Plus]]></title>
-        <id>https://developer.mozilla.org/en/plus</id>
-        <link href="https://developer.mozilla.org/en/plus"/>
-        <updated>2021-05-27T13:16:50.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask HN: Favorite Blogs by Individuals?]]></title>
-        <id>https://news.ycombinator.com/item?id=27302195</id>
-        <link href="https://news.ycombinator.com/item?id=27302195"/>
-        <updated>2021-05-27T12:29:09.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How I, as someone who is visually impaired, use my iPhone (2020)]]></title>
-        <id>https://twitter.com/Kristy_Viers/status/1287189581926981634</id>
-        <link href="https://twitter.com/Kristy_Viers/status/1287189581926981634"/>
-        <updated>2021-05-27T12:16:10.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Emperor Of All Maladies Summary]]></title>
         <id>https://fourminutebooks.com/?p=6241</id>
         <link href="https://fourminutebooks.com/the-emperor-of-all-maladies-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-emperor-of-all-maladies-summary"/>
@@ -677,20 +706,40 @@ The post The Emperor Of All Maladies Summary appeared first on Four Minute Books
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: I made a free blogging/bookmarking platform with discussions/discovery]]></title>
-        <id>http://wndr.xyz</id>
-        <link href="http://wndr.xyz"/>
-        <updated>2021-05-27T11:07:00.000Z</updated>
+        <title type="html"><![CDATA[Automated Data Wrangling]]></title>
+        <id>https://catalyst.coop/2021/05/23/automated-data-wrangling/</id>
+        <link href="https://catalyst.coop/2021/05/23/automated-data-wrangling/"/>
+        <updated>2021-05-27T11:58:40.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Klarna users are being signed in to random accounts]]></title>
-        <id>https://twitter.com/esraefe/status/1397842160607711232</id>
-        <link href="https://twitter.com/esraefe/status/1397842160607711232"/>
-        <updated>2021-05-27T10:28:55.000Z</updated>
+        <title type="html"><![CDATA[Elliptic Curve Cryptography Explained (2019)]]></title>
+        <id>https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/</id>
+        <link href="https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/"/>
+        <updated>2021-05-27T11:23:55.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Primates change their 'accent' to avoid conflict]]></title>
+        <id>https://phys.org/news/2021-05-primates-accent-conflict.html</id>
+        <link href="https://phys.org/news/2021-05-primates-accent-conflict.html"/>
+        <updated>2021-05-27T10:34:13.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask HN: How are you using unikernels?]]></title>
+        <id>https://news.ycombinator.com/item?id=27301210</id>
+        <link href="https://news.ycombinator.com/item?id=27301210"/>
+        <updated>2021-05-27T10:27:49.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -707,40 +756,10 @@ The post The Emperor Of All Maladies Summary appeared first on Four Minute Books
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Roots of 'Program' Revisited]]></title>
-        <id>https://cacm.acm.org/magazines/2021/4/251342-roots-of-program-revisited/fulltext</id>
-        <link href="https://cacm.acm.org/magazines/2021/4/251342-roots-of-program-revisited/fulltext"/>
-        <updated>2021-05-27T09:23:39.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog about what you've struggled with]]></title>
-        <id>https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/</id>
-        <link href="https://jvns.ca/blog/2021/05/24/blog-about-what-you-ve-struggled-with/"/>
-        <updated>2021-05-27T08:18:17.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mathematicians Find Long-Sought Building Blocks for Special Polynomials]]></title>
-        <id>https://www.quantamagazine.org/mathematicians-find-polynomial-building-blocks-hilbert-sought-20210525</id>
-        <link href="https://www.quantamagazine.org/mathematicians-find-polynomial-building-blocks-hilbert-sought-20210525"/>
-        <updated>2021-05-27T05:01:17.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Eric Carle has died]]></title>
-        <id>https://www.washingtonpost.com/local/obituaries/eric-carle-dead/2021/05/26/cbb39414-2234-11e4-8593-da634b334390_story.html</id>
-        <link href="https://www.washingtonpost.com/local/obituaries/eric-carle-dead/2021/05/26/cbb39414-2234-11e4-8593-da634b334390_story.html"/>
-        <updated>2021-05-27T03:25:09.000Z</updated>
+        <title type="html"><![CDATA[Control-flow integrity in Linux 5.13]]></title>
+        <id>https://lwn.net/SubscriberLink/856514/bd36cc646fac2071/</id>
+        <link href="https://lwn.net/SubscriberLink/856514/bd36cc646fac2071/"/>
+        <updated>2021-05-27T04:26:03.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -822,16 +841,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Have you ever hurt yourself from your own code?]]></title>
-        <id>https://blog.nikitas.link/have-you-ever-hurt-yourself-from-your-own-code</id>
-        <link href="https://blog.nikitas.link/have-you-ever-hurt-yourself-from-your-own-code"/>
-        <updated>2021-05-26T16:00:27.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js]]></title>
         <id>60aced0011ffb70827ef6d96</id>
         <link href="https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/"/>
@@ -876,20 +885,10 @@ The post Cryptoassets Summary appeared first on Four Minute Books.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[First Tasmanian Devils born in the wild of Australia mainland in 3k years]]></title>
-        <id>https://www.reuters.com/world/asia-pacific/first-tasmanian-devils-born-wild-australia-mainland-3000-years-2021-05-26/</id>
-        <link href="https://www.reuters.com/world/asia-pacific/first-tasmanian-devils-born-wild-australia-mainland-3000-years-2021-05-26/"/>
-        <updated>2021-05-26T11:59:27.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Battlefield of the Cold War: Nevada Test Site 1951 - 1963 [pdf]]]></title>
-        <id>https://www.osti.gov/opennet/servlets/purl/969352.pdf</id>
-        <link href="https://www.osti.gov/opennet/servlets/purl/969352.pdf"/>
-        <updated>2021-05-26T06:10:28.000Z</updated>
+        <title type="html"><![CDATA[Google says Rowhammer attacks are gaining range as RAM is getting denser]]></title>
+        <id>https://therecord.media/google-says-rowhammer-attacks-are-gaining-range-as-ram-is-getting-smaller/</id>
+        <link href="https://therecord.media/google-says-rowhammer-attacks-are-gaining-range-as-ram-is-getting-smaller/"/>
+        <updated>2021-05-26T09:08:24.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -910,46 +909,6 @@ Fixed: the articles in template data were not sorted.
 Thank you @Zenigata]]></summary>
         <author>
             <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Persian legends and their Western counterparts (2020)]]></title>
-        <id>https://www.tor.com/2020/07/06/5-persian-legends-and-their-western-counterparts/</id>
-        <link href="https://www.tor.com/2020/07/06/5-persian-legends-and-their-western-counterparts/"/>
-        <updated>2021-05-26T02:31:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keep Calm and Hack The Box – Valentine]]></title>
-        <id>60ac3a2711ffb70827ef6aec</id>
-        <link href="https://www.freecodecamp.org/news/keep-calm-and-hack-the-box-valentine/"/>
-        <updated>2021-05-25T22:43:11.000Z</updated>
-        <summary type="html"><![CDATA[Walkthrough for Hack The Box Valentine machine]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chakra UI and React-Hook-Form –How to Build Beautiful Forms]]></title>
-        <id>60a93b0011ffb70827ef5b0d</id>
-        <link href="https://www.freecodecamp.org/news/how-to-use-react-hook-form-with-chakra-ui/"/>
-        <updated>2021-05-25T20:26:38.000Z</updated>
-        <summary type="html"><![CDATA[In HTML, it’s the default behavior for forms to redirect to a new page whenever they're submitted. So in order to provide dynamic functionality, React uses a strategy called controlled components. If you have recently gone through a React course, you probably didn't like this part, because there are]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Create Portfolio-Worthy Work – Web Design Best Practices for New Developers]]></title>
-        <id>608706aedd38b9088c2c012c</id>
-        <link href="https://www.freecodecamp.org/news/web-design-best-practices-for-new-developers/"/>
-        <updated>2021-05-25T16:51:37.000Z</updated>
-        <summary type="html"><![CDATA[If you're a beginner developer, it can be difficult to find ways to use your limited knowledge to support yourself. And at the same time, you won't be able to hone your skills if you aren't using them full time.  It's a precarious spot that I remember being in when]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
         </author>
     </entry>
     <entry>
@@ -1163,25 +1122,13 @@ The post The Gift Of Fear Summary appeared first on Four Minute Books.]]></summa
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building A Rich Text Editor (WYSIWYG) From Scratch]]></title>
+        <title type="html"><![CDATA[Building A Rich Text Editor (WYSIWYG)]]></title>
         <id>https://smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/</id>
         <link href="https://smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/"/>
         <updated>2021-05-21T11:30:00.000Z</updated>
         <summary type="html"><![CDATA[Let’s build a rich text, WYSIWYG-editor that supports rich text, images, links and some nuanced features from word processing apps. We will use SlateJS to build the shell of the editor and then add a toolbar and custom configurations.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Shalabh Vyas)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JSON in CSS]]></title>
-        <id>https://css-tricks.com/?p=340599</id>
-        <link href="https://css-tricks.com/json-in-css/"/>
-        <updated>2021-05-20T22:29:53.000Z</updated>
-        <summary type="html"><![CDATA[Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …
-The post JSON in CSS appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
         </author>
     </entry>
     <entry>
@@ -1339,17 +1286,6 @@ Thank you @tianheg, @onnyyonn]]></summary>
         <summary type="html"><![CDATA[There were rainforests near the south pole 90 million years ago. Though commercial exchanges are typically win-win for both the buyer and the seller, people tend to view the buyer as more likely to be taken advantage of. People with low self-esteem are more likely to blame the political system for their personal problems. Moscona … Continue reading Science and Technology links (May 15th 2021)]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Caste Summary]]></title>
-        <id>https://fourminutebooks.com/?p=6232</id>
-        <link href="https://fourminutebooks.com/caste-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=caste-summary"/>
-        <updated>2021-05-14T12:00:07.000Z</updated>
-        <summary type="html"><![CDATA[1-Sentence-Summary: Caste unveils the hidden cultural and societal rules of our class system, including where it comes from, why it’s so deeply entrenched in society, and how we can dismantle it forever and finally allow all people to have the equality they deserve.  Read in: 4 minutes Favorite quote from the author: Imagine you inherited […]
-The post Caste Summary appeared first on Four Minute Books.]]></summary>
-        <author>
-            <name>Luke Rowley</name>
         </author>
     </entry>
     <entry>
@@ -1553,26 +1489,6 @@ Thank you: @dym-sh, @tabokie, @cheese1]]></summary>
         <summary type="html"><![CDATA[Do you need a little inspiration boost? Well, then our new collection of wallpapers is for you. Designed with love by the community for the community, the wallpapers are available with and without a calendar for May 2021.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Humble `<img>` Element And Core Web Vitals]]></title>
-        <id>https://smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/</id>
-        <link href="https://smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/"/>
-        <updated>2021-04-29T12:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Images have also been a key part of the web. They communicate ideas instantly, but they are also a lot heavier than text to load. This means that it’s essential to get loading and displaying them right, if you want to give your users a fantastic first impression. An excerpt from [Addy's new book](https://www.smashingmagazine.com/2021/04/image-optimization-pre-release/) (also, check a [free PDF preview](http://provide.smashingmagazine.com/eBooks/image-optimization-sample-chapter.pdf)).]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Addy Osmani)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ideal divisors: when a division compiles down to just a multiplication]]></title>
-        <id>https://lemire.me/blog/?p=19218</id>
-        <link href="https://lemire.me/blog/2021/04/28/ideal-divisors-when-a-division-compiles-down-to-just-a-multiplication/"/>
-        <updated>2021-04-28T16:14:50.000Z</updated>
-        <summary type="html"><![CDATA[The division instruction is one of the most expensive instruction in your CPU. Thus optimizing compilers often compile divisions by known constants down to a multiplication followed by a shift. However, in some lucky cases, the compiler does not even need a shift. I call the corresponding divisors ideal. For the math. geeks, they are … Continue reading Ideal divisors: when a division compiles down to just a multiplication]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
         </author>
     </entry>
 </feed>
