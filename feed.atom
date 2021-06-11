@@ -1,180 +1,680 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-10T01:03:19.725Z</id>
+    <id>urn:2021-06-11T00:57:18.665Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-10T01:03:19.725Z</updated>
+    <updated>2021-06-11T00:57:18.665Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[The Risk of Cargo Liquefication]]></title>
-        <id>https://www.maritime-executive.com/editorials/the-risk-of-cargo-liquefaction</id>
-        <link href="https://www.maritime-executive.com/editorials/the-risk-of-cargo-liquefaction"/>
-        <updated>2021-06-10T00:08:03.000Z</updated>
+        <title type="html"><![CDATA[React Cheat sheet (Updated June 2021)]]></title>
+        <id>https://dev.to/ericchapman/react-cheat-sheet-updated-may-2021-1mcd</id>
+        <link href="https://dev.to/ericchapman/react-cheat-sheet-updated-may-2021-1mcd"/>
+        <updated>2021-06-11T00:39:51.000Z</updated>
+        <summary type="html"><![CDATA[I don't use React often and so whenever I need to do even the smallest thing in React, I have to check out the documentation, a tutorial, or post a question on a forum.
+That's why I decided to do this memory aid and given that my memory is not that good I thought why not make a monstrous memory aid with all the concepts I know about React.
+So I can read it from time to time and thereby strengthen my knowledge of React.
+If you have ideas or recommendation do not hesitate and do so in the comments section.
+React Cheat Sheet
+ 
+
+Create a React App
+// Create a new app
+npx create-react-app my-app-name
+
+// Run the created app
+cd my-app-name
+yarn start
+
+// http://localhost:3000
+
+First React functional Component
+No need to import React from 'react' (since React 17)
+Must have uppercase first letter
+…]]></summary>
+        <author>
+            <name>Eric Chapman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Put a Background on Open Details Elements]]></title>
+        <id>https://css-tricks.com/?p=342050</id>
+        <link href="https://css-tricks.com/put-a-background-on-open-details-elements/"/>
+        <updated>2021-06-11T00:16:28.000Z</updated>
+        <summary type="html"><![CDATA[One thing that can be just a smidge funky about the <details> element is that, when open, it’s not always 100% clear what is inside that element and what isn’t. I’m not saying that always matters or that it’s a …
+The post Put a Background on Open Details Elements appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“Crunch” Open Source Texture Compression Library vs. US Patent #20110115806]]></title>
+        <id>https://richg42.blogspot.com/2012/07/the-saga-of-crunch.html</id>
+        <link href="https://richg42.blogspot.com/2012/07/the-saga-of-crunch.html"/>
+        <updated>2021-06-11T00:09:32.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Build a custom React accordion component]]></title>
-        <id>https://dev.to/michaelburrows/build-a-custom-react-accordion-component-1nep</id>
-        <link href="https://dev.to/michaelburrows/build-a-custom-react-accordion-component-1nep"/>
-        <updated>2021-06-09T23:18:40.000Z</updated>
-        <summary type="html"><![CDATA[In this tutorial we’ll be building a simple accordion component for use in React applications. This type of component is useful for things like FAQ’s when you want to break up a large amount of content into smaller more consumable pieces.
-Here’s what the completed component will look like:
+        <title type="html"><![CDATA[GitHub Container Registry: BETTER than Docker Hub?]]></title>
+        <id>https://dev.to/github/github-container-registry-better-than-docker-hub-1o9k</id>
+        <link href="https://dev.to/github/github-container-registry-better-than-docker-hub-1o9k"/>
+        <updated>2021-06-10T23:21:54.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Container Registry improves how we handle containers within GitHub. Let's see what it is, how it works, and if it is better than Docker Hub.
+As usual, if you are a visual learner, or simply prefer to watch and listen instead of reading, here you have the video with the whole explanation and demo, which to be fair is much more complete than this post.
 
-Let’s get started by using Create React App to setup the development environment:
-npx create-react-app react-accordion
 
-Next create a new Accordion.js file in the /src directory with the following code:
-import React, { useState } from "react";
-import "./accordion.css";
 
-const Accordion = ({ heading, content }) => {
-  const [isActive, setIsActive] = useState(false);
-  return (
-    <li className="accordion-item">
-      <div className="accordion-toggle" onClick={() => setIsActive(!isActive)}>
-        <h3>{…]]></summary>
+
+Link to the video: https://youtu.be/WjzA9dfk5w4
+If you rather prefer reading, well... let's just continue :)
+The GitHub Container Registry (GHCR) is a redesigned, enhanced version of GitHub Packages. It not only replaces the Packages Docker service, but also it represents a fundamental shift in how GitHub will provide packages to its customers, because Packages are now tied to organizations and accounts instead of repos. 
+And in the…]]></summary>
         <author>
-            <name>Michael Burrows</name>
+            <name>Davide 'CoderDave' Benvegnù</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Instantly Add User Authentication to Your React Projects With Easybase’s <Auth /> Component]]></title>
-        <id>https://dev.to/mbagley1020/instantly-add-user-authentication-to-your-react-projects-with-easybase-s-auth-component-5f1h</id>
-        <link href="https://dev.to/mbagley1020/instantly-add-user-authentication-to-your-react-projects-with-easybase-s-auth-component-5f1h"/>
-        <updated>2021-06-09T23:15:08.000Z</updated>
-        <summary type="html"><![CDATA[User Authentication can be a difficult module to implement and manage in web and mobile applications. There's a lot to consider when it comes to security, JWTs, salting, and much more.
-Fortunately, this can be accomplished instantly with the <Auth /> component (<NativeAuth /> for React Native) from the 'easybase-react' package.
-The final result will look like this:
-export default function App() {
-  return (
-    <EasybaseProvider ebconfig={ebconfig}>
-      <Auth>
-        <h2>You're In!</h2>
-      </Auth>
-    </EasybaseProvider>
-  );
-}
-
-
-Create a free account at easybase.io and make a Project. From there, download your ebconfig token and place it in your React project's src/ folder. Install the package with npm i easybase-react.
-
-Import this config file, along with EasybaseProvider and Auth:
-import ebconfig from './ebconfig';
-import { EasybaseProvider, Auth } from 'easybase-react';
-
-Wrap your entire component in EasybaseProvider and place Auth inside of it. Children of Auth will only be loaded and displayed if a user is currently signed in.
-export default function App() {
-  return (
-    <EasybaseProvider ebconfig={ebconfig}>
-      <Auth>
-        <h2>You're In!</h2>
-      </Auth>
-    </EasybaseProvider>
-  );
-}
-
-Run your project and create an example account by clicking 'No Account? Sign Up':
-
-This will sign you in! The <Auth /> component is highly customizable when it comes to CSS and forms, read here for customization.
-To sign out, import useEasybase and call the signOut function:
-function User() {
-  const { signOut } = useEasybase()
-  return <button onClick={signOut}>Sign Out</button>
-}
-
-export default function App() {
-  return (
-    <EasybaseProvider ebconfig={ebconfig}>
-      <Auth>
-        <User />
-      </Auth>
-    </EasybaseProvider>
-  );
-}
-
-All users will appear in the Easybase interface, under the Users tab:
-
-For a more in-depth reference, check out the full walkthrough here.]]></summary>
-        <author>
-            <name>Michael Bagley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reddit Sunsets Secret Santa and Reddit Gifts]]></title>
-        <id>https://www.reddit.com/r/announcements/comments/nw2hs6/sunsetting_secret_santa_and_reddit_gifts/</id>
-        <link href="https://www.reddit.com/r/announcements/comments/nw2hs6/sunsetting_secret_santa_and_reddit_gifts/"/>
-        <updated>2021-06-09T22:56:37.000Z</updated>
+        <title type="html"><![CDATA[Chrome abandons 'simplified domain experiment' in omnibar]]></title>
+        <id>https://bugs.chromium.org/p/chromium/issues/detail?id=1090393#c75</id>
+        <link href="https://bugs.chromium.org/p/chromium/issues/detail?id=1090393#c75"/>
+        <updated>2021-06-10T23:12:18.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JS30 Days 6-10]]></title>
-        <id>https://dev.to/beendra/js30-days-6-10-i2a</id>
-        <link href="https://dev.to/beendra/js30-days-6-10-i2a"/>
-        <updated>2021-06-09T22:45:53.000Z</updated>
-        <summary type="html"><![CDATA[Day 6 - Ajax Type Ahead
-
-
-GitHub
-
-GitHub
-GitHub
-
-.getContext was something that I had never done before and I definitely want to do more in depth research on the different aspects of it. This exercise also used event listeners and functions to listen for the events needed to draw onto the created canvas' x and y axis. This exercise also utilized mothereffinghsl to get the color gradiant hue for our drawn line working in conjunction with the event listeners.  
-GitHub
-Loved this overview. I learned a few things about DevTools that I did not know before as well as all the varieties of console. that can be used. I had mostly used console.log() and console.dir() before and was surprised at just how many there are and the variety of ways they can be used! I feel like I've been missing out not knowing about console.table()!!
-GitHub
-
-This exercise worked with checkboxes and using the shift key to be able to select multiple checkboxes at a time. This was done by programmatically setting the boxes to checked with JavaScript until you click the last one. Until the last one clicked is selected, our flag variable gets set to false which makes this functionality work both when selecting from the bottom to the top top or vice versa, by setting the variable equal to this or to lastChecked. The variable is declared with the let keyword because it is a variable that can change.]]></summary>
+        <title type="html"><![CDATA[Why we shipped a Next.js SDK, and how you can use it]]></title>
+        <id>https://dev.to/sentry/why-we-shipped-a-next-js-sdk-and-how-you-can-use-it-14jp</id>
+        <link href="https://dev.to/sentry/why-we-shipped-a-next-js-sdk-and-how-you-can-use-it-14jp"/>
+        <updated>2021-06-10T23:07:25.000Z</updated>
+        <summary type="html"><![CDATA[As you could probably tell from the title, we shipped an SDK for Next.js. This means you can capture errors, measure performance, manage releases, configure suspect commits, and automatically upload sourcemaps to view unminified JavaScript and TypeScript with zero(-ish) configuration.
+Why was Next.js next on our list? Well, it’s one of the fastest-growing React frameworks and developers love it. Next.js provides a developer experience that helps with building features rapidly, seeing local changes quickly, and reducing build times.
+"Next.js turns traditionally complex decisions into simple implementation details. Spinning up new pages with our existing React components and Material UI went from days to hours with Next." 
+– Sean Parmelee, Applications Architect, Care.com
+To monitor Next.js …]]></summary>
         <author>
-            <name>Alexandra</name>
+            <name>Rahul Chhabria</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[3 project management tips for the Well-Rounded Software Developer]]></title>
-        <id>https://dev.to/memattchung/3-project-management-tips-for-the-well-rounded-software-developer-275n</id>
-        <link href="https://dev.to/memattchung/3-project-management-tips-for-the-well-rounded-software-developer-275n"/>
-        <updated>2021-06-09T22:34:58.000Z</updated>
-        <summary type="html"><![CDATA[This is the second in the series of The Well Rounded Developer. See previous post "Network Troubleshooting for the Well-Rounded Developer"
-Whether you are a solo developer working directly with your clients, or a software engineer part of a larger team that's delivering a large feature or service, you need to do more than just shipping code. To succeed in your role, you also need good project management skills, regardless of whether there's an officially assigned "project manager". By upping your project management skills, you'll increase the odds of delivering consistently and on time — necessary for earning trust among your peers and stakeholders. In fact, I'd go as far to say that it's critical for your Personal Brand
-Just like programming, project management is another skill that requi…]]></summary>
+        <title type="html"><![CDATA[Chime has detected 535 fast radio bursts, quadrupling the known tally]]></title>
+        <id>https://www.nature.com/articles/d41586-021-01560-4</id>
+        <link href="https://www.nature.com/articles/d41586-021-01560-4"/>
+        <updated>2021-06-10T22:47:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>memattchung</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Create a Progressive Web Application with Vue and Sanity]]></title>
-        <id>https://dev.to/sanity-io/how-to-create-a-progressive-web-application-with-vue-and-sanity-32am</id>
-        <link href="https://dev.to/sanity-io/how-to-create-a-progressive-web-application-with-vue-and-sanity-32am"/>
-        <updated>2021-06-09T22:18:25.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-
-
-In this article, you will learn how to build a simple web application with Vue.js, query your data from Sanity, and make it a Progressive Web Application (PWA) by installing the PWA plugin. In making it a PWA, the app will be able to be installed on mobile phones.
-You can see the deployed app here and see the final code here.
-
-To understand this guide you should have:
-Basic understanding of HTML, CSS and Javascript
-At least little experience or knowledge of Vue.js
-
-
-Node and npm or yarn installed on your computer
-Basic knowledge of how the terminal
-PWA stands for Progressive Web App. Google Chrome engineer Alex Russell introduced the term in his blog post in 2015. Since then, Google has been promoting the use of PWAs actively and has provided a lot of resources on the topic …]]></summary>
+        <title type="html"><![CDATA[FDA approves drug to treat smallpox]]></title>
+        <id>https://www.fda.gov/drugs/drug-safety-and-availability/fda-approves-drug-treat-smallpox</id>
+        <link href="https://www.fda.gov/drugs/drug-safety-and-availability/fda-approves-drug-treat-smallpox"/>
+        <updated>2021-06-10T22:31:36.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>Joel Olawanle</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Facebook extends its work-at-home policy to most employees]]></title>
-        <id>https://www.cnbc.com/2021/06/09/facebook-will-let-all-employees-who-can-work-remotely-to-request-full-time-remote-work.html</id>
-        <link href="https://www.cnbc.com/2021/06/09/facebook-will-let-all-employees-who-can-work-remotely-to-request-full-time-remote-work.html"/>
-        <updated>2021-06-09T22:07:37.000Z</updated>
+        <title type="html"><![CDATA[AWS Frankfurt Status: Engineers are still not able to enter the affected part]]></title>
+        <id>https://status.aws.amazon.com/#EU_block</id>
+        <link href="https://status.aws.amazon.com/#EU_block"/>
+        <updated>2021-06-10T22:29:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding CORS]]></title>
+        <id>https://dev.to/useanvil/understanding-cors-5gm5</id>
+        <link href="https://dev.to/useanvil/understanding-cors-5gm5"/>
+        <updated>2021-06-10T22:28:24.000Z</updated>
+        <summary type="html"><![CDATA[CORS, or Cross-Origin Resource Sharing, is one thing that can bite a developer
+For example, CORS can help prevent a malicious case where a website executes an
+XMLHttpRequest) to a different
+Let’s take a look at how that would work in a world without CORS:
+A user just visited "https://mybank.example", one of the most popular
+banking websites, to complete a few transactions.
+The user, maybe on another tab, visits "http://not-suspicious.example".
+Unknown to the user, not-suspicious.example contains a script that
+sends requests to a list of endpoints from very popular banking sites. This
+is all done in the background.
+If a response comes back containing user session data or other sensitive
+user data, the malicious site now has the means to impersonate the user.
+Now the same example, but on a b…]]></summary>
+        <author>
+            <name>Anvil Engineering</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My TPRCiC 2021 review]]></title>
+        <id>https://dev.to/thibaultduponchelle/tprcic-2021-review-56k3</id>
+        <link href="https://dev.to/thibaultduponchelle/tprcic-2021-review-56k3"/>
+        <updated>2021-06-10T22:02:34.000Z</updated>
+        <summary type="html"><![CDATA[Last year I wrote a (poignant?) review of TPRCiC as one of my first blog posts.
+Once again this year, I attended The Perl and Raku Conference in the Cloud (and I even talked 😱 🙊), so here we go again for the review!
+Brad Lhotsky came with a very solid talk... 👍
+With a live demo (he's mad). That worked! (he's lucky good 😁) 
+And the overall was very nice to listen (he's maybe experimented at this exercise - EDIT: yes he is).
+
+I enjoyed the topic (ElasticSearch), the comparisons and expertise about this technology and other related ones.
+And... Yes... A working live demo... What else?
+OpenFoodFacts well deserved his lightning talk. 
+Stephane Giganded presented this project (does it really need to be introduced?) discussed about GSOC (or similar) and sent a call to volunteers!
+
+I love when…]]></summary>
+        <author>
+            <name>Tib</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linus Torvalds: Get vaccinated. Stop believing the anti-vax lies]]></title>
+        <id>https://lkml.org/lkml/2021/6/10/957</id>
+        <link href="https://lkml.org/lkml/2021/6/10/957"/>
+        <updated>2021-06-10T21:57:43.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[E2E Sandbox with Test-containers]]></title>
+        <id>https://dev.to/mvillarrealb/e2e-sandbox-with-test-containers-1b01</id>
+        <link href="https://dev.to/mvillarrealb/e2e-sandbox-with-test-containers-1b01"/>
+        <updated>2021-06-10T21:57:29.000Z</updated>
+        <summary type="html"><![CDATA[End to End tests can be cumbersome the mayority of the times, we need to wire up a lot of services (cache servers, database engines, message brokers etc) resulting in a big ball of stuff to do in order to run a simple test.
+These tests are the most expensive ones in the test pyramid, but are the ones closer to a real production scenario. 
+While unit tests ensures our business logic is ok, e2e tests ensures that our platform will perform accordingly with no surprises.
+In this article we are going to put hands up with testcontainers to create an e2e sandbox and run some postman assertions through newman.
+Tescontainers is a java library to run containers in JUnit tests, it provides lightweight containers environment to create infraestructure service and test real case scenarios(Database conne…]]></summary>
+        <author>
+            <name>Marco Villarreal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[May: Forem Twitch Events Roundup 👾]]></title>
+        <id>https://dev.to/devteam/may-forem-twitch-events-roundup-h78</id>
+        <link href="https://dev.to/devteam/may-forem-twitch-events-roundup-h78"/>
+        <updated>2021-06-10T21:41:44.000Z</updated>
+        <summary type="html"><![CDATA[In May, Nick Taylor and I had the privilege to speak with 4 awesome guests. This is a round up of all the wonderful guests who joined us and a special pair programming episode where Nick and I talk about GitHub and contributing to open source projects.
+
+
+
+Nick Taylor and Jerome Hardaway discussed Vets Who Code, job hunting during the pandemic, habits, and more. 
+Places to follow Jerome:
+Personal Twitter
+Vets Who Code
+
+
+
+Nick and I talked about the DEV community Bug Smash, Contributing to open source, and some important  features of GitHub, and Git.
+A few of the links mentioned in the stream:
+Talk by Nick Taylor on Getting the Most Out of Open Source
+Forem Docs
+GitHub CLI
+
+  
+    
+Join Us For the First DEV Community Bug Smash!
+Christina Gorton ・ May 4 ・ 4 min read
+#devbugsmash
+        #open…]]></summary>
+        <author>
+            <name>Christina Gorton</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Physicists measure the gravitational force between the smallest masses yet]]></title>
+        <id>https://www.scientificamerican.com/article/physicists-measure-the-gravitational-force-between-the-smallest-masses-yet/</id>
+        <link href="https://www.scientificamerican.com/article/physicists-measure-the-gravitational-force-between-the-smallest-masses-yet/"/>
+        <updated>2021-06-10T21:35:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Inheritance So You Don't Repeat Yourself & Notes.]]></title>
+        <id>https://dev.to/rthefounding/using-inheritance-so-you-don-t-repeat-yourself-ba8</id>
+        <link href="https://dev.to/rthefounding/using-inheritance-so-you-don-t-repeat-yourself-ba8"/>
+        <updated>2021-06-10T21:34:42.000Z</updated>
+        <summary type="html"><![CDATA[There's a principle in programming called Don't Repeat Yourself (DRY). The reason repeated code is a problem is because any change requires fixing code in multiple places. This usually means more work for programmers and more room for errors.
+
+
+Notice in the example below that the eat method is shared by Cat and Bear:
+
+
+
+
+function Cat(name) {
+  this.name = name;
+}
+
+Cat.prototype = {
+  constructor: Cat,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+function Bear(name) {
+  this.name = name;
+}
+
+Bear.prototype = {
+  constructor: Bear,
+  eat: function() {
+    console.log("nom nom nom");
+  }
+};
+
+The eat method is repeated in two places. The code can be edited to follow the DRY principle by creating a supertype (or parent) called Animal:
+
+
+
+
+function Animal() { }
+
+Animal.prototype =…]]></summary>
+        <author>
+            <name>Randy Rivera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Where an Object’s Prototype Comes From]]></title>
+        <id>https://dev.to/rthefounding/understanding-where-an-object-s-prototype-comes-from-4a64</id>
+        <link href="https://dev.to/rthefounding/understanding-where-an-object-s-prototype-comes-from-4a64"/>
+        <updated>2021-06-10T21:19:36.000Z</updated>
+        <summary type="html"><![CDATA[Just like people inherit genes from their parents, an object inherits its prototype directly from the constructor function that created it. For example, here the Dog constructor creates the beagle object:
+
+
+
+
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+beagle inherits its prototype from the Dog constructor function. You can show this relationship with the isPrototypeOf method:
+
+
+
+
+Dog.prototype.isPrototypeOf(beagle);
+
+This would return true.
+All objects in JavaScript (with a few exceptions) have a prototype. Also, an object’s prototype itself is an object.
+
+
+
+
+function Dog(name) {
+  this.name = name;
+}
+
+typeof Dog.prototype; // yields object
+
+Because a prototype is an object, a prototype can have its own prototype! In this case, the prototype of Bird.prototype is Object.prototype:
+
+
+How is this useful? You may recall the hasOwnProperty method from a previous post:
+
+
+
+
+let beagle = new Dog("Snoopy");
+beagle.hasOwnProperty("name");
+
+The hasOwnProperty method is defined in Object.prototype, which can be accessed by Dog.prototype, which can then be accessed by beagle. This is an example of the prototype chain. In this prototype chain, Dog is the supertype for beagle, while beagle is the subtype. Object is a supertype for both Dog and beagle. Object is a supertype for all objects in JavaScript. Therefore, any object can use the hasOwnProperty method.]]></summary>
+        <author>
+            <name>Randy Rivera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Fermi-Pasta-Ulam-Tsingou problem: A foray into the beautifully simple]]></title>
+        <id>https://3quarksdaily.com/3quarksdaily/2020/01/the-fermi-pasta-ulam-tsingou-problem-a-foray-into-the-beautifully-simple-and-the-simply-beautiful.html</id>
+        <link href="https://3quarksdaily.com/3quarksdaily/2020/01/the-fermi-pasta-ulam-tsingou-problem-a-foray-into-the-beautifully-simple-and-the-simply-beautiful.html"/>
+        <updated>2021-06-10T21:05:21.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kraftful (YC S19) hiring a founding engineer to build an IoT platform]]></title>
+        <id>https://www.kraftful.com/blog/engineering-roles</id>
+        <link href="https://www.kraftful.com/blog/engineering-roles"/>
+        <updated>2021-06-10T21:00:42.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crafting a React/Next.js Single Page Application Optimized for SEO]]></title>
+        <id>https://dev.to/colbyfayock/crafting-a-react-next-js-single-page-application-optimized-for-seo-54fk</id>
+        <link href="https://dev.to/colbyfayock/crafting-a-react-next-js-single-page-application-optimized-for-seo-54fk"/>
+        <updated>2021-06-10T20:59:21.000Z</updated>
+        <summary type="html"><![CDATA[In a rush? Skip to tutorial steps.
+What's the first thing you do when you are looking for something?
+If you're like me, you probably pull out your phone and search for it on Google. It makes optimizing websites for search engines more important than ever. And as a developer, I get it, SEO is a critical part of any business’ online presence. It's my job to be sure our tools can support that effort of being easily visible on search engine results pages. 
+And since React is the most popular JavaScript framework, these tools will most likely be related to it or React frameworks like Next.js.
+But, how can we be sure our React dynamic applications are SEO-friendly for our favorites robot crawlers to understand?
+That's when the real work comes in. Stop googling: "SEO with react" 'cause you're are…]]></summary>
+        <author>
+            <name>Colby Fayock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript "plain" Object]]></title>
+        <id>https://dev.to/romeopeter/javascript-plain-object-52eh</id>
+        <link href="https://dev.to/romeopeter/javascript-plain-object-52eh"/>
+        <updated>2021-06-10T20:27:30.000Z</updated>
+        <summary type="html"><![CDATA[NOTE:
+The term "object" denotes two kinds of objects: the key-value data structure in JavaScript, and the popular but opinionated programming methodology: OOP . This article is about the latter type of object.
+In JavaScript, [almost] everything is an object. To understand the language in-depth, you first have to know what objects are and how they work.
+An object is used to store key-value data. It allows for various data and complex entities to be stored. Entities within an object are known as properties. A property is a "key-value" pair, where the key is the property name and value can be anything
+To create an object, the curly braces {...} is used with a list of optional properties. It's possible to initialize an empty object.
+// Empty object using "object literal" syntax
+let user = {};
+…]]></summary>
+        <author>
+            <name>Romeo Agbor Peter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using aligned word vectors for instant translations with Python and Rust]]></title>
+        <id>https://instantdomainsearch.com/engineering/how-to-use-fasttext-for-instant-translations</id>
+        <link href="https://instantdomainsearch.com/engineering/how-to-use-fasttext-for-instant-translations"/>
+        <updated>2021-06-10T20:22:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Github actions tweaks]]></title>
+        <id>https://dev.to/achimoraites/github-actions-tweaks-23pa</id>
+        <link href="https://dev.to/achimoraites/github-actions-tweaks-23pa"/>
+        <updated>2021-06-10T19:54:41.000Z</updated>
+        <summary type="html"><![CDATA[Here there are some cool tricks you can do to improve your Github Actions.
+How many times you have re-installed all of your packages in your actions even when no packages were changed?
+Github actions are charged based on the time they actually run;
+have a look here in case you are interested 😉
+To cache our modules we will use the actions/cache@v2 action
+Here is an example of caching npm dependencies for Linux/MacOS
+- name: Cache node_modules 📦
+  uses: actions/cache@v2
+  with:
+    path: ~/.npm
+    key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+    restore-keys: |
+      ${{ runner.os }}-node-
+
+Here you can see it in a Github Action used for deploying my svelte-kit powered blog to gh-pages 🚀
+There are times where you need to be able to create a string based on env vari…]]></summary>
+        <author>
+            <name>Achilles Moraites</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raspberry Pi WiFi to ethernet bridge]]></title>
+        <id>https://willhaley.com/blog/raspberry-pi-wifi-ethernet-bridge/</id>
+        <link href="https://willhaley.com/blog/raspberry-pi-wifi-ethernet-bridge/"/>
+        <updated>2021-06-10T19:51:36.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Argo to Train Predictive Models at FlightAware]]></title>
+        <id>https://flightaware.engineering/using-argo-to-train-predictive-models/</id>
+        <link href="https://flightaware.engineering/using-argo-to-train-predictive-models/"/>
+        <updated>2021-06-10T19:16:16.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Privacy Analysis of FLoC]]></title>
+        <id>https://blog.mozilla.org/en/mozilla/privacy-analysis-of-floc/</id>
+        <link href="https://blog.mozilla.org/en/mozilla/privacy-analysis-of-floc/"/>
+        <updated>2021-06-10T18:25:17.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heart inflammation cases in young men higher than expected after mRNA vaccines]]></title>
+        <id>https://www.reuters.com/world/us/cdc-heart-inflammation-cases-ages-16-24-higher-than-expected-after-mrna-covid-19-2021-06-10/</id>
+        <link href="https://www.reuters.com/world/us/cdc-heart-inflammation-cases-ages-16-24-higher-than-expected-after-mrna-covid-19-2021-06-10/"/>
+        <updated>2021-06-10T18:19:17.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Good and Bad Elixir]]></title>
+        <id>https://keathley.io/blog/good-and-bad-elixir.html</id>
+        <link href="https://keathley.io/blog/good-and-bad-elixir.html"/>
+        <updated>2021-06-10T18:18:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software is eating the car]]></title>
+        <id>https://spectrum.ieee.org/cars-that-think/transportation/advanced-cars/software-eating-car</id>
+        <link href="https://spectrum.ieee.org/cars-that-think/transportation/advanced-cars/software-eating-car"/>
+        <updated>2021-06-10T16:02:58.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Link shorteners: the long and short of why you shouldn’t use them]]></title>
+        <id>https://gcs.civilservice.gov.uk/blog/link-shorteners-the-long-and-short-of-why-you-shouldnt-use-them/</id>
+        <link href="https://gcs.civilservice.gov.uk/blog/link-shorteners-the-long-and-short-of-why-you-shouldnt-use-them/"/>
+        <updated>2021-06-10T16:02:44.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A robot to replace the need for farmers to go inside the grain bin]]></title>
+        <id>https://www.agweb.com/news/business/technology/robot-replace-need-farmers-go-inside-grain-bin</id>
+        <link href="https://www.agweb.com/news/business/technology/robot-replace-need-farmers-go-inside-grain-bin"/>
+        <updated>2021-06-10T15:58:17.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My startup journey]]></title>
+        <id>https://johnjianwang.medium.com/my-startup-journey-dcf86a38676d</id>
+        <link href="https://johnjianwang.medium.com/my-startup-journey-dcf86a38676d"/>
+        <updated>2021-06-10T15:57:46.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The work-from-home future is destroying bosses' brains]]></title>
+        <id>https://ez.substack.com/p/the-work-from-home-future-is-destroying</id>
+        <link href="https://ez.substack.com/p/the-work-from-home-future-is-destroying"/>
+        <updated>2021-06-10T15:38:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Launch HN: Okay (YC W20) – Analytics for engineering teams]]></title>
+        <id>https://news.ycombinator.com/item?id=27461564</id>
+        <link href="https://news.ycombinator.com/item?id=27461564"/>
+        <updated>2021-06-10T15:04:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Useful Front-End Boilerplates And Starter Kits]]></title>
+        <id>https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/</id>
+        <link href="https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/"/>
+        <updated>2021-06-10T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Equal Columns With Flexbox: It’s More Complicated Than You Might Think]]></title>
+        <id>https://css-tricks.com/?p=341894</id>
+        <link href="https://css-tricks.com/equal-columns-with-flexbox-its-more-complicated-than-you-might-think/"/>
+        <updated>2021-06-10T14:34:22.000Z</updated>
+        <summary type="html"><![CDATA[As awesome as flexbox is, what it’s doing under the hood is actually a little strange because, by default, it is doing two things at once. It first looks at the content size which is what we would get if by declaring width: max-content on an element. But on top of that, flex-shrink is also doing some work allowing the items to be smaller, but only if needed.
+Let’s break those two down and see how they work together.
+The post Equal Columns With Flexbox: It’s More Complicated Than You Might Think appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Kevin Powell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a Headless CMS with Fauna and Vercel Functions]]></title>
+        <id>https://css-tricks.com/?p=342182</id>
+        <link href="https://css-tricks.com/building-a-headless-cms-with-fauna-and-vercel-functions/"/>
+        <updated>2021-06-10T14:26:47.000Z</updated>
+        <summary type="html"><![CDATA[In this tutorial, we will learn and use headless CMS, Fauna, and Vercel functions to build a blogging platform, Blogify After that, you can easily build any web application using a headless CMS, Fauna and Vercel functions.
+The post Building a Headless CMS with Fauna and Vercel Functions appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Ikeh Akinyemi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Try APL]]></title>
+        <id>https://tryapl.org</id>
+        <link href="https://tryapl.org"/>
+        <updated>2021-06-10T14:02:39.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rqlite 6.0: the evolution of a distributed database design]]></title>
+        <id>https://www.philipotoole.com/rqlite-6-0-0-building-for-the-future/</id>
+        <link href="https://www.philipotoole.com/rqlite-6-0-0-building-for-the-future/"/>
+        <updated>2021-06-10T12:45:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stripe Tax]]></title>
+        <id>https://stripe.com/tax</id>
+        <link href="https://stripe.com/tax"/>
+        <updated>2021-06-10T12:09:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No Logo Summary]]></title>
+        <id>https://fourminutebooks.com/?p=6390</id>
+        <link href="https://fourminutebooks.com/no-logo-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=no-logo-summary"/>
+        <updated>2021-06-10T12:00:33.000Z</updated>
+        <summary type="html"><![CDATA[1-Sentence-Summary: No Logo uses four parts, including “No Space,” “No Choice,” “No Jobs,” and “No Logo,” to explain the growth of brand power since the 1980s, how the focus of companies on image rather than products has affected employees, and to identify those who fight against large corporations and their brands. Read in: 4 minutes […]
+The post No Logo Summary appeared first on Four Minute Books.]]></summary>
+        <author>
+            <name>Luke Rowley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure Data Fundamentals Certification (DP-900) – Pass the Exam With This Free 4.5-Hour Course]]></title>
+        <id>60b93afaacb62507dd1d8915</id>
+        <link href="https://www.freecodecamp.org/news/azure-data-fundamentals-certification-dp-900-pass-the-exam-with-this-free-4-5-hour-course/"/>
+        <updated>2021-06-10T11:35:00.000Z</updated>
+        <summary type="html"><![CDATA[You can learn everything you need to know to earn the Azure Data Fundamentals certification by completing this free 4.5 hour course. What is the Azure Data Fundamentals Certification?The Azure Data Fundamentals Certification is for those seeking a data-related role such as Data Analyst, Data Engineer, or Data]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three Front-End Auditing Tools I Discovered Recently]]></title>
+        <id>https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/</id>
+        <link href="https://smashingmagazine.com/2021/06/three-frontend-auditing-tools/"/>
+        <updated>2021-06-10T11:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Building a faster website can be a rocket task these days. There are so many things to consider, so it’s challenging to get everything right. Here are some less-known tools that might help you get there.]]></summary>
+        <author>
+            <name>hello@smashingmagazine.com (Stefan Judis)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Developers can't fix bad management (2020)]]></title>
+        <id>https://iism.org/article/developers-can-t-fix-bad-management-57</id>
+        <link href="https://iism.org/article/developers-can-t-fix-bad-management-57"/>
+        <updated>2021-06-10T09:39:24.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Did I break you? Reverse dependency verification]]></title>
+        <id>https://developers.soundcloud.com/blog/did-i-break-you</id>
+        <link href="https://developers.soundcloud.com/blog/did-i-break-you"/>
+        <updated>2021-06-10T06:37:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All at Sea]]></title>
+        <id>https://www.historytoday.com/reviews/all-sea</id>
+        <link href="https://www.historytoday.com/reviews/all-sea"/>
+        <updated>2021-06-10T00:34:05.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Amateur Photographers of Midcentury São Paulo]]></title>
+        <id>https://www.theparisreview.org/blog/2021/05/21/the-amateur-photographers-of-midcentury-sao-paulo/</id>
+        <link href="https://www.theparisreview.org/blog/2021/05/21/the-amateur-photographers-of-midcentury-sao-paulo/"/>
+        <updated>2021-06-10T00:24:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Prison Cell of Ludger Sylbaris]]></title>
+        <id>https://www.atlasobscura.com/places/the-prison-cell-of-ludger-sylbaris-saint-pierre-martinique</id>
+        <link href="https://www.atlasobscura.com/places/the-prison-cell-of-ludger-sylbaris-saint-pierre-martinique"/>
+        <updated>2021-06-09T22:22:23.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -191,98 +691,6 @@ PWA stands for Progressive Web App. Google Chrome engineer Alex Russell introduc
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Evaluating necessity of Covid-19 vaccination in previously infected individuals]]></title>
-        <id>https://www.medrxiv.org/content/10.1101/2021.06.01.21258176v2</id>
-        <link href="https://www.medrxiv.org/content/10.1101/2021.06.01.21258176v2"/>
-        <updated>2021-06-09T21:50:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes Developer Workflow tools?]]></title>
-        <id>https://dev.to/richburroughs/kubernetes-developer-workflow-tools-144</id>
-        <link href="https://dev.to/richburroughs/kubernetes-developer-workflow-tools-144"/>
-        <updated>2021-06-09T21:38:14.000Z</updated>
-        <summary type="html"><![CDATA[Hi,
-I'm writing some articles about developer workflow tools for people using Kubernetes. Some of the apps I'm writing about are for fast feedback while writing code that runs in clusters, like Tilt, Skaffold and DevSpace.
-The other pretty obvious class of tools is the tools for provisioning local clusters like MiniKube, Docker Desktop, k3s, and kind.
-I'm wondering what other tools people are using when you do Kubernetes development that you find handy?]]></summary>
-        <author>
-            <name>Rich Burroughs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resolvendo erro de build no projeto de arquitetura Intel para arquitetura Apple Silicon (M1)]]></title>
-        <id>https://dev.to/lys/resolvendo-erro-de-build-no-projeto-de-arquitetura-intel-para-arquitetura-apple-silicon-m1-3p4h</id>
-        <link href="https://dev.to/lys/resolvendo-erro-de-build-no-projeto-de-arquitetura-intel-para-arquitetura-apple-silicon-m1-3p4h"/>
-        <updated>2021-06-09T21:29:41.000Z</updated>
-        <summary type="html"><![CDATA[Resolvendo "error: module was created for incompatible target arm64-apple-ios9.0"
-Meu primeiro dia de trabalho foi bem interessante, ainda não tínhamos testado o projeto em um computador Mac com Apple Silicon (M1), com isso, tivemos um erro subindo o projeto. 
-Uma informação que nos ajudará a entender o problema é que, com essa nova plataforma teremos o macOS baseado em arm64, seus simuladores também serão executados em arm64, ao contrário da atual arquitetura x86/64 baseada na Intel.
-O projeto do trabalho, que havia sido criado com arquitetura x64, tem algumas dependências que não suportam a nova arquitetura dos MacBooks, então foi preciso mexer em uma configuração.
-Como podemos ver abaixo, foi assim que ficou o Build Settings após fazer as alterações, fomos em Excluded Architectures, depois em Debug e Release adicionamos a arquitetura que queremos excluir quando subirmos o projeto no simulador (Any iOS Simulator).
-
-Nesse vídeo eu mostro como configurei, porém em outro projeto que estava mexendo. 
-https://www.youtube.com/watch?v=l3Cmcyqbvxg
-Lembrando que eu não rodo o projeto em um celular, e sim no simulador do Xcode mesmo.
-Fazendo isso, pode acontecer com que o build fique mais lento, porque ele praticamente faz a transcrição do código com a arquitetura x64 (Intel) para a arm64 (Apple Silicon), mas isso resolveu o problema, já que iremos evitar as dependências que não suportam essa nova arquitetura de nos impedir de subir o projeto. 
-O M1 consegue executar códigos feitos na arquitetura Intel com o Rosetta 2. Um link interessante sobre isso aqui 
-E um agradecimento final ao meu líder que conseguiu me explicar isso pacientemente e me ajudar a solucionar o problema. Obrigada, Felipe!]]></summary>
-        <author>
-            <name>Lys</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TC Energy scraps Keystone XL pipeline project after Biden revokes key permit]]></title>
-        <id>https://www.reuters.com/business/energy/tc-energy-terminates-keystone-xl-pipeline-project-2021-06-09/</id>
-        <link href="https://www.reuters.com/business/energy/tc-energy-terminates-keystone-xl-pipeline-project-2021-06-09/"/>
-        <updated>2021-06-09T21:06:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LayerCI (YC S20) Is hiring interns to build devtools for webapps in Canada]]></title>
-        <id>https://www.ycombinator.com/companies/layerci/jobs/wyUcmvS-software-developer-intern-sep-dec-2021</id>
-        <link href="https://www.ycombinator.com/companies/layerci/jobs/wyUcmvS-software-developer-intern-sep-dec-2021"/>
-        <updated>2021-06-09T21:00:45.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure static web apps CLI, building apps locally]]></title>
-        <id>https://dev.to/azure/azure-static-web-apps-cli-building-apps-locally-3968</id>
-        <link href="https://dev.to/azure/azure-static-web-apps-cli-building-apps-locally-3968"/>
-        <updated>2021-06-09T20:59:31.000Z</updated>
-        <summary type="html"><![CDATA[So, you have a frontend app, written in a SPA framework like Angular, React, Vue or maybe Svelte? And you want to find the quickest way to get it to the Cloud? There are many ways to do so, GitHub, Azure Storage, but there's also Azure Static Web Apps service. 
-So, there are a few moving parts that you may or may not use, like the below
-Frontend, this is your app written in a framework like Angular, React.js, Vue.js etc
-
-
-API, this is your backend that you build using Azure functions, so it's Serverless which is great on your wallet but also for architecting with events in the Cloud
-
-
-Auth, auth is always a bit cumbersome but great once it's up and running. 
-
-
-
-
-  
-  
-  Your problem
-
-
-So, you want to get all this deployed? but before you get so far, you want to make sure that you can test …]]></summary>
-        <author>
-            <name>Chris Noring</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[A Cornucopia of Container Queries]]></title>
         <id>https://css-tricks.com/?p=340967</id>
         <link href="https://css-tricks.com/a-cornucopia-of-container-queries/"/>
@@ -292,50 +700,6 @@ The post A Cornucopia of Container Queries appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript - Some very useful lodash/fp functions]]></title>
-        <id>https://dev.to/vcpablo/javascript-some-very-useful-lodash-fp-functions-ejh</id>
-        <link href="https://dev.to/vcpablo/javascript-some-very-useful-lodash-fp-functions-ejh"/>
-        <updated>2021-06-09T19:59:47.000Z</updated>
-        <summary type="html"><![CDATA[If you still don't know Lodash, it's time for you to try it. Lodash is a modern JavaScript utility library that
-makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc.
-Source: https://lodash.com
-It's okay if you prefer to deal with data types and structures the old fashion way by implementing your own algorithms, but I strongly believe that, in several cases, using Lodash will leverage your productivity and avoid some lines of code.
-Besides, it is a very popular library, used by more then 10 million other projects on GitHub, and it's been downloaded more than 40 million times from NPM.
-Lodash also provides a Functional Programming Module, which, according to them:
-promotes a more functional programming (FP) friendly style by exporting an ins…]]></summary>
-        <author>
-            <name>Pablo Veiga</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solution: Jump Game VI]]></title>
-        <id>https://dev.to/seanpgallivan/solution-jump-game-vi-4a2</id>
-        <link href="https://dev.to/seanpgallivan/solution-jump-game-vi-4a2"/>
-        <updated>2021-06-09T19:52:51.000Z</updated>
-        <summary type="html"><![CDATA[This is part of a series of Leetcode solution explanations (index). If you liked this solution or found it useful, please like this post and/or upvote my solution post on Leetcode's forums.
-Leetcode Problem #1696 (Medium): Jump Game VI
-
-
-
-
-
-
-  
-  
-  Description:
-
-
-
-(Jump to: Solution Idea || Code: JavaScript | Python | Java | C++)
-You are given a 0-indexed integer array nums and an integer k.
-You are initially standing at index 0. In one move, you can jump at most k steps forward without going outside the boundaries of the array. That is, you can jump from index i to any index in the range [i + 1, min(n - 1, i + k)] inclusive.
-You want to reach the last index of the array (index n - 1). Your score is the sum of all nums[j] for each index j you visited in the array.
-Return the maximum score…]]></summary>
-        <author>
-            <name>seanpgallivan</name>
         </author>
     </entry>
     <entry>
@@ -349,149 +713,13 @@ Return the maximum score…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[You use more open source software than you think]]></title>
-        <id>https://github.com/readme/unseen-oss</id>
-        <link href="https://github.com/readme/unseen-oss"/>
-        <updated>2021-06-09T19:38:24.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[XSS Attack - Is your Application Vulnerable? - npm packages can make you vulnerable!!!]]></title>
-        <id>https://dev.to/bmvantunes/xss-attack-is-your-application-vulnerable-npm-packages-can-make-you-vulnerable-g1</id>
-        <link href="https://dev.to/bmvantunes/xss-attack-is-your-application-vulnerable-npm-packages-can-make-you-vulnerable-g1"/>
-        <updated>2021-06-09T19:32:32.000Z</updated>
-        <summary type="html"><![CDATA[In this video I'll show you a XSS attack and how you can protect your applications.
-
-
-
-
-Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user. Flaws that allow these attacks to succeed are quite widespread and occur anywhere a web application uses input from a user within the output it generates without validating or encoding it.]]></summary>
-        <author>
-            <name>Bruno Antunes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Algorithm Tutorial: Max Area of an Island (DFS)]]></title>
-        <id>https://dev.to/dsasse07/algorithm-tutorial-max-area-of-an-island-dfs-53eg</id>
-        <link href="https://dev.to/dsasse07/algorithm-tutorial-max-area-of-an-island-dfs-53eg"/>
-        <updated>2021-06-09T19:15:18.000Z</updated>
-        <summary type="html"><![CDATA[For this entry in my algorithm walkthrough series, we will be looking at a 2D matrix search using a depth-first search approach.
-We will first discuss the the problem, the solution, and then use a visualizer I created (and teased about in my last blog) to better understand the search process.
-Problem Description
-Problem Explanation
-Solution
-
-
-Modeling the Solution
-The specific problem we will be walking through, is problem Leetcode #695: Max Area of Island. The direct problem description found on Leetcode is:
-You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
-The area of an island is the number of cells with a value 1 in the island.
-…]]></summary>
-        <author>
-            <name>Daniel Sasse</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to circumvent Sci-Hub ISP block]]></title>
-        <id>https://fragile-credences.github.io/scihub-proxy/</id>
-        <link href="https://fragile-credences.github.io/scihub-proxy/"/>
-        <updated>2021-06-09T19:12:02.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple is threatening to remove Fanhouse unless they give 30% of creator earning]]></title>
-        <id>https://twitter.com/jasminericegirl/status/1402691047940100100</id>
-        <link href="https://twitter.com/jasminericegirl/status/1402691047940100100"/>
-        <updated>2021-06-09T18:58:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Learn Bootstrap 5 and SASS by Building a Portfolio Website]]></title>
         <id>60c10a1dd3126007592d5988</id>
         <link href="https://www.freecodecamp.org/news/learn-bootstrap-5-and-sass-by-building-a-portfolio-website/"/>
         <updated>2021-06-09T18:43:07.000Z</updated>
-        <summary type="html"><![CDATA[Bootstrap is one of the most popular CSS frameworks and Sass is one of the most popular preprocessors for CSS. We just released a course on the freeCodeCamp.org YouTube channel that will teach you about Bootstrap 5 and Sass by building a portfolio website. Patrick Muriungi developed this course.]]></summary>
+        <summary type="html"><![CDATA[Bootstrap is one of the most popular CSS frameworks and Sass is one of the most popular preprocessors for CSS. We just published a course on the freeCodeCamp.org YouTube channel that will teach you about Bootstrap 5 and Sass by building a portfolio website. Patrick Muriungi developed this course.]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Expanse UI Design]]></title>
-        <id>https://www.hudsandguis.com/home/2021/theexpanse?ref=sidebar</id>
-        <link href="https://www.hudsandguis.com/home/2021/theexpanse?ref=sidebar"/>
-        <updated>2021-06-09T18:41:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Universal Control on macOS Monterey Works]]></title>
-        <id>https://www.theverge.com/2021/6/8/22523613/macos-monterey-wwdc-apple-ipad</id>
-        <link href="https://www.theverge.com/2021/6/8/22523613/macos-monterey-wwdc-apple-ipad"/>
-        <updated>2021-06-09T18:34:24.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Positive Psychology Goes to War]]></title>
-        <id>https://www.chronicle.com/article/positive-psychology-goes-to-war</id>
-        <link href="https://www.chronicle.com/article/positive-psychology-goes-to-war"/>
-        <updated>2021-06-09T17:22:24.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angband 4.2.2: A free, single-player roguelike dungeon exploration game]]></title>
-        <id>http://rephial.org/</id>
-        <link href="http://rephial.org/"/>
-        <updated>2021-06-09T17:05:25.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021.06.08 Certificate Lifetime Incident]]></title>
-        <id>https://community.letsencrypt.org/t/2021-06-08-certificate-lifetime-incident/153426</id>
-        <link href="https://community.letsencrypt.org/t/2021-06-08-certificate-lifetime-incident/153426"/>
-        <updated>2021-06-09T17:04:46.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sweden’s Northvolt raises $2.8B to supercharge EV battery output]]></title>
-        <id>https://www.reuters.com/business/energy/battery-maker-northvolt-raises-275-bln-expand-factory-2021-06-09/</id>
-        <link href="https://www.reuters.com/business/energy/battery-maker-northvolt-raises-275-bln-expand-factory-2021-06-09/"/>
-        <updated>2021-06-09T16:34:38.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: A tool to self host game servers with a free static IP]]></title>
-        <id>https://playit.gg/</id>
-        <link href="https://playit.gg/"/>
-        <updated>2021-06-09T16:31:01.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -510,60 +738,10 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[If you sell a house these days, the buyer might be a pension fund]]></title>
-        <id>https://www.wsj.com/articles/if-you-sell-a-house-these-days-the-buyer-might-be-a-pension-fund-11617544801</id>
-        <link href="https://www.wsj.com/articles/if-you-sell-a-house-these-days-the-buyer-might-be-a-pension-fund-11617544801"/>
-        <updated>2021-06-09T14:20:46.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resistor Noise Can Be Deafening, and Hard to Reduce (2007)]]></title>
-        <id>https://www.analog.com/en/analog-dialogue/raqs/raq-issue-25.html</id>
-        <link href="https://www.analog.com/en/analog-dialogue/raqs/raq-issue-25.html"/>
-        <updated>2021-06-09T13:47:06.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alpaca Attack]]></title>
-        <id>https://alpaca-attack.com/</id>
-        <link href="https://alpaca-attack.com/"/>
-        <updated>2021-06-09T12:58:48.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tell HN: SMS-based two-factor authentication is not secure]]></title>
-        <id>https://news.ycombinator.com/item?id=27447206</id>
-        <link href="https://news.ycombinator.com/item?id=27447206"/>
-        <updated>2021-06-09T12:40:08.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Explo (YC W20) – Customer-facing dashboards and reports]]></title>
-        <id>https://www.explo.co/</id>
-        <link href="https://www.explo.co/"/>
-        <updated>2021-06-09T12:23:58.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Seven Years of Factorio Friday Facts (2020)]]></title>
-        <id>https://spieswl.github.io/blog/2020/seven-years-of-factorio-friday-facts</id>
-        <link href="https://spieswl.github.io/blog/2020/seven-years-of-factorio-friday-facts"/>
-        <updated>2021-06-09T12:01:25.000Z</updated>
+        <title type="html"><![CDATA[Will Apple Mail threaten the newsletter boom?]]></title>
+        <id>https://www.platformer.news/p/will-apple-mail-end-the-newsletter</id>
+        <link href="https://www.platformer.news/p/will-apple-mail-end-the-newsletter"/>
+        <updated>2021-06-09T14:25:53.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -578,26 +756,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
 The post The Myth Of The Strong Leader Summary appeared first on Four Minute Books.]]></summary>
         <author>
             <name>Luke Rowley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Fastly customer triggered internet meltdown]]></title>
-        <id>https://www.bbc.co.uk/news/technology-57413224</id>
-        <link href="https://www.bbc.co.uk/news/technology-57413224"/>
-        <updated>2021-06-09T11:14:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lua-RTOS: a real-time operating system for ESP32]]></title>
-        <id>https://github.com/whitecatboard/Lua-RTOS-ESP32</id>
-        <link href="https://github.com/whitecatboard/Lua-RTOS-ESP32"/>
-        <updated>2021-06-09T10:38:44.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -640,16 +798,6 @@ The post Looking at WCAG 2.5.5 for Better Target Sizes appeared first on CSS-Tri
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Todd Libby</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Bafflement Fires]]></title>
-        <id>http://www.dpoetry.com/fires/</id>
-        <link href="http://www.dpoetry.com/fires/"/>
-        <updated>2021-06-08T17:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -707,56 +855,6 @@ The post The World Until Yesterday Summary appeared first on Four Minute Books.]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Don't create for an imaginary group of people]]></title>
-        <id>https://sarvasvkulpati.com/blog/the-faceless-other</id>
-        <link href="https://sarvasvkulpati.com/blog/the-faceless-other"/>
-        <updated>2021-06-08T11:28:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD 3D Stacks SRAM Bumplessly]]></title>
-        <id>https://fuse.wikichip.org/news/5531/amd-3d-stacks-sram-bumplessly/</id>
-        <link href="https://fuse.wikichip.org/news/5531/amd-3d-stacks-sram-bumplessly/"/>
-        <updated>2021-06-08T11:10:21.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kelly Criterion – how to calculate optimal bet sizes]]></title>
-        <id>https://fhur.github.io/notes/articles/the-kelly-criterion/index.html</id>
-        <link href="https://fhur.github.io/notes/articles/the-kelly-criterion/index.html"/>
-        <updated>2021-06-08T07:37:36.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A technique that enables people to hear ultrasonic sources above 20kHz]]></title>
-        <id>https://www.aalto.fi/en/news/anyone-can-get-super-hearing</id>
-        <link href="https://www.aalto.fi/en/news/anyone-can-get-super-hearing"/>
-        <updated>2021-06-08T07:02:42.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Goa’s last typewriter repair shop defied the digital age]]></title>
-        <id>https://www.theguardian.com/global-development/2021/jun/08/revert-to-type-how-goas-last-typewriter-repair-shop-defied-the-digital-age</id>
-        <link href="https://www.theguardian.com/global-development/2021/jun/08/revert-to-type-how-goas-last-typewriter-repair-shop-defied-the-digital-age"/>
-        <updated>2021-06-08T06:06:01.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Full Stack Development with Next.js and Supabase – The Complete Guide]]></title>
         <id>60bbd28eacb62507dd1d99fb</id>
         <link href="https://www.freecodecamp.org/news/the-complete-guide-to-full-stack-development-with-supabas/"/>
@@ -787,16 +885,6 @@ The post Links on Accessibility appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use Closures in JavaScript – A Beginner&#x27;s Guide]]></title>
-        <id>5ff625967af2371468bb8645</id>
-        <link href="https://www.freecodecamp.org/news/closures-in-javascript/"/>
-        <updated>2021-06-07T18:18:01.000Z</updated>
-        <summary type="html"><![CDATA[Closures are a confusing JavaScript concept to learn, because it's hard to see how they're actually used.  Unlike other concepts such as functions, variables, and objects, you don't always use closures conscientiously and directly. You don't say: Oh! Here I will use a closure as a solution. But at the]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
         </author>
     </entry>
     <entry>
@@ -965,18 +1053,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Are Custom Properties a “Menu of What Will Change”?]]></title>
-        <id>https://css-tricks.com/?p=341572</id>
-        <link href="https://css-tricks.com/are-custom-properties-a-menu-of-what-will-change/"/>
-        <updated>2021-06-02T13:35:40.000Z</updated>
-        <summary type="html"><![CDATA[PPK laid out an interesting situation in “Two options for using custom properties” where he and Stefan Judis had two different approaches for doing the same thing with custom properties. In one approach, hover and focus styles for a …
-The post Are Custom Properties a “Menu of What Will Change”? appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How To Fix Cumulative Layout Shift (CLS) Issues]]></title>
         <id>https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/</id>
         <link href="https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/"/>
@@ -1005,30 +1081,6 @@ The post The Bitcoin Standard Summary appeared first on Four Minute Books.]]></s
         <summary type="html"><![CDATA[Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Jennifer Brehm)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code blocks, but better]]></title>
-        <id>https://css-tricks.com/?p=341720</id>
-        <link href="https://ped.ro/blog/code-blocks-but-better"/>
-        <updated>2021-06-01T22:08:48.000Z</updated>
-        <summary type="html"><![CDATA[Pedro Duarte made a wishlist for styled code blocks in blog posts and documentation, then hand-rolls a perfect solution for that wishlist. For example, a feature to be able to highlight certain lines or words within the code block. The …
-The post Code blocks, but better appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Front-End Testing is For Everyone]]></title>
-        <id>https://css-tricks.com/?p=341342</id>
-        <link href="https://css-tricks.com/front-end-testing-is-for-everyone/"/>
-        <updated>2021-06-01T14:17:43.000Z</updated>
-        <summary type="html"><![CDATA[Testing is one of those things that you either get super excited about or kinda close your eyes and walk away. Whichever camp you fall into, I’m here to tell you that front-end testing is for everyone. In fact, …
-The post Front-End Testing is For Everyone appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Evgeny Klimenchenko</name>
         </author>
     </entry>
     <entry>
@@ -1132,17 +1184,6 @@ The post Four Hundred Souls Summary appeared first on Four Minute Books.]]></sum
         <summary type="html"><![CDATA[Meet useful Visual Studio Code extensions for web developers: little helpers to minimize slow-downs and frustrations, and boost developer’s workflow along the way. With auto log messages, auto code formatting, file utils, file labels, code snippets, highlight brackets, tags, indents and workspaces, onboarding and remote SSH.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Cosima Mielke)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Emperor Of All Maladies Summary]]></title>
-        <id>https://fourminutebooks.com/?p=6241</id>
-        <link href="https://fourminutebooks.com/the-emperor-of-all-maladies-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-emperor-of-all-maladies-summary"/>
-        <updated>2021-05-27T12:00:32.000Z</updated>
-        <summary type="html"><![CDATA[1-Sentence-Summary: The Emperor Of All Maladies details the beginnings and progress in our understanding of cancer, including how we first started learning about it, began developing ways to treat it and discovered ways to prevent it, and the biological effect that it has on us. Read in: 4 minutes Favorite quote from the author: Virtually […]
-The post The Emperor Of All Maladies Summary appeared first on Four Minute Books.]]></summary>
-        <author>
-            <name>Luke Rowley</name>
         </author>
     </entry>
     <entry>
@@ -1394,36 +1435,6 @@ Thank you @tianheg, @onnyyonn]]></summary>
         <summary type="html"><![CDATA[“Tree-shaking” is a must-have performance optimization when bundling JavaScript. In this article, we dive deeper on how exactly it works and how specs and practice intertwine to make bundles leaner and more performant. Plus, you’ll get a tree-shaking checklist to use for your projects.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Átila Fassina)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frustrating Design Patterns That Need Fixing: Birthday Picker]]></title>
-        <id>https://smashingmagazine.com/2021/05/frustrating-design-patterns-birthday-picker/</id>
-        <link href="https://smashingmagazine.com/2021/05/frustrating-design-patterns-birthday-picker/"/>
-        <updated>2021-05-12T12:42:00.000Z</updated>
-        <summary type="html"><![CDATA[In this new series of articles on UX, we take a closer look at some frustrating design patterns and explore better alternatives, along with plenty of examples to keep in mind when building or designing one. Let’s start with an infamous birthday picker.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Little Smashing Stories]]></title>
-        <id>https://smashingmagazine.com/2021/05/little-smashing-stories/</id>
-        <link href="https://smashingmagazine.com/2021/05/little-smashing-stories/"/>
-        <updated>2021-05-12T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today marks the day we sent out our 300th edition of the Smashing Newsletter. This article is a little celebration in which we share little Smashing stories from people working behind the scenes.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Primer On CSS Container Queries]]></title>
-        <id>https://smashingmagazine.com/2021/05/complete-guide-css-container-queries/</id>
-        <link href="https://smashingmagazine.com/2021/05/complete-guide-css-container-queries/"/>
-        <updated>2021-05-11T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A prototype of the long-awaited CSS container queries has landed in Chrome Canary and is available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Stephanie Eckles)</name>
         </author>
     </entry>
 </feed>
