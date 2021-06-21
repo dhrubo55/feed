@@ -1,557 +1,591 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-20T00:59:46.672Z</id>
+    <id>urn:2021-06-21T01:01:18.371Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-20T00:59:46.672Z</updated>
+    <updated>2021-06-21T01:01:18.371Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[The EU: Made in America]]></title>
-        <id>https://www.economist.com/europe/2021/06/19/the-eu-made-in-america</id>
-        <link href="https://www.economist.com/europe/2021/06/19/the-eu-made-in-america"/>
-        <updated>2021-06-20T00:06:36.000Z</updated>
+        <title type="html"><![CDATA[Show HN: Land 10 interviews a month with 0 effort]]></title>
+        <id>https://joinrelentless.com/</id>
+        <link href="https://joinrelentless.com/"/>
+        <updated>2021-06-21T00:09:58.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Use Consistent Hashing in a System Design Interview?]]></title>
-        <id>https://dev.to/arslan_ah/how-to-use-consistent-hashing-in-a-system-design-interview-33ge</id>
-        <link href="https://dev.to/arslan_ah/how-to-use-consistent-hashing-in-a-system-design-interview-33ge"/>
-        <updated>2021-06-19T23:25:03.000Z</updated>
-        <summary type="html"><![CDATA[While designing a scalable system, one of the most important aspects is defining how the data will be partitioned and replicated across servers.
-Let's first define partitioning and replication so that we are on the same page.
-Data partitioning: It is the process of distributing data across a set of servers. It improves the scalability and performance of the system.
-Data replication: It is the process of making multiple copies of data and storing them on different servers. It improves the availability and durability of the data across the system.
-Data partition and replication strategies lie at the core of any distributed system. A carefully designed scheme for partitioning and replicating the data enhances the performance, availability, and reliability of the system and also defines how ef…]]></summary>
+        <title type="html"><![CDATA[How to prepare custom image dataset, split as train set & test set and build a CNN model using Keras?]]></title>
+        <id>https://dev.to/danyson/how-to-prepare-custom-image-dataset-split-as-train-set-test-set-and-build-a-cnn-model-using-keras-47jo</id>
+        <link href="https://dev.to/danyson/how-to-prepare-custom-image-dataset-split-as-train-set-test-set-and-build-a-cnn-model-using-keras-47jo"/>
+        <updated>2021-06-21T00:05:14.000Z</updated>
+        <summary type="html"><![CDATA[Imagine you have two class of images, Class_A  &  Class_B. 
+Now, you need a custom dataset with train set and test set for training and validation of our image data.
+We are going to use Keras for our Dataset generation.
+
+logo:keras.io----------------------------
+Create folder named data 
+Create folders train and validation as subfolders inside folder data.
+Create folders class_A and class_B as subfolders inside train and validation folders.
+Place 80% class_A images in data/train/class_A folder path.
+Place 20% class_A imagess in `data/validation/class_A folder path.
+Place 80% class_B images in data/train/class_B folder path.
+Place 20% class_B imagess in data/validation/class_B folder path.
+`
+
+
+
+data/
+    train/
+        class_A/
+            class_A001.jpg
+            class_A002.jpg
+         …]]></summary>
         <author>
-            <name>Arslan Ahmad</name>
+            <name>Danyson</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Terminal]]></title>
-        <id>https://dev.to/codetopiacommunity/terminal-3fnm</id>
-        <link href="https://dev.to/codetopiacommunity/terminal-3fnm"/>
-        <updated>2021-06-19T23:11:31.000Z</updated>
-        <summary type="html"><![CDATA[Getting a terminal for windows (cmder)
+        <title type="html"><![CDATA[SaaS: The Twelve-Factor app methodology explained]]></title>
+        <id>https://dev.to/loboaveces/saas-the-twelve-factor-app-methodology-explained-3cjl</id>
+        <link href="https://dev.to/loboaveces/saas-the-twelve-factor-app-methodology-explained-3cjl"/>
+        <updated>2021-06-20T23:45:40.000Z</updated>
+        <summary type="html"><![CDATA[The Twelve-Factor App methodology is a methodology for building software-as-a-service applications. These best practices are designed to enable applications to be built with portability and resilience when deployed to the web.
 
 
-Before we proceed with this blog article, I would want to inform you that there is a video about this article on Codetopia’s YouTube channel. You can watch it or read this post or preferably do both.
+ 
+ 
+Code must be tracked in a version control system (VCS) like Github, BitBucket, etc. 
+One-to-One relationship between the CodeBase and the application. 
+There can be multiple deploys of the application.
+Different versions of the CodeBase can be in each deployment.
 
+Build: Transform a CodeBase into an executable unit called build.
+Release: Combine build with configuration so that it's ready to run.
+Run: Runs the application.
 
 
 
 
   
   
-  What is a terminal?
+  Factor 10 - Dev/Prod parity:
 
 
-From experience, I can tell that about 90% of learners who begin their way into the development world or into computing often know nothing about the terminal and often get confused when anything about it is mentioned. What is the terminal? one may ask. The terminal is actually an interface where instructions known as commands could be given to the computer to carry out. Unlike the normal GUI (Graphical User Interface) where the mouse is used to click buttons and other graphical elements in order to issue commands, we h…]]></summary>
+
+Minimize differences between deployment and production environments.
+Back-end services should be…]]></summary>
         <author>
-            <name>CODETOPIA-COMMUNITY</name>
+            <name>Carlos Loredo</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Renoise – a DAW with a tracker-like interface]]></title>
-        <id>https://www.renoise.com/</id>
-        <link href="https://www.renoise.com/"/>
-        <updated>2021-06-19T23:11:10.000Z</updated>
+        <title type="html"><![CDATA[Curcumin: A bioavailable blocker of TNF and other pro-inflammatory biomarkers (2013)]]></title>
+        <id>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3753829/</id>
+        <link href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3753829/"/>
+        <updated>2021-06-20T23:42:42.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Korea revokes approvals for 1,700 communication equipment, devices]]></title>
-        <id>http://www.koreaherald.com/view.php?ud=20210617000953</id>
-        <link href="http://www.koreaherald.com/view.php?ud=20210617000953"/>
-        <updated>2021-06-19T22:30:24.000Z</updated>
+        <title type="html"><![CDATA[How to create a Mobile App for your Business with $0]]></title>
+        <id>https://dev.to/krowser/how-to-create-a-mobile-app-for-your-business-with-0-51nf</id>
+        <link href="https://dev.to/krowser/how-to-create-a-mobile-app-for-your-business-with-0-51nf"/>
+        <updated>2021-06-20T23:23:39.000Z</updated>
+        <summary type="html"><![CDATA[Let’s talk about the business owners who want to build an app as an extension of their current brand, business, or website.
+
+What’s your budget?
+Does this sound too high to you?
+Your location is relevant to how much it’s going to cost to develop your app.
+If you’re located in North America, expect to pay roughly $150 per hour if you’re planning to hire someone to build your iOS mobile app.
+
+So unless you’re planning to take a trip to Indonesia, it won’t be inexpensive. On average, an app will take about 7-9 months to build and cost you about $270,000. That’s an unrealistic number for some businesses.
+Your company may not even be able to secure a $200,000 line of credit, never mind pay over $250,000 for an app.
+So what’s the solution?
+There are some great resources online that teach you how to code for free. I’ll show you my favourite ones. Team Treehouse offers a free trial for a week to new users. So you can learn to code from your computer, anywhere with a Wi-Fi connection.
+Here’s how their system works. They have thousands of videos to teach users the basics of coding. After you watch the videos, you’ll take quizzes to test your knowledge. 
+
+Code Academy is another one of my favourites.
+
+For small business who are just interested in converting their existing website to a mobile app, they can take advantage of the "Krowser Web Services App Development Support Program" 
+You just need to submit your business website link and an android app will be developed and published on the Google Play Store all for free.
+The whole process typically takes 7 days.
+Submit your website here: https://forms.gle/jExGTmyvv2hgFcfF7
+Creating an android app for your business is much easier than it sounds.
+Depending on your situation, you’ve got lots of options to choose from.]]></summary>
+        <author>
+            <name>Krowser Web Services</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascript Functions]]></title>
+        <id>https://dev.to/cleveroscar/javascript-functions-k34</id>
+        <link href="https://dev.to/cleveroscar/javascript-functions-k34"/>
+        <updated>2021-06-20T22:39:57.000Z</updated>
+        <summary type="html"><![CDATA[Table Of Contents
+
+
+
+Functions
+Traditional Function
+Arrow Function
+Conclusion
+
+
+
+A fundamental building block for Javascript programs. Most common feature in all programming languages. What exactly is a function in technical terms? a function is a block of code that is defined once, can be executed or invoked numerous times. Functions are also objects so they can be manipulated by other programs too. 
+We declare a function by using the function keyword, following by a name of our liking, followed by a pair of opening and closing parentheses, an optional but recommended for best practice is to have a space for readability between the parameters and the curly braces with zero or more statements inside.
+  function buzz() { }
+
+There is a new way of declaring functions in modern javascript, and…]]></summary>
+        <author>
+            <name>Oscar Pacheco Ortiz</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Covid Vaccine Websites Violate Disability Laws, Create Inequity for the Blind]]></title>
+        <id>https://khn.org/news/article/covid-vaccine-websites-violate-disability-laws-create-inequity-for-the-blind/</id>
+        <link href="https://khn.org/news/article/covid-vaccine-websites-violate-disability-laws-create-inequity-for-the-blind/"/>
+        <updated>2021-06-20T22:21:28.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building Microservices in Go: REST APIs - OpenAPI 3 and Swagger UI]]></title>
-        <id>https://dev.to/mariocarrion/building-microservices-in-go-rest-apis-openapi-3-and-swagger-ui-8o1</id>
-        <link href="https://dev.to/mariocarrion/building-microservices-in-go-rest-apis-openapi-3-and-swagger-ui-8o1"/>
-        <updated>2021-06-19T22:25:16.000Z</updated>
-        <summary type="html"><![CDATA[What is Swagger? OpenAPI?
+        <title type="html"><![CDATA[Cordova FCM-Push Notification]]></title>
+        <id>https://dev.to/mrbrowny/cordova-fcm-push-notification-3198</id>
+        <link href="https://dev.to/mrbrowny/cordova-fcm-push-notification-3198"/>
+        <updated>2021-06-20T22:12:47.000Z</updated>
+        <summary type="html"><![CDATA[Image From Pexels by Brett Jordan
+Are you a cordova developer and trying to implement the FCM push notification but encounter errors, ok, I was once like you few hours ago from writing this article.
+So, I'd like to drop what I learned on how to solve this problem. Because the plugin itself has some bugs in it (At the time of writing this article).
+Creating new Cordova Project
+Adding Android Platform
+Adding FCM plugin
+Creating new Firebase Project
+Editing Config.xml file
+Adding the google-services.json File
+Correcting Plugin Bugs in Files
+Running getToken Function inside Device Ready
 
 
-Swagger/OpenAPI allows us to document and collaborate with our users, specifically it allows to define the resources, parameters, types, fields and everything that describes the APIs we are building. Swagger and OpenAPI are two different things, it's better explained on the original blog post, but the idea is basically this:
-OpenAPI: Specification
-Swagger: Tools for implementing the specification
-Disclaimer: This post includes Amazon affiliate links. If you click on one of them and you make a purchase I'll earn a commission. Please notice your final price is not affected at all by using those links.
 
+Navigate to the Folder you want to keep this project in.
+cd 'C:\georgeikwegbu\usser\Documents\GitHub\_sideProjects\'
 
-
-
-
-
-
-
-The code used for this post is available on Github.
-Using Swagger 2.0 in Go well-known to be supported by packages like github.com/go-swagger/go-swagger and …]]></summary>
+Then create a new folder (directory) either from the GUI or
+mkdir cordovaFcm
+// this crea…]]></summary>
         <author>
-            <name>Mario Carrion</name>
+            <name>Ikwegbu George</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Memento Vivere]]></title>
-        <id>https://dev.to/swyx/memento-vivere-5eak</id>
-        <link href="https://dev.to/swyx/memento-vivere-5eak"/>
-        <updated>2021-06-19T21:47:04.000Z</updated>
-        <summary type="html"><![CDATA[“When you grow up you tend to get told that the world is the way it is and your life is just to live your life inside the world. Try not to bash into the walls too much. Try to have a nice family life, have fun, save a little money. That's a very limited life. Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you. And you can change it, you can influence it… Once you learn that, you'll never be the same again.”
-— Steve Jobs
-The common reminder, "Memento mori", is often interpreted as a call to withdraw our ambitions and not take pride in our achievements.
-I worry that this makes us too fatalistic, nihilistic, and self centered. "Nothing I do matters, so why should I bother?"
-Memento mori is no guide to life. Fortunately, I've found it has an opposite: 
-Memento vivere. Remember that you must LIVE.
-The way things are is often how we think the way things will always be. But nothing could be further from the truth:
-The iPhone was introduced in 2007, 14 years ago.
-The World Wide Web was invented in 1990, 31 years ago.
-The Personal Computer revolution started in 1977,  44 years ago.
-Richard Nixon took the US off the gold standard in 1971, meaning the current international financial system is only 50 years old.
-Color TV first aired in 1951, 70 years ago.
-Nuclear bombs were developed in 1945, 76 years ago.
-Automatic washing machines rolled out in the 1930s.
-Home radios and refrigerators were first introduced in the 1920's.
-Henry Ford first sold the Model T automobile in 1908.
-Thomas Edison started the Edison Electric Illuminating Company in 1882.
-Alexander Graham Bell made the first telephone call in 1876.
-What are we doing today that will find its place on a list like this, 100 years from now?
-I still struggle to comprehend it.
-These events are 66 years apart. 
-    
-    
-      01:10 AM - 17 May 2021]]></summary>
+        <title type="html"><![CDATA[Why Headless BI is a perfect fit for DataOps teams]]></title>
+        <id>https://dev.to/kratom/why-headless-bi-is-a-perfect-fit-for-dataops-teams-4eob</id>
+        <link href="https://dev.to/kratom/why-headless-bi-is-a-perfect-fit-for-dataops-teams-4eob"/>
+        <updated>2021-06-20T22:04:37.000Z</updated>
+        <summary type="html"><![CDATA[The headless BI is not a buzzword - same as headless CMS concept, the headless BI is about decoupling the analytical logic from the presentation and self-service layer. The design of headless BI is a robust system based on open and declarative APIs allowing combining the data services to a custom stack. 
+The data managed by DataOps teams are often consumed as analytics insights, dashboards, or machine learning models. We  believe that exposing a SQL database and let your consumers analyze the data in the visualization tools of their choice is a way to hell.
+Read this article that explains why headless BI is the perfect fit for DataOps teams: https://medium.com/gooddata-developers/dataops-headless-bi-the-perfect-fit-2654a923ac01
+Also, you can get started right now by downloading the community edition directly from the dockerhub: https://hub.docker.com/r/gooddata/gooddata-cn-ce.]]></summary>
         <author>
-            <name>swyx</name>
+            <name>Tom</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Make a Bar Chart Race With Python in 2 Minutes]]></title>
-        <id>https://dev.to/lorenzofelletti/how-to-make-a-bar-chart-race-with-python-in-2-minutes-4999</id>
-        <link href="https://dev.to/lorenzofelletti/how-to-make-a-bar-chart-race-with-python-in-2-minutes-4999"/>
-        <updated>2021-06-19T21:35:41.000Z</updated>
-        <summary type="html"><![CDATA[How to create a cool bar chart race animation the easiest way.
-
-
-Prerequisites: having Python installed on your pc or being registered for Google Colaboratory.
-First create a new directory for the project (if you use Google Colaboratory skip to step 1)
-mkdir my_bar_chart_race
-
-Then create a new virtual environment, and activate it
-python3 -m venv venv
-source venv/bin/activate
-
-If you haven’t already, install pandas
-pip3 install pandas
-
-Install the library we’ll use to create the bar chart race named, you won’t guess it, bar_chart_race
-pip3 instll bar_chart_race
-
-Now that we have the necessary libraries installed, let’s load our data.
-In this tutorial, we’ll create a bar chart animation of the 2020 MotoGP World Championship’s title race. If you’re not familiar with this sport — that’s bad — don’t worry.
-MotoGP is the premier class of motorcycle road racing. A championship is held every year and consists of many races (or Grand Prix). After each Grand Prix, each rider gains some points depending on his final position at the GP. At the end of the season, the rider with the most point wins the championship.
-The point system in use since 1993 is the following:
-
-
-You can find the dataset here.
-Now the cool part: coding!
-import pandas as pd
-import bar_chart_race as bcr
-
-df = pd.read_csv('./2020-championship.csv')
-df = df.set_index('race')
-
-The final result is only one line of code away
-bcr.bar_chart_race(df=df, title='2020 MotoGP Championship Race', orientation='h', sort='desc', n_bars=10, steps_per_period=40, period_length=2000)
-
-Ok, we’ve done with the coding. You can save and run the program, and you will obtain as output the bar chart race video.
-Congrats, you’ve finished. As easy as that.
-
-
-
-
-That was just a short introduction to this library. You can unleash your imagination creating much more advanced races with it.]]></summary>
-        <author>
-            <name>Lorenzo Felletti</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A specific network name can completely disable Wi-Fi on your iPhone]]></title>
-        <id>https://9to5mac.com/2021/06/19/a-specific-network-name-can-completely-disable-wi-fi-on-your-iphone/</id>
-        <link href="https://9to5mac.com/2021/06/19/a-specific-network-name-can-completely-disable-wi-fi-on-your-iphone/"/>
-        <updated>2021-06-19T21:34:41.000Z</updated>
+        <title type="html"><![CDATA[Gramps – Free Genealogy Software]]></title>
+        <id>https://gramps-project.org</id>
+        <link href="https://gramps-project.org"/>
+        <updated>2021-06-20T21:58:57.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Top 10 Programming Interview Questions]]></title>
-        <id>https://dev.to/thevik/top-10-programming-interview-questions-17c1</id>
-        <link href="https://dev.to/thevik/top-10-programming-interview-questions-17c1"/>
-        <updated>2021-06-19T21:25:07.000Z</updated>
-        <summary type="html"><![CDATA[In this Tutorial, I have Provided the Most Common Coding Interview Questions
-
-
-We are all aware that answering the most basic coding or programming interview questions determines how we perform in an interview. The interview may be for Java, C++, or a JavaScript requirement, but the basis remains the same, that is how strong we are in the foundations of programming logic.
-Also if our approach is prompt and subtle in an interview, the probability of selection is higher. So read on for cracking the coding interview questions.
-Q #1) How can you reverse a string?
-Q #2) How to get the matching characters in a string?
-Q #3) How to get the non-matching characters in a string?
-Q #4) How do you prove that the two strings are anagrams?
-Q #5) How to calculate the number of numerical digits in a string?
-Q #6) How to compute the first character of a string that is not repeated?
-Q #7) How to get the matching elements in an integer array?
-Q #8) Implement the insertion sort algorithm.
-Q #9) How to perform swapping two strings by not using a third variable?
-Q #10) Implement the process of reversing a linked list.
-Q #11) How to get the length of a linked list?
-Q #12) How to verify if a number is prime or not?
-Q #13) Compute the first five Fibonacci numbers.
-Q #14) How to reverse a number?
-Q #15) Determine the factors of a number.
-Instagram Theme Page related to programming, you can follow it if you want to :)
-
-
-If this blog gets a good response then I will provide the answers of this questions ( who don't know that ) although you can always search the questions and get the answers yourself
-You can also tell the topic in which you want the next blog :)
-Yup another small blog though ;-;]]></summary>
+        <title type="html"><![CDATA[Your first ruby gem 💎]]></title>
+        <id>https://dev.to/bearinmind/your-first-ruby-gem-2646</id>
+        <link href="https://dev.to/bearinmind/your-first-ruby-gem-2646"/>
+        <updated>2021-06-20T21:58:28.000Z</updated>
+        <summary type="html"><![CDATA[I remember reading many times over this piece of advice given to new, aspiring developers : « Go ahead! Read some source code, then contribute to open source projects!  ». Truth be told, hearing this right after attending a 2-month coding bootcamp kind of felt like being pushed to try and climb a mountain with slippers and a swimsuit.
+In spite of this, barely three years forward and a few apps later, a good friend of mine and I just released our very first Ruby gem, abyme. From the moment we rolled up our sleeves, up to our first release on rubygems, we just learnt so much along the way we felt we ought to share this experience, in the hope of empowering others to do the same.
+Before we dive in, let's quickly review a few reasons as to why we think building a gem is good for everyone - inc…]]></summary>
         <author>
-            <name>Vikram Aditya</name>
+            <name>Louis Sommer</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to easily create beautiful particles animations for your website using tsParticles]]></title>
-        <id>https://dev.to/matteobruni/how-to-easily-create-beautiful-particles-animations-for-your-website-using-tsparticles-p36</id>
-        <link href="https://dev.to/matteobruni/how-to-easily-create-beautiful-particles-animations-for-your-website-using-tsparticles-p36"/>
-        <updated>2021-06-19T21:15:48.000Z</updated>
-        <summary type="html"><![CDATA[How to add tsParticles in your website
+        <title type="html"><![CDATA[Imp: A full-stack relational language built around incremental maintenance]]></title>
+        <id>https://github.com/jamii/imp</id>
+        <link href="https://github.com/jamii/imp"/>
+        <updated>2021-06-20T21:51:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Express + NextJS - sample/tutorial integration]]></title>
+        <id>https://dev.to/alexeydc/express-nextjs-sample-tutorial-integration-485f</id>
+        <link href="https://dev.to/alexeydc/express-nextjs-sample-tutorial-integration-485f"/>
+        <updated>2021-06-20T21:41:54.000Z</updated>
+        <summary type="html"><![CDATA[Context
 
 
-Have you seen particles effect in some websites and you want one too?
-Do you have particles.js installed but it have problems or it's too heavy for your users?
-Are you searching a new animation for your website?
-Well, you are in the right place. tsParticles is a new library, started from the particles.js codebase, to have some particles animations in your website.
-   
+While NextJS is a powerful tool in its own right, adding Express to it makes for a really powerful combo.
+You may want to add a custom API to your application without spinning up a separate API service, or you may want to take control of routing, or run some middleware and fetch standard data for your pages before they are served. Perhaps you have an existing API server and you wish to enable it to serve some front end.
+This type of set up is documented in NextJS itself: https://nextjs.org/docs/advanced-features/custom-server
+In the standard example, they use Node's http package; we'll use Express to take advantage of its middleware and routing capabilities.
+I've provided an example barebones integration at https://github.com/alexey-dc/nextjs_express_template
+Let's take a look at…]]></summary>
+        <author>
+            <name>Alexey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Knowledge Proofs]]></title>
+        <id>https://zkp.science/</id>
+        <link href="https://zkp.science/"/>
+        <updated>2021-06-20T21:06:43.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smarking (YC W15) Is Hiring a Head of Engineering to Scale Product]]></title>
+        <id>https://jobs.lever.co/smarking/91ecceff-db7b-463f-bd6e-c348bcaec567</id>
+        <link href="https://jobs.lever.co/smarking/91ecceff-db7b-463f-bd6e-c348bcaec567"/>
+        <updated>2021-06-20T21:00:46.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Django rest framework - basics I wish to know before I started last project]]></title>
+        <id>https://dev.to/kuba_szw/django-rest-framework-basics-i-wish-to-know-before-i-started-last-project-2agp</id>
+        <link href="https://dev.to/kuba_szw/django-rest-framework-basics-i-wish-to-know-before-i-started-last-project-2agp"/>
+        <updated>2021-06-20T20:49:41.000Z</updated>
+        <summary type="html"><![CDATA[The idea is to gather all information how to set up API endpoints based on model in Django and create some kind of cheat sheet. 
+To make it work in Django, we need three things. Some kind of Model with serializer and the View. Then we plug it to url and voilà! Let's make it step by step.
+Nothing fancy here, just an Article. Skip to the next point 😉.
+// models.py
+from django.db import models
+from django.contrib.auth import get_user_model
+
+UserModel = get_user_model()
+
+class Article(models.Model):
+    author = models.ForeignKey(UserModel, on_delete=models.SET_NULL, null=True)
+    title = models.CharField(max_length=50)
+    text = models.CharField(max_length=100)
+
+Serializer is a class that will convert our model instance to JSON and back. I don't want to focus on how it works but below you …]]></summary>
+        <author>
+            <name>Kuba</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Platform for startups to hire developers]]></title>
+        <id>https://dev.to/faraazahmad/platform-for-startups-to-hire-developers-4e41</id>
+        <link href="https://dev.to/faraazahmad/platform-for-startups-to-hire-developers-4e41"/>
+        <updated>2021-06-20T20:47:31.000Z</updated>
+        <summary type="html"><![CDATA[Hi all,
+
+I've been working on a platform for startups to hire developers, I've done some research on this topic and I see some gaping holes in the system that I can fix. 
+I'd love it if you checked out my early access page: https://myth-warp-1624188088.versoly.page/
+PS: If you've ever hired any developer, I'd like to know if/why you would or would not spend money for this service.]]></summary>
+        <author>
+            <name>Syed Faraaz Ahmad</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bubble sort algorithm]]></title>
+        <id>https://dev.to/ayabouchiha/bubble-sort-algorithm-516f</id>
+        <link href="https://dev.to/ayabouchiha/bubble-sort-algorithm-516f"/>
+        <updated>2021-06-20T20:19:38.000Z</updated>
+        <summary type="html"><![CDATA[Definition of the bubble sort algorithm
+
+
+Bubble Sort is a type of sorting algorithms that works by comparing each pair of adjacent items and swapping them if they are in the wrong order.
+
+
+
+
+Time complexity
+Space complexity
+
+
+
+
+О(n2)
+O(1)
+
+
+
+def BubbleSortAlgorithm(items: list) -> list:
+    """
+        [name] => Bubble Sort 
+        [type] => Sorting algorithms
+        [space complexity] => O(1)
+        [time complexity]  => O(n^2)
+        @params (
+            [items] => list
+        )
+        @return => sorted list
+    """
+    for i in range(len(items) - 1):
+        isSorted = True
+        for j in range(len(items) - i - 1):
+            # if the number is greater than the adjacent element
+            if items[j] > items[j + 1] :
+                # swap 
+                items[j], items[j + 1] = items[j + 1], items[j]
+                isSorted = False
+        # if the list is sorted
+        if isSorted:
+            break
+    return items
+
+https://www.geeksforgeeks.org/python-program-for-bubble-sort/
+https://www.techopedia.com/definition/3757/bubble-sort
+https://www.geeksforgeeks.org/bubble-sort/
+#day_8
+ Have a great day.]]></summary>
+        <author>
+            <name>Aya Bouchiha</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Constraints (1981) [pdf]]]></title>
+        <id>https://dspace.mit.edu/bitstream/handle/1721.1/6312/AIM-502a.pdf</id>
+        <link href="https://dspace.mit.edu/bitstream/handle/1721.1/6312/AIM-502a.pdf"/>
+        <updated>2021-06-20T20:14:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Popular GitHub repositories Every Developer Should Follow]]></title>
+        <id>https://dev.to/wordssaysalot/popular-github-repositories-every-developer-should-follow-5fcb</id>
+        <link href="https://dev.to/wordssaysalot/popular-github-repositories-every-developer-should-follow-5fcb"/>
+        <updated>2021-06-20T20:07:21.000Z</updated>
+        <summary type="html"><![CDATA[GitHub is not just a version control service; it is a terrific content resource for all-things-development From free e-books and tutorials, to interview preparation material and ‘awesome’ listicles, GitHub is the go-to learning hub for Developers.
+I've compiled a list of the most valuable repositories, I'm willing to bet you haven't come across most of them!
+GitHub stars: 164k+
+Awesome is, without a doubt, the most popular repo that curates all topics from software development to hardware to business. It has more than 123,000 stars on Github at this moment, and one could spend days (nights) browsing it. It is my one-stop shop if I want to learn something new.
  / 
-        tsparticles
+        awesome
       
     
-
-A lightweight TypeScript library for creating particles. Dependency free (*), browser ready and compatible with React, Vue, Angular, Svelte, jQuery, Preact, Inferno
-         
-This library is available on the two most popular CDNs and it's easy and ready to use, if you were using particles.js it's even easier.
-You'll find the instructions below, with…]]></summary>
+GitHub stars: 194k+
+Despite the fact that the repository's name is Free Programming Books, it offers…]]></summary>
         <author>
-            <name>Matteo Bruni</name>
+            <name>Ritesh Kumar</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FARM STACK [ FastAPI +React+ mongoDB]]]></title>
-        <id>https://dev.to/bekbrace/farm-stack-fastapi-react-mongodb-3699</id>
-        <link href="https://dev.to/bekbrace/farm-stack-fastapi-react-mongodb-3699"/>
-        <updated>2021-06-19T21:09:31.000Z</updated>
-        <summary type="html"><![CDATA[This is my latest video on YouTube, the FARM stack course, although this stack is not as popular as MERN, MEAN , LAMP, JAM etc.. it is my favorite stack, I created a full fledged application using FARM stack for a client who wanted to take orders for her flower shop that consists of 4 branches in the Polish capital, Warsaw.
-The prerequisites to follow along is to have the basic understanding of the following  :
-1- HTTP request methods
-I hope you will enjoy the video, you can contact me here by dropping a comment or you can mail me on info@bekbrace.com
-Source code: https://github.com/BekBrace/FARM-Stack-Course
-Have a good one - Bek]]></summary>
-        <author>
-            <name>Bek Brace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Community Phone Company (YC W19) Is Hiring]]></title>
-        <id>https://www.ycombinator.com/companies/community-phone-company/jobs/6psvnZD-digital-marketing-specialist</id>
-        <link href="https://www.ycombinator.com/companies/community-phone-company/jobs/6psvnZD-digital-marketing-specialist"/>
-        <updated>2021-06-19T21:00:30.000Z</updated>
+        <title type="html"><![CDATA[Nixos-unstable’s ISO_minimal.x86_64-Linux is 100% reproducible]]></title>
+        <id>https://discourse.nixos.org/t/nixos-unstable-s-iso-minimal-x86-64-linux-is-100-reproducible/13723</id>
+        <link href="https://discourse.nixos.org/t/nixos-unstable-s-iso-minimal-x86-64-linux-is-100-reproducible/13723"/>
+        <updated>2021-06-20T20:01:48.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JS30 Days 11- 14]]></title>
-        <id>https://dev.to/beendra/js30-days-11-14-hed</id>
-        <link href="https://dev.to/beendra/js30-days-11-14-hed"/>
-        <updated>2021-06-19T21:00:04.000Z</updated>
-        <summary type="html"><![CDATA[This post is a few days late because I had a bit of a setback this week. My apartment lost power and internet for a couple of days, everything is fixed now but it was definitely stressful to deal with. 
-GitHub
-
-GitHub
- 
-GitHub
-
-GitHub
-This exercise was all about Object and Arrays and making a reference vs. a copy and how they can be manipulated. If you make a reference to an array and update that array it will edit the original array as well because it is an array reference and not an array copy. So they both are pointing to the same array. To fix this a copy needs to be made instead. There are a few techniques to do this. You could .slice() to make a copy of an array. You can also create a new array and concat the old one or even use the ES6 spread operator. When those new copies of arrays are created and updated, the original one is not changed. This also applies to objects.]]></summary>
-        <author>
-            <name>Alexandra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to learn to code FAST!]]></title>
-        <id>https://dev.to/thevik/how-to-learn-to-code-fast-3o9j</id>
-        <link href="https://dev.to/thevik/how-to-learn-to-code-fast-3o9j"/>
-        <updated>2021-06-19T20:39:25.000Z</updated>
-        <summary type="html"><![CDATA[Hello my gorgeous friends on the internet, hope you are doing very good, and fancy today, in today's blog, I want to give you the number one tip, that's not a dirty joke, Okay, I'm gonna give you the number one tip that I follow to become a better developer and increase our skills.
-So lets just get in the blog,
-The number one tip is to create project and stumped you in tutorials. That's the number one tip that you should follow. Whenever you're learning anything development related, whether that be Python, or JavaScript, or development or game development or whatever. That's the number one tip is not to follow tutorials as much as you might think. And to actually start building out the things that you want. And again, this is like so obvious that you might everybody might be like, yeah, mo…]]></summary>
-        <author>
-            <name>Vikram Aditya</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction to threading and multiprocessing: Concurrency & Parallelism in Python]]></title>
-        <id>https://dev.to/adarshpunj/introduction-to-threading-and-multiprocessing-concurrency-parallelism-in-python-48o</id>
-        <link href="https://dev.to/adarshpunj/introduction-to-threading-and-multiprocessing-concurrency-parallelism-in-python-48o"/>
-        <updated>2021-06-19T20:24:31.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-
-
-Most of us have come across terms like multithreading, parallel processing, multiprocessing, concurrency, etc., though each of these terms has its own meaning. In a broader sense, we need these because we want to avoid some kind of latency (or have an illusion of doing so) in the execution of regular programs.
-To do this, we try to write code that doesn’t necessarily runs in order (non-sequential) and all this boils down to two different concepts — concurrency and parallelism.
-I came across concurrency when I was trying to download ~5000 images from the web. I had collected image URLs from Flickr, and these images had to be passed on to a team doing annotation (labelling).
-This is how a sequential program to download images would look like:
-import requests
-
-def download_imag…]]></summary>
-        <author>
-            <name>Adarsh Punj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create Apache Web Server in AWS Using Terraform]]></title>
-        <id>https://dev.to/chefgs/create-apache-web-server-in-aws-using-terraform-1fpj</id>
-        <link href="https://dev.to/chefgs/create-apache-web-server-in-aws-using-terraform-1fpj"/>
-        <updated>2021-06-19T20:18:10.000Z</updated>
-        <summary type="html"><![CDATA[Table of Contents
-
-
-
-
-Terraform Introduction
-
-
-Install and Configure AWS CLI
-
-
-Install and Configure Terraform
-
-
-AWS Infrastructure Automation
-
-
-Basic Terminologies in Terraform
-
-
-Source Code Details
-
-
-Cloud Init and User Data
-
-
-Steps to run Terraform
-
-
-Access the Webserver
-
-
-Cleanup
-
-
-Bibliography
-
-
-
-
-  
-  
-  Terraform Introduction
-
-
-
-
-Terraform is an Infrastructure as Code (IaC) software tool created by HashiCorp. 
-Users define and provide data center infrastructure using a declarative configuration language known as HashiCorp Configuration Language (HCL).
-Terraform manages external resources (such as public cloud infrastructure, private cloud infrastructure, network appliances, software as a service, and platform as a service) with "providers"
-HashiCorp maintains an extensive list of of…]]></summary>
-        <author>
-            <name>Saravanan G</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ivermectin for Prevention and Treatment of Covid-19 Infection]]></title>
-        <id>https://journals.lww.com/americantherapeutics/Abstract/9000/Ivermectin_for_Prevention_and_Treatment_of.98040.aspx</id>
-        <link href="https://journals.lww.com/americantherapeutics/Abstract/9000/Ivermectin_for_Prevention_and_Treatment_of.98040.aspx"/>
-        <updated>2021-06-19T17:26:52.000Z</updated>
+        <title type="html"><![CDATA[If the Moon Were Only 1 Pixel (2014)]]></title>
+        <id>https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html</id>
+        <link href="https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html"/>
+        <updated>2021-06-20T19:32:34.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[U.S. senators propose 25% tax credit for semiconductor manufacturing]]></title>
-        <id>https://www.reuters.com/article/ctech-us-usa-semiconductors-congress-idCAKCN2DT29F-OCATC</id>
-        <link href="https://www.reuters.com/article/ctech-us-usa-semiconductors-congress-idCAKCN2DT29F-OCATC"/>
-        <updated>2021-06-19T15:20:40.000Z</updated>
+        <title type="html"><![CDATA[A dwarf planet coming within 11 AU of the sun over the next 10 years]]></title>
+        <id>https://groups.io/g/mpml/topic/83645454#36493</id>
+        <link href="https://groups.io/g/mpml/topic/83645454#36493"/>
+        <updated>2021-06-20T18:39:04.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I'm Peter Roberts, immigration attorney who does work for YC startups. AMA]]></title>
-        <id>https://news.ycombinator.com/item?id=27560781</id>
-        <link href="https://news.ycombinator.com/item?id=27560781"/>
-        <updated>2021-06-19T14:39:45.000Z</updated>
+        <title type="html"><![CDATA[Our journey from office-centric to remote-first]]></title>
+        <id>https://www.docker.com/blog/our-journey-from-office-centric-to-remote-first/</id>
+        <link href="https://www.docker.com/blog/our-journey-from-office-centric-to-remote-first/"/>
+        <updated>2021-06-20T18:38:32.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[EventBus 3.1 with plain Java support]]></title>
-        <id>https://greenrobot.org/release/eventbus-3-1-plain-java-support/</id>
-        <link href="https://greenrobot.org/release/eventbus-3-1-plain-java-support/"/>
-        <updated>2021-06-19T14:11:26.000Z</updated>
+        <title type="html"><![CDATA[Father's Day (2008)]]></title>
+        <id>https://www.davidgodman.org/fathers-day/</id>
+        <link href="https://www.davidgodman.org/fathers-day/"/>
+        <updated>2021-06-20T18:29:09.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coober Pedy, the Australian mining town where residents live underground (2020)]]></title>
-        <id>https://www.businessinsider.com/inside-coober-pedy-australias-underground-town-2016-1</id>
-        <link href="https://www.businessinsider.com/inside-coober-pedy-australias-underground-town-2016-1"/>
-        <updated>2021-06-19T14:09:24.000Z</updated>
+        <title type="html"><![CDATA[Bee-friendly urban wildflower meadows prove a hit with German city dwellers]]></title>
+        <id>https://www.theguardian.com/environment/2021/jun/20/bee-friendly-urban-wildflower-meadows-prove-a-hit-with-german-city-dwellers</id>
+        <link href="https://www.theguardian.com/environment/2021/jun/20/bee-friendly-urban-wildflower-meadows-prove-a-hit-with-german-city-dwellers"/>
+        <updated>2021-06-20T17:55:44.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Life as a public school teacher in the San Francisco Bay Area in 2021]]></title>
-        <id>http://adamcadre.ac/calendar/202105m.html</id>
-        <link href="http://adamcadre.ac/calendar/202105m.html"/>
-        <updated>2021-06-19T13:49:58.000Z</updated>
+        <title type="html"><![CDATA[What every programmer should know about SSDs]]></title>
+        <id>https://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html</id>
+        <link href="https://databasearchitects.blogspot.com/2021/06/what-every-programmer-should-know-about.html"/>
+        <updated>2021-06-20T17:39:21.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Taking students from schematic to silicon in one semester (2018) [pdf]]]></title>
-        <id>https://people.eecs.berkeley.edu/~pister/publications/2018/BurnettTapeoutClassISCAS2018.pdf</id>
-        <link href="https://people.eecs.berkeley.edu/~pister/publications/2018/BurnettTapeoutClassISCAS2018.pdf"/>
-        <updated>2021-06-19T13:38:50.000Z</updated>
+        <title type="html"><![CDATA[Mitochondria may contribute to neurological and psychiatric disorders: research]]></title>
+        <id>https://www.scientificamerican.com/article/could-mitochondria-be-the-key-to-a-healthy-brain/</id>
+        <link href="https://www.scientificamerican.com/article/could-mitochondria-be-the-key-to-a-healthy-brain/"/>
+        <updated>2021-06-20T16:56:40.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Casu Martzu]]></title>
-        <id>https://en.wikipedia.org/wiki/Casu_martzu</id>
-        <link href="https://en.wikipedia.org/wiki/Casu_martzu"/>
-        <updated>2021-06-19T13:24:19.000Z</updated>
+        <title type="html"><![CDATA[Watchy: Open-source E-Paper Watch with ESP32]]></title>
+        <id>https://watchy.sqfmi.com/</id>
+        <link href="https://watchy.sqfmi.com/"/>
+        <updated>2021-06-20T15:59:40.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Evolution of the Dad]]></title>
-        <id>https://knowablemagazine.org/article/living-world/2021/evolution-dad</id>
-        <link href="https://knowablemagazine.org/article/living-world/2021/evolution-dad"/>
-        <updated>2021-06-19T12:59:35.000Z</updated>
+        <title type="html"><![CDATA[Julia: Faster than Fortran, cleaner than Numpy]]></title>
+        <id>https://www.matecdev.com/posts/numpy-julia-fortran.html</id>
+        <link href="https://www.matecdev.com/posts/numpy-julia-fortran.html"/>
+        <updated>2021-06-20T15:34:29.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mathematicians welcome computer-assisted proof in ‘grand unification’ theory]]></title>
-        <id>https://www.nature.com/articles/d41586-021-01627-2</id>
-        <link href="https://www.nature.com/articles/d41586-021-01627-2"/>
-        <updated>2021-06-19T12:33:13.000Z</updated>
+        <title type="html"><![CDATA[LDtk: A modern and open-source 2D level editor]]></title>
+        <id>https://deepnight.itch.io/ldtk</id>
+        <link href="https://deepnight.itch.io/ldtk"/>
+        <updated>2021-06-20T14:49:27.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Safari 15 on Mac OS, a user interface mess]]></title>
-        <id>https://morrick.me/archives/9368</id>
-        <link href="https://morrick.me/archives/9368"/>
-        <updated>2021-06-19T12:15:13.000Z</updated>
+        <title type="html"><![CDATA[Show HN: AES67 Stream Monitor – An app to monitor audio over IP streams]]></title>
+        <id>https://aes67.app/</id>
+        <link href="https://aes67.app/"/>
+        <updated>2021-06-20T14:25:42.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[North Carolina tells retired engineer he can't talk about engineering]]></title>
-        <id>https://ij.org/press-release/north-carolina-board-tells-retired-engineer-he-cant-talk-about-engineering/</id>
-        <link href="https://ij.org/press-release/north-carolina-board-tells-retired-engineer-he-cant-talk-about-engineering/"/>
-        <updated>2021-06-19T12:09:37.000Z</updated>
+        <title type="html"><![CDATA[Postgres to TypeScript Interfaces and Enums]]></title>
+        <id>https://github.com/vramework/schemats</id>
+        <link href="https://github.com/vramework/schemats"/>
+        <updated>2021-06-20T14:02:56.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spectre mitigations murder userspace performance]]></title>
-        <id>https://robert.ocallahan.org/2021/06/spectre-mitigations-murder-userspace.html</id>
-        <link href="https://robert.ocallahan.org/2021/06/spectre-mitigations-murder-userspace.html"/>
-        <updated>2021-06-19T12:07:27.000Z</updated>
+        <title type="html"><![CDATA[Hire-to-fire at Amazon India?]]></title>
+        <id>https://leetcode.com/discuss/compensation/1281540/amazon-lethal-for-career-think-100-times-before-you-join-amazon</id>
+        <link href="https://leetcode.com/discuss/compensation/1281540/amazon-lethal-for-career-think-100-times-before-you-join-amazon"/>
+        <updated>2021-06-20T13:09:51.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Newly discovered Vigilante malware outs software pirates and blocks them]]></title>
-        <id>https://arstechnica.com/gadgets/2021/06/newly-discovered-vigilante-malware-outs-software-pirates-and-blocks-them/</id>
-        <link href="https://arstechnica.com/gadgets/2021/06/newly-discovered-vigilante-malware-outs-software-pirates-and-blocks-them/"/>
-        <updated>2021-06-19T10:13:34.000Z</updated>
+        <title type="html"><![CDATA[Zsync: Differential file downloading over HTTP using the rsync algorithm (2010)]]></title>
+        <id>http://zsync.moria.org.uk/</id>
+        <link href="http://zsync.moria.org.uk/"/>
+        <updated>2021-06-20T11:44:29.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inside The Tombs of Saqqara]]></title>
-        <id>https://www.smithsonianmag.com/history/inside-tombs-saqqara-180977932/</id>
-        <link href="https://www.smithsonianmag.com/history/inside-tombs-saqqara-180977932/"/>
-        <updated>2021-06-19T10:01:05.000Z</updated>
+        <title type="html"><![CDATA[Stonks Are What You Can Get Away With: NFTs and Financial Nihilism]]></title>
+        <id>https://blog.evjang.com/2021/06/nft.html</id>
+        <link href="https://blog.evjang.com/2021/06/nft.html"/>
+        <updated>2021-06-20T10:42:14.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Deep reinforcement learning will transform manufacturing as we know it]]></title>
-        <id>https://techcrunch.com/2021/06/17/deep-reinforcement-learning-will-transform-manufacturing-as-we-know-it/</id>
-        <link href="https://techcrunch.com/2021/06/17/deep-reinforcement-learning-will-transform-manufacturing-as-we-know-it/"/>
-        <updated>2021-06-19T04:51:25.000Z</updated>
+        <title type="html"><![CDATA[Show HN: Find Your Hacker News Doppelgänger]]></title>
+        <id>https://share.streamlit.io/pinecone-io/playground/hacker_news/src/server.py</id>
+        <link href="https://share.streamlit.io/pinecone-io/playground/hacker_news/src/server.py"/>
+        <updated>2021-06-20T10:19:59.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rest In Peace, John. I was lucky to know you so deeply]]></title>
-        <id>https://peewee.com/2021/06/18/rest-in-peace-john-paragon/</id>
-        <link href="https://peewee.com/2021/06/18/rest-in-peace-john-paragon/"/>
-        <updated>2021-06-18T23:46:46.000Z</updated>
+        <title type="html"><![CDATA[Fashion for pointy shoes unleashed plague of bunions in medieval Britain]]></title>
+        <id>https://archaeologynewsnetwork.blogspot.com/2021/06/fashion-for-pointy-shoes-unleashed.html</id>
+        <link href="https://archaeologynewsnetwork.blogspot.com/2021/06/fashion-for-pointy-shoes-unleashed.html"/>
+        <updated>2021-06-20T06:23:57.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Subset Vector Quantiser]]></title>
+        <id>http://www.rowetel.com/?p=7754</id>
+        <link href="http://www.rowetel.com/?p=7754"/>
+        <updated>2021-06-19T15:15:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning to love a rigid and inflexible language]]></title>
+        <id>https://devblog.blackberry.com/en/2021/05/learning-to-love-a-rigid-and-inflexible-language</id>
+        <link href="https://devblog.blackberry.com/en/2021/05/learning-to-love-a-rigid-and-inflexible-language"/>
+        <updated>2021-06-19T10:47:49.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -567,6 +601,16 @@ The post Using the `outline` Property as a Collapsable Border appeared first on 
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Carter Li</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1989 Yugo GVL: Performance Testing]]></title>
+        <id>https://www.edmunds.com/car-reviews/long-term-road-test/1989-yugo-gvl/performance/1989-yugo-gvl-performance-testing-will-it-survive.html</id>
+        <link href="https://www.edmunds.com/car-reviews/long-term-road-test/1989-yugo-gvl/performance/1989-yugo-gvl-performance-testing-will-it-survive.html"/>
+        <updated>2021-06-18T19:40:38.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -644,20 +688,10 @@ The post How To Be A Leader Summary appeared first on Four Minute Books.]]></sum
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ask HN: What huge mistake did you make early in your career?]]></title>
-        <id>https://news.ycombinator.com/item?id=27548204</id>
-        <link href="https://news.ycombinator.com/item?id=27548204"/>
-        <updated>2021-06-18T07:38:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MiSTer FPGA GBA Splitscreen Multiplayer]]></title>
-        <id>https://www.youtube.com/watch?v=AJhx8SeI0Q8</id>
-        <link href="https://www.youtube.com/watch?v=AJhx8SeI0Q8"/>
-        <updated>2021-06-18T06:20:32.000Z</updated>
+        <title type="html"><![CDATA[From NAND to Raytracer: Raytracing on the Hack Computer]]></title>
+        <id>https://blog.alexqua.ch/posts/from-nand-to-raytracer/</id>
+        <link href="https://blog.alexqua.ch/posts/from-nand-to-raytracer/"/>
+        <updated>2021-06-18T11:08:59.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -711,16 +745,6 @@ The post Dark Towers Summary appeared first on Four Minute Books.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tracking Micro-Rhythmic Variation in Jazz Performances (2017)]]></title>
-        <id>https://www.researchgate.net/publication/319392963_A_Swingogram_Representation_for_Tracking_Micro-Rhythmic_Variation_in_Jazz_Performances</id>
-        <link href="https://www.researchgate.net/publication/319392963_A_Swingogram_Representation_for_Tracking_Micro-Rhythmic_Variation_in_Jazz_Performances"/>
-        <updated>2021-06-17T11:27:06.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Your Image Is Probably Not Decorative]]></title>
         <id>https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/</id>
         <link href="https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/"/>
@@ -728,46 +752,6 @@ The post Dark Towers Summary appeared first on Four Minute Books.]]></summary>
         <summary type="html"><![CDATA[Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Eric Bailey)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Designing a better strcpy]]></title>
-        <id>https://saagarjha.com/blog/2020/04/12/designing-a-better-strcpy/</id>
-        <link href="https://saagarjha.com/blog/2020/04/12/designing-a-better-strcpy/"/>
-        <updated>2021-06-17T09:50:50.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A quest for safe text formatting API]]></title>
-        <id>https://www.zverovich.net/2021/06/16/safe-formatting-api.html</id>
-        <link href="https://www.zverovich.net/2021/06/16/safe-formatting-api.html"/>
-        <updated>2021-06-17T05:50:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TheHarvester: Emails, subdomains and names harvester for OSINT]]></title>
-        <id>https://github.com/laramies/theHarvester</id>
-        <link href="https://github.com/laramies/theHarvester"/>
-        <updated>2021-06-17T05:17:27.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASCIIFlow Diagram Tool]]></title>
-        <id>https://asciiflow.com/</id>
-        <link href="https://asciiflow.com/"/>
-        <updated>2021-06-17T04:58:50.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -882,16 +866,6 @@ The post Beyond Order Summary appeared first on Four Minute Books.]]></summary>
         <summary type="html"><![CDATA[In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Nic Chan)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Machine Learning Gems for Ruby]]></title>
-        <id>https://ankane.org/new-ml-gems</id>
-        <link href="https://ankane.org/new-ml-gems"/>
-        <updated>2021-06-16T08:48:09.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1422,16 +1396,6 @@ Thank you: @LooperXX.]]></summary>
         <link href="https://lemire.me/blog/2021/05/22/science-and-technology-links-may-22nd-2021/"/>
         <updated>2021-05-22T15:19:46.000Z</updated>
         <summary type="html"><![CDATA[Most computer chips today in flagship phones and computers use a process based on a 5 nm or larger resolution. Finer resolutions usually translate into lower energy usage and lower heat production. Given that many of our systems are limited by heat or power, finer resolutions lead to higher performance. The large Taiwanese chip maker … Continue reading Science and Technology links (May 22nd 2021)]]></summary>
-        <author>
-            <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Counting the number of matching characters in two ASCII strings]]></title>
-        <id>https://lemire.me/blog/?p=19258</id>
-        <link href="https://lemire.me/blog/2021/05/21/counting-the-number-of-matching-characters-in-two-ascii-strings/"/>
-        <updated>2021-05-21T13:55:20.000Z</updated>
-        <summary type="html"><![CDATA[Suppose that you give me two ASCII strings having the same number of characters. I wish to compute efficiently the number of matching characters (same position, same character). E.g., the strings ‘012c’ and ‘021c’ have two matching characters (‘0’ and ‘c’). The conventional approach in C would look as follow: uint64_t standard_matching_bytes(char * c1, char … Continue reading Counting the number of matching characters in two ASCII strings]]></summary>
         <author>
             <name>Daniel Lemire</name>
         </author>
