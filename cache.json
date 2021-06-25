@@ -22,15 +22,6 @@
           "publishedOn": "2021-06-01T04:39:30.000Z",
           "wordCount": 263,
           "title": "v1.10.2"
-        },
-        {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
-          "author": null,
-          "description": "Added: experimental support for iTunes podcast feed: Demo | Source. With this new release, you can render an audio control to play the mp3 file and display iTunes episode duration. It is \"experimental\" due to these caveats:\n\nThis feature is currently only available through custom template.\niTunes has no strict format requirement for duration. The unit is most likely seconds but can be \"hh:mm:ss\" or \"mm:ss\" for some sources. A future version may expose a human readable string to the template.\nNo image support yet. Some shows might have disabled CORS or use a relative URL for image, which forces osmosfeed to download the image during build. A future version may support it.\nYou can't republish the podcast in the feed output. Supporting this goes beyond the scope of the project at the moment.\nFixed: the articles in template data were not sorted.\nThank you @Zenigata",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.9.0",
-          "publishedOn": "2021-05-26T06:02:55.000Z",
-          "wordCount": 412,
-          "title": "v1.9.0"
         }
       ]
     },
@@ -54,7 +45,7 @@
           "description": "When I blogged “Making Tables With Sticky Header and Footers Got a Bit Easier” recently, I mentioned that the “stickiness” improvement was just one of the features that got better for <table>s in Chrome as part of the TablesNG upgrade…\nThe post TablesNG — Improvements to table rendering in Chromium appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://www.bram.us/2021/06/21/tablesng-improvements-to-table-rendering-in-chromium/",
           "publishedOn": "2021-06-23T21:37:14.000Z",
-          "wordCount": 1325,
+          "wordCount": 1540,
           "title": "TablesNG — Improvements to table rendering in Chromium"
         },
         {
@@ -63,7 +54,7 @@
           "description": "The CSS image-set() function has been supported in Chromium-based browsers since 2012 and in Safari since version 6. Support recently landed in Firefox 88. Let’s dive in and see what we can and can’t do today with image-set().…\nThe post Using Performant Next-Gen Images in CSS with image-set appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/using-performant-next-gen-images-in-css-with-image-set/",
           "publishedOn": "2021-06-23T19:10:54.000Z",
-          "wordCount": 1244,
+          "wordCount": 1257,
           "title": "Using Performant Next-Gen Images in CSS with image-set"
         },
         {
@@ -72,7 +63,7 @@
           "description": "PPK looks at aspect-ratio, a CSS property for layout that, for the most part, does exactly what you would think it does. It’s getting more interesting as it’s behind a flag in Firefox and Safari now, so we’ll have …\nThe post “Weak declaration” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/weak-declaration/",
           "publishedOn": "2021-06-23T14:27:14.000Z",
-          "wordCount": 704,
+          "wordCount": 629,
           "title": "“Weak declaration”"
         },
         {
@@ -81,7 +72,7 @@
           "description": "There are four keywords that are valid values for any CSS property (see the title). Of those, day to day, I’d say I see the inherit used the most. Perhaps because it’s been around the longest (I think?) but also …\nThe post inherit, initial, unset, revert appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/inherit-initial-unset-revert/",
           "publishedOn": "2021-06-22T21:20:20.000Z",
-          "wordCount": 687,
+          "wordCount": 731,
           "title": "inherit, initial, unset, revert"
         },
         {
@@ -187,7 +178,7 @@
           "description": "In the dynamic and unpredictable environments in which we work, even the most carefully crafted solutions can have a short shelf life. When we accept that our work is impermanent and our problem-solving abilities are limited, our goal can shift from delivering full solutions to developing tools that empower our users to adaptively design for themselves.",
           "link": "https://smashingmagazine.com/2021/06/design-thinking-problem-solving-strategy/",
           "publishedOn": "2021-06-24T14:00:00.000Z",
-          "wordCount": 4181,
+          "wordCount": 4172,
           "title": "The Rise Of Design Thinking As A Problem Solving Strategy",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e5ea9274-2ff4-49d8-b259-a5f0904cec77/design-thinking-problem-solving-strategy.jpg",
@@ -215,7 +206,7 @@
           "description": "Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.",
           "link": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
           "publishedOn": "2021-06-23T09:30:00.000Z",
-          "wordCount": 1350,
+          "wordCount": 1402,
           "title": "Automating Screen Reader Testing On macOS Using Auto VO",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c81018b9-c45e-4c21-9762-dff84dd2682c/automating-screen-reader-testing-macos-autovo.jpg",
@@ -257,7 +248,7 @@
           "description": "Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.",
           "link": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
           "publishedOn": "2021-06-18T15:00:00.000Z",
-          "wordCount": 3425,
+          "wordCount": 3411,
           "title": "An Alternative Voice UI To Voice Assistants",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8ebd2c76-ebe5-4885-be3e-f9acc3608072/alternative-voice-ui-voice-assistants.jpg",
@@ -271,7 +262,7 @@
           "description": "Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.",
           "link": "https://smashingmagazine.com/2021/06/client-side-routing-next-js/",
           "publishedOn": "2021-06-18T13:00:00.000Z",
-          "wordCount": 3958,
+          "wordCount": 3955,
           "title": "Client-Side Routing In Next.js",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a51f6c83-5e1a-4535-b28a-2018310ffc3b/client-side-routing-next-js.jpg",
@@ -285,7 +276,7 @@
           "description": "Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.",
           "link": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
           "publishedOn": "2021-06-17T10:30:00.000Z",
-          "wordCount": 1638,
+          "wordCount": 1636,
           "title": "Your Image Is Probably Not Decorative",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/95585fe9-52b8-4bd4-adac-a3580ef87b98/img-alt-attribute-alternate-description-decorative.jpg",
@@ -355,7 +346,7 @@
           "description": "Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.",
           "link": "https://smashingmagazine.com/2021/06/web-design-done-well-audio/",
           "publishedOn": "2021-06-11T15:00:00.000Z",
-          "wordCount": 1751,
+          "wordCount": 1741,
           "title": "Web Design Done Well: Making Use Of Audio",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf0cbb26-546e-43b7-9b9a-9077259ea84b/making-use-of-audio.jpg",
@@ -369,7 +360,7 @@
           "description": "We don’t need to write everything from scratch every single time. With boilerplates and starter kits, we can set up our projects faster, and get to work immediately.",
           "link": "https://smashingmagazine.com/2021/06/useful-frontend-boilerplates-starter-kits/",
           "publishedOn": "2021-06-10T15:00:00.000Z",
-          "wordCount": 5157,
+          "wordCount": 5154,
           "title": "Useful Front-End Boilerplates And Starter Kits",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/598e7f3e-9dca-4922-b17d-76089efab46f/25-frontend-boilerplates-starter-kits.png",
@@ -397,7 +388,7 @@
           "description": "What makes relational selector one of the most requested features and how are we, as developers, working around not having it? In this article, we’re going to check the early spec of the :has selector, and see how it should improve the CSS workflow once it’s released.",
           "link": "https://smashingmagazine.com/2021/06/has-native-css-parent-selector/",
           "publishedOn": "2021-06-09T10:30:00.000Z",
-          "wordCount": 2782,
+          "wordCount": 2780,
           "title": "Meet <code>:has</code>, A Native CSS Parent Selector (And More)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/89aef48d-9be9-45df-a7f4-775168deb8dd/has-native-css-parent-selector.jpg",
@@ -425,7 +416,7 @@
           "description": "In this guide, we’ll be taking a general look at the concepts of forward geocoding and reverse geocoding, and will build a mini-app that applies these concepts to display specific locations, using Mapbox and Vue.js 2.6.11 to achieve this.",
           "link": "https://smashingmagazine.com/2021/06/building-geocoding-app-vue-mapbox/",
           "publishedOn": "2021-06-07T11:00:00.000Z",
-          "wordCount": 2391,
+          "wordCount": 2435,
           "title": "How To Build A Geocoding App In Vue.js Using Mapbox",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/20dc2361-e5a5-4a78-b380-2f5942ecfba8/building-geocoding-app-vue-mapbox.jpg",
@@ -439,7 +430,7 @@
           "description": "Modern browsers provide good support for JavaScript modules, but module bundlers such as webpack stay a critical part of the JavaScript toolchain. Let’s take a deep dive into what webpack is and how to use it in your development workflow.",
           "link": "https://smashingmagazine.com/2021/06/getting-started-webpack/",
           "publishedOn": "2021-06-04T10:00:00.000Z",
-          "wordCount": 4370,
+          "wordCount": 4418,
           "title": "Getting Started With Webpack",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/66ba7a41-2a37-471b-9c60-66a3162d8f05/webpack-dependency-graph-opt.png",
@@ -453,7 +444,7 @@
           "description": "Writing large-scale Vue applications can be a challenge. In this article, Shawn Wildermuth dives into the pros and cons of approaches like factories, shared objects, and using Vuex. He also explains what is coming in Vuex 5.0 that might change how we all use shared state in Vue 3.",
           "link": "https://smashingmagazine.com/2021/06/managing-shared-state-vue3/",
           "publishedOn": "2021-06-03T10:30:00.000Z",
-          "wordCount": 3676,
+          "wordCount": 3722,
           "title": "Managing Shared State In Vue 3",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0a70815d-28e5-44af-8306-0e992e99593a/managing-shared-state-vue3.jpg",
@@ -467,7 +458,7 @@
           "description": "Google’s Core Web Vitals initiative has taken the SEO and Web Performance worlds by storm and many sites are busy optimizing their Page Experience to maximize the ranking factor. The Cumulative Layout Shift metric is causing trouble to a lot of sites, so let’s have a look at ways of addressing any issues for that metric.",
           "link": "https://smashingmagazine.com/2021/06/how-to-fix-cumulative-layout-shift-issues/",
           "publishedOn": "2021-06-02T12:30:00.000Z",
-          "wordCount": 4587,
+          "wordCount": 4584,
           "title": "How To Fix Cumulative Layout Shift (CLS) Issues",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/87fbe5f9-d311-4542-a3f0-14e860415946/cumulative-layout-shift-issues.jpg",
@@ -481,7 +472,7 @@
           "description": "Getting a good performance score from Google is hard for any website — but doing so for an online store is even harder. We achieved green scores — even several for mobile. Here is how we did it.",
           "link": "https://smashingmagazine.com/2021/06/front-end-performance-online-store-jewellerybox/",
           "publishedOn": "2021-06-02T10:30:00.000Z",
-          "wordCount": 5649,
+          "wordCount": 5653,
           "title": "Improving The Performance Of An Online Store (Case Study)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8a350bf5-9114-420c-b587-fee03ea4acb6/jewellerybox-uk-online-store-scipioerp.jpg",
@@ -523,7 +514,7 @@
           "description": "What could be a better way to welcome June than with some colorful inspiration? Well, we might have something for you: wallpapers created with love by artists and designers from across the globe.",
           "link": "https://smashingmagazine.com/2021/05/desktop-wallpaper-calendars-june-2021/",
           "publishedOn": "2021-05-31T11:30:00.000Z",
-          "wordCount": 2776,
+          "wordCount": 2771,
           "title": "Happy June Vibes For Your Screen (2021 Desktop Wallpapers Edition)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/374464b5-093e-4ca2-9397-6f26c83756d4/june-20-summer-coziness-preview-opt.png",
@@ -537,7 +528,7 @@
           "description": "In this article, we’ll be re-using the foundational WYSIWYG Editor built in the first article to build a commenting system for a WYSIWYG Editor that enables users to select text inside a document and share their comments on it. Let’s dig in!",
           "link": "https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/",
           "publishedOn": "2021-05-28T11:00:00.000Z",
-          "wordCount": 10608,
+          "wordCount": 10595,
           "title": "Adding A Commenting System To A WYSIWYG Editor",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ec39e154-d3d3-4a12-91fd-f0c068cd5247/commenting-system-wysiwyg-editor.jpg",
@@ -551,7 +542,7 @@
           "description": "Meet useful Visual Studio Code extensions for web developers: little helpers to minimize slow-downs and frustrations, and boost developer’s workflow along the way. With auto log messages, auto code formatting, file utils, file labels, code snippets, highlight brackets, tags, indents and workspaces, onboarding and remote SSH.",
           "link": "https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/",
           "publishedOn": "2021-05-27T13:30:00.000Z",
-          "wordCount": 4049,
+          "wordCount": 4050,
           "title": "Useful VS Code Extensions For Front-End Developers",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2c5dbb73-94e1-486f-9daa-351699faaa2d/peacock-extension.png",
@@ -595,12 +586,30 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "60d3ee396e1a1407b6b0b6ef",
+          "author": null,
+          "description": "Let's go over the most common mistakes you might be making in your React code right now, plus how to fix them. If you want to create amazing React applications, it's essential to avoid many common errors along the way. In this article, we'll not only cover how to fix",
+          "link": "https://www.freecodecamp.org/news/common-react-mistakes-and-how-to-fix-them/",
+          "publishedOn": "2021-06-24T17:01:44.000Z",
+          "wordCount": 1511,
+          "title": "4 Common React Mistakes You Might Be Making – And How to Fix Them"
+        },
+        {
+          "id": "60d4b5e96e1a1407b6b0bac4",
+          "author": null,
+          "description": "If you want good performance in your application, you need to collect data to figure out where to make improvements. That's where OpenTelemetry comes in. OpenTelemetry offers a single set of APIs and libraries that standardize how you collect and transfer telemetry data. OpenTelemetry provides a specification for instrumentation so",
+          "link": "https://www.freecodecamp.org/news/how-to-use-opentelemetry/",
+          "publishedOn": "2021-06-24T16:50:36.000Z",
+          "wordCount": 9777,
+          "title": "How to Use OpenTelemetry to Understand Software Performance"
+        },
+        {
           "id": "605abca5687d62084bf6b7cd",
           "author": null,
           "description": "Data Analysis is the process of exploring, investigating, and gathering insights from data using statistical measures and visualizations.  The objective of data analysis is to develop an understanding of data by uncovering trends, relationships, and patterns. Data analysis is both a science and an art. On the one hand it",
           "link": "https://www.freecodecamp.org/news/exploratory-data-analysis-with-numpy-pandas-matplotlib-seaborn/",
           "publishedOn": "2021-06-24T00:11:01.000Z",
-          "wordCount": 8365,
+          "wordCount": 8363,
           "title": "What is Data Analysis? How to Visualize Data with Python, Numpy, Pandas, Matplotlib &amp; Seaborn Tutorial"
         },
         {
@@ -618,7 +627,7 @@
           "description": ".NET is a popular software framework developed by Microsoft. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create a REST API end-to-end from scratch using the latest .NET 5 innovations and Visual Studio Code. The course uses the C# programming language.",
           "link": "https://www.freecodecamp.org/news/create-a-rest-api-with-dot-net-5-and-c-sharp/",
           "publishedOn": "2021-06-23T18:08:14.000Z",
-          "wordCount": 60401,
+          "wordCount": 60402,
           "title": "Create a REST API with .NET 5 and  C#"
         },
         {
@@ -629,6 +638,15 @@
           "publishedOn": "2021-06-23T17:19:24.000Z",
           "wordCount": 2330,
           "title": "How to Create a Great Technical Course"
+        },
+        {
+          "id": "607f5fafdd38b9088c2bd0c9",
+          "author": null,
+          "description": "When you're debating someone, you want to use all the resources at your disposal to convince them you're right. And that's great – but you should be careful that you don't end up using a logical fallacy to help you make your point. What is a Logical Fallacy?A logical fallacy",
+          "link": "https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples/",
+          "publishedOn": "2021-06-23T04:19:00.000Z",
+          "wordCount": 6255,
+          "title": "Logical Fallacies – Definition and Fallacy Examples"
         },
         {
           "id": "60d2323d6e1a1407b6b0ac4f",
@@ -656,33 +674,6 @@
           "publishedOn": "2021-06-22T16:20:36.000Z",
           "wordCount": 7385,
           "title": "How to Use TypeScript and MongoDB to Build a 100 Days of Code Discord Bot"
-        },
-        {
-          "id": "60cfff5a4dc1a607ed7b5e58",
-          "author": null,
-          "description": "Do you have a story idea that you'd like to turn into a novel? How about adding visual appeal and interactivity to that novel?  A Visual Novel might be the game genre you are looking for. And this tutorial is here to help set you up in 10 minutes, with",
-          "link": "https://www.freecodecamp.org/news/use-python-to-create-a-visual-novel/",
-          "publishedOn": "2021-06-22T16:18:29.000Z",
-          "wordCount": 1613,
-          "title": "How to Make a Visual Novel Game in 10 Minutes – Python Ren&#x27;Py Tutorial"
-        },
-        {
-          "id": "60c81f774dc1a607ed7b2f66",
-          "author": null,
-          "description": "I've been using Vim since the first year I started coding. For all the IDEs/editors that I have used, the Vim plugin is always the very first plugin that I install. I know that Vim can be challenging to work in for people who are not familiar with it.",
-          "link": "https://www.freecodecamp.org/news/how-to-exit-vim/",
-          "publishedOn": "2021-06-21T21:52:43.000Z",
-          "wordCount": 1785,
-          "title": "How to Exit Vim – Vim Save and Quit Command Tutorial"
-        },
-        {
-          "id": "60bce157acb62507dd1d9f11",
-          "author": null,
-          "description": "When you're working with Python lists, you often need to combine data from multiple lists. So how do you do that? In this tutorial, we'll see the different ways you can combine data from multiple lists. We'll also learn how the list methods append() and extend() work through simple examples.",
-          "link": "https://www.freecodecamp.org/news/python-list-methods-append-vs-extend/",
-          "publishedOn": "2021-06-21T21:25:11.000Z",
-          "wordCount": 1085,
-          "title": "Python List Methods – append( ) vs extend( ) in Python Explained with Code Examples"
         }
       ]
     },
@@ -692,112 +683,112 @@
       "siteUrl": "https://dev.to",
       "articles": [
         {
-          "id": "https://dev.to/meuequalsd/asp-net-core-identity-user-locked-out-3bb0",
-          "author": "Nirmal Krishna",
-          "description": "The user lockout feature is the way to improve application security by locking out a user that enters a password incorrectly several times. This technique can help us in protecting against brute force attacks, where an attacker repeatedly tries to guess a password. ⛳ \nQuite a basic feature for an authentication service, but adding it in my Web API app was quite a head scratcher.\nIn your startup.cs or container configuration file,   the config for locking out can be  set.\nservices.AddIdentity<User, IdentityRole>(opt =>\n{\n    // previous code removed for clarity reasons\n    opt.Lockout.AllowedForNewUsers = true;\n    opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(2);\n    opt.Lockout.MaxFailedAccessAttempts = 3;\n})\n\nThe property names are self explanatory here.\nThe  above code will …",
-          "link": "https://dev.to/meuequalsd/asp-net-core-identity-user-locked-out-3bb0",
-          "publishedOn": "2021-06-24T15:20:39.000Z",
-          "wordCount": 740,
-          "title": "ASP.NET Core Identity User Locked out"
+          "id": "https://dev.to/gdcodev/las-15-mejores-extensiones-para-vscode-2021-430n",
+          "author": "Gastón Danielsen",
+          "description": "En esta ocasión te mostraré las 15 extensiones que debes instalar en Visual Studio Code para sacarle el máximo  provecho y así facilitar tu trabajo día a día como desarrollador.\nPRETTIER\nAuto Close Tag\nAuto Rename Tag\nMaterial Icon Theme\nBracket Pair Colorizer\nBetter Comments\nLIVE SERVER\nLIVE SHARE\nGITLENS\nSNAPCODE\nSettings Sync\nCode Spell Checker\nImport Cost\nMarkdown All in One\nPath Intellisense\nPRETTIER \n\n\nFormatea tu código de manera automática.\n\n\n\n\n\nAuto Close Tag \n\n\nTiene soporte de etiqueta cerrada para archivos.\n\n\n\n\n\nAuto Rename Tag \n\n\nCambia automáticamente el nombre de una etiqueta. Ahorra tiempo al renombrar una etiqueta.\n\n\n\n\n\nMaterial Icon Theme \n\n\nCon este tema tendrás un entorno limpio, minimalista y atractivo.\n\n\n\n\n\nBracket Pair Colorizer \n\n\nPermite identificar los corchetes correspondientes con colores.\n \nBetter Comments \n\n\n Podrás darle color a tus comentarios.\n\n\n\n\n\nLIVE SERVER \n\n\nServer local en tiempo real de nuestra pagina.\n\n\n\n\n\nLIVE SHARE \n\n\nTrabaja en tiempo real en el mismo código.\n\n\n\n\n\nGITLENS \n\n\nHistorial de quien ha editado un fragmento de código en GIT.\n\n\n\n\n\nSNAPCODE \n\n\nCapturas de pantalla profesional.\n\n\n\n\n\nSettings Sync \n\n\nPermite sincronizar el estado de su VSCode entre varias instancias.\n\n\n\n\n\nCode Spell Checker \n\n\nNos ayuda a detectar errores ortográficos.\n\n\n\n\n\nImport Cost \n\n\nAyuda con la productividad al mostrar el tamaño estimado de un paquete de importación.\n\n\n\n\n\nMarkdown All in One \n\n\nEs una extensión muy útil para todo lo relacionado con Markdown.\n\n\n\n\n\nPath Intellisense \n\n\nEsta extensión le ayuda a completar automáticamente la ruta de las importaciones.\n\n\n\n\n\n\n\n\n\nRepositorio de Git: https://github.com/gdcodev/extensiones-vscode\nFacebook | LinkedIn | GitHub",
+          "link": "https://dev.to/gdcodev/las-15-mejores-extensiones-para-vscode-2021-430n",
+          "publishedOn": "2021-06-24T23:33:15.000Z",
+          "wordCount": 631,
+          "title": "Las 15 mejores extensiones para VSCode (2021)"
         },
         {
-          "id": "https://dev.to/aspecto/logging-vs-tracing-why-logs-aren-t-enough-to-debug-your-microservices-4jgi",
-          "author": "Michael Haberman",
-          "description": "When debugging microservices, it can be challenging for developers to identify the root cause of issues. Not to mention how frustrating it is to search through endless logs across multiple services and the time it takes them.\nWith all these challenges, however, there is a silver lining — distributed tracing.\nDistributed tracing can help your developers with tracking requests across services (but more on that later).\nLet’s dive into what is distributed tracing, its benefits, and the role it plays in your teams’ system. Then we’ll cover which tools developers can use to implement distributed tracing in a cloud native environment.\nBut first, to understand where tracing fits in your microservices debugging process and why you might even need them in the first place, let’s identify the challeng…",
-          "link": "https://dev.to/aspecto/logging-vs-tracing-why-logs-aren-t-enough-to-debug-your-microservices-4jgi",
-          "publishedOn": "2021-06-24T15:10:51.000Z",
-          "wordCount": 2024,
-          "title": "Logging vs Tracing: Why Logs Aren’t Enough to Debug Your Microservices"
+          "id": "https://dev.to/kerthin/how-i-developed-my-portfolio-for-a-month-demo-3ee7",
+          "author": "Roden",
+          "description": "Introduction\nLink to the DEMO at the end\nAnd why spend so much time developing a portfolio at all?      After all, you just need to create a small one-page website and add all the information about yourself and your works there. And here I definitely agree with you that if you are developing a business card website, then this is quite a working option. You don't even have to spend a few days developing such a site. Such a site can be developed in 4-6 hours.\nBut I set myself a different task. I wanted to create a portfolio that would show with its appearance what kind of developer I am and what I am capable of. I wanted to use animations, build complex objects using HTML and CSS, make smooth transitions between pages, choose bright colors for the site.  But at the same time, of course, I di…",
+          "link": "https://dev.to/kerthin/how-i-developed-my-portfolio-for-a-month-demo-3ee7",
+          "publishedOn": "2021-06-24T23:30:41.000Z",
+          "wordCount": 2931,
+          "title": "🧑‍💻 How I developed my portfolio for a month 🗓 + Demo 🍿"
         },
         {
-          "id": "https://dev.to/codesphere/how-to-build-your-own-blockchain-in-nodejs-3ijh",
-          "author": "Saji Wang",
-          "description": "When we're trying to learn something new, it can oftentimes be tempting to dive headfirst into documentation, articles, and conceptual explanations. While all of that is certainly important, programmers have a great tool in their arsenal for understanding complex topics that they often take for granted.\nBuilding models for different topics in code can help us understand how different pieces of an idea fit together and operate in practice.\nIn this tutorial, I'll show you how to build a rudimentary blockchain with some relatively simple Javascript.\nIt can be helpful to think of blockchains as augmented linked lists, or arrays in which each element points to the preceding array.\nWithin each block (equivalent to an element in an array) of the blockchain, there contains at least the following:\n…",
-          "link": "https://dev.to/codesphere/how-to-build-your-own-blockchain-in-nodejs-3ijh",
-          "publishedOn": "2021-06-24T14:59:34.000Z",
-          "wordCount": 1000,
-          "title": "How to Build Your Own Blockchain in NodeJS"
+          "id": "https://dev.to/coleflournoy/what-do-i-need-to-know-about-react-native-coming-from-react-js-2kp0",
+          "author": "cole-flournoy",
+          "description": "This post is for the people who are interested in React Native because they have experience with React JS. People who know that being able to develop for mobile and web helps their job prospects but who also want to know how easy it's going to be before they sink in too much time wading through the documentation (which is actually really good, you should check it out).\nGetting React Native set up is incredibly easy, so definitely don't let that stop you. In less than five minutes you can be building out an app that you can see displayed on your own phone. \n\nWe'll be using Expo CLI to get rolling quickly (more on the differences between the two here and the limitations of using Expo here). As long as you're on Node 12+, you can install using npm, and create a new project.\nnpm install -g exp…",
+          "link": "https://dev.to/coleflournoy/what-do-i-need-to-know-about-react-native-coming-from-react-js-2kp0",
+          "publishedOn": "2021-06-24T22:57:18.000Z",
+          "wordCount": 1830,
+          "title": "What Do I Need To Know About React Native Coming From React JS?"
         },
         {
-          "id": "https://dev.to/eichgi/reverse-engineering-a-platform-1ohh",
-          "author": "Hiram",
-          "description": "Hey folks, today's post is about a reverse engineering work I had to do for a platform and what I found by doing it 💪\nA while ago I acquired a web platform with an android client for a very entertaining project. The backend was written with Symfony 2.X and the client was a native android app written in Java.\nLong short story, the backend was a complete headache. I had to deal with different configurations for the server given it was aimed for PHP 7. A lot of deprecations had happened since then so you can picture it. The first setup was good enough, but I ran out of lucky for the 2nd 🤯, this led me to create my 100% (almost there) compatible backend.\nVersion 1\nThe android app didn't require too many changes. I basically changed the interfaces, some texts translations and added some validations. Version 1 was a pretty straight forward work.\nUpdate to version 2:\n\nFinally I could achieve the expected behavior and things continue working smoothly. It has been a good experience. Now that I have forked the project every new change is easier to me. I could go deeper with advanced android topics as well. This is a practice I completely recommend to everyone in their spare time. Keep coding and keep failing ✌",
-          "link": "https://dev.to/eichgi/reverse-engineering-a-platform-1ohh",
-          "publishedOn": "2021-06-24T14:30:05.000Z",
-          "wordCount": 761,
-          "title": "Reverse Engineering a platform"
+          "id": "https://dev.to/krowser/how-to-accelerate-your-career-during-uncertain-times-50dn",
+          "author": "Krowser Web Services",
+          "description": "Does the current situation have you wondering whether your career has come grinding to a halt? According to experts, growing professionally during a pandemic can be challenging but not impossible. \nView career paths as fluid\nFocus on stretching yourself\nLeverage your network\nKeep pushing forward\nSelf-isolation and social distancing can make professional advancement more difficult. Yet, despite these challenges, you can still accelerate your career. All it takes is a bit of creativity, initiative and the willingness to believe it’s possible. Focus on these strategies now, and you'll be ahead of the curve when things inevitably take a turn for the better.",
+          "link": "https://dev.to/krowser/how-to-accelerate-your-career-during-uncertain-times-50dn",
+          "publishedOn": "2021-06-24T22:50:16.000Z",
+          "wordCount": 1002,
+          "title": "How To Accelerate Your Career During Uncertain Times"
         },
         {
-          "id": "https://dev.to/robertbrunhage/i-made-and-launched-a-saas-product-in-43-days-n1c",
-          "author": "Robert Brunhage 💙",
-          "description": "Building a SaaS product in just 43 days have been a lot of fun, so let's deep dive in to it!\nThis was originally posted over at robertbrunhage.com you can also find me over on  Twitter!\nkrossa.io\n\n\n\n\nAnd yes, I regret not having a cool first commit...\nThis is actually something I made together with Tadas Petra and both of us are content creators mostly focused on YouTube. Though we had an issue which was that we wanted to both move in a bit to the blogging space.\nOne issue with starting a blog is getting traffic, now both of us could drive a bit of traffic from our YouTube channels but we thought that this wasn't enough, so we started doing something called \"crossposting\".\nCrossposting is when you take your original blog post let's say this one which is published at robertbrunhage.com, and…",
-          "link": "https://dev.to/robertbrunhage/i-made-and-launched-a-saas-product-in-43-days-n1c",
-          "publishedOn": "2021-06-24T14:28:54.000Z",
-          "wordCount": 1007,
-          "title": "I made and launched a SAAS product in 43 days"
+          "id": "https://dev.to/abdallhsamy/introducing-laravel-observers-4a45",
+          "author": "Abdallah Samy",
+          "description": "Laravel framework comes with lots of awesome features, the outstanding one for me is the model  observers.\nAccording to the Laravel framework’s documentation:\nIf you are listening for many events on a given model, you may use observers to group all of your listeners into a single class. Observers classes have method names which reflect the Eloquent events you wish to listen for. Each of these methods receives the model as their only argument. The  make:observer  Artisan command is the easiest way to create a new observer class.\nThe observers helps me to declutter my controller of clean-up codes that I might have to run before or after making a model event, and also gives me a way to plug into the model’s event’s lifecycle and run any logic I might see fit.\nThe model events that can be obse…",
+          "link": "https://dev.to/abdallhsamy/introducing-laravel-observers-4a45",
+          "publishedOn": "2021-06-24T22:02:04.000Z",
+          "wordCount": 1480,
+          "title": "Introducing Laravel Observers."
         },
         {
-          "id": "https://dev.to/hansott/simple-way-to-serialize-objects-to-json-in-typescript-27f5",
-          "author": "Hans Ott",
-          "description": "When building an application we often need to serialize objects to JSON for storing them in a key value store (e.g. Redis) or publishing them on a queue.\nWhile there are libraries available like class-transformer or io-ts, there's an easier way to serialize/unserialize objects to JSON.\nclass-transformer depends on the reflect-metadata package. Read this blogpost to know why you should be careful with depending on this package.\nio-ts requires knowledge of some functional programming concepts. While I'm a big fan of functional programming, it's not for everyone. (The library is very well designed though)\nIn both cases we also need to depend on an extra package.\nWe want to keep our dependencies as small as possible.\nWhat none of these packages offer is a way to deal with backwards compatibili…",
-          "link": "https://dev.to/hansott/simple-way-to-serialize-objects-to-json-in-typescript-27f5",
-          "publishedOn": "2021-06-24T14:21:09.000Z",
-          "wordCount": 818,
-          "title": "Simple way to serialize objects to JSON in TypeScript"
+          "id": "https://dev.to/semirteskeredzic/building-a-blog-with-react-strapi-graphql-create-post-display-it-in-frontend-3e19",
+          "author": "Semir Teskeredzic",
+          "description": "Hey there, this is the second part of the mini series in Building an app with React, Strapi, and GraphQL. In the first part that you can find here, we went through first steps in prepping the backend and frontend for our app.\nFirst of all, spin up your Strapi environment with the command in the terminal from the directory that houses Strapi:\n$ yarn develop\n\nThis will start the Strapi server so you can now navigate to http://localhost:1337/admin/, once you are there enter the login data for the admin user. \nContent-Types Builder and this will bring you to the list of your content type so click Create Content Type.\nBlogPost and press Continue, next you will be prompted to select a field for our content type:\n\nFor a proper Blog post we need following fields:\nTitle (Text - Short text)\nBody (Te…",
+          "link": "https://dev.to/semirteskeredzic/building-a-blog-with-react-strapi-graphql-create-post-display-it-in-frontend-3e19",
+          "publishedOn": "2021-06-24T21:51:10.000Z",
+          "wordCount": 1286,
+          "title": "Building a Blog with React, Strapi & GraphQL - Create Post & Display it in Frontend"
         },
         {
-          "id": "https://dev.to/ericlecodeur/javascript-les-operateurs-spread-et-rest-1a3a",
-          "author": "Eric Le Codeur",
-          "description": "Si vous désirez plus de contenu francophone comme celui-ci, cliquer Follow ou suivez-moi sur Twitter\n\n\nDéfinition\nOpérateur Spread : Permet de déconstruire les itérables (tableaux/objets/chaînes) en éléments uniques.\nOpérateur Rest: Rassemble tous les éléments restants dans un tableau.\nExemples Spread Operator\nconst names = ['Mike', 'Paul', 'John']\n\n// Utiliser le spread operator pour déconstruire un tableau\nconsole.log(names) // ['Mike', 'Paul', 'John']\nconsole.log(...names) // Mike Paul John\n\n// Utiliser le spread operator pour modifier/ajouter à un tableau\nconst newNames = ['Jack', ...names, 'David']\n// ['Jack', 'Mike', 'Paul', 'John', 'David']\n\n// Utiliser le spread operator pour copier un tableau\nconst copyNames = [...names]\n\n// Utiliser le spread operator pour joindre 2 tableaux\ncons…",
-          "link": "https://dev.to/ericlecodeur/javascript-les-operateurs-spread-et-rest-1a3a",
-          "publishedOn": "2021-06-24T14:04:04.000Z",
-          "wordCount": 841,
-          "title": "Javascript: Les opérateurs ...spread et ...REST"
+          "id": "https://dev.to/educative/absolute-beginner-s-guide-to-docker-what-is-a-container-lck",
+          "author": "Erin Schaffer",
+          "description": "Docker is an open-source software platform that helps you simplify the process of creating, managing, running, and distributing your applications. With Docker, you can package your application along with all its dependencies into a container. Containers allow your applications to be deployed easily and uniformly.\nToday, we’ll dive deeper into Docker and discuss containers, modules, key terms, and more.\nWe'll cover:\nWhat is Docker?\nDocker vs Kubernetes\nDocker vocabulary guide\nInstalling Docker\nWhat to learn next\n\n\n\n\n\nDocker is an open-source software that runs on Linux and Windows. With Docker, you can package your application and its dependencies together into containers. Docker allows you to separate your applications from your infrastructure. \nThe company started as a platform as a servi…",
+          "link": "https://dev.to/educative/absolute-beginner-s-guide-to-docker-what-is-a-container-lck",
+          "publishedOn": "2021-06-24T21:29:46.000Z",
+          "wordCount": 2083,
+          "title": "Absolute beginner's guide to Docker: What is a container?"
         },
         {
-          "id": "https://dev.to/salarc123/mern-stack-authentication-tutorial-part-1-the-backend-1c57",
-          "author": "SalarC123",
-          "description": "This tutorial will be split into two parts because its a lengthy, although relatively straightforward, process, so stay tuned for the second part that shows how to implement auth for the frontend (coming very soon). Sadly, we must start with the backend code because most of the authentication code is written here, but this entire process is very intuitive, so make sure to stick until the end!\nThis article requires that you have already connected your react frontend to your server, but if you haven't, you can check out my previous article about how to do that. \nYou must first install these 5 packages with npm or yarn:\nnpm i express\nnpm i bcrypt\nnpm i jsonwebtoken\nnpm i mongoose\nnpm i body-parser\n\nWhy these packages?\nbcrypt is used to hash the password we save to the database and is used lat…",
-          "link": "https://dev.to/salarc123/mern-stack-authentication-tutorial-part-1-the-backend-1c57",
-          "publishedOn": "2021-06-24T14:00:17.000Z",
-          "wordCount": 2486,
-          "title": "MERN Stack Authentication Tutorial (Part 1 - The Backend)"
+          "id": "https://dev.to/thewebguyy/regular-expression-in-javascript-172k",
+          "author": "Bode",
+          "description": "A regular expression is an object that describes a pattern of characters. Regular expressions are often abbreviated \"regex\" or \"regexp\".\nThe JavaScript RegExp class represents regular expressions, and both strings and RegExp define methods that use regular expressions to perform powerful pattern matching and search-and-replace functions on the text.\nIn simpler terms, a regular expression is a sequence of characters that forms a search pattern.\nWhen you search for data in a text, you can use this search pattern to describe what you are searching for.\nA regular expression can be a single character, or a more complicated pattern.\nA regular expression can be defined as:\nvar pattern = new RegExp(pattern,attributes);\nOR\nvar pattern = /pattern/attributes;\n\nUsing String Methods\nIn JavaScript, regu…",
+          "link": "https://dev.to/thewebguyy/regular-expression-in-javascript-172k",
+          "publishedOn": "2021-06-24T21:27:41.000Z",
+          "wordCount": 1014,
+          "title": "Regular Expression in JavaScript"
         },
         {
-          "id": "https://dev.to/allanweb/homework-hacks-10-tips-to-get-sas-tasks-done-faster-2pbj",
-          "author": "allanweb",
-          "description": "Studying coding assumes overworking and facing continuous tension. Students are not always ready for such an enormous schedule and strict deadlines they have to face after enrolling in a programming course. Some students choose to get support from coding services requesting, \"Please, do my SAS programming homework.\" However, proactive students who already have enough experience coping with a vast amount of coding tasks have many working hacks. We collected these tips to share with you to help you to get your tasks done faster. Read on to get more helpful information below.\nYou would require reading the details of your future SAS program first. Usually, professors provide students with detailed instructions that contain information on the goals and requirements. Do not begin working if some…",
-          "link": "https://dev.to/allanweb/homework-hacks-10-tips-to-get-sas-tasks-done-faster-2pbj",
-          "publishedOn": "2021-06-24T13:56:06.000Z",
-          "wordCount": 1412,
-          "title": "Homework Hacks: 10 Tips To Get SAS Tasks Done Faster"
+          "id": "https://dev.to/gusdmoreira/use-solid-principles-to-become-better-automation-tester-3kg9",
+          "author": "gusdmoreira",
+          "description": "Are you using most recommended and fundamental SOLID principles in your automation?\nLike any development work, automation also needs to be planned, designed, developed, maintained and extended over time. Your automation code or automation framework is an application which is testing your actual application. That’s why SOLID principles are highly recommend for your automation to make it easy to understand, use, maintain and extend over time. When SOLID principles are not applied, your automation might become fragile, hard to maintain and hard to extend very soon.\nEven if you are using different programming language like C#, Python or automation tool like HP UFT/QTP for automation, you should definitely consider applying SOLID principles to make your automation tester life easy. Please note …",
+          "link": "https://dev.to/gusdmoreira/use-solid-principles-to-become-better-automation-tester-3kg9",
+          "publishedOn": "2021-06-24T20:51:47.000Z",
+          "wordCount": 2343,
+          "title": "Use SOLID Principles To Become Better Automation Tester"
         },
         {
-          "id": "https://dev.to/devteam/how-to-wrap-a-preact-component-into-a-stimulus-controller-1bd0",
-          "author": "rhymes",
-          "description": "In this post I'm going to illustrate the following:\nwrapping a Preact component inside a Stimulus controller\nloading Preact and the component asynchronously on demand\ncommunicating with the wrapped component via JavaScript custom events\n\n\n\nThis is partly based on work @s_aitchison\n did last February on Forem. Forem's public website uses Preact and vanilla JavaScript. Some of Forem's Admin views are using Stimulus. This is an example of how to recycle frontend components from one framework to another.\nI'm also assuming the reader has some familiarity with both Preact and Stimulus.\nYesterday I was working on some Admin interactions and I wanted to reuse Forem's Snackbar component:\n\nHow it is implemented inside Preact is not important for our purposes and I haven't checked either, I just know…",
-          "link": "https://dev.to/devteam/how-to-wrap-a-preact-component-into-a-stimulus-controller-1bd0",
-          "publishedOn": "2021-06-24T13:51:54.000Z",
-          "wordCount": 1539,
-          "title": "How to wrap a Preact component into a Stimulus controller"
+          "id": "https://dev.to/ayabouchiha/quick-sort-algorithm-1k72",
+          "author": "Aya Bouchiha",
+          "description": "Definition of quicksort\n\n\nQuicksort is a type of  Divide and Conquer algorithm like merge sort, it works by choosing an element as a pivot from the giving array, and appending the greater elements to the selected pivot, and shifting the smaller elements before it.\nThe space complexity of quicksort is O(log n)\n\n\n\nbest-case\naverage case\nworst-case\n\n\n\n\nO(n log n)\nO(n log n)\nO(n^2) when the list is already sorted, or the pivot is min or max value of the giving list\n\n\n\n\ndef QuickSortAlgorithm(arr: list) -> list:\n    \"\"\"\n        [ name ] => Quick Sort\n        [ type ] => Sorting algorithms\n        [ time complexity ] => (\n            1. best case:  O(n log n)\n            2. average case: O(n log n)\n            3. worst case: O(n^2) { when the pivot is the (min or max) value of the giving list, o…",
+          "link": "https://dev.to/ayabouchiha/quick-sort-algorithm-1k72",
+          "publishedOn": "2021-06-24T20:45:34.000Z",
+          "wordCount": 636,
+          "title": "Quick sort algorithm"
         },
         {
-          "id": "https://dev.to/orange_abstrakt/how-to-make-your-css-text-look-impressive-1p3l",
-          "author": "Orange_Abstrakt",
-          "description": "Headings, titles, subheadings etc tell the user about your website. They also take up a lot of the space. So naturally to attract more people and to make your website much more aesthetically beautiful and impressive you can style your text.\nNow which style should you choose?\n1) Gradient Text\n\nGradients add a certain feel to your website that really makes your site stand out. Now changing the background to a gradient is fairly simple and common knowledge. Text Gradients can be slightly trickier but they are totally worth it.\n\n\n\n\nOnce you have picked the font and set the size you can start coding your gradient text.\n2) LED-text\n\nThis gives the element an Led-like feel and really helps bring your site to life.\n\n\n\n\nSet the size for your text and select a font. I usually use Brush Script mt for this style as it really adds to the LED theme. Once done set the color(white looks the best). \nThat is all for today. Let me know if you want more text designs. This is my first post on this website so I wanted to keep it short and see the feedback.",
-          "link": "https://dev.to/orange_abstrakt/how-to-make-your-css-text-look-impressive-1p3l",
-          "publishedOn": "2021-06-24T13:45:43.000Z",
-          "wordCount": 775,
-          "title": "How To make your css text look impressive"
+          "id": "https://dev.to/ash_grover/i-built-my-app-in-react-react-native-and-nextjs-lessons-learned-3f38",
+          "author": "Ash G",
+          "description": "I developed an offline-first personal Kanban app called Brisqi and launched it for 5 different platforms. I started this project with 2 purposes - to learn React and to build my own offline Kanban app as I always wanted one. I've been working on Brisqi since June last year.\nReactJS + BlueprintJS + custom styling for desktop app.\nReact Native + React Native elements + custom styling for Android/iOS App.\nNextJS + BulmaCSS for the website.\nFirebase Auth for authentication + Firestore for the database.\nGoogle cloud functions - to handle backend operations.\nElectron framework was the obvious choice to make it cross-platform as it has good eco-system around it so I went ahead with it as the underlying framework.\nStart with Context API for state management if your app is small, learn how it works…",
+          "link": "https://dev.to/ash_grover/i-built-my-app-in-react-react-native-and-nextjs-lessons-learned-3f38",
+          "publishedOn": "2021-06-24T19:47:53.000Z",
+          "wordCount": 1468,
+          "title": "I built my app in React, React Native and NextJS. Lessons learned."
         },
         {
-          "id": "https://dev.to/xbyteio/how-python-and-beautifulsoup-will-help-you-scrape-listings-from-airbnb-4393",
-          "author": "X-Byte Enterprise Crawling",
-          "description": "Scraping Airbnb listings from various websites is among the most popular Web Scraping apps that help to scrape listings from Airbnb with Python and BeautifulSoup. This might be done by keeping an eye on the rates, building an aggregator, or improving the user experience on current hotel booking services.\nThis can be accomplished using a simple code. We will use BeautifulSoup to extract data and information from Airbnb.com.\n- coding: utf-8 --\n\n\nfrom bs4 import BeautifulSoup\nhttps://www.airbnb.co.in/s/New-York--NY--United-States/homes?query=New York, NY, United States&checkin=2020-03-12&checkout=2020-03-19&adults=4&children=1&infants=0&guests=5&place_id=ChIJOwg_06VPwokRYv534QaPC8g&refinement_paths[]=/for_you&toddlers=0&source=mc_search_bar&search_type=unknown'response=requests.get(url,header…",
-          "link": "https://dev.to/xbyteio/how-python-and-beautifulsoup-will-help-you-scrape-listings-from-airbnb-4393",
-          "publishedOn": "2021-06-24T13:42:49.000Z",
-          "wordCount": 1147,
-          "title": "How Python and BeautifulSoup Will Help You Scrape listings from Airbnb?"
+          "id": "https://dev.to/mvmilanjain/best-react-ui-component-libraries-25ah",
+          "author": "Milan Jain",
+          "description": "Material UI\n\n\nMaterial UI is a set of react components built based on the Material Design guidelines of Google.\nMaterial UI consists of many accessible and configurable UI widgets.\nThe components are self-supporting and only inject the styles they need to display, which could lead to performance enhancements in your application.\nMaterial UI has an active set of maintainers and a strong community behind it. It currently has over 69k stars on GitHub, making it one of the most popular component libraries out there.\nIf you’re looking to build a beautiful, consistent, and light interface quickly without sacrificing accessibility and performance, the material design will help you achieve that.\nChakra UI is a simple, modular and accessible component library that gives you the building blocks you …",
+          "link": "https://dev.to/mvmilanjain/best-react-ui-component-libraries-25ah",
+          "publishedOn": "2021-06-24T19:35:06.000Z",
+          "wordCount": 1072,
+          "title": "Best React UI Component Libraries"
         }
       ]
     },
@@ -807,13 +798,175 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
+          "id": "https://redislabs.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://redislabs.com/blog/json-web-tokens-jwt-are-dangerous-for-user-sessions/",
+          "publishedOn": "2021-06-25T00:45:57.000Z",
+          "wordCount": 2724,
+          "title": "JWT Tokens are NOT safe"
+        },
+        {
+          "id": "https://eval.ai/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://eval.ai/",
+          "publishedOn": "2021-06-25T00:03:57.000Z",
+          "wordCount": 2,
+          "title": "EvalAI: An Open-Source Alternative to Kaggle"
+        },
+        {
+          "id": "https://argon2.online/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://argon2.online/",
+          "publishedOn": "2021-06-24T23:44:11.000Z",
+          "wordCount": 453,
+          "title": "Password with Argon2 Algorithm, the Winner of the Password Hashing Competition"
+        },
+        {
+          "id": "https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://arstechnica.com/gadgets/2021/06/mass-data-wipe-in-my-book-devices-prompts-warning-from-western-digital/",
+          "publishedOn": "2021-06-24T22:30:52.000Z",
+          "wordCount": 1049,
+          "title": "WD My Book users wake up to find their data deleted"
+        },
+        {
+          "id": "https://tinyacquisitions.com",
+          "author": null,
+          "description": "Comments",
+          "link": "https://tinyacquisitions.com",
+          "publishedOn": "2021-06-24T22:01:48.000Z",
+          "wordCount": 6,
+          "title": "Tiny Acquisitions"
+        },
+        {
+          "id": "https://mobile.nixos.org/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://mobile.nixos.org/",
+          "publishedOn": "2021-06-24T21:44:35.000Z",
+          "wordCount": 5105,
+          "title": "Mobile NixOS"
+        },
+        {
+          "id": "https://careers.atob.com/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://careers.atob.com/",
+          "publishedOn": "2021-06-24T21:00:49.000Z",
+          "wordCount": 172,
+          "title": "AtoB (YC S20) – Stripe for Transportation – hiring early engineers and operators"
+        },
+        {
+          "id": "https://www.wsj.com/articles/twilio-asana-to-list-on-long-term-stock-exchange-as-esg-push-continues-11624565701",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.wsj.com/articles/twilio-asana-to-list-on-long-term-stock-exchange-as-esg-push-continues-11624565701",
+          "publishedOn": "2021-06-24T20:53:09.000Z",
+          "wordCount": 1212,
+          "title": "Twilio, Asana to List on Long Term Stock Exchange"
+        },
+        {
+          "id": "https://www.zdnet.com/article/stop-using-your-work-laptop-or-phone-for-personal-stuff-because-i-know-you-are/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.zdnet.com/article/stop-using-your-work-laptop-or-phone-for-personal-stuff-because-i-know-you-are/",
+          "publishedOn": "2021-06-24T19:54:57.000Z",
+          "wordCount": 2344,
+          "title": "Stop using your work laptop or phone for personal stuff, because I know you are"
+        },
+        {
+          "id": "https://www.tindie.com/products/nsayer/crazy-clock/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.tindie.com/products/nsayer/crazy-clock/",
+          "publishedOn": "2021-06-24T19:38:17.000Z",
+          "wordCount": 4635,
+          "title": "Crazy Clock"
+        },
+        {
+          "id": "https://hristo-georgiev.com/google-turned-me-into-a-serial-killer",
+          "author": null,
+          "description": "Comments",
+          "link": "https://hristo-georgiev.com/google-turned-me-into-a-serial-killer",
+          "publishedOn": "2021-06-24T18:44:30.000Z",
+          "wordCount": 508,
+          "title": "Google turned me into a serial killer"
+        },
+        {
+          "id": "https://minimaxir.com/2021/06/gpt-j-6b/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://minimaxir.com/2021/06/gpt-j-6b/",
+          "publishedOn": "2021-06-24T17:36:50.000Z",
+          "wordCount": 3425,
+          "title": "Fun and dystopia with AI-based code generation using GPT-J-6B"
+        },
+        {
+          "id": "https://borodust.org/projects/cl-bodge/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://borodust.org/projects/cl-bodge/",
+          "publishedOn": "2021-06-24T17:30:35.000Z",
+          "wordCount": 229,
+          "title": "Cl-bodge: a cross-platform Common Lisp game and application framework"
+        },
+        {
+          "id": "https://quad9.net/news/blog/quad9-and-sony-music-german-injunction-status/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://quad9.net/news/blog/quad9-and-sony-music-german-injunction-status/",
+          "publishedOn": "2021-06-24T16:52:40.000Z",
+          "wordCount": 749,
+          "title": "Quad9 and Sony Music: German Injunction Status"
+        },
+        {
+          "id": "https://crimereads.com/banned-books-ulysses-joyce-morris-ernst/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://crimereads.com/banned-books-ulysses-joyce-morris-ernst/",
+          "publishedOn": "2021-06-24T16:51:19.000Z",
+          "wordCount": 2857,
+          "title": "The Banning of Joyce's Ulysses"
+        },
+        {
+          "id": "https://blog.system76.com/post/654884924769370112/developing-games-on-linux-an-interview-with",
+          "author": null,
+          "description": "Comments",
+          "link": "https://blog.system76.com/post/654884924769370112/developing-games-on-linux-an-interview-with",
+          "publishedOn": "2021-06-24T16:32:35.000Z",
+          "wordCount": 1621,
+          "title": "Developing Games on Linux: An Interview with Little Red Dog Games"
+        },
+        {
+          "id": "https://www.backblaze.com/blog/next-backblaze-storage-pod/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.backblaze.com/blog/next-backblaze-storage-pod/",
+          "publishedOn": "2021-06-24T16:11:06.000Z",
+          "wordCount": 2063,
+          "title": "The Next Backblaze Storage Pod"
+        },
+        {
           "id": "https://www.theverge.com/2021/6/24/22548428/microsoft-windows-11-android-apps-support-amazon-store",
           "author": null,
           "description": "Comments",
           "link": "https://www.theverge.com/2021/6/24/22548428/microsoft-windows-11-android-apps-support-amazon-store",
           "publishedOn": "2021-06-24T15:40:46.000Z",
-          "wordCount": 806,
+          "wordCount": 856,
           "title": "Microsoft is bringing Android apps to Windows 11"
+        },
+        {
+          "id": "https://blog.m3o.com/2021/06/24/micro-apis-for-everyday-use.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://blog.m3o.com/2021/06/24/micro-apis-for-everyday-use.html",
+          "publishedOn": "2021-06-24T15:28:44.000Z",
+          "wordCount": 668,
+          "title": "Micro APIs for Everyday Use"
         },
         {
           "id": "https://www.theverge.com/2021/6/24/22546791/microsoft-windows-11-announcement-features-updates",
@@ -821,53 +974,17 @@
           "description": "Comments",
           "link": "https://www.theverge.com/2021/6/24/22546791/microsoft-windows-11-announcement-features-updates",
           "publishedOn": "2021-06-24T15:14:02.000Z",
-          "wordCount": 1187,
-          "title": "Microsoft announces Windows 11, with a new design, Start menu, and more"
+          "wordCount": 1451,
+          "title": "Microsoft announces Windows 11"
         },
         {
-          "id": "https://en.wikipedia.org/wiki/Angus_Barbieri%27s_fast",
+          "id": "https://www.bbc.com/news/world-us-canada-57592243",
           "author": null,
           "description": "Comments",
-          "link": "https://en.wikipedia.org/wiki/Angus_Barbieri%27s_fast",
-          "publishedOn": "2021-06-24T14:50:04.000Z",
-          "wordCount": 596,
-          "title": "Angus Barbieri's fast"
-        },
-        {
-          "id": "https://themarkup.org/citizen-browser/2021/06/24/after-repeatedly-promising-not-to-facebook-keeps-recommending-political-groups-to-its-users",
-          "author": null,
-          "description": "Comments",
-          "link": "https://themarkup.org/citizen-browser/2021/06/24/after-repeatedly-promising-not-to-facebook-keeps-recommending-political-groups-to-its-users",
-          "publishedOn": "2021-06-24T14:38:13.000Z",
-          "wordCount": 2362,
-          "title": "After Repeatedly Promising Not To, Facebook Keeps Recommending Political Groups"
-        },
-        {
-          "id": "https://www.blender.org/press/canonical-offering-blender-support/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.blender.org/press/canonical-offering-blender-support/",
-          "publishedOn": "2021-06-24T14:08:24.000Z",
-          "wordCount": 409,
-          "title": "Canonical Offering Blender Support"
-        },
-        {
-          "id": "https://digiday.com/marketing/cheat-sheet-google-extends-cookie-execution-deadline-until-late-2023-will-pause-floc-testing-in-july/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://digiday.com/marketing/cheat-sheet-google-extends-cookie-execution-deadline-until-late-2023-will-pause-floc-testing-in-july/",
-          "publishedOn": "2021-06-24T14:05:07.000Z",
-          "wordCount": 1649,
-          "title": "Google extends third party cookie deadline until late 2023"
-        },
-        {
-          "id": "https://cloud.google.com/bigquery/docs/row-level-security-intro",
-          "author": null,
-          "description": "Comments",
-          "link": "https://cloud.google.com/bigquery/docs/row-level-security-intro",
-          "publishedOn": "2021-06-24T13:56:42.000Z",
-          "wordCount": 6177,
-          "title": "BigQuery row-level security"
+          "link": "https://www.bbc.com/news/world-us-canada-57592243",
+          "publishedOn": "2021-06-24T14:09:09.000Z",
+          "wordCount": 1166,
+          "title": "Canada: Hundreds of unmarked graves found at residential school"
         },
         {
           "id": "https://www.npr.org/2021/06/23/1009567351/hubble-trouble-nasa-cant-figure-out-whats-causing-computer-issues-on-the-telesco",
@@ -875,116 +992,26 @@
           "description": "Comments",
           "link": "https://www.npr.org/2021/06/23/1009567351/hubble-trouble-nasa-cant-figure-out-whats-causing-computer-issues-on-the-telesco",
           "publishedOn": "2021-06-24T13:43:36.000Z",
-          "wordCount": 912,
-          "title": "NASA Can't Figure Out What's Causing Computer Issues on the Hubble Telescope"
-        },
-        {
-          "id": "https://www.juststeveking.uk/introducing-laravel-transporter/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.juststeveking.uk/introducing-laravel-transporter/",
-          "publishedOn": "2021-06-24T13:39:18.000Z",
           "wordCount": 899,
-          "title": "Laravel Transporter"
+          "title": "NASA can't figure out what's causing computer issues on the Hubble telescope"
         },
         {
-          "id": "https://dpreview.com/news/4668719994/faa-releases-trust-free-online-training-required-for-recreational-pilots-to-fly-legally",
+          "id": "https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank",
           "author": null,
           "description": "Comments",
-          "link": "https://dpreview.com/news/4668719994/faa-releases-trust-free-online-training-required-for-recreational-pilots-to-fly-legally",
-          "publishedOn": "2021-06-24T13:33:22.000Z",
-          "wordCount": 3487,
-          "title": "FAA releases TRUST: Free online training required to fly drones recreationally"
+          "link": "https://www.propublica.org/article/lord-of-the-roths-how-tech-mogul-peter-thiel-turned-a-retirement-account-for-the-middle-class-into-a-5-billion-dollar-tax-free-piggy-bank",
+          "publishedOn": "2021-06-24T11:20:08.000Z",
+          "wordCount": 7080,
+          "title": "Peter Thiel turned a Roth IRA into a $5B tax-free piggy bank"
         },
         {
-          "id": "https://www.theguardian.com/education/2021/jun/24/half-of-uk-university-students-think-degree-is-poor-value-for-money",
+          "id": "https://www.theverge.com/2021/6/23/22547397/medical-records-health-data-hospitals-research",
           "author": null,
           "description": "Comments",
-          "link": "https://www.theguardian.com/education/2021/jun/24/half-of-uk-university-students-think-degree-is-poor-value-for-money",
-          "publishedOn": "2021-06-24T13:26:13.000Z",
-          "wordCount": 648,
-          "title": "Half of UK university students think degree is poor value for money"
-        },
-        {
-          "id": "https://spectrum.ieee.org/computing/software/the-dawn-of-haiku-os",
-          "author": null,
-          "description": "Comments",
-          "link": "https://spectrum.ieee.org/computing/software/the-dawn-of-haiku-os",
-          "publishedOn": "2021-06-24T13:01:38.000Z",
-          "wordCount": 44,
-          "title": "The Dawn of Haiku OS (2012)"
-        },
-        {
-          "id": "https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html",
-          "author": null,
-          "description": "Comments",
-          "link": "https://mrale.ph/blog/2018/02/03/maybe-you-dont-need-rust-to-speed-up-your-js.html",
-          "publishedOn": "2021-06-24T12:42:19.000Z",
-          "wordCount": 7565,
-          "title": "Maybe you don't need Rust and WASM to speed up your JS (2018)"
-        },
-        {
-          "id": "https://www.workatastartup.com/jobs/43782",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.workatastartup.com/jobs/43782",
-          "publishedOn": "2021-06-24T12:00:19.000Z",
-          "wordCount": 407,
-          "title": "Literably (IK12 W13) Is Hiring a Senior Software Engineer (Remote)"
-        },
-        {
-          "id": "https://www.nytimes.com/2021/06/23/upshot/remote-work-innovation-office.html",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.nytimes.com/2021/06/23/upshot/remote-work-innovation-office.html",
-          "publishedOn": "2021-06-24T11:43:28.000Z",
-          "wordCount": 1494,
-          "title": "No evidence that chance meetings in office boosts innovation"
-        },
-        {
-          "id": "https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms",
-          "author": null,
-          "description": "Comments",
-          "link": "https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms",
-          "publishedOn": "2021-06-24T11:07:47.000Z",
-          "wordCount": 135,
-          "title": "Writing ARM64 Code for Apple Platforms"
-        },
-        {
-          "id": "https://www.technologyreview.com/2021/06/24/1027048/youtube-xinjiang-censorship-human-rights-atajurt/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.technologyreview.com/2021/06/24/1027048/youtube-xinjiang-censorship-human-rights-atajurt/",
-          "publishedOn": "2021-06-24T10:34:08.000Z",
-          "wordCount": 1828,
-          "title": "How YouTube’s rules are used to silence human rights activists"
-        },
-        {
-          "id": "http://bashrcgenerator.com/",
-          "author": null,
-          "description": "Comments",
-          "link": "http://bashrcgenerator.com/",
-          "publishedOn": "2021-06-24T09:34:38.000Z",
-          "wordCount": 242,
-          "title": "Bash PS1 Generator"
-        },
-        {
-          "id": "https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/night-watch-the-missing-pieces",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/night-watch-the-missing-pieces",
-          "publishedOn": "2021-06-24T09:33:46.000Z",
-          "wordCount": 158,
-          "title": "Recreating the Missing Pieces of the Night Watch with the Help of AI"
-        },
-        {
-          "id": "http://strlen.com/treesheets/",
-          "author": null,
-          "description": "Comments",
-          "link": "http://strlen.com/treesheets/",
-          "publishedOn": "2021-06-24T07:40:50.000Z",
-          "wordCount": 288,
-          "title": "Treesheets: cross-platform, free-form data organizer app"
+          "link": "https://www.theverge.com/2021/6/23/22547397/medical-records-health-data-hospitals-research",
+          "publishedOn": "2021-06-24T10:04:53.000Z",
+          "wordCount": 1814,
+          "title": "Hospitals are selling troves of medical data"
         },
         {
           "id": "https://3dasd.com/",
@@ -996,85 +1023,49 @@
           "title": "Show HN: 3dasd – open-source DIY room-scale 3D scanner"
         },
         {
-          "id": "https://android-developers.googleblog.com/2021/06/continuing-to-boost-developer-success.html",
+          "id": "https://adam.nels.onl/blog/parentheses-are-just-typechecking/",
           "author": null,
           "description": "Comments",
-          "link": "https://android-developers.googleblog.com/2021/06/continuing-to-boost-developer-success.html",
-          "publishedOn": "2021-06-24T07:30:50.000Z",
-          "wordCount": 1147,
-          "title": "Google will consider lowering Play Store cut to 15% for certain apps"
+          "link": "https://adam.nels.onl/blog/parentheses-are-just-typechecking/",
+          "publishedOn": "2021-06-23T12:13:56.000Z",
+          "wordCount": 626,
+          "title": "Parentheses Are Just Typechecking"
         },
         {
-          "id": "https://www.cam.ac.uk/research/news/vegan-spider-silk-provides-sustainable-alternative-to-single-use-plastics",
+          "id": "https://www.theatlantic.com/culture/archive/2021/06/new-deal-american-guides-federal-writers-project/619255/",
           "author": null,
           "description": "Comments",
-          "link": "https://www.cam.ac.uk/research/news/vegan-spider-silk-provides-sustainable-alternative-to-single-use-plastics",
-          "publishedOn": "2021-06-24T06:34:11.000Z",
-          "wordCount": 1713,
-          "title": "‘Vegan spider silk’ provides sustainable alternative to single-use plastics"
+          "link": "https://www.theatlantic.com/culture/archive/2021/06/new-deal-american-guides-federal-writers-project/619255/",
+          "publishedOn": "2021-06-23T11:29:42.000Z",
+          "wordCount": 2209,
+          "title": "The rich, weird, and frustrating world of Depression-era travel guides"
         },
         {
-          "id": "https://www.freecivweb.org/?2021",
+          "id": "http://bostonreview.net/class-inequality-politics-philosophy-religion/simon-torracinta-we-dont-know-lets-try-it",
           "author": null,
           "description": "Comments",
-          "link": "https://www.freecivweb.org/?2021",
-          "publishedOn": "2021-06-24T05:59:54.000Z",
-          "wordCount": 629,
-          "title": "Show HN: Freeciv-Web"
+          "link": "http://bostonreview.net/class-inequality-politics-philosophy-religion/simon-torracinta-we-dont-know-lets-try-it",
+          "publishedOn": "2021-06-23T04:20:18.000Z",
+          "wordCount": 7125,
+          "title": "We Don't Know, But Let's Try It"
         },
         {
-          "id": "http://tylerneylon.com/a/lsh1/",
+          "id": "https://github.com/facebookresearch/Cupcake",
           "author": null,
           "description": "Comments",
-          "link": "http://tylerneylon.com/a/lsh1/",
-          "publishedOn": "2021-06-24T05:51:51.000Z",
-          "wordCount": 4667,
-          "title": "Introduction to Locality-Sensitive Hashing"
+          "link": "https://github.com/facebookresearch/Cupcake",
+          "publishedOn": "2021-06-22T07:40:53.000Z",
+          "wordCount": 721,
+          "title": "Cupcake - A Rust library for lattice-based additive homomorphic encryption"
         },
         {
-          "id": "https://www.laphamsquarterly.org/roundtable/ascendant-steppe",
+          "id": "https://iquilezles.org/www/articles/smoothstepintegral/smoothstepintegral.htm",
           "author": null,
           "description": "Comments",
-          "link": "https://www.laphamsquarterly.org/roundtable/ascendant-steppe",
-          "publishedOn": "2021-06-23T21:01:34.000Z",
-          "wordCount": 2278,
-          "title": "The Ascendant Steppe: A brisk tour of the early history of Central Asia"
-        },
-        {
-          "id": "https://glenngillen.com/getting-the-pm-interview/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://glenngillen.com/getting-the-pm-interview/",
-          "publishedOn": "2021-06-22T20:01:54.000Z",
-          "wordCount": 1715,
-          "title": "Getting to the Product Manager interview stage"
-        },
-        {
-          "id": "https://hynek.me/articles/python-subclassing-redux/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://hynek.me/articles/python-subclassing-redux/",
-          "publishedOn": "2021-06-22T17:45:08.000Z",
-          "wordCount": 5439,
-          "title": "Subclassing in Python Redux"
-        },
-        {
-          "id": "https://www.androidauthority.com/oneplus-oxygen-os-rise-fall-1234103/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.androidauthority.com/oneplus-oxygen-os-rise-fall-1234103/",
-          "publishedOn": "2021-06-22T07:44:59.000Z",
-          "wordCount": 2402,
-          "title": "The rise and fall of Oxygen OS"
-        },
-        {
-          "id": "https://retrohax.net/acorn-archimedes-a3020-refurb-and-mods/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://retrohax.net/acorn-archimedes-a3020-refurb-and-mods/",
-          "publishedOn": "2021-06-22T06:52:05.000Z",
-          "wordCount": 1602,
-          "title": "Acorn Archimedes A3020 – Refurb and Mods"
+          "link": "https://iquilezles.org/www/articles/smoothstepintegral/smoothstepintegral.htm",
+          "publishedOn": "2021-06-22T07:35:11.000Z",
+          "wordCount": 712,
+          "title": "Smoothstep Integral"
         }
       ]
     },
