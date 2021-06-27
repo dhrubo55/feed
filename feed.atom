@@ -1,372 +1,620 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-06-26T00:55:29.840Z</id>
+    <id>urn:2021-06-27T01:04:06.206Z</id>
     <title>osmos::feed</title>
-    <updated>2021-06-26T00:55:29.840Z</updated>
+    <updated>2021-06-27T01:04:06.206Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Gloss3D – an open source 3D Modeler for Linux and Windows]]></title>
-        <id>http://www.gloss3d.net/</id>
-        <link href="http://www.gloss3d.net/"/>
-        <updated>2021-06-26T00:11:18.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Functors and Monads for People Who Have Read Too Many “Tutorials”]]></title>
-        <id>http://www.jerf.org/iri/post/2958</id>
-        <link href="http://www.jerf.org/iri/post/2958"/>
-        <updated>2021-06-26T00:09:53.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Correctly implementing a spinlock in Modern C++]]></title>
-        <id>https://rigtorp.se/spinlock/</id>
-        <link href="https://rigtorp.se/spinlock/"/>
-        <updated>2021-06-25T22:58:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Refactor Conditionals (Simplified 9 lines down to 1)]]></title>
-        <id>https://dev.to/cleancodestudio/refactor-conditionals-900-more-readable-24np</id>
-        <link href="https://dev.to/cleancodestudio/refactor-conditionals-900-more-readable-24np"/>
-        <updated>2021-06-25T22:57:03.000Z</updated>
-        <summary type="html"><![CDATA[let person = { 
-   phone: { 
-      exists: false, 
-      number: '+1 (555) 555-5555' 
-   }
-}
+        <title type="html"><![CDATA[part 2: Binary tree in data structure]]></title>
+        <id>https://dev.to/ayabouchiha/part-2-binary-tree-in-data-structure-5bgf</id>
+        <link href="https://dev.to/ayabouchiha/part-2-binary-tree-in-data-structure-5bgf"/>
+        <updated>2021-06-27T00:18:38.000Z</updated>
+        <summary type="html"><![CDATA[Hi, this the part 2 of the tree in the data structure, we're going to talk about binary tree and its famous types.
+Binary tree: is one of the most famous tree data structure which each node should have at most 2 children (left child and right child), in this type of trees, all nodes contains three items which are data, pointer to left child, pointer to right child.
+In this type of trees, all nodes except the leaves have two children
 
-Question: 
-We have a 9 line function that goes three indentations deep.
-We can simplify this function. The question is, how much more readable are we able to make this function?
-Through six simple iterations of refactoring this function we are going to simplify this hasUSNumber function into a single line with zero indents.
-1: Traditional if-else statement (with nested if)
-let hasUSNumber = dude => {
-   if (dude.phone.exists === true) {
-      if (dude.phone.number.startsWith('+1')) {
-        return true
-      }
-   } else {
-        return false
-   }    
-}
+All internal nodes have exactly two children and all the leaves are at the same level. 
+
+In This kind of tree, all nodes have only one child.
+
+Like a full binary tree, All levels are filled, but All the leaves should lean towards the left
+
+the absolute value of the height  difference between the left and the right subtree is smaller than or equal 1. | height(left_sub_tree) - height(right_sub_tree) | <= 1
 
 
-2: Inverse if-else condition to remove nested if
-hasUSNumber = dude => {
-   if (dude.phone.exists === false) {
-      return false
-   }
-   else …]]></summary>
-        <author>
-            <name>Clean Code Studio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[part_1: Introduction to tree data structure]]></title>
-        <id>https://dev.to/ayabouchiha/part1-introduction-to-tree-data-structure-277b</id>
-        <link href="https://dev.to/ayabouchiha/part1-introduction-to-tree-data-structure-277b"/>
-        <updated>2021-06-25T22:53:29.000Z</updated>
-        <summary type="html"><![CDATA[Hi, on this amazing day! we're going to talk about tree data structure, so let's get started!
-A tree is a nonlinear data structure unlike Stack, Queue, Array, and Linked List, It is a collection of nodes connected with edges
-Root: parent node is the first (top) node of the tree.
-Parent: node has children
-Child: node has a parent 
-Siblings: nodes have the same parent
-Leaves: last nodes of the tree
-Depth: length of edges from a node to the root
-Height: length of the longest path from a node to a leaf
-Edge: link two nodes
 
-https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c/
-https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.programiz.com/dsa/trees&ved=2ahUKEwiVy4TcsrPxAhXC8-AKHb_tDHYQFjAnegQIRxAC&usg=AOvVaw1zWsV1g-7GgAmP97ri-G9n
-https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.geeksforgeeks.org/binary-tree-data-structure/&ved=2ahUKEwiVy4TcsrPxAhXC8-AKHb_tDHYQFjAmegQIShAC&usg=AOvVaw3GgvSIZH7aOmawSCQQvYSh
-https://youtu.be/qH6yxkw0u78]]></summary>
+
+All nodes have only one child except the last one (leaf) which hasn't a child. It divided into two types: left skewed binary tree and right skewed binary tree
+
+
+
+
+https://www.geeksforgeeks.org/binary-tree-data-structure/
+https://www.programiz.com/dsa/binary-tree
+https://www.programiz.com/dsa/perfect-binary-tree
+http://www.cs.kent.edu/~durand/CS2/Notes/10_Binary_Trees/ds_treesB.html
+https://www.programiz.com/dsa/balanced-binary-tree
+https://www.journaldev.com/43957/balanced-binary-tree-check
+https://www.programiz.com/dsa/complete-binary-tree]]></summary>
         <author>
             <name>Aya Bouchiha</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What is low code?]]></title>
-        <id>https://dev.to/retool/what-is-low-code-4egk</id>
-        <link href="https://dev.to/retool/what-is-low-code-4egk"/>
-        <updated>2021-06-25T22:51:54.000Z</updated>
-        <summary type="html"><![CDATA[Low code and no code have all the hype, but among developers, they also have equal amounts of skepticism.
-In March 2021, no code pioneer Zapier acquired no-code community Makerpad. In April 2021, UiPath, a provider of low code automation software, IPO'd at $31 billion. Gartner predicts that by 2024, more than 65% of application development activity will come from low code application development platforms.
-Software is eating the world, but low code and no code are making developers rethink how software is made.
-Of course, (some) developers tell a different story. According to an Evans Data report, one in five developers never use low code, and almost three-quarters of developers use low code less than half the time. And anecdotally, many developers express a similar sentiment to low code a…]]></summary>
-        <author>
-            <name>kevbosaurus</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 categories of Git]]></title>
-        <id>https://dev.to/danyson/8-categories-of-git-2127</id>
-        <link href="https://dev.to/danyson/8-categories-of-git-2127"/>
-        <updated>2021-06-25T22:42:13.000Z</updated>
-        <summary type="html"><![CDATA[You can classify Git version control mechanism into 8 categories.
-Create
-Track
-Revert
-Update
-Publish
-View
-Branch
-Conflict
-Below i have given classification of git mechanism along with their important commands.
-When it comes to files
-git init          
-git add .
-git add [filename]
-
-When it comes to a repository
-git clone ~/folder_A ~/folder_B
-git clone git://url
-git clone ssh://url
-
-Track is when we want to track our files for commit, update or delete operations.
-git add files // adds files ready to be commited
-git mv prev_place target_place //moves files
-git rm files //removes files from working directory but adds it to the staging index
-git rm --cached files //stops tracking but keeps files in working directory
-
-We use revert when we want to do a new
-git reset --hard
-
-The --hard mode is n…]]></summary>
-        <author>
-            <name>Danyson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notes on Kafka: Topics, Partitions, and Offset]]></title>
-        <id>https://dev.to/jeden/notes-on-kafka-topics-2625</id>
-        <link href="https://dev.to/jeden/notes-on-kafka-topics-2625"/>
-        <updated>2021-06-25T22:29:33.000Z</updated>
-        <summary type="html"><![CDATA[In the previous section, we have installed the Kafka and all the required pre-requisites in our machine. You can skip some part of this section that you're already familiar with, but basically we'll be going over"
-Brief walkthrough of the directories
-Now, onto the main topic
-What's in a message?
-Event Sourcing
-Partitions
-The Message Offset
-The Message Retention Policy
-As a Distributed Commit Log
-Recall that we've created the Kafka files directory in /usr/local/bin and copied the extracted contents of the Kafka tarball we downloaded. Note that Kafka the files directory or the Kafka program can be ran from any directory you prefer.
-root:kafka_2.13-2.7.0 $ ls -l
-total 56
-drwxr-xr-x 3 root root  4096 Dec 16  2020 bin
-drwxr-xr-x 2 root root  4096 Jun 23 15:05 config
-drwxr-xr-x 4 root root    36…]]></summary>
-        <author>
-            <name>Eden Jose</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Please give me advices how to improve site]]></title>
-        <id>https://dev.to/devhelper/please-give-me-advices-how-to-improve-site-396k</id>
-        <link href="https://dev.to/devhelper/please-give-me-advices-how-to-improve-site-396k"/>
-        <updated>2021-06-25T22:10:07.000Z</updated>
-        <summary type="html"><![CDATA[Please give me advices how to improve site http://bit.ly/2nZoCig
-Thanks in advance!]]></summary>
-        <author>
-            <name>spoilt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sorry, we replaced that old technology, “see-through glass”]]></title>
-        <id>https://twitter.com/RunDaltonRun/status/1408507323031592964</id>
-        <link href="https://twitter.com/RunDaltonRun/status/1408507323031592964"/>
-        <updated>2021-06-25T21:58:35.000Z</updated>
+        <title type="html"><![CDATA[I spent 5 years writing my own operating system]]></title>
+        <id>https://github.com/halfer53/winix</id>
+        <link href="https://github.com/halfer53/winix"/>
+        <updated>2021-06-26T23:43:39.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to make a PWA]]></title>
-        <id>https://dev.to/theyoungestcoder/how-to-make-a-pwa-4m4n</id>
-        <link href="https://dev.to/theyoungestcoder/how-to-make-a-pwa-4m4n"/>
-        <updated>2021-06-25T21:56:31.000Z</updated>
-        <summary type="html"><![CDATA[This is part 3 of "Getting a 100% score in lighthouse". In this article I'll show you how to create PWA. 
-To create a PWA (progressive web app) you need to use a webmanifest. The first thing you need to do is create a file called manifest.json and include this snippet inside the head of index.html.
-<link rel="manifest" href="manifest.json" />
-
-Since manifest.json has many required properties to get your PWA working. I'll explain every one in-depth and how to implement them
-name, short_name, and description
+        <title type="html"><![CDATA[#100DaysOfCodeChallenge -Crop Management Information System- Day 3]]></title>
+        <id>https://dev.to/curtlycritchlow/100daysofcodechallenge-crop-management-information-system-day-3-5b45</id>
+        <link href="https://dev.to/curtlycritchlow/100daysofcodechallenge-crop-management-information-system-day-3-5b45"/>
+        <updated>2021-06-26T23:29:49.000Z</updated>
+        <summary type="html"><![CDATA[Recap
 
 
+On Day 2 I created the FarmerServce() class that is responsible for making network calls to Firebase Auth Farmer collection and documents. I also created the AddFarmerCommand() class that is responsible for passing an instance of the FarmerServiceModel() to FarmerService().
+Today I created the Farmer registration form. This form will accept user input than will create an instance of the FarmerServiceModel() that will be stored in cloud firestore.
+Building this form exposed weaknesses in my understanding for Flutter layout and using dart late variable.
+Below is a screenshot of the form design followed by the code.
 
-
-short_name is what the user sees on their home screen. 
-name and description is what the user sees when installing the PWA
-icons
-
-
-When a user installs your PWA, it uses an array of icons to display on the home screen. Each icon is an object in which you need to specify the type, src…]]></summary>
+NB: 436 lines of code
+class AddFarmerPage extends StatefulWidget {
+  static String routeName = 'AddFarmerPage';
+  const AddFarmerPage({
+    Key? key,
+  }) : super(key: ke…]]></summary>
         <author>
-            <name>TheYoungestCoder</name>
+            <name>Curtly Critchlow</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Multiple Environments With GitHub Pages]]></title>
-        <id>https://dev.to/mktcode/multiple-environments-with-github-pages-53me</id>
-        <link href="https://dev.to/mktcode/multiple-environments-with-github-pages-53me"/>
-        <updated>2021-06-25T21:05:46.000Z</updated>
-        <summary type="html"><![CDATA[or... When you’re working on a static site and GitHub Pages feels like the perfect hosting solution, since you like having everything in one place and then you realize you need an additional environment but you still don’t want to use anything but GitHub… Here’s what you can do.
-
-
-
-This is a “special needs” article but also a general introduction to GitHub Actions.
-Since the advent of Single Page Applications the requirements for hosting have been reduced to a minimum. Anything that can serve a static HTML file will do the job just fine and the browser, bombarded with Javascript, does the heavy lifting. High availability and security is a totally different topic of course but in this case I believe GitHub has you covered.
-With Pages GitHub offers a very convenient service for hosting such …]]></summary>
-        <author>
-            <name>mkt</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OneSignal (Messaging and Push Notification APIs) is hiring a full stack engineer]]></title>
-        <id>https://onesignal.com/careers/b824ffc4-ac55-4744-b7d8-b5ace6272e96</id>
-        <link href="https://onesignal.com/careers/b824ffc4-ac55-4744-b7d8-b5ace6272e96"/>
-        <updated>2021-06-25T21:00:39.000Z</updated>
+        <title type="html"><![CDATA[Why Did We Ever Think the First Programming Language Didn't Matter?]]></title>
+        <id>https://m-cacm.acm.org/blogs/blog-cacm/253393-why-did-we-ever-think-the-first-programming-language-didnt-matter/fulltext</id>
+        <link href="https://m-cacm.acm.org/blogs/blog-cacm/253393-why-did-we-ever-think-the-first-programming-language-didnt-matter/fulltext"/>
+        <updated>2021-06-26T23:03:00.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using React-Leaflet with a React/ Redux Application]]></title>
-        <id>https://dev.to/rickysonz/using-react-leaflet-with-a-react-redux-application-3983</id>
-        <link href="https://dev.to/rickysonz/using-react-leaflet-with-a-react-redux-application-3983"/>
-        <updated>2021-06-25T20:56:39.000Z</updated>
-        <summary type="html"><![CDATA[As a junior developer making my first ReactJS project I heard the horror stories of writing poor code when using Google Maps Javascript API, and wanted a free resource for rendering maps. I wanted to be sure I would not get a random bill for thousands of dollars from Google, so if you're trying to create a React app and want to have a free mapping service, look no further than React-Leaflet! It's an easy way to display a map in a React Component and render it with whatever information you want to use from your Redux state. This post will give you step by step instruction on implementing React-Leaflet. These instructions assume you are comfortable with Javascript, React, and Redux concepts and also assumes you have set up your application through
-create-react-app (your project name here)
+        <title type="html"><![CDATA[Ultimate List of Web Development Podcasts]]></title>
+        <id>https://dev.to/tuckertriggs/ultimate-list-of-web-development-podcasts-4okf</id>
+        <link href="https://dev.to/tuckertriggs/ultimate-list-of-web-development-podcasts-4okf"/>
+        <updated>2021-06-26T22:56:08.000Z</updated>
+        <summary type="html"><![CDATA[Ultimate List of Web Development Podcasts
 
+
+Podcasts are a great way to stay informed about what's happening in web development. This comprehensive list has over 350 podcasts covering website design, development, freelancing. Feel free to Contribute on Github. Originally posted on my blog.
+
+
+
+  
+  
+  Learn to Code Podcasts
+
+
+Learn to Code With Me
+Apple•Spotify•Google•Web
+The freeCodeCamp Podcast
+Apple•Spotify•Google•Web
+Command Line Heroes
+Apple•Spotify•Google•Web
+CodePrep
+Apple•Spotify•Google•Web
+CodeNewbie
+Apple•Spotify•Google•Web
+Tech Jr
+Apple•Spotify•Google•Web
+Second Career Devs
+Apple•Spotify•Google•Web
+Learn to Code in One Month
+Apple•Spotify•Google•Web
+Base.cs
+Apple•Spotify•Google•Web
+Tech Talk with Mo Sharif
+Apple•Spotify•Google•Web
+The Chau Codes Podcast
+Apple•Spotify•Google•Web
 S…]]></summary>
         <author>
-            <name>Ryan Erricson</name>
+            <name>Tucker Triggs</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vue Js Toast Notification Example From Scratch]]></title>
-        <id>https://dev.to/techdurjoy/vue-js-toast-notification-example-from-scratch-2042</id>
-        <link href="https://dev.to/techdurjoy/vue-js-toast-notification-example-from-scratch-2042"/>
-        <updated>2021-06-25T20:56:01.000Z</updated>
-        <summary type="html"><![CDATA[Vue Notification Tutorial is the today’s main topic. In this example, I have used Vue Toasted One of the Best Toast plugin available for VueJS. It is responsive, touch compatible, easy to use, attractive and feature rich with icons, actions, etc. In this demo, when we save any data in the database, we will display a notification saying that item has successfully saved or if we show any error then we can show it. For the backend, we use Laravel PHP Framework.
-Vue Js Toast Notification Example From Scratch]]></summary>
-        <author>
-            <name>techdurjoy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Final Fantasy remasters reignite controversies over pixel art]]></title>
-        <id>https://www.vice.com/en/article/qj83yp/final-fantasy-remasters-reignite-controversies-over-pixel-art</id>
-        <link href="https://www.vice.com/en/article/qj83yp/final-fantasy-remasters-reignite-controversies-over-pixel-art"/>
-        <updated>2021-06-25T20:49:40.000Z</updated>
+        <title type="html"><![CDATA[YouTube takes down Xinjiang videos, forcing rights group to seek alternative]]></title>
+        <id>https://www.reuters.com/technology/exclusive-youtube-takes-down-xinjiang-videos-forces-rights-group-seek-2021-06-25/</id>
+        <link href="https://www.reuters.com/technology/exclusive-youtube-takes-down-xinjiang-videos-forces-rights-group-seek-2021-06-25/"/>
+        <updated>2021-06-26T22:43:41.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[Cybersecurity & Linux Tools] How to install Metasploit?]]></title>
-        <id>https://dev.to/yumatsushima07/cybersecurity-linux-tools-how-to-install-metasploit-2c58</id>
-        <link href="https://dev.to/yumatsushima07/cybersecurity-linux-tools-how-to-install-metasploit-2c58"/>
-        <updated>2021-06-25T20:49:08.000Z</updated>
-        <summary type="html"><![CDATA[Many people have been using this tool Metasploit. You came across on it on many tutorials and wondered how do you actually install this?
-The Metasploit framework is a very powerful tool which can be used by cybercriminals as well as ethical hackers to probe systematic vulnerabilities on networks and servers. Because it’s an open-source framework, it can be easily customized and used with most operating systems.
-With Metasploit, the pen testing team can use ready-made or custom code and introduce it into a network to probe for weak spots. As another flavour of threat hunting, once flaws are identified and documented, the information can be used to address systemic weaknesses and prioritize solutions.
-Due to its wide range of applications and open-source availability, Metasploit is used by e…]]></summary>
-        <author>
-            <name>Yuma-Tsushima</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preliminary Assessment: Unidentified Aerial Phenomena]]></title>
-        <id>https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2021/item/2223-preliminary-assessment-unidentified-aerial-phenomena</id>
-        <link href="https://www.dni.gov/index.php/newsroom/reports-publications/reports-publications-2021/item/2223-preliminary-assessment-unidentified-aerial-phenomena"/>
-        <updated>2021-06-25T20:36:41.000Z</updated>
+        <title type="html"><![CDATA[The School for Sysadmins Who Can’t Timesync Good]]></title>
+        <id>https://libertysys.com.au/2016/09/the-school-for-sysadmins-who-cant-timesync-good-and-wanna-learn-to-do-other-stuff-good-too-part-1-the-problem-with-ntp/</id>
+        <link href="https://libertysys.com.au/2016/09/the-school-for-sysadmins-who-cant-timesync-good-and-wanna-learn-to-do-other-stuff-good-too-part-1-the-problem-with-ntp/"/>
+        <updated>2021-06-26T22:40:50.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2 Birds, 1 Stone – 10 Apps, 1 Node]]></title>
-        <id>https://dev.to/coffeelessprogrammer/2-birds-1-stone-10-apps-1-node-1ome</id>
-        <link href="https://dev.to/coffeelessprogrammer/2-birds-1-stone-10-apps-1-node-1ome"/>
-        <updated>2021-06-25T20:36:32.000Z</updated>
-        <summary type="html"><![CDATA[A Better Way to Node_Modules via Symlinking
-
-
-
-
-
-
-  
-  
-  Prerequisites:
-
-
-
-A basic understanding of the 'node_modules' directory
-The 'node_modules' problem | Leoat12 | Dev.to
-NPM Folder Structures | NPM Docs
-NPM Packages and Modules | NPM Docs
-When learning a new technology, I prefer to make multiple small projects focused on different concepts as opposed to cramming everything into one giga app.
-I come from an Angular background where it's possible to create multiple projects using a single, root package.json; a single node_modules folder is shared across all the various projects under that Angular app.
-A few days ago, I renewed my efforts to learn React and immediately ran into a major hurdle... the node_modules folder, or rather a growing hydra of node_modules folders.
-Every time I cre…]]></summary>
-        <author>
-            <name>Ryo Light (Pulkit)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[User Inyerface – A worst-practice UI experiment]]></title>
-        <id>https://userinyerface.com/</id>
-        <link href="https://userinyerface.com/"/>
-        <updated>2021-06-25T19:37:53.000Z</updated>
+        <title type="html"><![CDATA[AMD Quietly Launches Recycled Xbox Series X APU as 4700S Desktop Kit]]></title>
+        <id>https://www.tomshardware.com/news/amd-launches-recycled-xbox-series-x-apu-4700s-desktop-kit</id>
+        <link href="https://www.tomshardware.com/news/amd-launches-recycled-xbox-series-x-apu-4700s-desktop-kit"/>
+        <updated>2021-06-26T22:16:03.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Group Video Calls]]></title>
-        <id>https://telegram.org/blog/group-video-calls</id>
-        <link href="https://telegram.org/blog/group-video-calls"/>
-        <updated>2021-06-25T19:18:42.000Z</updated>
+        <title type="html"><![CDATA[Functional Programming: Implementing the filter Method on a Prototype]]></title>
+        <id>https://dev.to/rthefounding/functional-programming-implementing-the-filter-method-on-a-prototype-89</id>
+        <link href="https://dev.to/rthefounding/functional-programming-implementing-the-filter-method-on-a-prototype-89"/>
+        <updated>2021-06-26T21:58:59.000Z</updated>
+        <summary type="html"><![CDATA[Continuing forward. You might learn a lot about the filter method if you implement your own version of it as well. It is recommended you use a for loop or Array.prototype.forEach().
+
+
+Ex:
+
+
+
+
+var s = [23, 65, 98, 5];
+
+Array.prototype.myFilter = function(callback) {
+  // Only change code below this line
+  var newArray = [];
+  // Only change code above this line
+  return newArray;
+};
+
+var new_s = s.myFilter(function(item) {
+  return item % 2 === 1;
+});
+
+Answer:
+
+
+
+
+var s = [23, 65, 98, 5];
+
+Array.prototype.myFilter = function(callback) {
+
+  var newArray = [];
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i]) === true) {
+      newArray.push(this[i])
+    }
+  }
+   return newArray;
+};
+
+var new_s = s.myFilter(function(item) {
+  return item % 2 === 1;
+});
+
+new_s equals [23, 65, 5]
+
+
+Helpful Links:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+Larson, Quincy, editor. “Implement the filter Method on a Prototype.” Https://Www.freecodecamp.org/, Class Central, 2014, twitter.com/ossia.]]></summary>
+        <author>
+            <name>Randy Rivera</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hosting a Static Website with Amazon S3]]></title>
+        <id>https://dev.to/mariehposa/hosting-a-static-website-with-amazon-s3-i5p</id>
+        <link href="https://dev.to/mariehposa/hosting-a-static-website-with-amazon-s3-i5p"/>
+        <updated>2021-06-26T21:30:43.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I’d like to demonstrate how you can deploy a static website with AWS by uploading your website content into S3 bucket, configuring your bucket for website hosting and speeding up content delivery using AWS CloudFront.
+First of all, let me explain some of the terminologies.
+Amazon S3 (Simple Storage Service) is a service offered by AWS for object storage through a web service interface. It can be used to store or retrieve any amount of data such as documents, images, videos, etc.
+S3 bucket is a resource in Amazon S3. It is a container where files and folders can be uploaded.
+Amazon CloudFront is a content delivery network (CDN) service offered by AWS. It is used to speed up content delivery and can be integrated with Amazon S3.
+Each object can contain up to 5TB of data.
+A r…]]></summary>
+        <author>
+            <name>Mariam Adedeji</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detection Script to help identify why your PC isn't Windows 11 ready]]></title>
+        <id>https://github.com/rcmaehl/WhyNotWin11</id>
+        <link href="https://github.com/rcmaehl/WhyNotWin11"/>
+        <updated>2021-06-26T21:29:37.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Miami condo collapse is a reminder of America's artificial land problem]]></title>
-        <id>https://theweek.com/feature/opinion/1001964/the-miami-condo-collapse-is-a-devastating-reminder-of-americas-landfill</id>
-        <link href="https://theweek.com/feature/opinion/1001964/the-miami-condo-collapse-is-a-devastating-reminder-of-americas-landfill"/>
-        <updated>2021-06-25T19:13:02.000Z</updated>
+        <title type="html"><![CDATA[LinkedList Questions: Delete a given node in constant time]]></title>
+        <id>https://dev.to/kathanvakharia/linked-lists-questions-delete-a-given-node-in-constant-time-1gfp</id>
+        <link href="https://dev.to/kathanvakharia/linked-lists-questions-delete-a-given-node-in-constant-time-1gfp"/>
+        <updated>2021-06-26T21:04:34.000Z</updated>
+        <summary type="html"><![CDATA[In this series of posts, I will discuss coding questions on the LinkedList Data structure. 
+Question Link ❓
+Possible Explanation 📝
+Documented C++ Code 🧹
+Time and Space Complexity Analysis ⌛🌌
+Write a function to delete a node in a singly-linked list. You will not be given access to the head of the list, instead you will be given access to the node to be deleted directly.
+It is guaranteed that the node to be deleted is not a tail node in the list.
+https://leetcode.com/problems/delete-node-in-a-linked-list/
+💡 Give yourself atleast 5 mins to figure out the solution :)
+
+It is a warm-up question, there's not much to explain,
+Copy the data of the next node into the given node.
+Make the given node point to the next's neighbor.
+Free up the old neighbor of the given node. 
+//Definition for singly-linked list.
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+#include <bits/stdc++.h>
+#include "../linkedlist.h"
+using namespace std;
+
+/*
+-Time:O(1)
+-Space:O(1)
+*/
+class Solution
+{
+public:
+    //! given node isn't the "tail" node
+    void deleteNode(ListNode *node)
+    {
+        ListNode *temp = node->next;
+
+        //I can do this only because node isn't the tail node
+        //and "node->next" will not null therefore
+        node->val = node->next->val;
+        node->next = node->next->next;
+
+        delete temp;
+    }
+};
+
+
+No iteration or recursion is done.
+No extra space is used.]]></summary>
+        <author>
+            <name>Kathan Vakharia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rescale (YC W12) Is Hiring Product Managers]]></title>
+        <id>https://jobs.lever.co/rescale/399a7fc1-8318-49fa-a73d-3a1eb7a50c3b?lever-origin=applied&amp;lever-source%5B%5D=Hacker%20News</id>
+        <link href="https://jobs.lever.co/rescale/399a7fc1-8318-49fa-a73d-3a1eb7a50c3b?lever-origin=applied&amp;lever-source%5B%5D=Hacker%20News"/>
+        <updated>2021-06-26T21:01:13.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Querying Parquet with Precision Using DuckDB]]></title>
-        <id>https://duckdb.org/2021/06/25/querying-parquet.html</id>
-        <link href="https://duckdb.org/2021/06/25/querying-parquet.html"/>
-        <updated>2021-06-25T18:53:15.000Z</updated>
+        <title type="html"><![CDATA[3D with Javascript?]]></title>
+        <id>https://dev.to/swathipai13/3d-with-javascript-1hal</id>
+        <link href="https://dev.to/swathipai13/3d-with-javascript-1hal"/>
+        <updated>2021-06-26T20:37:08.000Z</updated>
+        <summary type="html"><![CDATA[World's Popular Language? Even if not, if you would like to know what else can you conquer with this language, this post is for you! Anyone interested in 3D, with no knowledge of JavaScript, this still is for you!:)
+When its 3D, Maya, Autodesk,and more recently Blender, Unity, Unreal come to our minds. Doing 3D stuffs with JavaScript becomes a point of notice, to only those who come across it, and I did! 
+Below are few platforms which use JavaScript to make 3D object or games or even use for rendering. 
+They can definitely be of help by integrating in your app or website, or even having fun exploring!
+Three
+Three (https://threejs.org/ )
+Three.js is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser. You can find some cool games and websites on their official site.
+2.Babylon
+Babylon (https://www.babylonjs.com/ ) 
+
+Babylon.js is a real time 3D engine for displaying 3D graphics in a web browser via HTML5.Babylon brings in the difference by using HTML5 instead of WebGL.
+3.Zdog
+Zdog( https://zzz.dog/ ) 
+
+Really cool Round, flat, designer-friendly pseudo-3D engine for canvas & SVG. The tutorial is even friendly and entertaining!
+4.Phoria
+Phoria (http://www.kevs3d.co.uk/dev/phoria/)
+
+Another great site to find simple 3D graphics on a canvas 2D renderer with some wonderful examples. It is been developed by Kevin Roast and you can find the GitHub repo too.
+5.Xeogl
+Xeogl ( https://xeogl.org/ )
+Developed by Xeolabs, it focuses on 3D visualization in the browser without using plugins! Also does it have various examples to explore!
+That's it folks. Make sure to let me know if you enjoyed this post and do shower hearts as appreciation, as this is my first post🥳  Also let me know which of these is your favorite one or if you think that I have missed any, please share in the comments🙏
+Cheers!]]></summary>
+        <author>
+            <name>miss_multitasker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guerrilla guide to CNC machining, mold making, and resin casting (2015)]]></title>
+        <id>https://lcamtuf.coredump.cx/gcnc/</id>
+        <link href="https://lcamtuf.coredump.cx/gcnc/"/>
+        <updated>2021-06-26T20:36:28.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Men are rapidly losing their close friends, poll finds]]></title>
+        <id>https://theweek.com/us/1001987/men-losing-close-friends</id>
+        <link href="https://theweek.com/us/1001987/men-losing-close-friends"/>
+        <updated>2021-06-26T20:33:27.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The blackout Palestinians are facing on social media]]></title>
+        <id>https://restofworld.org/2021/palestine-social-media-silence/2</id>
+        <link href="https://restofworld.org/2021/palestine-social-media-silence/2"/>
+        <updated>2021-06-26T19:59:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mongo DB query operators:]]></title>
+        <id>https://dev.to/amenibensaada/mongo-db-query-operators-3fcn</id>
+        <link href="https://dev.to/amenibensaada/mongo-db-query-operators-3fcn"/>
+        <updated>2021-06-26T19:45:31.000Z</updated>
+        <summary type="html"><![CDATA[This past few months, I have spent time learning the back-end technologies and how they are working. In this journey, I discovered Mongo DB,which is flexible and allows developers to quickly store large amounts of unstructured data. 
+So today we are going to learn how to write MongoDB queries such as:  
+CRUD Operations:
+Create: insertOne(), insertMany()
+Read:  findOne(), find()
+Update: updateOne(), update()
+Delete: seleteOne(), deleteMany()
+More advanced query operations using:
+Comparison query operators :  $gt , $lt , $gte , $lte
+Set Operators: $in, $all, $nin
+let's get started 
+Create operations:   
+Those Create or Insert operations give us the ability to add a new document to a collection. We can use: 
+insertOne: inserts a single document into a collection.
+insertMany: inserts multiple …]]></summary>
+        <author>
+            <name>Ameni Ben Saada</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What to do if you publish a beta build as @latest]]></title>
+        <id>https://dev.to/hughrawlinson/what-to-do-if-you-publish-a-beta-build-as-latest-3n0g</id>
+        <link href="https://dev.to/hughrawlinson/what-to-do-if-you-publish-a-beta-build-as-latest-3n0g"/>
+        <updated>2021-06-26T19:30:51.000Z</updated>
+        <summary type="html"><![CDATA[I recently published a beta build of Meyda to the npm registry, with the intention of having one of our longest running users test it out to make sure it worked in their project. I hadn't done a manual release in a long time, since we use semantic-release, so I skimmed the output of npm publish --help, and figured out what command I would run. I
+5.1.7-beta.0, as instructed built the bundle, ran our test suite, and ran npm publish . --dry-run, to verify that the manifest of files that would be published was correct. It was correct, and so I ran
+npm publish .
+
+When I checked Meyda's page on npm, I was rather surprised to see that 5.1.7-beta.0 had been published as the latest tagged version of Meyda. I had incorrectly been assuming that the magic incantation required to publish a beta package…]]></summary>
+        <author>
+            <name>Hugh Rawlinson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript: Async/Await Wrapper]]></title>
+        <id>https://dev.to/sumodevelopment/javascript-async-await-wrapper-22ao</id>
+        <link href="https://dev.to/sumodevelopment/javascript-async-await-wrapper-22ao"/>
+        <updated>2021-06-26T19:29:49.000Z</updated>
+        <summary type="html"><![CDATA[Reusable function to run any Promise that returns an array of data and error.
+Using Async/Await is great, but when working with multiple Promises it often clutters your code with multiple try/catch statements. I wrote this wrapper to easy encapsulate the try/catch and return an array with the data in the 1st index and the error in the second index. 
+GitHub Respository
+export const asyncWrapper = async (asyncFunction, params = null) => {
+    try {
+        const data = await asyncFunction(params)
+        return [data, null]
+    }
+    catch (error) {
+        return [ null, error ]
+    }
+}
+
+// Use them all together! <3 
+const handleFetchAllClick = async () => {
+    // No gross try/catch everywhere
+    const [users, usersError] = await asyncWrapper(fetchUsersRequest)
+    const [todos, todosError] = await asyncWrapper(fetchTodosRequest)
+    const [user, userError] = await asyncWrapper(fetchUserByIdRequest, 1)
+    const [newUser, newUserError] = await asyncWrapper(createUsersRequest, mockUser)
+}]]></summary>
+        <author>
+            <name>Dewald Els</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[100DayOfCode CSS challenge  🚀]]></title>
+        <id>https://dev.to/gannounimariem/100dayofcode-css-challenge-3g6b</id>
+        <link href="https://dev.to/gannounimariem/100dayofcode-css-challenge-3g6b"/>
+        <updated>2021-06-26T19:28:34.000Z</updated>
+        <summary type="html"><![CDATA[A post by G'n Mariem]]></summary>
+        <author>
+            <name>G'n Mariem</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intro to React Select pt. 1]]></title>
+        <id>https://dev.to/cathyc93/intro-to-react-select-pt-1-1c0k</id>
+        <link href="https://dev.to/cathyc93/intro-to-react-select-pt-1-1c0k"/>
+        <updated>2021-06-26T19:17:11.000Z</updated>
+        <summary type="html"><![CDATA[Today is the first part of my series on React Select.  This intro is perfect if you are completely new to React Select or React in general.
+I started by setting up a base project using create-react-app.  I called my app "demo-app".
+npm create-react-app demo-app
+Once my app is ready to use, I installed React Select and got to work!
+npm i --save react-select
+Now that I have React Select installed, I can begin to use it by importing it and referencing it.
+
+Next, we can add an option to the select in the format of: 
+{ value: 'value1', label: 'Label 1'}
+
+Now that we have a simple implementation ready, I used GitKraken to view & commit my changes.
+And there you have it! Keep an eye out for my follow-up articles that show you more advanced usages of React Select.
+You can view of video walkthrough of this on YouTube!]]></summary>
+        <author>
+            <name>Cathy Casey-Richards</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[So you want to build a house more efficiently]]></title>
+        <id>https://austinvernon.eth.link/blog/construction.html</id>
+        <link href="https://austinvernon.eth.link/blog/construction.html"/>
+        <updated>2021-06-26T18:12:11.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Science and Technology links (June 26th 2021)]]></title>
+        <id>https://lemire.me/blog/?p=19349</id>
+        <link href="https://lemire.me/blog/2021/06/26/science-and-technology-links-june-26th-2021/"/>
+        <updated>2021-06-26T16:56:44.000Z</updated>
+        <summary type="html"><![CDATA[Reportedly, half of us own a smartphone. It is often reported that women or visible minority earn less money. However, ugly people are doing comparatively even more poorly. We have highly efficient and cheap solar panels. However, we must also quickly dispose of them after a few years which leads to trash. Handling an increasing … Continue reading Science and Technology links (June 26th 2021)]]></summary>
+        <author>
+            <name>Daniel Lemire</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CRISPR gene-editing breakthrough opens door to treating broad array of diseases]]></title>
+        <id>https://www.npr.org/sections/health-shots/2021/06/26/1009817539/he-inherited-a-devastating-disease-a-crispr-gene-editing-breakthrough-stopped-it</id>
+        <link href="https://www.npr.org/sections/health-shots/2021/06/26/1009817539/he-inherited-a-devastating-disease-a-crispr-gene-editing-breakthrough-stopped-it"/>
+        <updated>2021-06-26T16:54:31.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Play online chess with a real chess board]]></title>
+        <id>https://github.com/karayaman/Play-online-chess-with-real-chess-board</id>
+        <link href="https://github.com/karayaman/Play-online-chess-with-real-chess-board"/>
+        <updated>2021-06-26T16:51:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some biologists and ecologists think social media is a risk to humanity]]></title>
+        <id>https://www.vox.com/recode/2021/6/26/22550981/carl-bergstrom-joe-bak-coleman-biologists-ecologists-social-media-risk-humanity-research-academics</id>
+        <link href="https://www.vox.com/recode/2021/6/26/22550981/carl-bergstrom-joe-bak-coleman-biologists-ecologists-social-media-risk-humanity-research-academics"/>
+        <updated>2021-06-26T16:34:38.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cwtch: Decentralized, privacy-preserving, multi-party messaging protocol]]></title>
+        <id>https://cwtch.im/</id>
+        <link href="https://cwtch.im/"/>
+        <updated>2021-06-26T16:19:03.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When it comes to Git history, less is more]]></title>
+        <id>https://brennan.io/2021/06/15/git-less-is-more/</id>
+        <link href="https://brennan.io/2021/06/15/git-less-is-more/"/>
+        <updated>2021-06-26T16:09:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Book of Secret Knowledge]]></title>
+        <id>https://github.com/trimstray/the-book-of-secret-knowledge</id>
+        <link href="https://github.com/trimstray/the-book-of-secret-knowledge"/>
+        <updated>2021-06-26T16:09:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: I’m an introvert – made an app to help maintain connections with people]]></title>
+        <id>http://cq.mtc.dev</id>
+        <link href="http://cq.mtc.dev"/>
+        <updated>2021-06-26T16:01:27.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Information Theory: A Tutorial Introduction]]></title>
+        <id>https://arxiv.org/abs/1802.05968</id>
+        <link href="https://arxiv.org/abs/1802.05968"/>
+        <updated>2021-06-26T15:52:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Key witness in Assange case admits to lies in indictment]]></title>
+        <id>https://stundin.is/grein/13627/key-witness-in-assange-case-admits-to-lies-in-indictment/</id>
+        <link href="https://stundin.is/grein/13627/key-witness-in-assange-case-admits-to-lies-in-indictment/"/>
+        <updated>2021-06-26T15:22:48.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run fewer, better A/B tests]]></title>
+        <id>https://edoconti.medium.com/offline-policy-evaluation-run-fewer-better-a-b-tests-60ce8f93fa15</id>
+        <link href="https://edoconti.medium.com/offline-policy-evaluation-run-fewer-better-a-b-tests-60ce8f93fa15"/>
+        <updated>2021-06-26T14:44:31.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Immutability is not enough (2016)]]></title>
+        <id>https://codewords.recurse.com/issues/six/immutability-is-not-enough</id>
+        <link href="https://codewords.recurse.com/issues/six/immutability-is-not-enough"/>
+        <updated>2021-06-26T14:40:02.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Whatever Happened to UI Affordances?]]></title>
+        <id>https://shkspr.mobi/blog/2021/06/whatever-happened-to-ui-affordances/</id>
+        <link href="https://shkspr.mobi/blog/2021/06/whatever-happened-to-ui-affordances/"/>
+        <updated>2021-06-26T11:16:14.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -384,80 +632,10 @@ The post Custom Property Brain Twisters appeared first on CSS-Tricks. You can su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Deep dive into plastic monomers, additives, and processing aids]]></title>
-        <id>https://pubs.acs.org/doi/10.1021/acs.est.1c00976</id>
-        <link href="https://pubs.acs.org/doi/10.1021/acs.est.1c00976"/>
-        <updated>2021-06-25T18:27:44.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chemical space is really big (2014)]]></title>
-        <id>https://www.chemistryworld.com/opinion/chemical-space-is-big-really-big/7899.article</id>
-        <link href="https://www.chemistryworld.com/opinion/chemical-space-is-big-really-big/7899.article"/>
-        <updated>2021-06-25T18:26:03.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bflat: C# as you know it but with Go-like tooling]]></title>
-        <id>https://github.com/MichalStrehovsky/bflat</id>
-        <link href="https://github.com/MichalStrehovsky/bflat"/>
-        <updated>2021-06-25T18:18:28.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A man whose software ate the world]]></title>
-        <id>https://www.thepullrequest.com/p/the-man-whose-software-ate-the-world</id>
-        <link href="https://www.thepullrequest.com/p/the-man-whose-software-ate-the-world"/>
-        <updated>2021-06-25T18:08:27.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Programming Paradigms for Dummies: What Every Programmer Should Know (2009) [pdf]]]></title>
-        <id>https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf</id>
-        <link href="https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf"/>
-        <updated>2021-06-25T17:28:21.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where did my 256 GB go? Mobile storage Analysis [pdf]]]></title>
-        <id>https://dl.acm.org/doi/pdf/10.1145/3460095</id>
-        <link href="https://dl.acm.org/doi/pdf/10.1145/3460095"/>
-        <updated>2021-06-25T15:24:56.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hierarchical Structures in PostgreSQL (2020)]]></title>
-        <id>https://hoverbear.org/blog/postgresql-hierarchical-structures/</id>
-        <link href="https://hoverbear.org/blog/postgresql-hierarchical-structures/"/>
-        <updated>2021-06-25T15:10:58.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS acquires Wickr]]></title>
-        <id>https://aws.amazon.com/blogs/security/aws-welcomes-wickr-to-the-team/</id>
-        <link href="https://aws.amazon.com/blogs/security/aws-welcomes-wickr-to-the-team/"/>
-        <updated>2021-06-25T14:38:34.000Z</updated>
+        <title type="html"><![CDATA[‘Problematic stuff’: death, memory and the interpretation of cached objects]]></title>
+        <id>https://www.cambridge.org/core/journals/antiquity/article/problematic-stuff-death-memory-and-the-interpretation-of-cached-objects/FEFB14E4C357F336710BA78CF27048AF</id>
+        <link href="https://www.cambridge.org/core/journals/antiquity/article/problematic-stuff-death-memory-and-the-interpretation-of-cached-objects/FEFB14E4C357F336710BA78CF27048AF"/>
+        <updated>2021-06-25T15:28:16.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -476,16 +654,6 @@ The post How to Cancel Pending API Requests to Show Correct Data appeared first 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: SirenDNS – A Watchtower for Your Domains (Anti-domain-squatting)]]></title>
-        <id>https://sirendns.com</id>
-        <link href="https://sirendns.com"/>
-        <updated>2021-06-25T12:15:23.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Intimacy And Desire Summary]]></title>
         <id>https://fourminutebooks.com/?p=6454</id>
         <link href="https://fourminutebooks.com/intimacy-and-desire-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=intimacy-and-desire-summary"/>
@@ -497,10 +665,10 @@ The post Intimacy And Desire Summary appeared first on Four Minute Books.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I was let go for refusing to deploy a dark pattern]]></title>
-        <id>https://www.peachesnstink.com/p/6pJoCuczOj8cxCUQDMlfQv</id>
-        <link href="https://www.peachesnstink.com/p/6pJoCuczOj8cxCUQDMlfQv"/>
-        <updated>2021-06-25T11:47:33.000Z</updated>
+        <title type="html"><![CDATA[Starting with Kafka]]></title>
+        <id>https://blog.tinybird.co/2021/06/25/starting-with-kafka/</id>
+        <link href="https://blog.tinybird.co/2021/06/25/starting-with-kafka/"/>
+        <updated>2021-06-25T11:49:19.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -517,30 +685,10 @@ The post Intimacy And Desire Summary appeared first on Four Minute Books.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Future of Games is an Instant Flash to the past]]></title>
-        <id>https://www.fortressofdoors.com/the-future-of-games-is-an-instant-flash-to-the-past/</id>
-        <link href="https://www.fortressofdoors.com/the-future-of-games-is-an-instant-flash-to-the-past/"/>
-        <updated>2021-06-25T11:21:11.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rally, a novel privacy-first data sharing platform]]></title>
-        <id>https://blog.mozilla.org/en/mozilla/take-control-over-your-data-with-rally-a-novel-privacy-first-data-sharing-platform/</id>
-        <link href="https://blog.mozilla.org/en/mozilla/take-control-over-your-data-with-rally-a-novel-privacy-first-data-sharing-platform/"/>
-        <updated>2021-06-25T10:59:39.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why the text terminal cursor is important for accessibility]]></title>
-        <id>https://blind.guru/blog/2021-06-25-brick.html</id>
-        <link href="https://blind.guru/blog/2021-06-25-brick.html"/>
-        <updated>2021-06-25T10:39:28.000Z</updated>
+        <title type="html"><![CDATA[Installing Windows 11 on Legacy BIOS Without Secure Boot]]></title>
+        <id>https://allthings.how/how-to-install-windows-11-on-legacy-bios-without-secure-boot-or-tpm-2-0/</id>
+        <link href="https://allthings.how/how-to-install-windows-11-on-legacy-bios-without-secure-boot-or-tpm-2-0/"/>
+        <updated>2021-06-25T11:22:47.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -557,20 +705,20 @@ The post Intimacy And Desire Summary appeared first on Four Minute Books.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Blood test that finds 50 types of cancer is accurate enough to be rolled out]]></title>
-        <id>https://www.theguardian.com/society/2021/jun/25/blood-test-that-finds-50-types-of-cancer-is-accurate-enough-to-be-rolled-out</id>
-        <link href="https://www.theguardian.com/society/2021/jun/25/blood-test-that-finds-50-types-of-cancer-is-accurate-enough-to-be-rolled-out"/>
-        <updated>2021-06-25T09:35:52.000Z</updated>
+        <title type="html"><![CDATA[ATM NFC Hack]]></title>
+        <id>https://www.wired.com/story/atm-hack-nfc-bugs-point-of-sale/</id>
+        <link href="https://www.wired.com/story/atm-hack-nfc-bugs-point-of-sale/"/>
+        <updated>2021-06-25T07:13:05.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Weather Forecasting Tricks Series: Timing a Front (2004)]]></title>
-        <id>http://www.theweatherprediction.com/habyhints2/424/</id>
-        <link href="http://www.theweatherprediction.com/habyhints2/424/"/>
-        <updated>2021-06-24T19:38:46.000Z</updated>
+        <title type="html"><![CDATA[The Queen’s Latin or Who Were the Romans, Part II: Citizens and Allies]]></title>
+        <id>https://acoup.blog/2021/06/25/collections-the-queens-latin-or-who-were-the-romans-part-ii-citizens-and-allies/</id>
+        <link href="https://acoup.blog/2021/06/25/collections-the-queens-latin-or-who-were-the-romans-part-ii-citizens-and-allies/"/>
+        <updated>2021-06-25T05:18:04.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -597,10 +745,10 @@ The post Intimacy And Desire Summary appeared first on Four Minute Books.]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cats and the Good Life]]></title>
-        <id>https://lareviewofbooks.org/article/cats-and-the-good-life/</id>
-        <link href="https://lareviewofbooks.org/article/cats-and-the-good-life/"/>
-        <updated>2021-06-24T16:16:49.000Z</updated>
+        <title type="html"><![CDATA[Teaching open-source software in North Korea]]></title>
+        <id>https://izbicki.me/blog/teaching-open-source-in-north-korea.html</id>
+        <link href="https://izbicki.me/blog/teaching-open-source-in-north-korea.html"/>
+        <updated>2021-06-24T16:47:47.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -627,6 +775,16 @@ The post Chapter 9: Community appeared first on CSS-Tricks. You can support CSS-
         <summary type="html"><![CDATA[In the dynamic and unpredictable environments in which we work, even the most carefully crafted solutions can have a short shelf life. When we accept that our work is impermanent and our problem-solving abilities are limited, our goal can shift from delivering full solutions to developing tools that empower our users to adaptively design for themselves.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Josh Singer)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Hills Are Alive with the Flows of Physics]]></title>
+        <id>https://www.nytimes.com/2021/06/24/science/hills-creep-lasers.html</id>
+        <link href="https://www.nytimes.com/2021/06/24/science/hills-creep-lasers.html"/>
+        <updated>2021-06-24T13:21:02.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -693,16 +851,6 @@ The post Using Performant Next-Gen Images in CSS with image-set appeared first o
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Disproportionate amount of bad online behaviour stems from psychological issues]]></title>
-        <id>https://unherd.com/2021/06/are-twitter-trolls-mentally-ill/</id>
-        <link href="https://unherd.com/2021/06/are-twitter-trolls-mentally-ill/"/>
-        <updated>2021-06-23T17:24:01.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Create a Great Technical Course]]></title>
         <id>60a406bd906c5207e3a7dfcb</id>
         <link href="https://www.freecodecamp.org/news/how-to-create-a-great-technical-course/"/>
@@ -734,16 +882,6 @@ The post “Weak declaration” appeared first on CSS-Tricks. You can support CS
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Death of Alpha on NT (1999)]]></title>
-        <id>https://www.itprotoday.com/compute-engines/death-alpha-nt</id>
-        <link href="https://www.itprotoday.com/compute-engines/death-alpha-nt"/>
-        <updated>2021-06-23T12:14:03.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Open Summary]]></title>
         <id>https://fourminutebooks.com/?p=6450</id>
         <link href="https://fourminutebooks.com/open-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-summary"/>
@@ -752,16 +890,6 @@ The post “Weak declaration” appeared first on CSS-Tricks. You can support CS
 The post Open Summary appeared first on Four Minute Books.]]></summary>
         <author>
             <name>Luke Rowley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Machine learning automation from creating to using models in production]]></title>
-        <id>https://github.com/nidhaloff/igel/tree/v0.4.0</id>
-        <link href="https://github.com/nidhaloff/igel/tree/v0.4.0"/>
-        <updated>2021-06-23T11:27:52.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1280,26 +1408,6 @@ The post Hyperfocus Summary appeared first on Four Minute Books.]]></summary>
         <summary type="html"><![CDATA[Suppose I give you an integer. How many decimal digits would you need to write it out? The number ‘100’ takes 3 digits whereas the number ’99’ requires only two. You are effectively trying to compute the integer logarithm in base 10 of the number. I say ‘integer logarithm’ because you need to round up … Continue reading Computing the number of digits of an integer quickly]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding A Commenting System To A WYSIWYG Editor]]></title>
-        <id>https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/</id>
-        <link href="https://smashingmagazine.com/2021/05/commenting-system-wysiwyg-editor/"/>
-        <updated>2021-05-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll be re-using the foundational WYSIWYG Editor built in the first article to build a commenting system for a WYSIWYG Editor that enables users to select text inside a document and share their comments on it. Let’s dig in!]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Shalabh Vyas)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Useful VS Code Extensions For Front-End Developers]]></title>
-        <id>https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/</id>
-        <link href="https://smashingmagazine.com/2021/05/useful-vs-code-extensions-web-developers/"/>
-        <updated>2021-05-27T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Meet useful Visual Studio Code extensions for web developers: little helpers to minimize slow-downs and frustrations, and boost developer’s workflow along the way. With auto log messages, auto code formatting, file utils, file labels, code snippets, highlight brackets, tags, indents and workspaces, onboarding and remote SSH.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
         </author>
     </entry>
 </feed>
