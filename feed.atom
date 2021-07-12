@@ -1,473 +1,487 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-11T01:03:01.052Z</id>
+    <id>urn:2021-07-12T00:57:03.622Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-11T01:03:01.052Z</updated>
+    <updated>2021-07-12T00:57:03.622Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[I Stopped Using Emojis]]></title>
-        <id>https://thistooshallgrow.com/blog/emoji-stop</id>
-        <link href="https://thistooshallgrow.com/blog/emoji-stop"/>
-        <updated>2021-07-11T00:09:01.000Z</updated>
+        <title type="html"><![CDATA[Access internal APIM securely with Private Link Service]]></title>
+        <id>https://dev.to/pwd9000/access-internal-apim-securely-with-private-link-service-313o</id>
+        <link href="https://dev.to/pwd9000/access-internal-apim-securely-with-private-link-service-313o"/>
+        <updated>2021-07-11T22:56:40.000Z</updated>
+        <summary type="html"><![CDATA[What is Azure Private Link Service?
+
+
+Azure Private Link service is the reference to your own service that is powered by Azure Private Link. Your service that is running behind Azure Standard Load Balancer can be enabled for Private Link access so that consumers to your service can access it privately from their own VNets. Your customers can create a private endpoint inside their VNet and map it to this service.
+In todays tutorial we will look into an interesting use case for this service, in how we can connect an external source to consume an API management service (internal VNET mode) from an external non-peered VNET. As depicted in the following diagram:
+
+Note: The source or entry point where we will place our private endpoint can be in a network that is in a completely different region…]]></summary>
+        <author>
+            <name>Marcel.L</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rest v/s GraphQL !]]></title>
+        <id>https://dev.to/mayank0508/rest-v-s-graphql-5bln</id>
+        <link href="https://dev.to/mayank0508/rest-v-s-graphql-5bln"/>
+        <updated>2021-07-11T22:52:45.000Z</updated>
+        <summary type="html"><![CDATA[#First of all let me tell you what is a Rest and GraphQL !
+-> ##REST(Representational State Transfer) and GraphQL are two API design styles that serve the same purpose: transferring data over internet protocols including HTTP. ... However, REST is an architectural pattern, whereas GraphQL is a query language
+1) Rest has Multiple End points, where as GraphQL has one endpoint !
+
+2) Both generally give the Data back in JSON format
+
+3) Both are Stateless: 
+4) Rest APIs are more flexible, whereas GraphQL only works with POST !
+
+5) In GraphQL you can be more detailed about the kind of data you want to fetch, but thing is not applicable in REST APIs as it fetches all the data available
+
+6) In REST because of its tendency to pull all the data it brings a huge amount of data which is unnecessary to the client !
+In total in my opinion both have their own benefits, if you are new to APIs, then go with REST APIs]]></summary>
+        <author>
+            <name>Mayank Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Julia and the Reincarnation of Lisp (2020)]]></title>
+        <id>https://arnuldondata.medium.com/julia-and-the-reincarnation-of-lisp-f60cacd5822c</id>
+        <link href="https://arnuldondata.medium.com/julia-and-the-reincarnation-of-lisp-f60cacd5822c"/>
+        <updated>2021-07-11T22:41:07.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Golden eggs and better telescopes (2018)]]></title>
-        <id>https://elevanth.org/blog/2018/09/02/golden_eggs/</id>
-        <link href="https://elevanth.org/blog/2018/09/02/golden_eggs/"/>
-        <updated>2021-07-10T23:55:28.000Z</updated>
+        <title type="html"><![CDATA[Functors! Not functions]]></title>
+        <id>https://dev.to/veerreshr/functors-not-functions-2b4f</id>
+        <link href="https://dev.to/veerreshr/functors-not-functions-2b4f"/>
+        <updated>2021-07-11T22:37:44.000Z</updated>
+        <summary type="html"><![CDATA[This is the topic that sounds scary on listening but once you understand the internal meaning, its as easy as an ice cake.
+In simple words, its a fancy way of saying 'overloading () operator' as Functors or simply 'using objects as functions' . If you don't know what operator overloading is, don't worry we will go through it. If you already know what operator overloading is, skip to Functors .
+Just like you add two numbers you can add 2 objects using this concept. It is simply overloading a operator to work with our user defined objects rather than just predefined objects.
+int a=5,b=3,c=a+b;
+myObject objA(10);
+myObject objB(20);
+myObject objC=objA+objB;
+
+Here as you add 2 integers to c, you are adding 2 object values and storing it in ObjC. If you directly compile the above code, that will…]]></summary>
+        <author>
+            <name>veerreshr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Web Is Eating the Desktop (2017)]]></title>
+        <id>http://adamierymenko.com/web_eating_desktop.html</id>
+        <link href="http://adamierymenko.com/web_eating_desktop.html"/>
+        <updated>2021-07-11T22:32:23.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Analysis of Covid-19 vaccine death reports from VAERS]]></title>
-        <id>http://doi.org/10.13140/RG.2.2.26987.26402</id>
-        <link href="http://doi.org/10.13140/RG.2.2.26987.26402"/>
-        <updated>2021-07-10T23:53:15.000Z</updated>
+        <title type="html"><![CDATA[Você não deveria tratar validação de domínio com lançamento de exceções.]]></title>
+        <id>https://dev.to/italofernandez/voce-nao-deveria-tratar-validacao-de-dominio-com-lancamento-de-excecoes-4cgj</id>
+        <link href="https://dev.to/italofernandez/voce-nao-deveria-tratar-validacao-de-dominio-com-lancamento-de-excecoes-4cgj"/>
+        <updated>2021-07-11T21:57:02.000Z</updated>
+        <summary type="html"><![CDATA[O que diz a documentação 🤔?
+
+
+"Exceptions should be rare. Throwing and catching exceptions is slow relative to other code flow patterns. Because of this, exceptions shouldn't be used to control normal program flow."
+Bom, de acordo com a documentação do framework, você deve evitar, ao máximo, fazer o lançamento de exceções como:
+throw new Exception("Throwing some random exception here");
+
+Principalmente dentro dos hot code paths, que são, basicamente, trechos (fluxos) da sua aplicação que são executados com muita frequência, como por exemplo: validações.
+Para exemplificar, vamos imaginar que você precise construir uma web api, que deve verificar cada requisição recebida e validar se a mesma atende ou não às regras de negócio.
+Exemplo: Ao receber uma requisição para cadastrar um novo usuári…]]></summary>
+        <author>
+            <name>Italo Fernandes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BuildZoom (better way to build custom homes) Is hiring a Growth Associate]]></title>
+        <id>https://jobs.lever.co/buildzoom</id>
+        <link href="https://jobs.lever.co/buildzoom"/>
+        <updated>2021-07-11T21:00:36.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Depth First Search (DFS) Algorithm]]></title>
-        <id>https://dev.to/ayabouchiha/depth-first-search-dfs-algorithm-3gjp</id>
-        <link href="https://dev.to/ayabouchiha/depth-first-search-dfs-algorithm-3gjp"/>
-        <updated>2021-07-10T22:31:57.000Z</updated>
-        <summary type="html"><![CDATA[Hi, today, we're going to talk about Depth First Search (DFS)
-Depth First Search: is an algorithm for traversing or searching in tree or graph data structure using recursion and Stack data structure.
+        <title type="html"><![CDATA[Gizmo’s Freeware Says Farewell]]></title>
+        <id>https://www.techsupportalert.com/content/time-say-farewell.htmEpilogueItiswithgreatsadnessandheavyheartsweannouncetheclosingofGizmo’sFreeware.Afterdueconsideration,we%27vedecidedtoshutdownthissitetentativelyby15July2021afterwhichitwillnotbeaccessibleanymore.ManyyearsagoGizmosetouttobeanindependent,unbiasedresourceforanyonewhowantedthebestfreeware.Alongtheway,wecreatedanamazingcommunityofreadersandeditors.Weareproudofthesitewecreated,andareevenmoregratefulforyou,thecommunityofreadersthatmadeitgrow.OnbehalfofeveryonewhowaspartofGizmo’sFreeware,aheartfeltthankyouformakinguspartofyourlives.Formanyyears,Gizmopaidthecostofrunningthesiteoutofpocket.Whenthatbecametoomuch,weaskedyouaboutrunningadsandyousaidyes,andwerequestedfordonationsandyouwholeheartedlyresponded.Theadsanddonationshavekeptthelightson,andoureditorshavebeenunpaidvolunteers.Astheworldhasshiftedawayfromdesktopstomobilesinsearchofflexibilityovertheyears,ourtrafficandadvertisingrevenuedeclined,andtheproceedscannolongercoverthecostsofrunningthesite.Thiswasaverydifficultdecision,asyou,ourreadersandeditors,havebeentheheartofGizmo’sFreewareforsomanyyears.It’sbeenafantasticjourneywithallofyouandwe’reheartbrokenithascometoanend.Wewillmissyou.TheGizmo%27sFreewareCrew</id>
+        <link href="https://www.techsupportalert.com/content/time-say-farewell.htmEpilogueItiswithgreatsadnessandheavyheartsweannouncetheclosingofGizmo’sFreeware.Afterdueconsideration,we%27vedecidedtoshutdownthissitetentativelyby15July2021afterwhichitwillnotbeaccessibleanymore.ManyyearsagoGizmosetouttobeanindependent,unbiasedresourceforanyonewhowantedthebestfreeware.Alongtheway,wecreatedanamazingcommunityofreadersandeditors.Weareproudofthesitewecreated,andareevenmoregratefulforyou,thecommunityofreadersthatmadeitgrow.OnbehalfofeveryonewhowaspartofGizmo’sFreeware,aheartfeltthankyouformakinguspartofyourlives.Formanyyears,Gizmopaidthecostofrunningthesiteoutofpocket.Whenthatbecametoomuch,weaskedyouaboutrunningadsandyousaidyes,andwerequestedfordonationsandyouwholeheartedlyresponded.Theadsanddonationshavekeptthelightson,andoureditorshavebeenunpaidvolunteers.Astheworldhasshiftedawayfromdesktopstomobilesinsearchofflexibilityovertheyears,ourtrafficandadvertisingrevenuedeclined,andtheproceedscannolongercoverthecostsofrunningthesite.Thiswasaverydifficultdecision,asyou,ourreadersandeditors,havebeentheheartofGizmo’sFreewareforsomanyyears.It’sbeenafantasticjourneywithallofyouandwe’reheartbrokenithascometoanend.Wewillmissyou.TheGizmo%27sFreewareCrew"/>
+        <updated>2021-07-11T20:21:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who’s running the Vincere bot network on Instagram?]]></title>
+        <id>https://medium.com/swlh/whos-running-the-vincere-bot-network-on-instagram-a558be6c69db</id>
+        <link href="https://medium.com/swlh/whos-running-the-vincere-bot-network-on-instagram-a558be6c69db"/>
+        <updated>2021-07-11T20:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No sane compiler would optimize atomics (2015)]]></title>
+        <id>http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html</id>
+        <link href="http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/n4455.html"/>
+        <updated>2021-07-11T19:58:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Coisas que ninguém te ensina a fazer mas que todo mundo espera que você saiba: submissão de C4P]]></title>
+        <id>https://dev.to/juligaioso/coisas-que-ninguem-te-ensina-a-fazer-mas-que-todo-mundo-espera-que-voce-saiba-submissao-de-c4p-54f5</id>
+        <link href="https://dev.to/juligaioso/coisas-que-ninguem-te-ensina-a-fazer-mas-que-todo-mundo-espera-que-voce-saiba-submissao-de-c4p-54f5"/>
+        <updated>2021-07-11T19:56:28.000Z</updated>
+        <summary type="html"><![CDATA[Call For Papers (CFP ou C4P para os íntimos) é a documentação que deve ser submetida para uma conferência, um evento ou até mesmo uma publicação científica. Muitas vezes é o maior obstáculo para quem quer começar a palestrar, porque não basta enviar para a comissão organizadora, seu C4P precisa se destacar dentre os demais e ser escolhido.
+Aqui, mais importante do que saber quem é você é saber se você tem background para falar do assunto que você se propõe.  Tenha em mente que você não precisa ser especialista, mas um frontend falando de construção de banco de dados faz tanto sentido quanto um neurocirurgião falando de problemas ósseos no joelho.
+Pode ser marqueteiro aqui. Você tem pouco mais de 50 caracteres para tentar chamar a atenção das pessoas do evento, mas não fuja do assunto: ele precisa dizer de forma clara o assunto que você vai abordar.
+Sabe quando você lê a sinopse de um livro ou de um filme e ela te atrai tanto que você só consegue parar de pensar nisso? O seu resumo aqui tem essa função. É aqui que a sua palestra irá se destacar. Seu resumo deve ser breve (tente se limitar a dois tweets, algo em torno de 550 caracteres), e mais que isso: deve fazer com que a comissão pelo menos queira ler o seu outline.
+Aqui é o momento de colocar em prática o que você aprendeu nas aulas de redação do ensino médio. Tente estruturar seu outline como se ele fosse uma dissertação: introdução, desenvolvimento e conclusão. 
+Nem todo evento possui a mesma estrutura, portanto, leia com atenção o que eles pedem na submissão. Tente também pedir ajuda a um amigo ou mentor, opiniões externas sempre ajudam. 
+Este é o primeiro de uma série de textos onde irei organizar e compartilhar conteúdos que não são usuais, mas ainda assim, importantes.]]></summary>
+        <author>
+            <name>Juliana Gaioso</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resident Evil Village crack completely fixes its stuttering issues]]></title>
+        <id>https://www.dsogaming.com/news/resident-evil-village-crack-completely-fixes-its-stuttering-issues/</id>
+        <link href="https://www.dsogaming.com/news/resident-evil-village-crack-completely-fixes-its-stuttering-issues/"/>
+        <updated>2021-07-11T19:40:13.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dijkstra's shortest path algorithm]]></title>
+        <id>https://dev.to/ayabouchiha/dijkstra-s-shortest-path-algorithm-2ek0</id>
+        <link href="https://dev.to/ayabouchiha/dijkstra-s-shortest-path-algorithm-2ek0"/>
+        <updated>2021-07-11T19:39:34.000Z</updated>
+        <summary type="html"><![CDATA[Hello, this is #day_29, I'm going to talk about Dijkstra's shortest path algorithm
+dijkstra's shortest path is an algorithm created by Dr. Edsger Dijkstra for calculating the shortest path between vertices in a weighted graph (types of graph)
+
+Road networks
+Electricity lines
+Google maps
+Social networking apps
+Flighting agenda
+Ip routing
+more details
 
 
 
-Space complexlity
-O(V)
+
+  
+  
+  Dijkstra's shortest path implementation in python
+
+
+If you are not familiar with Python check this series by @aatmaj
 
 
 
 
-Time complexity
-O(V+E)
 
+def dijkstraShortestPathAlgo(nodes, edges, source_indedx = 0):
+    """
+        code from 
+        => [https://www.youtube.com/watch?v=VnTlW572Sc4]
+    """
+    path_lengths = {v:float('inf') for v in nodes}
+    path_lengths[source_index] = 0
+    adjacent_nodes = {v:{} for v in nodes}
+    for (u, v), w_uv in edges.items():
+        adjacent_nodes[u][v] = w_uv
+        adjacent_nodes[v][u] = w_uv
+    temporary_nodes = [v for v in nodes]
+    while len(temporary_nodes) > 0:
+        upper_bounds = {v: path_lengths[v] for v in temporary_nodes}
+        u = min(upper_bounds, key=upper_bounds.get)
+        temporary_nodes.remove(u)
+        for v, w_uv in adjacent_nodes[u].items():
+            path_lengths[v] = min(path_lengths[v], path_lengths[u] + w_uv)
+    return path_lengths
 
-
-Counting connected components
-Solving Sudoku Puzzles
-Topological sorting
-Pathfinding
-Finding Strongly Connected Components of a graph
 more details...
-# code from https://www.educative.io/edpresso/how-to-implement-depth-first-search-in-python
-graph = {
-    'A' : ['B','C'],
-    'B' : ['D', 'E'],
-    'C' : ['F'],
-    'D' : [],
-    'E' : ['F'],
-    'F' : []
-}
-
-visited = set() # Set to keep track of visited nodes.
-
-def dfs(visited, graph, node):
-    if node not in visited:
-        print(node)
-        visited.add(node)
-        for neighbour in graph[node]:
-            dfs(visited, graph, neighbour)
-
-dfs(visited, graph, 'A')
-
-#day_28
-https://www.educative.io/edpresso/how-to-implement-depth-first-search-in-python
-
-
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
-
-https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/]]></summary>
+https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/
+https://www.youtube.com/watch?v=smHnz2RHJBY
+Happy coding!!]]></summary>
         <author>
             <name>Aya Bouchiha</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The strange, sketchy emails a browser extension developer receives]]></title>
-        <id>https://micahcantor.xyz/blog/extension-developer-emails/</id>
-        <link href="https://micahcantor.xyz/blog/extension-developer-emails/"/>
-        <updated>2021-07-10T22:29:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 common mistakes to avoid in a  job search]]></title>
-        <id>https://dev.to/leonwei/4-common-mistakes-to-avoid-in-a-job-search-3ll2</id>
-        <link href="https://dev.to/leonwei/4-common-mistakes-to-avoid-in-a-job-search-3ll2"/>
-        <updated>2021-07-10T22:23:03.000Z</updated>
-        <summary type="html"><![CDATA[Common mistakes to avoid in a job search: applying for dream company too early, generic resume, unprepared on behavioral questions, missing out on good opportunities, afraid of applying for big tech.
-Read more:
-https://instamentor.com/articles/4-common-mistakes-to-avoid-in-a-job-search]]></summary>
-        <author>
-            <name>Leon Wei</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instagram Has Become SkyMall]]></title>
-        <id>https://clivethompson.medium.com/instagram-has-become-skymall-68b9f2fbbc30</id>
-        <link href="https://clivethompson.medium.com/instagram-has-become-skymall-68b9f2fbbc30"/>
-        <updated>2021-07-10T21:58:38.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finding Time For Security When Scaling w/ Liran Tal]]></title>
-        <id>https://dev.to/linearb/finding-time-for-security-when-scaling-w-liran-tal-48hp</id>
-        <link href="https://dev.to/linearb/finding-time-for-security-when-scaling-w-liran-tal-48hp"/>
-        <updated>2021-07-10T21:33:55.000Z</updated>
-        <summary type="html"><![CDATA[Imagine a world where we gave developers the ability to find and fix security vulnerabilities before their code is merged.
-This week on Dev Interrupted we bring in Liran Tal, a security expert from Snyk.io, to talk about how our community can begin evolving traditional security workflows. We also discuss what good security culture looks like, and how to best track and prioritize our efforts.
-Listen to the full episode
-
-
-
-
-
-
-
-  
-  
-  Episode Highlights include:
-
-
-
-The right metrics to track when looking at security
-How to enable developers to find and fix security vulnerabilities
-Which security issues you need to prioritize for ROI and why
-How to start the transition to a more modern security model
-Join the Dev Interrupted Discord Server
-
-
-With over 1200 members, the Dev Interrupted Discord Community is the best place for Engineering Leaders to engage in daily conversation. No sales people allowed. Join the community >>]]></summary>
-        <author>
-            <name>Conor Bronsdon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Solar is dirt-cheap and about to get even more powerful]]></title>
-        <id>https://www.bloomberg.com/news/articles/2021-07-05/solar-power-is-dirt-cheap-and-about-to-get-even-more-powerful</id>
-        <link href="https://www.bloomberg.com/news/articles/2021-07-05/solar-power-is-dirt-cheap-and-about-to-get-even-more-powerful"/>
-        <updated>2021-07-10T21:09:08.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using IceWM and a Raspberry Pi as my main PC, sharing my theme, config and some]]></title>
-        <id>https://raymii.org/s/blog/Using_IceWM_and_sharing_my_config_and_tips_tricks.html</id>
-        <link href="https://raymii.org/s/blog/Using_IceWM_and_sharing_my_config_and_tips_tricks.html"/>
-        <updated>2021-07-10T21:01:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Signadot (YC W20) is hiring engineers to simplify microservices development]]></title>
-        <id>https://www.workatastartup.com/jobs/42298</id>
-        <link href="https://www.workatastartup.com/jobs/42298"/>
-        <updated>2021-07-10T21:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No bids for over 70% of Indian coal mines up for auction]]></title>
-        <id>https://www.reuters.com/world/india/no-bids-over-70-indian-coal-mines-up-auction-2021-07-09/</id>
-        <link href="https://www.reuters.com/world/india/no-bids-over-70-indian-coal-mines-up-auction-2021-07-09/"/>
-        <updated>2021-07-10T20:59:12.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The damaging effects of 'boreout' at work]]></title>
-        <id>https://www.bbc.com/worklife/article/20210701-the-damaging-effects-of-boreout-at-work</id>
-        <link href="https://www.bbc.com/worklife/article/20210701-the-damaging-effects-of-boreout-at-work"/>
-        <updated>2021-07-10T20:53:51.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tool to convert copyrighted music into fair use]]></title>
-        <id>https://fairuseify.ml</id>
-        <link href="https://fairuseify.ml"/>
-        <updated>2021-07-10T20:15:11.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is everything in JavaScript an Object?]]></title>
-        <id>https://dev.to/mayankav/is-everything-in-javascript-an-object-1alg</id>
-        <link href="https://dev.to/mayankav/is-everything-in-javascript-an-object-1alg"/>
-        <updated>2021-07-10T19:59:53.000Z</updated>
-        <summary type="html"><![CDATA[Well well! The motivation for this post comes from my last post where I had a comment from one of my readers that I couldn't agree with. I was talking about functions and closures (also how closures work internally) and how every function in JavaScript is indeed a closure on its surrouding scope but then somebody said, aren't all entities in JavaScript objects? I didn't see that coming but this wasn't the first time somebody put this up. So you will find me trying to break this down practically in this post.
-If you can, bring up your browser's console and try creating a simple variable and give it a string value. How did you do it? Did you write something like
-var myString = "That's my string";
-
-
- or did you choose to go with
-var myString = new String("That's my string");
-
-
- For a fact, I …]]></summary>
-        <author>
-            <name>mayankav</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Build RESTful API using Node.js]]></title>
-        <id>https://dev.to/pawel/how-to-build-restful-api-using-node-js-3dpp</id>
-        <link href="https://dev.to/pawel/how-to-build-restful-api-using-node-js-3dpp"/>
-        <updated>2021-07-10T19:58:45.000Z</updated>
-        <summary type="html"><![CDATA[What is REST API?
-
-
-Nowadays, the word API becomes more and more popular since we are living in the digital era of the Internet. Even if you are not a coder, probably you have heard the word API at least a few times. More importantly, if you are a coder APIs are all around code in many different forms, therefore it's good to know something about them. Indeed there are many different types of APIs, and the word API stands for application programming interface, while REST means representational state transfer, and this type of API will be the main focus of this article. Don't worry if those words do not mean too much to you at this point. So what are APIs and what do we need them for? Think of APIs as microprograms or microservices that help us with various different tasks and connect variou…]]></summary>
-        <author>
-            <name>KowalewskiPawel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Install Ubuntu Bash Terminal on Ms Windows 10 + Basic Linux Commands]]></title>
-        <id>https://dev.to/bekbrace/install-ubuntu-bash-terminal-on-ms-windows-10-basic-linux-commands-5e7e</id>
-        <link href="https://dev.to/bekbrace/install-ubuntu-bash-terminal-on-ms-windows-10-basic-linux-commands-5e7e"/>
-        <updated>2021-07-10T19:44:21.000Z</updated>
-        <summary type="html"><![CDATA[Greetings and salutations !
-
-
-Let's install Ubuntu terminal on your windows 10 computer.
-START button, and type :
-Turn Windows Features On/Off
-Drag the windows list down and make sure that 
-windows subsystem for Linux is checked.
-Click Ok, then restart your computer.
-
-
- 
-When you will come back, open your command prompt and type bash, you'll find a message tellin' you that no linux distributions are currently installed, or somehtin' like that :) 
-Go to Microsoft Store, and search for Linux, you will find a lot of distros from which you can choose : Kali, Ubuntu, etc...
-
-Install your desired distro, and you will be ready to rock and roll; let's say you installed Ubuntu, you will find Ubuntu's terminal app in the start menu; click on that and wait :
-Installing, this may take a few minutes...
-Once finished, you can start working on your Ubuntu Bash Terminal.
-What is Linux ? An operating system ? No!
-
-Basic Bash Terminal Commands:
-pwd — When you first open the terminal, you are in the home directory of your user. 
-The root is the base of the Linux file system. It is denoted by a forward slash( / ). 
-
-
-
-ls — Use the "ls" command to list the files that are in the current directory. 
-
-
-
-
-You can list contents of a a specific folder, let's say documents : 
-~$ ls \documents
-cd — Use the "cd" command to go to a directory. For example, if you are in the home folder, and you want to go to the downloads folder, then you can type in:
-~$cd Downloads
-~$cd ..
-For more Linux commands, watch my Bash commands for beginners.
-info@bekbrace.com or drop a comment and let's have a chat
-Bek signin' out - Peac]]></summary>
-        <author>
-            <name>Bek Brace</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mechanical keyboard : first build (v2) - DIY kit]]></title>
-        <id>https://dev.to/drilon241/mechanical-keyboard-first-build-v2-diy-kit-2664</id>
-        <link href="https://dev.to/drilon241/mechanical-keyboard-first-build-v2-diy-kit-2664"/>
-        <updated>2021-07-10T19:33:45.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR
-I have been using keyboards since I was 14 when I wrote my first characters on a notepad file and haven't stopped since. I am using one as I am typing this post and I think it's one of the most underrated components of what people prefer to refer as a computer. 
-After a few weeks of research I decided I wanted to build my own keyboard.
-first build (v1)
-Research (lots of hours)
-Order the parts/components (less than an hour)
-Start building the keyboard (couple of days)
-Success (nope)
-Unfortunately my first attempt failed as I did a couple of mistakes when trying to solder my keyboard and ended up deforming the pcb to a point where it wouldn't fit the case. Sad times :(
-Three years after my first attempt and a lot more research I decided I wanted to have another go at it. 
-first build (v2)
-Research (lots of hours)
-Order the parts/components (less than an hour)
-Start building the keyboard (couple of hours)
-Success (YESSS!!!!)
-
-Lubing stabilisers , it was hard. People posting videos online (thank you) make it look so easy but it's not. It requires a lot of practice and patience.
-Screwing the pcb to the case was a test of my patience. The screws are so small and it does need a professional screwdriver otherwise you end up spending a lot of time trying to fit them in.
-Hot swappable pcb is a game changer (for newbies) 
-Fitting the keycaps was very satisfactory.
-Typing the first few letters from a newly build mechanical keyboard.
-It's a great hobby but very addictive. It makes you appreciate the importance of typing - very powerful.
-Next step on my keyboard journey is programming multiple layers of keys and doing less typos. More on that soon...]]></summary>
-        <author>
-            <name>Drilon Mecuku</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript Arrays Simplified in 3 Sections]]></title>
-        <id>https://dev.to/elijahtrillionz/javascript-arrays-simplified-in-3-sections-5hhd</id>
-        <link href="https://dev.to/elijahtrillionz/javascript-arrays-simplified-in-3-sections-5hhd"/>
-        <updated>2021-07-10T19:31:28.000Z</updated>
-        <summary type="html"><![CDATA[An Array is a data type in JavaScript used for storing a collection of like data. In our daily activities, we always find ourselves grouping things that are alike together, sometimes we even find ourselves being grouped with people that we share a common function or attribute.
-An array is how we can represent this group together in javascript. Different names can be used to mean an array, some are collection, group, list, etc. But with the names, I believe you can get an idea of what Javascript array is all about.
-Say we have a list (array, group, collection) of all the student's names of a class, we could represent this in JavaScript thus
-const studentNames = [
-  'Dwayne Johnson',
-  'Lionel Messi',
-  'Kevin Hart',
-  'Elon Musk',
-  'Lebron James',
-];
-
-The array studentNames represents the …]]></summary>
-        <author>
-            <name>Elijah Trillionz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preschool children rarely seek data when observation and testimony conflict]]></title>
-        <id>https://srcd.onlinelibrary.wiley.com/doi/10.1111/cdev.13612</id>
-        <link href="https://srcd.onlinelibrary.wiley.com/doi/10.1111/cdev.13612"/>
-        <updated>2021-07-10T19:29:20.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My first post on DEV]]></title>
-        <id>https://dev.to/arifiqbal/my-first-post-on-dev-5hh1</id>
-        <link href="https://dev.to/arifiqbal/my-first-post-on-dev-5hh1"/>
-        <updated>2021-07-10T18:58:48.000Z</updated>
-        <summary type="html"><![CDATA[Introduction:
-Hello, my name is Arif Iqbal. I am a Web Developer from Pakistan. I would like to start writing on DEV. My motivation behind writing on the DEV is becoming a better web developer, sharing my knowledge, and receiving feedback. Also, to document my learning and things I work on. This will primarily benefit me by looking back at what I have been working on, but it may be helpful for others too.
-In fact, I have been thinking about this for a long time and procrastinated hard on this, until I saw this post two days ago
-Yes, you should write that first post!
-Jean-Michel Fayard 🇫🇷🇩🇪🇬🇧🇪🇸🇨🇴 ・ Mar 11 '20 ・ 3 min read
-#firstpost
-        #motivation
-        #beginners
-        #writing
-      
-What will I write about?:
-Web development in general
-PHP, Laravel, and WordPress in particular
-What would I like to hear from you?
-How did you start writing on DEV and how is it going on?
-What did you stop from taking the initiative and how did you overcome it?
-If English is not your primary language, do you care about the English of your post?
-How do you manage time for it with the job and other responsibilities?
-Do you have any advice for me to stay consistent here?
-Find me on:
-LinkedIn
-Stackoverflow
-~ Thank you 😊]]></summary>
-        <author>
-            <name>Arif Iqbal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use Closures for Memory Optimizations in JavaScript (a case study)]]></title>
-        <id>https://dev.to/ahmedgmurtaza/use-closures-for-memory-optimizations-in-javascript-a-case-study-43h9</id>
-        <link href="https://dev.to/ahmedgmurtaza/use-closures-for-memory-optimizations-in-javascript-a-case-study-43h9"/>
-        <updated>2021-07-10T18:58:20.000Z</updated>
-        <summary type="html"><![CDATA[Beside functions being first class citizens in JavaScript, there are plenty of other features, allowing functions to make an extra mile ride. Closures are one of them. 
-A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)
-Mozilla 
-Let's take an example:
-function adder(a) {
-  return function(b) {
-    return a + b;
-  };
+        <title type="html"><![CDATA[Basic CRUD with rust using tide - refactoring]]></title>
+        <id>https://dev.to/pepoviola/basic-crud-with-rust-using-tide-refactoring-2meb</id>
+        <link href="https://dev.to/pepoviola/basic-crud-with-rust-using-tide-refactoring-2meb"/>
+        <updated>2021-07-11T19:17:37.000Z</updated>
+        <summary type="html"><![CDATA[In the last post I started a basic crud using tide and we end up with a simple api that allow us to store dinosaurs information.
+Starting from there, let's clean the code a little bit to be more organized. First, we had a closure in every route (let's call it endpoint from here) and will be more clear if we extract that to functions.
+async fn dinos_create(mut req: Request<State>) -> tide::Result {
+    let dino: Dino = req.body_json().await?;
+    // let get a mut ref of our store ( hashMap )
+    let mut dinos = req.state().dinos.write().await;
+    dinos.insert(String::from(&dino.name), dino.clone());
+    let mut res = Response::new(201);
+    res.set_body(Body::from_json(&dino)?);
+    Ok(res)
 }
 
-let add5 = adder(5);
-let add10 = adder(10);
-
-console.log(add5(2));  // 7
-console.log(add10(2)); // 12
-
-From above code, it's clear how closures work, and how it remembers the lexical scope, the function was declared within. But how this could be useful, or is it just non-practical questions in JavaScript interviews? 
-Don't worry, we have got plenty of applications and usage, of Closures th…]]></summary>
+async fn dinos_list(req: tide::Request<State>) -> tide::Result {
+    let dinos = req.state().dino…]]></summary>
         <author>
-            <name>Ahmed Murtaza</name>
+            <name>Javier Viola</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A free CV site - Update]]></title>
-        <id>https://dev.to/rotimi_je_suis/a-free-cv-site-update-35p0</id>
-        <link href="https://dev.to/rotimi_je_suis/a-free-cv-site-update-35p0"/>
-        <updated>2021-07-10T18:22:16.000Z</updated>
-        <summary type="html"><![CDATA[Hi everyone.
-This is an update post.
-I've been working on my platform, KwickBox, https://kwickbox.cloud
-Its a free cv site + career platform for newbies and job seekers with little or no working experience.
-I recently made a deep introduction video into the platform. Please do check it out. https://youtu.be/WU3BwuTzsvQ
-Have any feedback, please let me know in the comments below.
-Thank you.]]></summary>
+        <title type="html"><![CDATA[Getting Started with Express]]></title>
+        <id>https://dev.to/amenibensaada/getting-started-with-exrpess-4plg</id>
+        <link href="https://dev.to/amenibensaada/getting-started-with-exrpess-4plg"/>
+        <updated>2021-07-11T19:16:10.000Z</updated>
+        <summary type="html"><![CDATA[Node.js is an open-source and cross-platform runtime environment, that allows you to write JavaScript on the server which is on of the most helpful advantages of Node.js since the same programming language can be used for server-side and client-side applications. It also runs on V8 JavaScript engine which makes it highly performant.
+And one of the most popular frameworks for NodeJs is our subject today in this blog: Express Express is written on top of node.js to make writing server-side javascript easier.
+So what we are going to do today is building a very basic REST API. 
+Before we start, make sure that you have these if you don't please install them.
+Node.js installed. You can install it from here
+
+An editor that you like working in. I use VS Code, you can install it from here
+
+Postman …]]></summary>
         <author>
-            <name>Rotimi</name>
+            <name>Ameni Ben Saada</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Call, apply and bind in JS]]></title>
-        <id>https://dev.to/sjsouvik/call-apply-and-bind-in-js-3n8g</id>
-        <link href="https://dev.to/sjsouvik/call-apply-and-bind-in-js-3n8g"/>
-        <updated>2021-07-10T18:14:29.000Z</updated>
-        <summary type="html"><![CDATA[Hello everyone, in this article, we would be discussing: 
-Implicit binding, Explicit binding in JavaScript
-the call, apply and bind methods in JavaScript and how they are different from each other.
-These are very important concepts and asked frequently in interviews. So, keep reading till the end. 
-this keyword in JS generally points to the object that the function is a property of. In other words, we can also say this refers to the object that is being used to invoke the function.
-const souvik = {
-      learning: true,
-      status: "Learning",
-      work: function () {
-             console.log(`${this.status} Full Stack Web Dev!`);
-      }
-}
+        <title type="html"><![CDATA[5 Visual Studio Code Hacks That You Will Thank Me For (And They're Not Common Points Like "Install Prettier Extension")]]></title>
+        <id>https://dev.to/ishakmohmed/5-visual-studio-code-hacks-that-you-will-thank-me-for-and-they-re-not-common-points-like-install-prettier-extension-16oa</id>
+        <link href="https://dev.to/ishakmohmed/5-visual-studio-code-hacks-that-you-will-thank-me-for-and-they-re-not-common-points-like-install-prettier-extension-16oa"/>
+        <updated>2021-07-11T18:56:44.000Z</updated>
+        <summary type="html"><![CDATA[Hello coders! You've always heard the same VS Code hacks over and over again like "install Prettier extension to format your code", "press alt + shift + down key to duplicate code", etc. In this article, I'll share some VS Code hacks which I don't usually see being shared around. You owe me a like if this article helps you.
+Isn't it annoying when you've got file A opened and you want to open file B but when you click file B, file B does open but file A closes? You might double click file B to open in a new tab but does it disappoint you sometimes like it did to me? To overcome this problem, search for "workbench.editor.enablePreview" in your settings and uncheck the option. From now onwards, VS Code will always open files in a new tab.
 
-souvik.work() //Learning Full Stack Web Dev!
-
-In the example above, we can see that the work() method is being invoked using souvik object. This wa…]]></summary>
+  "editor.tokenColorCustomizations": {
+    "comments"…]]></summary>
         <author>
-            <name>Souvik Jana</name>
+            <name>Mohmed Ishak</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rethinking software testing: perspectives from the world of hardware (2019)]]></title>
-        <id>https://software.rajivprab.com/2019/04/28/rethinking-software-testing-perspectives-from-the-world-of-hardware/</id>
-        <link href="https://software.rajivprab.com/2019/04/28/rethinking-software-testing-perspectives-from-the-world-of-hardware/"/>
-        <updated>2021-07-10T17:37:41.000Z</updated>
+        <title type="html"><![CDATA[Awesome Solution: Installing packages without root privileges.]]></title>
+        <id>https://dev.to/manishfoodtechs/awesome-solution-installing-packages-without-root-privileges-bl4</id>
+        <link href="https://dev.to/manishfoodtechs/awesome-solution-installing-packages-without-root-privileges-bl4"/>
+        <updated>2021-07-11T18:54:49.000Z</updated>
+        <summary type="html"><![CDATA[Pkget used for installing packages when you dont have root and/or sudo it's as simple as that really...
+wget https://raw.githubusercontent.com/0x00009b/pkget/master/pget && chmod +x pget
+
+And then simply
+./pget <package_name>
+#example: ./pget nmap
+
+Works with:
+Thanks for this https://github.com/0x00009b
+👍🙏
+Click here for joining my team]]></summary>
+        <author>
+            <name>manish srivastava</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 subjects (and GitHub repositories) to become a better Go Developer]]></title>
+        <id>https://dev.to/avelino/7-subjects-and-github-repositories-to-become-a-better-go-developer-3kb3</id>
+        <link href="https://dev.to/avelino/7-subjects-and-github-repositories-to-become-a-better-go-developer-3kb3"/>
+        <updated>2021-07-11T18:43:05.000Z</updated>
+        <summary type="html"><![CDATA[With the high adoption of the Go language by developers and large companies, this has led companies to search for engineers with experience in Go.
+This can create a lot of pressure of what to study to become a better engineer, this is very personal, it requires planning of what and when to study other subjects (even outside the engineering area).
+In this blogpost some topics (with repositories and links) that I think are important to know in order to become an engineer person with even better Go knowledge, follow good practices for writing code, concepts of code structure (usually using design pattern), scalable code and clean code.
+I can't list only one link (repository) for this topic, I would recommend you to read for these 3 links and bring to your team's day to day life what best fits…]]></summary>
+        <author>
+            <name>Avelino</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm a programmer – how can I help SciHub?]]></title>
+        <id>https://www.reddit.com/r/scihub/comments/ohykfm/im_a_programmer_how_can_i_help_scihub/</id>
+        <link href="https://www.reddit.com/r/scihub/comments/ohykfm/im_a_programmer_how_can_i_help_scihub/"/>
+        <updated>2021-07-11T18:28:34.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gaussian Processes from Scratch (2019)]]></title>
+        <id>https://peterroelants.github.io/posts/gaussian-process-tutorial/</id>
+        <link href="https://peterroelants.github.io/posts/gaussian-process-tutorial/"/>
+        <updated>2021-07-11T18:22:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biden launches action on "Big Tech, Big Pharma, and Big Ag" – can it be real?]]></title>
+        <id>https://mattstoller.substack.com/p/biden-launches-sweeping-action-on</id>
+        <link href="https://mattstoller.substack.com/p/biden-launches-sweeping-action-on"/>
+        <updated>2021-07-11T18:22:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaceduck For vscode - An intergalactic space theme]]></title>
+        <id>https://dev.to/yusefbouzekri/spaceduck-for-vscode-an-intergalactic-space-theme-5dc1</id>
+        <link href="https://dev.to/yusefbouzekri/spaceduck-for-vscode-an-intergalactic-space-theme-5dc1"/>
+        <updated>2021-07-11T18:18:40.000Z</updated>
+        <summary type="html"><![CDATA[I am very exited to share the vscode theme I have been working on for a while - Spaceduck for VScode 🎉 ! if you want to feel like you are in space when starring at a computer then this is the theme for you ! if you are interested in using this theme, you can find it in the vscode marketplace.
+
+Vim (Maintained by Guillermo Rodriguez)
+Atom (Maintained by George Pickering)]]></summary>
+        <author>
+            <name>Youssef Bouzekri</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Print a WiFi Login Card]]></title>
+        <id>https://wificard.io/</id>
+        <link href="https://wificard.io/"/>
+        <updated>2021-07-11T18:04:43.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interpreting 9/11 commemorative Afghan carpets (2011)]]></title>
+        <id>https://rugsofwar.wordpress.com/2011/09/10/the-september-11-commemorative-carpet/</id>
+        <link href="https://rugsofwar.wordpress.com/2011/09/10/the-september-11-commemorative-carpet/"/>
+        <updated>2021-07-11T16:57:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project-Nested: An NES Emulator Running on the SNES]]></title>
+        <id>https://github.com/Myself086/Project-Nested</id>
+        <link href="https://github.com/Myself086/Project-Nested"/>
+        <updated>2021-07-11T16:40:15.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Neorg: Neovim 0.5’s answer to modern life organization]]></title>
+        <id>https://github.com/vhyrro/neorg</id>
+        <link href="https://github.com/vhyrro/neorg"/>
+        <updated>2021-07-11T16:23:27.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Podswap: Keep airpods alive and out of the landfill]]></title>
+        <id>https://www.thepodswap.com/</id>
+        <link href="https://www.thepodswap.com/"/>
+        <updated>2021-07-11T15:44:58.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Three programmers got fired, including me, due to a single app crash]]></title>
+        <id>https://betterprogramming.pub/3-programmers-got-fired-including-me-due-to-a-single-app-crash-35d4c94555da</id>
+        <link href="https://betterprogramming.pub/3-programmers-got-fired-including-me-due-to-a-single-app-crash-35d4c94555da"/>
+        <updated>2021-07-11T15:20:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Royal Mail Rubber Band]]></title>
+        <id>https://en.wikipedia.org/wiki/Royal_Mail_rubber_band</id>
+        <link href="https://en.wikipedia.org/wiki/Royal_Mail_rubber_band"/>
+        <updated>2021-07-11T15:17:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Cultural Implications of Silence Around the World (2020)]]></title>
+        <id>https://www.rw-3.com/blog/cultural-implications-of-silence</id>
+        <link href="https://www.rw-3.com/blog/cultural-implications-of-silence"/>
+        <updated>2021-07-11T14:50:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cybersecurity and the curse of binary thinking]]></title>
+        <id>https://www.philvenables.com/post/cybersecurity-and-the-curse-of-binary-thinking</id>
+        <link href="https://www.philvenables.com/post/cybersecurity-and-the-curse-of-binary-thinking"/>
+        <updated>2021-07-11T12:59:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WriteFreely – An open source platform for building a writing space on the web]]></title>
+        <id>https://writefreely.org/</id>
+        <link href="https://writefreely.org/"/>
+        <updated>2021-07-11T12:24:19.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How does USB device discovery work? [video]]]></title>
+        <id>https://www.youtube.com/watch?v=N0O5Uwc3C0o</id>
+        <link href="https://www.youtube.com/watch?v=N0O5Uwc3C0o"/>
+        <updated>2021-07-11T12:17:18.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bringing Up Baby: Bones, Balls, and Butterflies]]></title>
+        <id>https://www.criterion.com/current/posts/7454-bringing-up-baby-bones-balls-and-butterflies</id>
+        <link href="https://www.criterion.com/current/posts/7454-bringing-up-baby-bones-balls-and-butterflies"/>
+        <updated>2021-07-11T05:40:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Entropy coding in Oodle Data: the big picture]]></title>
+        <id>https://fgiesen.wordpress.com/2021/07/09/entropy-coding-in-oodle-data-the-big-picture/</id>
+        <link href="https://fgiesen.wordpress.com/2021/07/09/entropy-coding-in-oodle-data-the-big-picture/"/>
+        <updated>2021-07-10T17:08:57.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -484,100 +498,30 @@ In the example above, we can see that the work() method is being invoked using s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PostgreSQL, Memory and the Cloud]]></title>
-        <id>https://sosna.de/posts/pgaas-memory-overcommit/</id>
-        <link href="https://sosna.de/posts/pgaas-memory-overcommit/"/>
-        <updated>2021-07-10T15:55:05.000Z</updated>
+        <title type="html"><![CDATA[Expressive Animator: free software vector animation and motion graphics editor]]></title>
+        <id>https://www.expressivesuite.com/products/expressive-animator.html</id>
+        <link href="https://www.expressivesuite.com/products/expressive-animator.html"/>
+        <updated>2021-07-10T10:09:54.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FDA head asks for investigation into Aduhelm drug approval]]></title>
-        <id>https://www.businessinsider.com/fda-head-asks-for-investigation-into-aduhelm-drug-approval-2021-7</id>
-        <link href="https://www.businessinsider.com/fda-head-asks-for-investigation-into-aduhelm-drug-approval-2021-7"/>
-        <updated>2021-07-10T15:54:14.000Z</updated>
+        <title type="html"><![CDATA[A Look into CBL-Mariner, Microsoft’s Internal Linux Distribution]]></title>
+        <id>https://blog.jreypo.io/2021/07/09/a-look-into-cbl-mariner-microsoft-internal-linux-distribution/</id>
+        <link href="https://blog.jreypo.io/2021/07/09/a-look-into-cbl-mariner-microsoft-internal-linux-distribution/"/>
+        <updated>2021-07-10T10:04:36.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: Hck – a fast and flexible cut-like tool]]></title>
-        <id>https://github.com/sstadick/hck</id>
-        <link href="https://github.com/sstadick/hck"/>
-        <updated>2021-07-10T15:46:53.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EdgeDB: EdgeQL]]></title>
-        <id>https://website-atgsmhega-edgedb.vercel.app/docs/tutorial/queries</id>
-        <link href="https://website-atgsmhega-edgedb.vercel.app/docs/tutorial/queries"/>
-        <updated>2021-07-10T14:01:38.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nicole gets a real computer – the Microsoft Z80 SoftCard (2020)]]></title>
-        <id>https://nicole.express/2020/nicole-gets-a-real-computer.html</id>
-        <link href="https://nicole.express/2020/nicole-gets-a-real-computer.html"/>
-        <updated>2021-07-10T12:48:07.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Behind the scenes, AWS Lambda]]></title>
-        <id>https://www.bschaatsbergen.com/behind-the-scenes-lambda</id>
-        <link href="https://www.bschaatsbergen.com/behind-the-scenes-lambda"/>
-        <updated>2021-07-10T12:33:30.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“One Day Longer and Those 13 Boys Would Be Dead”]]></title>
-        <id>https://www.zeit.de/wissen/2021-07/thai-cave-rescue-thailand-tham-luang-2018-diver-mikko-paasi</id>
-        <link href="https://www.zeit.de/wissen/2021-07/thai-cave-rescue-thailand-tham-luang-2018-diver-mikko-paasi"/>
-        <updated>2021-07-10T12:29:32.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[25 Gigabit Linux internet router PC build]]></title>
-        <id>https://michael.stapelberg.ch/posts/2021-07-10-linux-25gbit-internet-router-pc-build/</id>
-        <link href="https://michael.stapelberg.ch/posts/2021-07-10-linux-25gbit-internet-router-pc-build/"/>
-        <updated>2021-07-10T11:49:36.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AIeyes: Walking simulator where the world is seen through a realtime neural net]]></title>
-        <id>https://tmdev.itch.io/aieyes</id>
-        <link href="https://tmdev.itch.io/aieyes"/>
-        <updated>2021-07-10T11:48:37.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spanish Sketches]]></title>
-        <id>https://drb.ie/articles/anarchism-spanish-sketches/</id>
-        <link href="https://drb.ie/articles/anarchism-spanish-sketches/"/>
-        <updated>2021-07-10T04:37:03.000Z</updated>
+        <title type="html"><![CDATA[Cavalry – 2D Animation Software for Mac and Windows]]></title>
+        <id>https://cavalry.scenegroup.co/</id>
+        <link href="https://cavalry.scenegroup.co/"/>
+        <updated>2021-07-10T06:01:55.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -591,6 +535,26 @@ In the example above, we can see that the work() method is being invoked using s
         <summary type="html"><![CDATA[There are literally 100s of great React libraries to choose from, but which libraries do you need most for your React projects?  In this article, we're going to break down five libraries you need for your React projects. Each of them will cover virtually every major tool you need, plus]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Design Beyond Human Abilities (2007) [pdf]]]></title>
+        <id>https://dreamsongs.com/Files/DesignBeyondHumanAbilitiesSimp.pdf</id>
+        <link href="https://dreamsongs.com/Files/DesignBeyondHumanAbilitiesSimp.pdf"/>
+        <updated>2021-07-09T20:04:51.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Regarding Michael Pollan’s New Book This Is Your Mind on Plants]]></title>
+        <id>https://harpers.org/2021/07/regarding-michael-pollans-new-book-this-is-your-mind-on-plants/</id>
+        <link href="https://harpers.org/2021/07/regarding-michael-pollans-new-book-this-is-your-mind-on-plants/"/>
+        <updated>2021-07-09T19:05:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -657,10 +621,10 @@ The post SVG Favicons in Action appeared first on CSS-Tricks. You can support CS
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What I learned from Erlang about resiliency in systems design (2019)]]></title>
-        <id>https://www.mgasch.com/2019/03/crash/</id>
-        <link href="https://www.mgasch.com/2019/03/crash/"/>
-        <updated>2021-07-09T12:01:51.000Z</updated>
+        <title type="html"><![CDATA[Mark V. Shaney]]></title>
+        <id>https://en.wikipedia.org/wiki/Mark_V._Shaney</id>
+        <link href="https://en.wikipedia.org/wiki/Mark_V._Shaney"/>
+        <updated>2021-07-09T12:14:27.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -678,16 +642,6 @@ The post Born To Win Summary appeared first on Four Minute Books.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Addition on Turing Machines (2013)]]></title>
-        <id>https://jeapostrophe.github.io/2013-10-29-tmadd-post.html</id>
-        <link href="https://jeapostrophe.github.io/2013-10-29-tmadd-post.html"/>
-        <updated>2021-07-09T11:54:19.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Making A Strong Case For Accessibility]]></title>
         <id>https://smashingmagazine.com/2021/07/strong-case-for-accessibility/</id>
         <link href="https://smashingmagazine.com/2021/07/strong-case-for-accessibility/"/>
@@ -698,20 +652,10 @@ The post Born To Win Summary appeared first on Four Minute Books.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vladimir Lukyanov’s Water Computer (2019)]]></title>
-        <id>https://www.amusingplanet.com/2019/12/vladimir-lukyanovs-water-computer.html</id>
-        <link href="https://www.amusingplanet.com/2019/12/vladimir-lukyanovs-water-computer.html"/>
-        <updated>2021-07-09T09:42:33.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Well-Woven Tale: The fabric of the modern world]]></title>
-        <id>https://www.historytoday.com/archive/review/well-woven-tale</id>
-        <link href="https://www.historytoday.com/archive/review/well-woven-tale"/>
-        <updated>2021-07-09T04:55:20.000Z</updated>
+        <title type="html"><![CDATA[A New Planet in the System]]></title>
+        <id>https://www.laphamsquarterly.org/roundtable/new-planet-system</id>
+        <link href="https://www.laphamsquarterly.org/roundtable/new-planet-system"/>
+        <updated>2021-07-09T01:59:31.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -799,36 +743,6 @@ The post The Hero Code Summary appeared first on Four Minute Books.]]></summary>
         <summary type="html"><![CDATA[Even though Vue.js claims to have an approachable minimalist framework that can be incrementally adaptable, it can be a little bit overwhelming when starting as a Vue.js newbie. In this article, we’re looking at ways to make writing Vue.js a breeze.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Uma Victor)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Geography of Open Source Software: Evidence from GitHub]]></title>
-        <id>https://arxiv.org/abs/2107.03200</id>
-        <link href="https://arxiv.org/abs/2107.03200"/>
-        <updated>2021-07-08T10:23:38.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ethiopia's controversial mega-dam on Nile tributary]]></title>
-        <id>https://phys.org/news/2021-07-ethiopia-controversial-mega-dam.html</id>
-        <link href="https://phys.org/news/2021-07-ethiopia-controversial-mega-dam.html"/>
-        <updated>2021-07-08T10:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Loqbooq – A decision log with Slack integration]]></title>
-        <id>https://loqbooq.app</id>
-        <link href="https://loqbooq.app"/>
-        <updated>2021-07-08T08:05:48.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1352,16 +1266,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[We completed the sequencing of the human genome. AstraZeneca’s drug Lynparza cut combined risk of recurrence of breast cancer or death by 42% among women in study. Glycine and N-acetylcysteine supplementation improves muscle strength and cognition. We found Egypt’s ancient capital. It has been lost of 3,400 years. It is unclear why it was abandoned. … Continue reading Science and Technology links (June 12th 2021)]]></summary>
         <author>
             <name>Daniel Lemire</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Design Done Well: Making Use Of Audio]]></title>
-        <id>https://smashingmagazine.com/2021/06/web-design-done-well-audio/</id>
-        <link href="https://smashingmagazine.com/2021/06/web-design-done-well-audio/"/>
-        <updated>2021-06-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Design often revolves around visuals, but the other senses deserve love too. In this article, we tune in to audio features that are making sites sing.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Frederick O’Brien)</name>
         </author>
     </entry>
 </feed>
