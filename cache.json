@@ -22,6 +22,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=344249",
+          "author": "Temani Afif",
+          "description": "I recently illustrated how we can achieve complex CSS animations using cubic-bezier() and how to do the same when it comes to CSS transitions. I was able to create complex hover effect without resorting to keyframes. In this article, I …\nThe post Build Complex CSS Transitions using Custom Properties and cubic-bezier() appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/build-complex-css-transitions-using-custom-properties-and-cubic-bezier/",
+          "publishedOn": "2021-07-14T14:31:02.000Z",
+          "wordCount": 1964,
+          "title": "Build Complex CSS Transitions using Custom Properties and cubic-bezier()"
+        },
+        {
+          "id": "https://css-tricks.com/?p=344407",
+          "author": "Chris Coyier",
+          "description": "Most of us grumble when running across a frustrating UX experience online (like not being able to complete a transaction because of a misplaced button). We might pen a whiny tweet. Jason Grigsby is like I’m going to write 2,000 …\nThe post A Bashful Button Worth $8 Million appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://cloudfour.com/thinks/a-bashful-button-worth-8-million/",
+          "publishedOn": "2021-07-14T14:25:08.000Z",
+          "wordCount": 2461,
+          "title": "A Bashful Button Worth $8 Million"
+        },
+        {
           "id": "https://css-tricks.com/?p=344316",
           "author": "Chris Coyier",
           "description": "As a day-job, React-using person, I like to stay abreast of interesting React news. As such, I save a healthy amount of links. Allow me to dump out my latest pile. Most of this is about React but not all …\nThe post Links on React and JavaScript appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -36,7 +54,7 @@
           "description": "Starting with Version 15, Safari supports the theme-color <meta> tag both on macOS and iOS. That’s exciting news because now the first desktop browser supports this <meta> tag and it also supports the media attribute and the prefers-color-scheme media feature.…\nThe post Meta Theme Color and Trickery appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/meta-theme-color-and-trickery/",
           "publishedOn": "2021-07-13T14:58:33.000Z",
-          "wordCount": 2597,
+          "wordCount": 2679,
           "title": "Meta Theme Color and Trickery"
         },
         {
@@ -54,7 +72,7 @@
           "description": "The reasons that are often cited that make container queries difficult or impossible is things like infinite loops—e.g. changing the width of an element, invalidating a container query, which changes the width again, which makes the container query take effect, …\nThe post Meet `:has`, A Native CSS Parent Selector appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://www.smashingmagazine.com/2021/06/has-native-css-parent-selector/",
           "publishedOn": "2021-07-12T19:45:00.000Z",
-          "wordCount": 2795,
+          "wordCount": 2793,
           "title": "Meet `:has`, A Native CSS Parent Selector"
         },
         {
@@ -63,7 +81,7 @@
           "description": "I don’t know about you, but I write these three declarations many times in my CSS:\nul {\n  padding: 0;\n  margin: 0;\n  list-style-type: none;\n}\nYou might yell at me and say I can just put those in my CSS …\nThe post Using the Specificity of :where() as a CSS Reset appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/using-the-specificity-of-where-as-a-css-reset/",
           "publishedOn": "2021-07-12T14:30:34.000Z",
-          "wordCount": 944,
+          "wordCount": 962,
           "title": "Using the Specificity of :where() as a CSS Reset"
         },
         {
@@ -137,24 +155,6 @@
           "publishedOn": "2021-07-06T20:55:45.000Z",
           "wordCount": 681,
           "title": "Body Toggle"
-        },
-        {
-          "id": "https://css-tricks.com/?p=343560",
-          "author": "Chris Coyier",
-          "description": "And maybe an optional follow-up if you’re up for it.\nAutomattic, the makers of Jetpack and many other WordPress-y things, have sponsored my site (me = Chris Coyier; site = CSS-Tricks) for quite a while. I use Jetpack myself, …\nThe post I’ve got one question about Jetpack for you. appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/ive-got-one-question-about-jetpack-for-you/",
-          "publishedOn": "2021-07-06T20:00:30.000Z",
-          "wordCount": 720,
-          "title": "I’ve got one question about Jetpack for you."
-        },
-        {
-          "id": "https://css-tricks.com/?p=343149",
-          "author": "Martin Lexelius",
-          "description": "Normally, a project will have a set of pre-determined font sizes, usually as variables named in such a way that seeks some semblance of order and consistency. Any project of considerable size can use something like that. There are always …\nThe post The Dilemma of Naming Font Size Variables appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/the-dilemma-of-naming-font-size-variables/",
-          "publishedOn": "2021-07-06T14:41:22.000Z",
-          "wordCount": 4359,
-          "title": "The Dilemma of Naming Font Size Variables"
         }
       ]
     },
@@ -164,12 +164,26 @@
       "siteUrl": "https://www.smashingmagazine.com/",
       "articles": [
         {
+          "id": "https://smashingmagazine.com/2021/07/frustrating-design-patterns-broken-frozen-filters/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "Too often dealing with filters can be frustrating. Let’s get them right. That means never freeze the UI on a single input, provide text input fallback and never auto-scroll users on a single input. Here’s why.",
+          "link": "https://smashingmagazine.com/2021/07/frustrating-design-patterns-broken-frozen-filters/",
+          "publishedOn": "2021-07-14T13:30:00.000Z",
+          "wordCount": 5284,
+          "title": "Frustrating Design Patterns: Broken Filters",
+          "enclosure": {
+            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0c5f2df3-3d78-4563-a599-8c924604e84a/7-frustrating-design-patterns.png",
+            "length": "0",
+            "type": "image/png"
+          }
+        },
+        {
           "id": "https://smashingmagazine.com/2021/07/dynamic-header-intersection-observer/",
           "author": "hello@smashingmagazine.com (Michelle Barker)",
           "description": "In JavaScript, attaching an event listener to constantly fire a callback on scroll can be performance-intensive. But there is a better way with Intersection Observer.",
           "link": "https://smashingmagazine.com/2021/07/dynamic-header-intersection-observer/",
           "publishedOn": "2021-07-13T12:00:00.000Z",
-          "wordCount": 3275,
+          "wordCount": 3273,
           "title": "Building A Dynamic Header With Intersection Observer",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/67cc7303-3dc9-4d67-b0f4-b6f77783380f/dynamic-header-intersection-observer.jpg",
@@ -183,7 +197,7 @@
           "description": "In this article, we’re taking a closer look at different approaches and strategies on how we can migrate a web application that uses jQuery framework, and start using one of the coolest React frameworks in the market: Next.js.",
           "link": "https://smashingmagazine.com/2021/07/migrate-jquery-nextjs/",
           "publishedOn": "2021-07-13T10:30:00.000Z",
-          "wordCount": 4225,
+          "wordCount": 4180,
           "title": "How To Migrate From jQuery To Next.js",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/ece22577-f23c-4e9c-a41c-f9000f14ae9d/migrate-jquery-nextjs.jpg",
@@ -197,7 +211,7 @@
           "description": "CSS refactoring is not an easy task — it needs to be done in a way that doesn't create problems. First we need to analyze the existing codebase, audit CSS codebase health, discover weaknesses, agree on the approach, and convince management to invest time and resources into the process.",
           "link": "https://smashingmagazine.com/2021/07/refactoring-css-introduction-part1/",
           "publishedOn": "2021-07-12T13:30:00.000Z",
-          "wordCount": 3624,
+          "wordCount": 3623,
           "title": "Refactoring CSS: Introduction (Part 1)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b8b722a7-791f-433e-8d76-f0382d387e82/refactoring-css-introduction-part1.jpg",
@@ -211,7 +225,7 @@
           "description": "Accessibility is often overlooked or bolted on to the end of a project. Let’s figure out how to implement and advocate for accessibility from the inception of a project to the release or handoff and beyond.",
           "link": "https://smashingmagazine.com/2021/07/strong-case-for-accessibility/",
           "publishedOn": "2021-07-09T10:30:00.000Z",
-          "wordCount": 2957,
+          "wordCount": 2973,
           "title": "Making A Strong Case For Accessibility",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/9c226eaa-3251-4d02-9ade-96a88ad759fc/strong-case-for-accessibility.jpg",
@@ -225,7 +239,7 @@
           "description": "Even though Vue.js claims to have an approachable minimalist framework that can be incrementally adaptable, it can be a little bit overwhelming when starting as a Vue.js newbie. In this article, we’re looking at ways to make writing Vue.js a breeze.",
           "link": "https://smashingmagazine.com/2021/07/tools-practices-speed-up-vuejs-development-process/",
           "publishedOn": "2021-07-08T11:00:00.000Z",
-          "wordCount": 4797,
+          "wordCount": 4789,
           "title": "Tools And Practices To Speed Up The Vue.js Development Process",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/83768020-8004-41f2-b9a9-14b86c18eb4d/tools-practices-speed-up-vuejs-development-process.jpg",
@@ -239,7 +253,7 @@
           "description": "Interactive Components in Figma allows designers to create a component with states (hover, active, clicked, focus) and make it interactive so that every copy of the component will inherit those same interactions by default. Let’s explore how it can reduce the time and effort needed to create interactions for your mock-ups.",
           "link": "https://smashingmagazine.com/2021/07/introduction-figma-interactive-components/",
           "publishedOn": "2021-07-07T11:00:00.000Z",
-          "wordCount": 4073,
+          "wordCount": 4070,
           "title": "An Introduction To Figma Interactive Components",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1a8390d0-26c0-4476-bc00-19e8c89b60c5/introduction-figma-interactive-components.jpg",
@@ -267,7 +281,7 @@
           "description": "In this article, Ahmad Shadeed explains what HSL is, how to use it, and shares some of the useful use-cases and examples that you can use right away in your current projects.",
           "link": "https://smashingmagazine.com/2021/07/hsl-colors-css/",
           "publishedOn": "2021-07-05T10:30:00.000Z",
-          "wordCount": 1595,
+          "wordCount": 1600,
           "title": "Using HSL Colors In CSS",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/73607a1e-fe7f-47ea-aada-df79342d823a/hsl-colors-css.jpg",
@@ -281,7 +295,7 @@
           "description": "With so many tools and approaches, email still has quite a few pain points, both for developers and email marketers. Email is difficult because it has too many aspects to set and a few instances with no common rules to follow.",
           "link": "https://smashingmagazine.com/2021/07/email-testing-flow/",
           "publishedOn": "2021-07-02T10:30:00.000Z",
-          "wordCount": 4227,
+          "wordCount": 4212,
           "title": "Email Testing Flow As It Should Be",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/57a53d31-9651-4d88-b2fe-f8de70c08da1/email-testing-flow.jpg",
@@ -295,7 +309,7 @@
           "description": "When writing front-end tests, you’ll find a lot of pitfalls along the way. Let’s explore common mistakes developers make, and how to avoid them. Testing doesn’t need to be painful, after all.",
           "link": "https://smashingmagazine.com/2021/07/frontend-testing-pitfalls/",
           "publishedOn": "2021-07-01T12:30:00.000Z",
-          "wordCount": 4772,
+          "wordCount": 4784,
           "title": "It’s A (Front-End Testing) Trap! Six Common Testing Pitfalls And How To Solve Them",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/dc1434b9-70c3-4fb2-821e-2128e3373246/frontend-testing-pitfalls.jpg",
@@ -309,7 +323,7 @@
           "description": "The web is single-threaded. This makes it increasingly hard to write smooth and responsive apps. Workers have a bad rep, but can be an important and useful tool in any web developer's toolbelt for these kinds of problems. Let’s get up to speed on Workers on the Web!",
           "link": "https://smashingmagazine.com/2021/06/web-workers-2021/",
           "publishedOn": "2021-06-30T12:00:00.000Z",
-          "wordCount": 4753,
+          "wordCount": 4755,
           "title": "The State Of Web Workers In 2021",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/379e4510-b4ab-4fde-9a5d-122738be19b2/web-workers-2021.jpg",
@@ -323,7 +337,7 @@
           "description": "Let’s welcome July with some fresh desktop wallpapers. Designed by artists and designers from around the world, they are available with and without a calendar. Enjoy!",
           "link": "https://smashingmagazine.com/2021/06/desktop-wallpaper-calendars-july-2021/",
           "publishedOn": "2021-06-30T09:30:00.000Z",
-          "wordCount": 3703,
+          "wordCount": 3724,
           "title": "The Many Shades Of July (2021 Desktop Wallpapers Edition)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/814b3b6e-1510-4c12-8504-433157173355/july-21-against-the-current-preview-opt.png",
@@ -365,7 +379,7 @@
           "description": "In this article, Manuel explains why Emmet is one of his favorite productivity tools for writing HTML and CSS, and how you can create custom Emmet snippets in Visual Studio Code to help you improve your front-end workflows even more.",
           "link": "https://smashingmagazine.com/2021/06/custom-emmet-snippets-vscode/",
           "publishedOn": "2021-06-28T10:30:00.000Z",
-          "wordCount": 2536,
+          "wordCount": 2532,
           "title": "Creating Custom Emmet Snippets In VS Code",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b7ff6227-3a15-4237-8e58-aa783fc9c485/custom-emmet-snippets-vscode.jpg",
@@ -379,7 +393,7 @@
           "description": "This article explains how we can connect different types of content in a Next.js application. With this technique, we can add any kind of one-to-one, one-to-many, or even many-to-many relationship to our projects.",
           "link": "https://smashingmagazine.com/2021/06/creating-multi-author-blog-nextjs/",
           "publishedOn": "2021-06-25T11:30:00.000Z",
-          "wordCount": 5453,
+          "wordCount": 5450,
           "title": "Creating A Multi-Author Blog With Next.js",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/28d0f286-9b01-4f8d-aede-01248ba3491d/creating-multi-author-blog-nextjs.jpg",
@@ -393,7 +407,7 @@
           "description": "This article is a case study of how a UX audit affects a UI. It explains how a famous educational platform can be analyzed edX against Jakob Nielsen’s usability guidelines. To get started, Mark Lankmiller shares all of the criteria and metrics he used for his UX audit.",
           "link": "https://smashingmagazine.com/2021/06/ux-audit-edtech-platform-case-study/",
           "publishedOn": "2021-06-25T10:00:00.000Z",
-          "wordCount": 3534,
+          "wordCount": 3535,
           "title": "How To Run A UX Audit For A Major EdTech Platform (Case Study)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/d5116c31-3d66-47b0-aa81-1a6759c68b92/ux-audit-edtech-platform-case-study.jpg",
@@ -407,7 +421,7 @@
           "description": "In the dynamic and unpredictable environments in which we work, even the most carefully crafted solutions can have a short shelf life. When we accept that our work is impermanent and our problem-solving abilities are limited, our goal can shift from delivering full solutions to developing tools that empower our users to adaptively design for themselves.",
           "link": "https://smashingmagazine.com/2021/06/design-thinking-problem-solving-strategy/",
           "publishedOn": "2021-06-24T14:00:00.000Z",
-          "wordCount": 4184,
+          "wordCount": 4186,
           "title": "The Rise Of Design Thinking As A Problem Solving Strategy",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e5ea9274-2ff4-49d8-b259-a5f0904cec77/design-thinking-problem-solving-strategy.jpg",
@@ -435,7 +449,7 @@
           "description": "Automated testing is an important part of any software project, including testing for accessibility. There are already tools for linting and integration testing accessibility, but what about end-to-end testing with real assistive technology? Since I hadn’t seen this before, I set out to build Auto VO, a driver for the VoiceOver screen reader.",
           "link": "https://smashingmagazine.com/2021/06/automating-screen-reader-testing-macos-autovo/",
           "publishedOn": "2021-06-23T09:30:00.000Z",
-          "wordCount": 1415,
+          "wordCount": 1400,
           "title": "Automating Screen Reader Testing On macOS Using Auto VO",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c81018b9-c45e-4c21-9762-dff84dd2682c/automating-screen-reader-testing-macos-autovo.jpg",
@@ -463,7 +477,7 @@
           "description": "Do you have to process data manually because it is served through images or scanned documents? An image-to-text conversion makes it possible to extract text from images to automate the processing of texts on images, videos, and scanned documents. In this article, we look at how to convert an image to text with React and Tesseract.js(OCR), preprocess images, and deal with the limitations of Tesseract (OCR).",
           "link": "https://smashingmagazine.com/2021/06/image-text-conversion-react-tesseract-js-ocr/",
           "publishedOn": "2021-06-21T14:30:00.000Z",
-          "wordCount": 5366,
+          "wordCount": 5379,
           "title": "Image To Text Conversion With React And Tesseract.js (OCR)",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/012f3fbe-980a-44fc-b973-a459f6d9bf1a/image-text-conversion-react-tesseract-js-ocr.jpg",
@@ -477,7 +491,7 @@
           "description": "Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.",
           "link": "https://smashingmagazine.com/2021/06/alternative-voice-ui-voice-assistants/",
           "publishedOn": "2021-06-18T15:00:00.000Z",
-          "wordCount": 3425,
+          "wordCount": 3428,
           "title": "An Alternative Voice UI To Voice Assistants",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8ebd2c76-ebe5-4885-be3e-f9acc3608072/alternative-voice-ui-voice-assistants.jpg",
@@ -505,7 +519,7 @@
           "description": "Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.",
           "link": "https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/",
           "publishedOn": "2021-06-17T10:30:00.000Z",
-          "wordCount": 1652,
+          "wordCount": 1650,
           "title": "Your Image Is Probably Not Decorative",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/95585fe9-52b8-4bd4-adac-a3580ef87b98/img-alt-attribute-alternate-description-decorative.jpg",
@@ -519,38 +533,10 @@
           "description": "In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.",
           "link": "https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/",
           "publishedOn": "2021-06-16T10:30:00.000Z",
-          "wordCount": 4122,
+          "wordCount": 4112,
           "title": "A Complete Guide To Accessibility Tooling",
           "enclosure": {
             "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/0e0ea8e6-a4ad-489c-b062-749a22d5e38e/complete-guide-accessibility-tooling.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "author": "hello@smashingmagazine.com (Leonardo Losoviz)",
-          "description": "When developing themes and plugins for WordPress, we need to test them in different environments. How can we create multiple testing sites on our computer, quickly and easily, without having to become a sysadmin?",
-          "link": "https://smashingmagazine.com/2021/06/multiple-wordpress-sites-locally-devkinsta/",
-          "publishedOn": "2021-06-15T10:15:00.000Z",
-          "wordCount": 2387,
-          "title": "Spinning Up Multiple WordPress Sites Locally With DevKinsta",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/2798d879-8878-49e3-bc0f-a1b2008210c0/devkinsta-frontpage.png",
-            "length": "0",
-            "type": "image/png"
-          }
-        },
-        {
-          "id": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "author": "hello@smashingmagazine.com (Drew McLellan)",
-          "description": "In this episode of the Smashing Podcast, we’re talking about image optimization. What steps should we follow for performant images in 2021? We talk to expert Addy Osmani to find out.",
-          "link": "https://smashingmagazine.com/2021/06/smashing-podcast-episode-39/",
-          "publishedOn": "2021-06-15T07:00:00.000Z",
-          "wordCount": 10721,
-          "title": "Smashing Podcast Episode 39 With Addy Osmani: Image Optimization",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bf1aeccc-a603-4cb3-b716-69bd0c86d33a/smashing-podcast-episode-39.jpg",
             "length": "0",
             "type": "image/jpg"
           }
@@ -562,6 +548,33 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60d4e7596e1a1407b6b0bb56",
+          "author": null,
+          "description": "Did you know that marketers (and even hackers) can use images to track you in your email inbox? Here's how so-called tracking pixels work: Someone creates an image and host it on their server. Often a transparent 1x1 \"tracking pixel\" that you don't even see.They send you an email",
+          "link": "https://www.freecodecamp.org/news/stop-email-tracking-pixel-disable-images-gmail/",
+          "publishedOn": "2021-07-14T17:51:43.000Z",
+          "wordCount": 577,
+          "title": "How to Stop Email Tracking in Gmail – Disable Images by Default"
+        },
+        {
+          "id": "60ebb55be8ee9b08300ed731",
+          "author": null,
+          "description": "Websites are a critical part of almost every business or organization in the world. From your nearby florist to global brands, almost everyone uses a website as part of their branding. Unfortunately, websites are also one of the most unsecured gateways through which an attacker can exploit your company. Since",
+          "link": "https://www.freecodecamp.org/news/an-introduction-to-web-server-scanning-with-nikto/",
+          "publishedOn": "2021-07-14T07:18:59.000Z",
+          "wordCount": 1136,
+          "title": "An Introduction to Web Server Scanning With Nikto"
+        },
+        {
+          "id": "60eb2a69e8ee9b08300ed5b3",
+          "author": null,
+          "description": "Redis is a type of database that can be added to your produciton level applicaiton to make it more performant.  In this article, I'll go over the Redis basics and show a real world example of Redis in action.  Here's everything we'll go over:  What is Redis? Why the Hype",
+          "link": "https://www.freecodecamp.org/news/redis-crash-course/",
+          "publishedOn": "2021-07-14T06:11:13.000Z",
+          "wordCount": 1435,
+          "title": "Redis Crash Course"
+        },
         {
           "id": "60e73db9134ad707be00f206",
           "author": null,
@@ -624,33 +637,6 @@
           "publishedOn": "2021-07-12T11:26:39.000Z",
           "wordCount": 1208,
           "title": "Google BigQuery Beginner&#x27;s Guide – How to Analyze Large Datasets"
-        },
-        {
-          "id": "60e8864de8ee9b08300ecc3f",
-          "author": null,
-          "description": "There are literally 100s of great React libraries to choose from, but which libraries do you need most for your React projects?  In this article, we're going to break down five libraries you need for your React projects. Each of them will cover virtually every major tool you need, plus",
-          "link": "https://www.freecodecamp.org/news/5-react-libraries-every-project-needs/",
-          "publishedOn": "2021-07-09T20:06:31.000Z",
-          "wordCount": 1729,
-          "title": "5 React Libraries Every Project Should Use in 2021"
-        },
-        {
-          "id": "60e81c50134ad707be00f79f",
-          "author": null,
-          "description": "Hey everyone! In this article, I'm going to show you what's new in the latest of version of React – React 18 – in under 8 minutes.  First, you might be wondering whether the latest set of changes will break anything with your current setup, or whether you will have to learn",
-          "link": "https://www.freecodecamp.org/news/whats-new-in-react-18/",
-          "publishedOn": "2021-07-09T18:42:26.000Z",
-          "wordCount": 1930,
-          "title": "What&#x27;s New in React 18? Concurrency, Batching, the Transition API and More"
-        },
-        {
-          "id": "60dcb93727f80207bcdbc17e",
-          "author": null,
-          "description": "When you use code snippets in Visual Studio, it can make your coding process a lot easier and faster. But what are code snippets? And how can you use them? In this article, we'll look at how you can create code snippets in C#. Just keep in mind that snippets",
-          "link": "https://www.freecodecamp.org/news/how-to-automatically-generate-code-snippets-visual-studio/",
-          "publishedOn": "2021-07-09T18:28:18.000Z",
-          "wordCount": 3957,
-          "title": "How to Automatically Generate C# Code Snippets in Visual Studio"
         }
       ]
     },
@@ -660,112 +646,112 @@
       "siteUrl": "https://dev.to",
       "articles": [
         {
-          "id": "https://dev.to/ayabouchiha/http-response-status-code-43ai",
+          "id": "https://dev.to/eduardojuliao/dependency-inversion-principle-13je",
+          "author": "Eduardo Julião",
+          "description": "Dependency Inversion Principle (DIP for short) states:\nOne should depend upon abstractions and their concrete implementation.\nThe advantage of Dependency Inversion is that the classes do not need to know about the concrete implementation, just its abstraction.\npublic class UserFileRepository\n{\n    void SaveUser(User user);\n}\n\npublic class UserService\n{\n    public void CreateUser(User user)\n    {\n        UserFileRepository repository = new UserFileRepository();\n        repository.SaveUser(user);\n    }\n}\n\nThe code above is totally fine, but it does not respect the Dependency Inversion Principle. The User class know about the concrete implementation of the UserFileRepository, making it too dependent, if anything needs to be changed in UserFileRepository, the UserService class will need to be …",
+          "link": "https://dev.to/eduardojuliao/dependency-inversion-principle-13je",
+          "publishedOn": "2021-07-15T00:34:08.000Z",
+          "wordCount": 781,
+          "title": "Dependency Inversion Principle"
+        },
+        {
+          "id": "https://dev.to/eduardojuliao/interface-segregation-principle-898",
+          "author": "Eduardo Julião",
+          "description": "The Interface Segregation Principle (ISP) states:\nA client should not implement interfaces that are not necessary for the application.\nIn other words, it's preferably that instead of one big interface, the developer creates smaller more manageable interfaces.\nLet's say we're tasked to create a game about robots, at first, we design our interface:\npublic interface IRobot\n{\n    string Name { get; set; }\n    void Walk();\n    void Fly();\n    void Attack();\n}\n\nPerfect! We created our contract for what makes a robot... that violates the Interface Segregation Principle, because not all robots can Walk, Fly or Attack.\npublic class FriendlyRobot : IRobot\n{\n    public string Name { get; set; }\n\n    public void Walk()\n    {\n        // Code\n    }\n\n    public void Fly()\n    {\n        Console.WriteLine(\"This robot can't fly!\");\n    }\n\n    public void Attack()\n    {\n        Console.WriteLine(\"This robot can't attack!\");\n    }\n}\n\nTo solve this issue, we need to break down into smaller interfaces:\npublic interface IRobot\n{\n    string Name { get; set; }\n}\n\npublic interface IWalkable\n{\n    void Walk();\n}\n\npublic interface IFlyable\n{\n    void Fly();\n}\n\npublic interface IAggressive\n{\n    void Attack();\n}\n\nNow we can create a Robot the way we want, without implementing extra code that's not necessary, so our FriendlyRobot will be implemented in a different way:\npublic class FriendlyRobot : IRobot, IWalkable\n{\n    public string Name { get; set; }\n\n    public void Walk()\n    {\n        // Code\n    }\n}",
+          "link": "https://dev.to/eduardojuliao/interface-segregation-principle-898",
+          "publishedOn": "2021-07-15T00:34:02.000Z",
+          "wordCount": 653,
+          "title": "Interface Segregation Principle"
+        },
+        {
+          "id": "https://dev.to/eduardojuliao/liskov-substitution-principle-4a0a",
+          "author": "Eduardo Julião",
+          "description": "Created by created by Barbara Liskov and Jeannette Wing, the Liskov Substitution Principle or (LSP for short) states that:\nYou should be able to use any derived class instead of a parent class and have it behave in the same manner without modification\nIn other words, each derived class must maintain the behaviour from the parent class along new behaviour unique to the child class. Making new classes that inherit from the parent class, works without any change to the existing code.\nstatic void Main()\n{\n    Apple orange = new Orange();\n    Console.WriteLine(orange.GetColor());\n    // outputs: \"Orange\";\n}\n\npublic class Apple\n{\n    public string GetColor() => \"Red\";\n}\n\npublic class Orange\n{\n    public string GetColor() => \"Orange\";\n}\n\n\nLet's implement the Liskov Substitution Principle:\nstatic void Main()\n{\n    Fruit orange = new Orange();\n    Console.WriteLine(orange.GetColor());\n    // outputs: \"Orange\"\n    Fruit apple = new Apple();\n    Console.WriteLine(apple.GetColor());\n    // outputs: \"Red\"\n    Orange fruit = new Apple();\n    Console.WriteLine(fruit.GetColor());\n    // outputs: \"Red\"\n}\n\npublic abstract class Fruit\n{\n    public abstract string GetColor();\n}\n\npublic class Apple: Fruit\n{\n    public override string GetColor() => \"Red\";\n}\n\npublic class Orange: Fruit\n{\n    public override string GetColor() => \"Orange\";\n}\n\nHere, the Liskov Substitution is satisfied by our code. The application don't need to change to support a new Fruit, since the subtype (Apple and Orange) that inherit from the type Fruit, can be replaced with each other without raising errors.",
+          "link": "https://dev.to/eduardojuliao/liskov-substitution-principle-4a0a",
+          "publishedOn": "2021-07-15T00:33:52.000Z",
+          "wordCount": 628,
+          "title": "Liskov substitution principle"
+        },
+        {
+          "id": "https://dev.to/eduardojuliao/open-closed-principle-1jdi",
+          "author": "Eduardo Julião",
+          "description": "Open-Closed Principle (or OCP for short) states:\nObjects or entities should be open for extension but closed for modification.\nThe \"Open for Extensions\" means that we need to develop our code to add functionalities when new requirements are created, and \"Closed for Modifications\" means that we already developed our code, that went through testing and validations, this could should only be altered in case a bug has been found.\npublic class Rectangle\n{\n    public double Height { get; set; }\n    public double Width { get; set; }\n}\n\npublic class AreaCalculator\n{\n    public double TotalArea(Rectangle[] rectangles)\n    {\n        double result = 0;\n        foreach(Rectangle rectangle in rectangles\n            result += rectangle.Height * rectangle.Width;\n\n        return result;\n    }\n}\n\nBut our a…",
+          "link": "https://dev.to/eduardojuliao/open-closed-principle-1jdi",
+          "publishedOn": "2021-07-15T00:33:42.000Z",
+          "wordCount": 842,
+          "title": "Open-closed principle"
+        },
+        {
+          "id": "https://dev.to/eduardojuliao/single-responsibility-principle-4oej",
+          "author": "Eduardo Julião",
+          "description": "Single Responsibility Principle (or SRP for short), states that:\nA class should have one and only one reason to change, meaning that a class should have only one job.\nThis doesn't mean that a class should contain only one method or one property, but its members must relate to its responsibility.\nFor this example, we're going to create an UserService, its responsibility, is to manage User data in a system.\npublic class UserService\n{\n  public void CreateUser(string email, string password)\n  {\n    if(string.isNullOrEmpty(email)\n     throw new NullArgumentException(\"E-mail cannot be null or empty.\");\n\n    if(string.IsNullOrEmpty(password)\n     throw new NullArgumentException(\"Password cannot be null or empty.\");\n\n    User user = new User(email, password);\n\n    var smtpClient = new SmtpClient(\"smtp.gmail.com\")\n    {\n        Port = 587,\n        Credentials = new NetworkCredential(\"email\", \"password\"),\n        EnableSsl = true,\n    };\n\n    smtpClient.Send(\"our.app@gmail.com\", email, \"Welcome!\", \"Welcome to our system!\");\n  }\n}\n\nThe example above violates the SRP principle because the CreateUsermethod is responsible for two things, creating an user and sending an e-mail.\nLet's change it so it respects the SRP principle.\npublic class UserService\n{\n  private readonly IEmailService _emailService;\n\n  public UserService(IEmailService emailService)\n  {\n    _emailService = emailService;\n  }\n\n  public void CreateUser(string email, string password)\n  {\n    if(string.isNullOrEmpty(email)\n     throw new NullArgumentException(\"E-mail cannot be null or empty.\");\n\n    if(string.IsNullOrEmpty(password)\n     throw new NullArgumentException(\"Password cannot be null or empty.\");\n\n    User user = new User(email, password);\n\n    _emailService.SendEmail(email, \"Welcome!\", \"welcome to our system!\");\n  }\n}\n\nNow the UserService is only responsible to create the user, and it delegates the e-mail to another class.",
+          "link": "https://dev.to/eduardojuliao/single-responsibility-principle-4oej",
+          "publishedOn": "2021-07-15T00:33:34.000Z",
+          "wordCount": 647,
+          "title": "Single Responsibility Principle"
+        },
+        {
+          "id": "https://dev.to/eduardojuliao/introduction-3nmi",
+          "author": "Eduardo Julião",
+          "description": "First compiled by Robert C. Martin in 1990s, SOLID is a acronym that stands for:\nS: Single Responsibility Principle (SRP)\nO: Open closed Principle (OCP)\nL: Liskov substitution Principle (LSP)\nI: Interface Segregation Principle (ISP)\nD: Dependency Inversion Principle (DIP)\nThese are a set of golden rules for object-oriented programming, that make it easier for developers to develop applications that are easy to maintain, refactor and expand.\nIn this series, we'll dive into what each of these principles are and how they are implemented",
+          "link": "https://dev.to/eduardojuliao/introduction-3nmi",
+          "publishedOn": "2021-07-15T00:33:23.000Z",
+          "wordCount": 445,
+          "title": "Introduction"
+        },
+        {
+          "id": "https://dev.to/ayabouchiha/5-html-tags-that-almost-nobody-knows-5p5",
           "author": "Aya Bouchiha",
-          "description": "Hello, I'm Aya Bouchiha and this is #day-31, in this post, we'll cover the most famous  HTTP Status Codes.\nHTTP response status codes are three-digit responses from the server to the browser-side request. such as 500 and 404.\nwww.umbraco.com\nThese are the most famous HTTP Status Codes, for more details:\nhttps://developer.mozilla.org/en-US/docs/Web/HTTP/Status\nhttps://umbraco.com/knowledge-base/http-status-codes/#400-bad-request\nhttps://restfulapi.net/http-status-codes/\n100: (Continue) means that the initial part of the request has been received and has not yet been rejected by the server.\n\n\n102: (Processing) this status code means that the server has received and is processing the request. But no response is available yet\n\n\n\n\n  \n  \n  2. Successful Responses    (200 - 299)\n\n\n\n\n200 : (OK) th…",
-          "link": "https://dev.to/ayabouchiha/http-response-status-code-43ai",
-          "publishedOn": "2021-07-13T23:20:59.000Z",
-          "wordCount": 771,
-          "title": "Your Guide to HTTP Response Status Code"
+          "description": "hello everyone, I'm Aya Bouchiha, today, I will talk about 5 HTML tags that almost nobody knows.\n<mark> is a tag used to highlight or mark a part of a text. This tag supports all HTML global attributes, the default color is black with a yellow background color.\n<!DOCTYPE html>\n<html>\n    <head> </head>\n    <body>\n        <p>\n            in this paragraph, there is a text\n            <!-- \n                by default => (\n                    color: black;                \n                    background-color: yellow;\n                )\n             -->\n            <mark>highlighted</mark>\n        </p>\n    </body>\n</html>\n\nOutput:\n\nYou can change the yellow color like this:\n<mark style=\"background-color:green\">highlighted</mark>\n\nOutput:\n\n<address> is a tag that displays the contact information…",
+          "link": "https://dev.to/ayabouchiha/5-html-tags-that-almost-nobody-knows-5p5",
+          "publishedOn": "2021-07-14T23:21:33.000Z",
+          "wordCount": 802,
+          "title": "5 HTML Tags That Almost Nobody Knows"
         },
         {
-          "id": "https://dev.to/igeadetokunbo/using-github-actions-to-build-packer-ami-on-aws-3p12",
-          "author": "Ige Adetokunbo Temitayo",
-          "description": "GitHub Actions is a very cool tool for automating CI/CD pipeline workflows or any routine task. Once the code resides in Github, automating tasks from using Github actions is achievable.\n\nGithub Actions allows Engineers to create a very simple workflow to automate code compilation and deployment. Github Actions is very easy to use and it makes deployment to production very easy and interesting.\nActions are defined in YAML files, which allows pipeline workflow to be triggered using any GitHub events like on creation of Pull Requests, on code commits, and much more\nI recently developed, deployed my first github Action and published the action to GitHub Actions Marketplace. The Action build packer images on AWS. I wanted an action to build simple packer images and i decided to pick up the cha…",
-          "link": "https://dev.to/igeadetokunbo/using-github-actions-to-build-packer-ami-on-aws-3p12",
-          "publishedOn": "2021-07-13T21:56:22.000Z",
-          "wordCount": 770,
-          "title": "Using GitHub Actions to build packer AMI on AWS"
+          "id": "https://dev.to/aws-builders/blockchain-on-aws-i6o",
+          "author": "Shivani Aggarwal",
+          "description": "Do you know about Blockchain? How to build solutions using Blockchain ? Anything about AWS Blockchain ? - Well no worries , the following discussion would dive into the basic details of Blockchain ,Blockchain benefits, the way Blockchain works, and finally the Blockchain services on AWS.\nThe intersection between cloud computing and blockchain is leading to various changes in the approaches for conducting business. \nHence, the introduction of blockchain on AWS is extremely promising.  Indeed , it is inevitable to notice a growing interest in an AWS Blockchain in recent times.\nBut first, back to basics!! Before going deep dive in Blockchain on AWS let’s do a run through on Blockchain technology.\nIf you are thinking of cryptocurrency when you hear the term ‘Blockchain’ , then you are yet to d…",
+          "link": "https://dev.to/aws-builders/blockchain-on-aws-i6o",
+          "publishedOn": "2021-07-14T23:18:44.000Z",
+          "wordCount": 1651,
+          "title": "BLOCKCHAIN ON AWS"
         },
         {
-          "id": "https://dev.to/netlify/take-the-jamstack-community-survey-2021-2lfn",
-          "author": "Cassidy Williams",
-          "description": "The 2021 Jamstack Community Survey is out and we want to hear from you!\nTake the survey here!\nLast year when we ran the survey, we had over 3000 responses, and we'd love to blow that number out of the water. We're excited to see the year-over-year trends for the category. Seeing which frameworks are growing, which ones are losing ground, which ones make you happiest, which CMS people love the most... it'll be so interesting to see how that has changed over the past year! You can see last year's results here.\nPlus, you can get a limited-edition Jamstack sticker with your responses 👀 get 'em in quick!\nOnce again, here's the link to take the survey. It should take you about 5 minutes, and we'd love to hear your thoughts!",
-          "link": "https://dev.to/netlify/take-the-jamstack-community-survey-2021-2lfn",
-          "publishedOn": "2021-07-13T21:52:28.000Z",
-          "wordCount": 524,
-          "title": "Take the Jamstack Community Survey 2021!"
+          "id": "https://dev.to/mhevery/html-first-javascript-last-the-secret-to-web-speed-4ic9",
+          "author": "Miško Hevery",
+          "description": "All frameworks need to keep state. Frameworks build up the state by executing the templates. Most frameworks keep this state in the JavaScript heap in the form of references and closures. What is unique about Qwik is that the state is kept in the DOM in the form of attributes. (Note that neither references nor closures are wire serializable, but DOM attributes, which are strings, are. This is key for resumability!)\nThe consequences of keeping state in the DOM have many unique benefits, including:\nDOM has HTML as its serialization format. By keeping state in the DOM in the form of string attributes, the application can be serialized into HTML at any point. The HTML can be sent over the wire and deserialized to DOM on a different client. The deserialized DOM can then be resumed.\nEach compone…",
+          "link": "https://dev.to/mhevery/html-first-javascript-last-the-secret-to-web-speed-4ic9",
+          "publishedOn": "2021-07-14T22:17:40.000Z",
+          "wordCount": 1780,
+          "title": "HTML-first, JavaScript last: the secret to web speed!"
         },
         {
-          "id": "https://dev.to/selene_nr/intro-git-and-github-3jk4",
-          "author": "Lara Díaz",
-          "description": "¿Qué es git y github?\n\nGit es un sistema de control de versiones distribuido que utilizan los desarrolladores de software que contribuyen a un mismo proyecto o software. Básicamente ayuda a los usuarios a rastrear los diferentes cambios realizados en el software por diferentes usuarios.\nGithub es una plataforma que proporciona alojamiento y control de versiones para su código y cualquiera puede colaborar en cualquier proyecto en todo el mundo.\nCómo empezar a usar Github\n\nLo primero que tenemos que hacer es configurar el entorno, por lo que necesitamos descargar git. Para cualquier sistema operativo podemos descargarlo aqui \n\n\nUna vez que hayamos instalado correctamente git, podemos abrir la terminal y escribir el siguiente comando para comprobarlo. \n\nDespués de esto podemos ir al sitio web…",
-          "link": "https://dev.to/selene_nr/intro-git-and-github-3jk4",
-          "publishedOn": "2021-07-13T21:23:45.000Z",
-          "wordCount": 1554,
-          "title": "Intro Git and github 💻"
+          "id": "https://dev.to/jamiemcmanus/creating-a-sticky-table-column-2e8m",
+          "author": "Jamie Mc Manus",
+          "description": "In this article I will show you how to create a sticky column on table scroll. \n\nC messier\nThis is a question that led the Ancient Greek Philosopher Socrates to his eventual death , some say when he questioned why you would use a non responsive html table in our mobile centric world and then complain that it was not user friendly. \n\n\n\n\n\n  \n  \n  Postition:sticky\n\n\nThe key to this solution is using the CSS position:sticky. Applying this to say a div element will make it stick to its parent element. The good news is that this will also work for Table Cells ! \nposition sticky cannot be used on tr & thead elements ) \nCreate a container div element , and within this you can create a good ol' fashioned HTML table with enough columns so that we'll be required to scroll horizontally.\n.films-contain…",
+          "link": "https://dev.to/jamiemcmanus/creating-a-sticky-table-column-2e8m",
+          "publishedOn": "2021-07-14T22:16:58.000Z",
+          "wordCount": 1115,
+          "title": "Creating a Sticky Table Column"
         },
         {
-          "id": "https://dev.to/thuyvytran/top-five-ways-to-learn-data-structures-49bd",
-          "author": "Thuy Vy Tran",
-          "description": "Data Structure is a notable class that many Computer Sciences majors take in university. Learning this topic helps improve the way you store, organize and collect data in a given software or program. Also, many companies use data structures in their interview questions. I will present my top five ways to learn data structure. \nThere are many different channels dedicated to teaching data structure. When I was taking Data Structure, the top two youtube channels I heavily depended on was Michael's Sambol channel and mycodeschool channel. Sadly, both of the channels haven't been updated in years. But they are still useful to this day. \nMichael does a great job explaining many of the data structures in five or fewer minutes. Also, he goes over the summary of each topic in easy-to-understand det…",
-          "link": "https://dev.to/thuyvytran/top-five-ways-to-learn-data-structures-49bd",
-          "publishedOn": "2021-07-13T21:17:56.000Z",
-          "wordCount": 1004,
-          "title": "Top Five Ways to Learn Data Structures"
+          "id": "https://dev.to/robsonmuniz16/vertical-slider-javascript-kjl",
+          "author": "Robson Muniz",
+          "description": "Hey DEVs, in today’s episode we are going to build a Vertical Slider using JavaScript; basically, we have content on both sides and 2 buttons in the middle, once you click it one side goes up and another one goes down, but it brings into place the correct text and correct image; its a really cool look slide you can use any type of content.\n\n\n\n\n\n\n\nLive Version | Source Code 👀:\nhttps://bit.ly/3raRQqD\n📚Resources:\nhttps://www.pexels.com \nhttps://cdnjs.com/libraries/font-awesome",
+          "link": "https://dev.to/robsonmuniz16/vertical-slider-javascript-kjl",
+          "publishedOn": "2021-07-14T21:22:03.000Z",
+          "wordCount": 433,
+          "title": "🎬Vertical Slider | JavaScript✨"
         },
         {
-          "id": "https://dev.to/bhargavsakaria/install-firefox-on-linux-2hbm",
-          "author": "Bhargav Sakaria",
-          "description": "I have faced this issue that no article or no forum shows correct way to install firefox on debian based distros, or maybe I haven't found such article, but anyways I figured out myself.\nStep 1\nfirefox browser.\nStep 2\nStep 3\n/opt directory.\nsudo mv ~/Downloads/firefox /opt\n\nStep 4\n.desktop file in user's applications directory\ncd ~/.local/share/applications\n\nYou can name your firefox desktop file anything like I have installed firefox developer addition, so my file name is firefox-dev.desktop. But you can name it anything which is relevant.\ntouch firefox-dev.desktop\nnano firefox-dev.desktop\n\nInside this file my configuration is something like this:\n[Desktop Entry]\nEncoding=UTF-8\nVersion=1.0\nType=Application\nExec=/opt/firefox/firefox\nName=Firefox Developer Edition\nIcon=/opt/firefox/browser/chrome/icons/default/default128.png\nComment=Custom definition for Firefox Developer Edition\nTerminal=fasle\n\nNote:\nYou can see that location to execute firefox is in out /opt/firefox pointing to firefox executable file.\nIcon for out firefox will be found in given location, you can choose any set of icons, whichever suits your need.",
-          "link": "https://dev.to/bhargavsakaria/install-firefox-on-linux-2hbm",
-          "publishedOn": "2021-07-13T21:10:23.000Z",
-          "wordCount": 608,
-          "title": "Install Firefox on Linux"
-        },
-        {
-          "id": "https://dev.to/saran_chakravarthi/bracket-notation-vs-dot-notation-in-javascript-objects-1hpo",
-          "author": "Saran Chakravarthi",
-          "description": "Hello Devs, in this article, I will walk you through the differences between using dot notation and bracket notation in JavaScript objects.\nConsider the following object.\n\nlet animalsList = {\n  cow:{\n    legs: 4,\n    sound: \"moo\",\n  },\n  cat:{\n    legs: 4,\n    sound: \"meow\",\n  },\n};\n\n\nWe can use both dot and bracket notation to access the properties. Make sure that you enclose the key within quotes, when you use bracket notation.\n\nconsole.log(animalsList.cat); //{ legs: 4, sound: 'meow' }\nconsole.log(animalsList[\"cat\"]); //{ legs: 4, sound: 'meow' }\n\n\nAs you can see, dot notation has better readability, it is an advantage of using dot notation.\n\"So, if we can use both dot notation and bracket notation to access object properties, and dot notation has better readability, why do we even have bracket notation?\", you might ask.\nLet's say we have a function, and the key which we have to access is passed to the function as an argument.\n\nfunction myFun(animal){\n  console.log(animalsList.animal);\n}\n\nmyFun(\"cow\"); \n\n\nThe above code will print undefined. \nWhen we use dot notation, JavaScript searches for the key with the exact name we used after the dot( animal, in our case). Since the animalsList doesn't have a property called \"animal\", undefined is printed.\nLet's try bracket notation instead of dot notation.\n\nfunction myFun(animal){\n  console.log(animalsList[animal]);\n}\n\nmyFun(\"cow\");\n\n\nThe above code will work fine and print { legs: 4, sound: 'moo' }, as \"animal\" will be replaced with the respective argument which was passed during function call.\nTo summarize, use bracket notation when you want to access property using variable, otherwise stick with dot notation.\nI hope this article helped you. Happy coding!",
-          "link": "https://dev.to/saran_chakravarthi/bracket-notation-vs-dot-notation-in-javascript-objects-1hpo",
-          "publishedOn": "2021-07-13T20:38:09.000Z",
-          "wordCount": 630,
-          "title": "Bracket notation Vs dot notation in JavaScript objects"
-        },
-        {
-          "id": "https://dev.to/cleancodestudio/14-must-know-js-array-methods-in-8-minutes-38c9",
-          "author": "Clean Code Studio",
-          "description": "14 JS Array Methods (In 8 Minutes) Screencast\n\n\n\nlet stocks = [\n   { name: 'Apple', price: 321.85 },\n   { name: 'Tesla', price: 2471.04 },\n   { name: 'Disney', price: 118.77 },\n   { name: 'Google', price: 1434.87 },\n   { name: 'Netflix', price: 425.92 }\n]\n\nArray.filter\n\n\n\nThe filter() method creates a new array with all elements that pass the test implemented by the provided function.\nstocks.filter(stock => stock.price < 1000) \n/*-------------------------------------------\n | Array.filter\n *-------------------------------------------\n |  0: {name: \"Apple\", price: 321.85}\n |  1: {name: \"Disney\", price: 118.77}\n |  2: {name: \"Netflix\", price: 425.92}\n*/\n\nArray.map\n\n\n\nThe map() method creates a new array populated with the results of calling a provided function on every element in the calling…",
-          "link": "https://dev.to/cleancodestudio/14-must-know-js-array-methods-in-8-minutes-38c9",
-          "publishedOn": "2021-07-13T20:17:06.000Z",
-          "wordCount": 1391,
-          "title": "14 JavaScript Array Methods (In 8 Minutes)"
-        },
-        {
-          "id": "https://dev.to/dbhatta/getting-started-with-golang-part-i-3gg6",
-          "author": "Debabrata Bhattacharya",
-          "description": "This article is about getting started with golang!\nI started learning go a few months ago, because I wanted to write fast, safe, and performant applications. I began it by reading through An Introduction to Programming in Go by Caleb Doxsey. I'm a third of the way through, and I decided that I wanted to share the joy of learning go with everyone. Without furthe ado, let's get started!\nGolang, often shortened to go, is a programming language. It is used to write web servers, client applications, system programs, pretty much anything. It is a great programming language, suited to writing good code effortlessly.\nGoogle, Uber, Twitch, and others.\nThis article describes it perfectly: https://stackoverflow.blog/2020/11/02/go-golang-learn-fast-programming-languages/ at StackOverflow.\nIn this part…",
-          "link": "https://dev.to/dbhatta/getting-started-with-golang-part-i-3gg6",
-          "publishedOn": "2021-07-13T19:44:53.000Z",
-          "wordCount": 1079,
-          "title": "Getting Started with Golang Part I"
-        },
-        {
-          "id": "https://dev.to/autonomousapps/tools-of-the-build-trade-the-making-of-a-tiny-kotlin-app-3eba",
-          "author": "Tony Robalik",
-          "description": "Sometimes you need to solve a problem, and you really don't feel like doing it with bash. Recently I took it upon myself to replace an expensive-but-intelligent Gradle task with a cheap-but-dumb JVM app.1 The Gradle task took an average of 2min per build, and my team cumulatively spent 43 hours over the past month waiting for it to complete. The Kotlin app that replaces it takes about 300ms to complete and I project we'll spend the next month cumulatively waiting on it less than 8 minutes. Since time is money, I've estimated this might save us $100,000 over the next 12 months.\nThis is not that story.2\nIt is instead the story of how to build such a thing with Gradle.  We'll learn how to use the application and distribution plugins to build the app and bundle a distribution; how to use the s…",
-          "link": "https://dev.to/autonomousapps/tools-of-the-build-trade-the-making-of-a-tiny-kotlin-app-3eba",
-          "publishedOn": "2021-07-13T19:42:00.000Z",
-          "wordCount": 2786,
-          "title": "Tools of the build trade: The making of a tiny Kotlin app"
-        },
-        {
-          "id": "https://dev.to/anderrv/car-price-prediction-in-python-3j1m",
-          "author": "Ander Rodriguez",
-          "description": "Last week, we did some  Exploratory Data Analysis to a car dataset . After working with the dataset and gathering many insights, we'll focus on price prediction today.\nThe dataset comprises cars for sale in Germany , the registration year being between 2011 and 2021. So we can assume that it is an accurate representation of market price nowadays.\nFor the code to work, you will need  python3 installed . Some systems have it pre-installed. After that, install all the necessary libraries by running pip install.\n# last week\npip install pandas matplotlib squarify seaborn\n# new libs\npip install scipy sklearn catboost statsmodels\n\nLet's say we want to predict car prices based on attributes. For that, we will train a model. Let's start by replacing registration year with age and removing make and …",
-          "link": "https://dev.to/anderrv/car-price-prediction-in-python-3j1m",
-          "publishedOn": "2021-07-13T19:36:54.000Z",
-          "wordCount": 1981,
-          "title": "Car Price Prediction in Python"
-        },
-        {
-          "id": "https://dev.to/jmfayard/how-to-write-a-command-line-tool-with-kotlin-multiplatform-45g2",
-          "author": "Jean-Michel Fayard 🇫🇷🇩🇪🇬🇧🇪🇸🇨🇴",
-          "description": "Being able to write your own command-line tools is a great skill to have: automate all the things!\nUnfortunately, writing CLI tools is still most often done with Bash. My strong opinion - weakly held - is that there are only two good kinds of Bash scripts:\nthe ones that are five lines long or less\nthe ones that are written and maintained by others\nFortunately, retiring Bash is pretty simple: you just have to use your favorite programming language instead!\nI've played around with Kotlin Multiplatform and not only built a cool CLI tool with it, but I've packaged it as a template project that you can leverage to get started faster!\n / \n        kotlin-cli-starter\n      \n    \nA starter project to build command-line tools in Kotlin Multiplatform\nContains a re-implementation of a real world CLI t…",
-          "link": "https://dev.to/jmfayard/how-to-write-a-command-line-tool-with-kotlin-multiplatform-45g2",
-          "publishedOn": "2021-07-13T19:36:19.000Z",
-          "wordCount": 1951,
-          "title": "How to Write a Command-Line Tool with Kotlin Multiplatform"
+          "id": "https://dev.to/iamrahul/error-404-page-not-found-5033",
+          "author": "Rahul Kumar",
+          "description": "When you click on a link, but instead of arriving to the site you want, an error message appears, stating that the page you requested is unavailable. It should be something along the lines of '404 Not Found.'\nWhen website content is deleted or relocated to another URL, an error 404 message is commonly shown.\nThe 404 status code is the most common HTTP status code.\nA server answer to a browser's request is an HTTP status code. When you visit a website, your browser makes a request to the server, which the server responds to with a three-digit code called the HTTP status code.\nThese status codes represent a communication between your browser and the server over the Internet. They convey if things are fine😊, touch-and-go👍, or if something is wrong😕 between them.\n\nEach three-digit status code starts with one of five integers, ranging from 1 to 5, and is written as 1xx or 5xx to signify status codes in that range. For example, 200, 301, 404, 500, and so on...\n100–199 - Informational responses: The server is thinking through the request.\n200–299  - Successful responses: The request was successfully completed and the server gave the browser the expected response.\n300–399  - Redirection: You got redirected somewhere else.\n400–499  - Client errors: Page not found. The site or page couldn’t be reached. \n500–599  - Server errors:  A valid request was made by the client but the server failed to complete the request.\n\nHTTP Status Code 200 - OK\nHTTP Status Code 301 - Permanent Redirect\nHTTP Status Code 500 - Internal Server Error\nHTTP 404 errors can decreases a website’s ranking and reputation.\n👉Read more here (RFC 7231)\nGetting bored😑\nhttps://http.cat/[status_code]\nhttps://http.cat/404\nhttps://http.cat/450\nhttps://http.cat/500",
+          "link": "https://dev.to/iamrahul/error-404-page-not-found-5033",
+          "publishedOn": "2021-07-14T21:16:57.000Z",
+          "wordCount": 857,
+          "title": "Error 404 : Page not Found"
         }
       ]
     },
@@ -775,274 +761,274 @@
       "siteUrl": "https://news.ycombinator.com/",
       "articles": [
         {
-          "id": "https://twitter.com/JStoteraux/status/1413326562821246978",
+          "id": "https://www.kuriositas.com/2013/09/the-art-of-romanian-haystack.html",
           "author": null,
           "description": "Comments",
-          "link": "https://twitter.com/JStoteraux/status/1413326562821246978",
-          "publishedOn": "2021-07-13T23:45:06.000Z",
-          "wordCount": 196,
-          "title": "Of 55 students in my class at Columbia’s Film program, 4 made a career out of it"
-        },
-        {
-          "id": "https://www.zsa.io/planck/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.zsa.io/planck/",
-          "publishedOn": "2021-07-13T22:50:42.000Z",
-          "wordCount": 1744,
-          "title": "ZSA Planck EZ: A Powerful, Backlit, Open-Source, 40% Mechanical Keyboard"
-        },
-        {
-          "id": "https://oilprice.com/Energy/Energy-General/Huge-Dividend-Cripples-Worlds-Largest-Oil-Company.html",
-          "author": null,
-          "description": "Comments",
-          "link": "https://oilprice.com/Energy/Energy-General/Huge-Dividend-Cripples-Worlds-Largest-Oil-Company.html",
-          "publishedOn": "2021-07-13T22:50:24.000Z",
-          "wordCount": 3238,
-          "title": "Dividend Cripples Saudi Aramco"
-        },
-        {
-          "id": "https://github.com/eeeps/exif-intrinsic-sizing-explainer",
-          "author": null,
-          "description": "Comments",
-          "link": "https://github.com/eeeps/exif-intrinsic-sizing-explainer",
-          "publishedOn": "2021-07-13T22:39:59.000Z",
-          "wordCount": 1808,
-          "title": "EXIF-based intrinsic image sizing explainer"
-        },
-        {
-          "id": "https://www.bbc.co.uk/news/business-57760993",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.bbc.co.uk/news/business-57760993",
-          "publishedOn": "2021-07-13T21:25:28.000Z",
-          "wordCount": 2023,
-          "title": "Carlos Ghosn: How I escaped Japan in a box"
-        },
-        {
-          "id": "https://www.mozartdata.com/uiux-designer",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.mozartdata.com/uiux-designer",
-          "publishedOn": "2021-07-13T21:00:25.000Z",
-          "wordCount": 356,
-          "title": "Mozart Data (YC S20) Is Hiring a UI/UX Designer"
-        },
-        {
-          "id": "https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-overview/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://blog.rabbitmq.com/posts/2021/07/rabbitmq-streams-overview/",
-          "publishedOn": "2021-07-13T20:28:15.000Z",
-          "wordCount": 766,
-          "title": "RabbitMQ Streams Overview"
-        },
-        {
-          "id": "https://www.protocol.com/policy/w3c-privacy-war",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.protocol.com/policy/w3c-privacy-war",
-          "publishedOn": "2021-07-13T19:54:18.000Z",
-          "wordCount": 5579,
-          "title": "A privacy war is raging inside the W3C"
-        },
-        {
-          "id": "https://wickedchicken.github.io/post/macos-nix-setup/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://wickedchicken.github.io/post/macos-nix-setup/",
-          "publishedOn": "2021-07-13T19:34:46.000Z",
-          "wordCount": 1564,
-          "title": "macOS Nix setup: an alternative to Homebrew (2020)"
-        },
-        {
-          "id": "https://zwischenzugs.com/2021/07/12/if-you-want-to-transform-it-start-with-finance/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://zwischenzugs.com/2021/07/12/if-you-want-to-transform-it-start-with-finance/",
-          "publishedOn": "2021-07-13T19:32:26.000Z",
-          "wordCount": 5130,
-          "title": "If you want to transform IT, start with finance"
-        },
-        {
-          "id": "https://www.bbc.co.uk/programmes/w3ct1pqm",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.bbc.co.uk/programmes/w3ct1pqm",
-          "publishedOn": "2021-07-13T19:06:50.000Z",
-          "wordCount": 572,
-          "title": "Why is standing more tiring than walking? [audio]"
-        },
-        {
-          "id": "https://ai.googleblog.com/2021/07/reducing-computational-cost-of-deep.html",
-          "author": null,
-          "description": "Comments",
-          "link": "https://ai.googleblog.com/2021/07/reducing-computational-cost-of-deep.html",
-          "publishedOn": "2021-07-13T18:15:52.000Z",
-          "wordCount": 2146,
-          "title": "Reducing the Computational Cost of Deep Reinforcement Learning Research"
-        },
-        {
-          "id": "https://www.vantage.sh/blog/vantage-launches-aws-cost-saving-recommendations",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.vantage.sh/blog/vantage-launches-aws-cost-saving-recommendations",
-          "publishedOn": "2021-07-13T17:43:14.000Z",
-          "wordCount": 1360,
-          "title": "AWS Cost Saving Recommendations"
-        },
-        {
-          "id": "https://earthly.dev/blog/python-timsort-merge/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://earthly.dev/blog/python-timsort-merge/",
-          "publishedOn": "2021-07-13T16:46:52.000Z",
-          "wordCount": 1556,
-          "title": "Beating TimSort at Merging"
-        },
-        {
-          "id": "https://blog.syncinc.so/events-not-webhooks",
-          "author": null,
-          "description": "Comments",
-          "link": "https://blog.syncinc.so/events-not-webhooks",
-          "publishedOn": "2021-07-13T16:41:38.000Z",
-          "wordCount": 1480,
-          "title": "Give me /events, not webhooks"
-        },
-        {
-          "id": "https://news.ycombinator.com/item?id=27823005",
-          "author": null,
-          "description": "Comments",
-          "link": "https://news.ycombinator.com/item?id=27823005",
-          "publishedOn": "2021-07-13T16:31:36.000Z",
-          "wordCount": 2988,
-          "title": "Launch HN: Café (YC S21) – Find the best days to go to the office"
-        },
-        {
-          "id": "https://www.xprize.org/prizes/elonmusk",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.xprize.org/prizes/elonmusk",
-          "publishedOn": "2021-07-13T16:08:14.000Z",
-          "wordCount": 1107,
-          "title": "$100M xPrize for Carbon Removal"
-        },
-        {
-          "id": "https://livingafi.com/2015/03/09/building-a-vision-of-life-without-work/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://livingafi.com/2015/03/09/building-a-vision-of-life-without-work/",
-          "publishedOn": "2021-07-13T14:03:23.000Z",
-          "wordCount": 5800,
-          "title": "Building a vision of life without work (2015)"
-        },
-        {
-          "id": "https://www.mozilla.org/en-US/firefox/90.0/releasenotes/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.mozilla.org/en-US/firefox/90.0/releasenotes/",
-          "publishedOn": "2021-07-13T13:45:43.000Z",
-          "wordCount": 1032,
-          "title": "Firefox 90"
-        },
-        {
-          "id": "https://sheepandram.itch.io/pfs2021",
-          "author": null,
-          "description": "Comments",
-          "link": "https://sheepandram.itch.io/pfs2021",
-          "publishedOn": "2021-07-13T12:02:35.000Z",
-          "wordCount": 722,
-          "title": "Plane Food Simulator 2021"
-        },
-        {
-          "id": "https://github.com/edmundhung/maildog",
-          "author": null,
-          "description": "Comments",
-          "link": "https://github.com/edmundhung/maildog",
-          "publishedOn": "2021-07-13T11:48:32.000Z",
-          "wordCount": 1500,
-          "title": "Show HN: maildog - Hosting email forwarding service on AWS with GitHub Actions"
-        },
-        {
-          "id": "https://www.mackichan.com/index.html?techtalk/407.htm~mainFrame",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.mackichan.com/index.html?techtalk/407.htm~mainFrame",
-          "publishedOn": "2021-07-13T11:33:33.000Z",
-          "wordCount": 363,
-          "title": "MacKichan Software, maker of Scientific Word, has gone out of business"
-        },
-        {
-          "id": "https://heron.incubator.apache.org/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://heron.incubator.apache.org/",
-          "publishedOn": "2021-07-13T11:16:03.000Z",
-          "wordCount": 308,
-          "title": "Apache Heron: A realtime, distributed, fault-tolerant stream processing engine"
-        },
-        {
-          "id": "https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950",
-          "author": null,
-          "description": "Comments",
-          "link": "https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950",
-          "publishedOn": "2021-07-13T10:30:50.000Z",
-          "wordCount": 1168,
-          "title": "The worst volume control UI in the world"
-        },
-        {
-          "id": "https://www.askamathematician.com/2020/12/q-is-%cf%80-the-same-in-every-universe/",
-          "author": null,
-          "description": "Comments",
-          "link": "https://www.askamathematician.com/2020/12/q-is-%cf%80-the-same-in-every-universe/",
-          "publishedOn": "2021-07-13T09:25:36.000Z",
-          "wordCount": 13155,
-          "title": "Is π the Same in Every Universe?"
-        },
-        {
-          "id": "https://literaryreview.co.uk/night-of-the-guillotine",
-          "author": null,
-          "description": "Comments",
-          "link": "https://literaryreview.co.uk/night-of-the-guillotine",
-          "publishedOn": "2021-07-13T04:37:28.000Z",
+          "link": "https://www.kuriositas.com/2013/09/the-art-of-romanian-haystack.html",
+          "publishedOn": "2021-07-14T22:19:47.000Z",
           "wordCount": 2106,
-          "title": "Night of the Guillotine: The Fall of Robespierre"
+          "title": "The Art of the Romanian Haystack"
         },
         {
-          "id": "https://martin.baillie.id/wrote/emacs-tramp-over-aws-ssm-apis/",
+          "id": "https://www.cnbc.com/2021/07/14/gm-warns-some-bolt-ev-owners-dont-park-them-inside-or-charge-them-unattended-overnight.html",
           "author": null,
           "description": "Comments",
-          "link": "https://martin.baillie.id/wrote/emacs-tramp-over-aws-ssm-apis/",
-          "publishedOn": "2021-07-12T09:25:03.000Z",
-          "wordCount": 859,
-          "title": "Emacs Tramp over AWS SSM APIs"
+          "link": "https://www.cnbc.com/2021/07/14/gm-warns-some-bolt-ev-owners-dont-park-them-inside-or-charge-them-unattended-overnight.html",
+          "publishedOn": "2021-07-14T21:53:29.000Z",
+          "wordCount": 772,
+          "title": "GM warns some Bolt EV owners: Don’t park them inside or charge them unattended"
         },
         {
-          "id": "http://charap.co/scalable-but-wasteful-or-why-fast-replication-protocols-are-actually-slow/",
+          "id": "https://www.notion.so/lowkeygg/Lowkey-Job-Board-39a26c1b4a00493fadc26249185df748",
           "author": null,
           "description": "Comments",
-          "link": "http://charap.co/scalable-but-wasteful-or-why-fast-replication-protocols-are-actually-slow/",
-          "publishedOn": "2021-07-12T06:20:06.000Z",
-          "wordCount": 1644,
-          "title": "Scalable but Wasteful, or why fast replication protocols are slow"
+          "link": "https://www.notion.so/lowkeygg/Lowkey-Job-Board-39a26c1b4a00493fadc26249185df748",
+          "publishedOn": "2021-07-14T21:00:07.000Z",
+          "wordCount": 12,
+          "title": "Lowkey (YC S18) is hiring a senior front-end engineer who likes games"
         },
         {
-          "id": "https://github.com/DennisMitchell/jellylanguage",
+          "id": "https://arstechnica.com/gadgets/2021/07/solarwinds-hackers-used-an-ios-0-day-to-steal-google-and-microsoft-credentials/",
           "author": null,
           "description": "Comments",
-          "link": "https://github.com/DennisMitchell/jellylanguage",
-          "publishedOn": "2021-07-11T11:43:08.000Z",
-          "wordCount": 723,
-          "title": "Jelly"
+          "link": "https://arstechnica.com/gadgets/2021/07/solarwinds-hackers-used-an-ios-0-day-to-steal-google-and-microsoft-credentials/",
+          "publishedOn": "2021-07-14T20:22:58.000Z",
+          "wordCount": 1200,
+          "title": "iOS zero-day let SolarWinds hackers compromise fully updated iPhones"
         },
         {
-          "id": "https://raynorelyp.medium.com/good-and-bad-monitoring-9e1370d808c2",
+          "id": "http://blogs.harvard.edu/doc/2021/06/24/a-storage-crisis/",
           "author": null,
           "description": "Comments",
-          "link": "https://raynorelyp.medium.com/good-and-bad-monitoring-9e1370d808c2",
-          "publishedOn": "2021-07-11T11:14:40.000Z",
-          "wordCount": 1241,
-          "title": "Good and Bad Monitoring"
+          "link": "http://blogs.harvard.edu/doc/2021/06/24/a-storage-crisis/",
+          "publishedOn": "2021-07-14T19:49:01.000Z",
+          "wordCount": 1014,
+          "title": "A Storage Crisis"
+        },
+        {
+          "id": "https://www.macrumors.com/2021/07/14/macos-monterey-safari-redesign/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.macrumors.com/2021/07/14/macos-monterey-safari-redesign/",
+          "publishedOn": "2021-07-14T19:04:31.000Z",
+          "wordCount": 2118,
+          "title": "macOS Monterey Beta 3: Apple Redesigns Safari Tab Interface Following Complaints"
+        },
+        {
+          "id": "https://www.mediaite.com/news/germany-fines-youtube-six-figures-for-removing-video-of-anti-lockdown-protest/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.mediaite.com/news/germany-fines-youtube-six-figures-for-removing-video-of-anti-lockdown-protest/",
+          "publishedOn": "2021-07-14T18:35:06.000Z",
+          "wordCount": 945,
+          "title": "Germany fines YouTube for removing video of anti-lockdown protest"
+        },
+        {
+          "id": "https://lookingglassfactory.com/8k",
+          "author": null,
+          "description": "Comments",
+          "link": "https://lookingglassfactory.com/8k",
+          "publishedOn": "2021-07-14T17:54:24.000Z",
+          "wordCount": 994,
+          "title": "High-resolution holographic interface [video]"
+        },
+        {
+          "id": "https://blog.twitter.com/en_us/topics/product/2021/goodbye-fleets",
+          "author": null,
+          "description": "Comments",
+          "link": "https://blog.twitter.com/en_us/topics/product/2021/goodbye-fleets",
+          "publishedOn": "2021-07-14T17:35:47.000Z",
+          "wordCount": 690,
+          "title": "Goodbye, Fleets"
+        },
+        {
+          "id": "https://blog.chromium.org/2021/07/increasing-https-adoption.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://blog.chromium.org/2021/07/increasing-https-adoption.html",
+          "publishedOn": "2021-07-14T17:12:51.000Z",
+          "wordCount": 1585,
+          "title": "Increasing HTTPS Adoption"
+        },
+        {
+          "id": "https://cloud.blender.org/blog/the-blender-studio-pipeline/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://cloud.blender.org/blog/the-blender-studio-pipeline/",
+          "publishedOn": "2021-07-14T17:11:45.000Z",
+          "wordCount": 1053,
+          "title": "The Blender Studio Pipeline"
+        },
+        {
+          "id": "https://www.nytimes.com/2021/07/14/technology/facebook-data.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.nytimes.com/2021/07/14/technology/facebook-data.html",
+          "publishedOn": "2021-07-14T15:38:57.000Z",
+          "wordCount": 2700,
+          "title": "Inside Facebook's Data Wars"
+        },
+        {
+          "id": "https://www.microsoft.com/en-us/microsoft-365/blog/2021/07/14/introducing-a-new-era-of-hybrid-personal-computing-the-windows-365-cloud-pc/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2021/07/14/introducing-a-new-era-of-hybrid-personal-computing-the-windows-365-cloud-pc/",
+          "publishedOn": "2021-07-14T15:16:46.000Z",
+          "wordCount": 2351,
+          "title": "Windows 365 Cloud PC"
+        },
+        {
+          "id": "https://bair.berkeley.edu/blog/2021/07/14/mappo/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://bair.berkeley.edu/blog/2021/07/14/mappo/",
+          "publishedOn": "2021-07-14T15:13:53.000Z",
+          "wordCount": 1606,
+          "title": "The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games"
+        },
+        {
+          "id": "https://www.theatlantic.com/family/archive/2021/01/why-parents-and-kids-get-estranged/617612/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.theatlantic.com/family/archive/2021/01/why-parents-and-kids-get-estranged/617612/",
+          "publishedOn": "2021-07-14T14:08:05.000Z",
+          "wordCount": 2466,
+          "title": "A shift in American family values is fueling estrangement"
+        },
+        {
+          "id": "https://typesense.org/blog/the-unreasonable-effectiveness-of-just-showing-up-everyday/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://typesense.org/blog/the-unreasonable-effectiveness-of-just-showing-up-everyday/",
+          "publishedOn": "2021-07-14T13:59:35.000Z",
+          "wordCount": 732,
+          "title": "The unreasonable effectiveness of just showing up everyday"
+        },
+        {
+          "id": "https://monodraw.helftone.com/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://monodraw.helftone.com/",
+          "publishedOn": "2021-07-14T13:44:42.000Z",
+          "wordCount": 1210,
+          "title": "Monodraw: ASCII art editor for the Mac"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=yY96hTb8WgI",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.youtube.com/watch?v=yY96hTb8WgI",
+          "publishedOn": "2021-07-14T13:22:33.000Z",
+          "wordCount": null,
+          "title": "Norman doors are everywhere (2016) [video]"
+        },
+        {
+          "id": "https://github.com/diekmann/wasm-fizzbuzz",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/diekmann/wasm-fizzbuzz",
+          "publishedOn": "2021-07-14T12:00:02.000Z",
+          "wordCount": 662,
+          "title": "WebAssembly from Scratch: From FizzBuzz to DooM"
+        },
+        {
+          "id": "https://github.com/ivanceras/svgbob",
+          "author": null,
+          "description": "Comments",
+          "link": "https://github.com/ivanceras/svgbob",
+          "publishedOn": "2021-07-14T11:12:05.000Z",
+          "wordCount": 577,
+          "title": "Svgbob – Create a graphical representation of text diagrams"
+        },
+        {
+          "id": "https://strdr4605.github.io/how-to-win-a-hackathon",
+          "author": null,
+          "description": "Comments",
+          "link": "https://strdr4605.github.io/how-to-win-a-hackathon",
+          "publishedOn": "2021-07-14T09:46:18.000Z",
+          "wordCount": 1308,
+          "title": "How to win a hackathon without coming in first place"
+        },
+        {
+          "id": "https://news.ycombinator.com/item?id=27830978",
+          "author": null,
+          "description": "Comments",
+          "link": "https://news.ycombinator.com/item?id=27830978",
+          "publishedOn": "2021-07-14T08:47:55.000Z",
+          "wordCount": 2841,
+          "title": "Launch HN: Onfolk (YC S21) – Modern HR and Payroll in One Place (For the UK)"
+        },
+        {
+          "id": "https://www.ana.press/photo/548339/دنیای-مداد-رنگی",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.ana.press/photo/548339/دنیای-مداد-رنگی",
+          "publishedOn": "2021-07-14T05:28:44.000Z",
+          "wordCount": null,
+          "title": "Mr. Rafieh’s Tehran Pencil Shop"
+        },
+        {
+          "id": "https://www.polygon.com/22573590/sega-key-master-arcade-game-class-action-lawsuit",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.polygon.com/22573590/sega-key-master-arcade-game-class-action-lawsuit",
+          "publishedOn": "2021-07-14T05:08:36.000Z",
+          "wordCount": 1370,
+          "title": "Sega sued for ‘rigged’ arcade machine"
+        },
+        {
+          "id": "https://newrepublic.com/article/162964/failures-made-ian-fleming-james-bond-biography-review",
+          "author": null,
+          "description": "Comments",
+          "link": "https://newrepublic.com/article/162964/failures-made-ian-fleming-james-bond-biography-review",
+          "publishedOn": "2021-07-14T04:25:40.000Z",
+          "wordCount": 3670,
+          "title": "The Failures That Made Ian Fleming"
+        },
+        {
+          "id": "https://martin.kleppmann.com/2021/07/02/debs-keynote-thinking-in-events.html",
+          "author": null,
+          "description": "Comments",
+          "link": "https://martin.kleppmann.com/2021/07/02/debs-keynote-thinking-in-events.html",
+          "publishedOn": "2021-07-13T18:37:52.000Z",
+          "wordCount": 430,
+          "title": "Thinking in Events: From Databases to Distributed Collaboration Software [video]"
+        },
+        {
+          "id": "https://technicshistory.com/2021/07/13/the-triumvirate-coal-iron-and-steam/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://technicshistory.com/2021/07/13/the-triumvirate-coal-iron-and-steam/",
+          "publishedOn": "2021-07-13T17:28:25.000Z",
+          "wordCount": 4615,
+          "title": "The Triumvirate: Coal, Iron, and Steam"
+        },
+        {
+          "id": "https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/",
+          "publishedOn": "2021-07-13T11:43:24.000Z",
+          "wordCount": 3260,
+          "title": "Mike Levin on using bioelectricity to study how cells form (2019)"
+        },
+        {
+          "id": "https://sovereign-individual.xyz/posts/becoming-indistractable/",
+          "author": null,
+          "description": "Comments",
+          "link": "https://sovereign-individual.xyz/posts/becoming-indistractable/",
+          "publishedOn": "2021-07-13T11:28:13.000Z",
+          "wordCount": 2850,
+          "title": "Optimizing inputs and becoming indistractable"
+        },
+        {
+          "id": "https://www.economist.com/books-and-arts/2021/07/10/the-vital-art-of-talking-to-strangers",
+          "author": null,
+          "description": "Comments",
+          "link": "https://www.economist.com/books-and-arts/2021/07/10/the-vital-art-of-talking-to-strangers",
+          "publishedOn": "2021-07-12T10:54:45.000Z",
+          "wordCount": 1337,
+          "title": "The vital art of talking to strangers"
         }
       ]
     },
@@ -1052,12 +1038,21 @@
       "siteUrl": "https://lemire.me/blog",
       "articles": [
         {
+          "id": "https://lemire.me/blog/?p=19380",
+          "author": "Daniel Lemire",
+          "description": "When designing an index, a database or a search engine, you frequently need to compute the union of two sorted sets. When I am not using fancy low-level instructions, I have most commonly computed the union of two sorted sets using the following approach: v1 = first value in input 1 v2 = first value … Continue reading Faster sorted array unions by reducing branches",
+          "link": "https://lemire.me/blog/2021/07/14/faster-sorted-array-unions-by-reducing-branches/",
+          "publishedOn": "2021-07-14T16:40:02.000Z",
+          "wordCount": 2331,
+          "title": "Faster sorted array unions by reducing branches"
+        },
+        {
           "id": "https://lemire.me/blog/?p=19369",
           "author": "Daniel Lemire",
           "description": "We use CRISPR, a state-of-the-art gene editing technique, to edit the genes of live human patients in a clinical trials. A clinical trial has begun regarding an HIV vaccine. If you choose to forgo meat to fight climate change, you may lower your individual’s lifetime warming contribution by 2 to 4%. Age-related testosterone loss may … Continue reading Science and Technology links (July 10th 2021)",
           "link": "https://lemire.me/blog/2021/07/10/science-and-technology-links-july-10th-2021/",
           "publishedOn": "2021-07-10T16:00:13.000Z",
-          "wordCount": 1528,
+          "wordCount": 1540,
           "title": "Science and Technology links (July 10th 2021)"
         },
         {
@@ -1077,15 +1072,6 @@
           "publishedOn": "2021-06-26T16:56:44.000Z",
           "wordCount": 1870,
           "title": "Science and Technology links (June 26th 2021)"
-        },
-        {
-          "id": "https://lemire.me/blog/?p=19336",
-          "author": "Daniel Lemire",
-          "description": "Lev Reyzin says that working too long on a problem might be unproductive: I, personally, have diminishing (or negative?) returns to my creative work as I explicitly work on a problem past some amount of time. I often have insights coming to me out of nowhere while I’m relaxing or enjoying hobbies on nights or … Continue reading How long should you work on a problem ?",
-          "link": "https://lemire.me/blog/2021/06/14/how-long-should-you-work-on-a-problem/",
-          "publishedOn": "2021-06-14T21:09:44.000Z",
-          "wordCount": 1857,
-          "title": "How long should you work on a problem ?"
         }
       ]
     },
@@ -1095,12 +1081,21 @@
       "siteUrl": "https://fourminutebooks.com",
       "articles": [
         {
+          "id": "https://fourminutebooks.com/?p=6593",
+          "author": "Luke Rowley",
+          "description": "1-Sentence-Summary: Make Money Trading Options teaches the art of trading stock options, including the pitfalls to watch out for and how to use simple tools like the Test Trading Strategy and virtual trading tools to find stocks that are most likely to be profitable, so you don’t have to just guess where to invest. Read […]\nThe post Make Money Trading Options Summary appeared first on Four Minute Books.",
+          "link": "https://fourminutebooks.com/make-money-trading-options-summary/?utm_source=rss&utm_medium=rss&utm_campaign=make-money-trading-options-summary",
+          "publishedOn": "2021-07-14T12:00:40.000Z",
+          "wordCount": 1816,
+          "title": "Make Money Trading Options Summary"
+        },
+        {
           "id": "https://fourminutebooks.com/?p=6592",
           "author": "Luke Rowley",
           "description": "1-Sentence-Summary: Journey Of Awakening explains the basics of meditation using ideas from multiple spiritual sources, including how to avoid the mental traps that make it difficult so you can practice frequently and make mindfulness, and the many benefits that come with it, part of your daily life. Read in: 4 minutes Favorite quote from the […]\nThe post Journey Of Awakening Summary appeared first on Four Minute Books.",
           "link": "https://fourminutebooks.com/journey-of-awakening-summary/?utm_source=rss&utm_medium=rss&utm_campaign=journey-of-awakening-summary",
           "publishedOn": "2021-07-13T12:00:58.000Z",
-          "wordCount": 1861,
+          "wordCount": 1865,
           "title": "Journey Of Awakening Summary"
         },
         {
@@ -1174,15 +1169,6 @@
           "publishedOn": "2021-07-01T12:00:04.000Z",
           "wordCount": 1797,
           "title": "What Happened Summary"
-        },
-        {
-          "id": "https://fourminutebooks.com/?p=6516",
-          "author": "Luke Rowley",
-          "description": "1-Sentence-Summary: Lives Of The Stoics is Ryan Holiday’s latest book, in which he and co-author Stephen Hansel take a deep dive into the experiences and beliefs of some of the earliest philosophers and followers of stoic virtues like justice, courage, and temperance. Read in: 4 minutes Favorite quote from the author: The art of Stoicism […]\nThe post Lives Of The Stoics Summary appeared first on Four Minute Books.",
-          "link": "https://fourminutebooks.com/lives-of-the-stoics-summary/?utm_source=rss&utm_medium=rss&utm_campaign=lives-of-the-stoics-summary",
-          "publishedOn": "2021-06-30T12:00:17.000Z",
-          "wordCount": 1660,
-          "title": "Lives Of The Stoics Summary"
         }
       ]
     },
