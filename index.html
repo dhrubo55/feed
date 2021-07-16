@@ -16,7 +16,7 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-15">2021-07-15</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-07-16">2021-07-16</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
@@ -24,276 +24,758 @@
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Dependency Inversion Principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/dependency-inversion-principle-13je">
+                <summary class="article-expander__title">5 useful Input Attributes</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/5-useful-input-attributes-1b64">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
-                    <span>Dependency Inversion Principle (DIP for short) states:
-One should depend upon abstractions and their concrete implementation.
-The advantage of Dependency Inversion is that the classes do not need to know about the concrete implementation, just its abstraction.
-public class UserFileRepository
-{
-    void SaveUser(User user);
-}
+                    <span>Hi,  this #day-33,  we are going to discuss 5 useful input attributes.
+this attribute is almost used with a title attribute that describes the input&#x27;s pattern, its role is to specify a valid JavaScript regular expression that the input field&#x27;s value is checked against when the form is submitted. It works with the following input types: (text, email, tel, password, search, url, date).
+more details
 
-public class UserService
-{
-    public void CreateUser(User user)
-    {
-        UserFileRepository repository &#x3D; new UserFileRepository();
-        repository.SaveUser(user);
-    }
-}
+    
+    
 
-The code above is totally fine, but it does not respect the Dependency Inversion Principle. The User class know about the concrete implementation of the UserFileRepository, making it too dependent, if anything needs to be changed in UserFileRepository, the UserService class will need to be …</span>
+
+Output:
+
+maxlength is an input attribute that specifies the maximum length of characters allowed in an input field. And when the length of the input&#x27;s value is equal to the maxlength, the …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-15">2021-07-15</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Get a Pixel-Perfect, Linearly Scaled UI</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-to-get-a-pixel-perfect-linearly-scaled-ui/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Dynamically scaling CSS values based on the viewport width is hardly a new topic. You can find plenty of in-depth coverage right here on CSS-Tricks in articles like this one or this one.
+Most of those examples, though, use …
+The post How to Get a Pixel-Perfect, Linearly Scaled UI appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">🎉 Introducing Spottr - Your Spotify Stats Year-Round</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/spiderpig86/introducing-spottr-your-spotify-stats-year-round-o6k">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>As a long-time Spotify user, I love the end-of-year stats that Spotify surfaces each year. If you’re like me, you probably hate waiting till the end of each year just to see your top songs, artists, and genres.
+This is why I developed Spottr, a progressive web app that satisfies that curiosity!
+
+Spottr is a PWA developed to surface your Spotify listening habits year-round rather than at the end of each year.
+The first main reason as stated above was the burning desire I had to know about how my listening habits have changed over time.
+The second reason was to rewrite this project again from scratch using Angular 10, Tailwind CSS, and push my design and front-end development skills. My first iteration was started back in 2018 with Angular 6, but I scrapped that since the project was not pla…</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Interface Segregation Principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/interface-segregation-principle-898">
+                <summary class="article-expander__title">How I wrote a Brain-Computer Interface Game with 0 knowledge - PsyBreaker</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/oldmane13/how-i-wrote-a-brain-computer-interface-game-with-0-knowledge-psybreaker-5f3c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>I&#x27;ve been wondering for a while about how to start this article, but I think I&#x27;ll just jump into it.
+Unity - the budding game developer&#x27;s favorite tool
+Muse Headband 2014 - a headband that people normally use to meditate, together with the Muse App
+MuseLab - software that acted as a data middleman between the headband and unity
+Terminal of choice - I used iTerm. I like iTerm.
+Now, I&#x27;ll let you in on something, I had no clue how I was gonna pull this off. I initially wanted to just make a simple game, but my tutor said 
+It was not.
+Muse had very little support (at the time) for connecting the headband to neither PC or Mac. The only thing that Muse offered me was their API (MuseLab) that helps you visualise your brainwaves and send the data further on to a set IP through UDP packets, which, …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Got Bots?: A Weekly Bots Series with the Microsoft Reactor</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/azure/got-bots-a-weekly-bots-series-with-the-microsoft-reactor-2b2h">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
-                    <span>The Interface Segregation Principle (ISP) states:
-A client should not implement interfaces that are not necessary for the application.
-In other words, it&#x27;s preferably that instead of one big interface, the developer creates smaller more manageable interfaces.
-Let&#x27;s say we&#x27;re tasked to create a game about robots, at first, we design our interface:
-public interface IRobot
-{
-    string Name { get; set; }
-    void Walk();
-    void Fly();
-    void Attack();
-}
-
-Perfect! We created our contract for what makes a robot... that violates the Interface Segregation Principle, because not all robots can Walk, Fly or Attack.
-public class FriendlyRobot : IRobot
-{
-    public string Name { get; set; }
-
-    public void Walk()
-    {
-        // Code
-    }
-
-    public void Fly()
-    {
-        Console.WriteLine(&quot;This robot can&#x27;t fly!&quot;);
-    }
-
-    public void Attack()
-    {
-        Console.WriteLine(&quot;This robot can&#x27;t attack!&quot;);
-    }
-}
-
-To solve this issue, we need to break down into smaller interfaces:
-public interface IRobot
-{
-    string Name { get; set; }
-}
-
-public interface IWalkable
-{
-    void Walk();
-}
-
-public interface IFlyable
-{
-    void Fly();
-}
-
-public interface IAggressive
-{
-    void Attack();
-}
-
-Now we can create a Robot the way we want, without implementing extra code that&#x27;s not necessary, so our FriendlyRobot will be implemented in a different way:
-public class FriendlyRobot : IRobot, IWalkable
-{
-    public string Name { get; set; }
-
-    public void Walk()
-    {
-        // Code
-    }
-}</span>
+                    <span>Have you ever wanted to learn about bots, but don&#x27;t know where to start? 🤖 If you&#x27;re looking for a fun, safe environment to ask questions and work through various projects, demos, examples, and free Microsoft resources- this show is for you!
+This show happens live Thursdays at 3pm Pacific Time. Join live to ask questions, or watch later on replay (episodes listed below!).
+Got Bots? 1️⃣: Intro to Bots &amp; Ethical Bot Creation
+Got Bots? 2️⃣: Making Bots with Logic Apps
+Got Bots? 3️⃣: Making Bots with QnA Maker + Azure Bot Service
+Got Bots? 4️⃣: Making Bots with the Azure Portal
+Got Bots? 5️⃣: Show &amp; Tell with Bot Makers!
+Join me, Chloe Condon (Senior Cloud Advocate on the Next Generation Experiences Team @ Microsoft) as I walk you through some of my favorite beginner projects to get started with building your own Twitter bots, chat bots, and more! This series will also cover beset practices when designing bots, and discuss the ethical choices you should consider while creating them.</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Liskov substitution principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/liskov-substitution-principle-4a0a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Created by created by Barbara Liskov and Jeannette Wing, the Liskov Substitution Principle or (LSP for short) states that:
-You should be able to use any derived class instead of a parent class and have it behave in the same manner without modification
-In other words, each derived class must maintain the behaviour from the parent class along new behaviour unique to the child class. Making new classes that inherit from the parent class, works without any change to the existing code.
-static void Main()
-{
-    Apple orange &#x3D; new Orange();
-    Console.WriteLine(orange.GetColor());
-    // outputs: &quot;Orange&quot;;
-}
-
-public class Apple
-{
-    public string GetColor() &#x3D;&gt; &quot;Red&quot;;
-}
-
-public class Orange
-{
-    public string GetColor() &#x3D;&gt; &quot;Orange&quot;;
-}
-
-
-Let&#x27;s implement the Liskov Substitution Principle:
-static void Main()
-{
-    Fruit orange &#x3D; new Orange();
-    Console.WriteLine(orange.GetColor());
-    // outputs: &quot;Orange&quot;
-    Fruit apple &#x3D; new Apple();
-    Console.WriteLine(apple.GetColor());
-    // outputs: &quot;Red&quot;
-    Orange fruit &#x3D; new Apple();
-    Console.WriteLine(fruit.GetColor());
-    // outputs: &quot;Red&quot;
-}
-
-public abstract class Fruit
-{
-    public abstract string GetColor();
-}
-
-public class Apple: Fruit
-{
-    public override string GetColor() &#x3D;&gt; &quot;Red&quot;;
-}
-
-public class Orange: Fruit
-{
-    public override string GetColor() &#x3D;&gt; &quot;Orange&quot;;
-}
-
-Here, the Liskov Substitution is satisfied by our code. The application don&#x27;t need to change to support a new Fruit, since the subtype (Apple and Orange) that inherit from the type Fruit, can be replaced with each other without raising errors.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Open-closed principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/open-closed-principle-1jdi">
+                <summary class="article-expander__title">Closure in JS and why you should bother.</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/tanishqsingla/closure-in-js-and-why-you-should-bother-3ch8">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
-                    <span>Open-Closed Principle (or OCP for short) states:
-Objects or entities should be open for extension but closed for modification.
-The &quot;Open for Extensions&quot; means that we need to develop our code to add functionalities when new requirements are created, and &quot;Closed for Modifications&quot; means that we already developed our code, that went through testing and validations, this could should only be altered in case a bug has been found.
-public class Rectangle
-{
-    public double Height { get; set; }
-    public double Width { get; set; }
+                    <span>Overview
+
+
+If you&#x27;re in middle of learning JavaScript or you already completed various online tutorials, you may have came across closures and did not bother much after learning about it. Interestingly you can easily find tons of blogs on this platform explaining closures in depth, but why you should bother reading them? This blog attempts to answer that.
+If you&#x27;re watching one of the tutorials or you&#x27;ve enrolled in a boot camp that briefs JavaScript, they might have touched the concept of closure and there&#x27;s a high chance you&#x27;ve came across a code like this.
+const string &#x3D; &quot;hello closure&quot;;
+function print() {
+  console.log(string);
 }
 
-public class AreaCalculator
-{
-    public double TotalArea(Rectangle[] rectangles)
-    {
-        double result &#x3D; 0;
-        foreach(Rectangle rectangle in rectangles
-            result +&#x3D; rectangle.Height * rectangle.Width;
+Which outputs:
+hello closure
 
-        return result;
+And a lazy conclusion comes out of this example is that the function insides can get the variable from its parent scope and marking the end of story for closures.
+This part of the blog is a bit sloppy, so bear with me a little.
+function closure() {
+  let counter &#x3D; 0;
+  function onlyExecutesOnce() {
+    if(counter &#x3D;&#x3D; 1) {
+      return;
+    }
+    counter +&#x3D; 1;
+    console.log(counter);
+  }
+
+  return onlyExecutesOnce;
+}
+
+
+/* testing the function */
+const myFunction &#x3D; closure();
+myFunction();
+myFunction();
+myFunction();
+
+Output:
+1
+
+At first glance I didn&#x27;t not bother much and to my eyes it looked plain and simple.
+So, after thinking about my code a question dropped in my mind.
+Why is it that myFunction() is sharing the same surrounding environment as onlyExecutesOnce()?
+attaching itself with the information from its surrounding of where it was declared. In this case onlyExecutesOnce() is also attached with information of its surrounding which is being passed to myFunction().
+So closures, my fellow readers opens a lots of doors for doing crazy and cool stuff in JavaScript.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Creating a json resource reader for dotnet core</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/creating-a-json-resource-reader-for-dotnet-core-oj8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>In this post, we&#x27;re going to create a custom Resource reader to use with dotnet core libraries. In the end, we can have a project dedicated to resources.
+First, we need a class that represents our json file:
+using System.Collections.Generic;
+
+namespace I18N
+{
+    internal class JsonLocalization
+    {
+        public string Key { get; set; }
+        public Dictionary LocalizedValues { get; set; }
     }
 }
 
-But our a…</span>
+The Key is an unique identifier for the localization and LocalizedValues is a dictionary, which its key is the language and the value the text that must be displayed.
+We also going to create a new type of Exception, to easily pinpoint what went wrong with the application.
+using System;
+
+namespace I18N
+{
+    public class I18NException : Exception
+    {
+        public I18NExce…</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Single Responsibility Principle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/single-responsibility-principle-4oej">
+                <summary class="article-expander__title">Creating a custom json resource reader</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/creating-a-custom-text-resources-with-csharp-466p">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In this post, we&#x27;re going to create a custom Resource reader to use with dotnet core libraries. In the end, we can have a project dedicated to resources.
+First, we need a class that represents our json file:
+using System.Collections.Generic;
+
+namespace I18N
+{
+    internal class JsonLocalization
+    {
+        public string Key { get; set; }
+        public Dictionary LocalizedValues { get; set; }
+    }
+}
+
+The Key is an unique identifier for the localization and LocalizedValues is a dictionary, which its key is the language and the value the text that must be displayed.
+We also going to create a new type of Exception, to easily pinpoint what went wrong with the application.
+using System;
+
+namespace I18N
+{
+    public class I18NException : Exception
+    {
+        public I18NExce…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Adding Redis easily with Docker</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/renanmaringolo/adding-redis-easily-with-docker-158f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Overview
+
+
+
+In this chapter, i&#x27;ll walk you through the installation, configuration and how to use Redis in a simple way. In this process, i&#x27;ll use Docker to create a container with the Redis image.
+Docker
+In this first step, you need to install Docker on your machine by following the steps below.
+1.Update Software Repositories:
+sudo apt-get update
+2.Install some prerequisite packages that let apt use packages over HTTPS:
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+3.So, add GPG Key to repository Docker on your SO:
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+4.Add the repository Docker to fonts of the APT:
+sudo add-apt-repository &quot;deb [arch&#x3D;amd64] https://download.docker.com/linux/ubuntu focal stable&quot;
+5.Again:
+sudo ap…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Creating a Component Library</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/giteden/creating-a-component-library-5ch8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Designing a component library is no easy task. It entails a long list of decisions that can become quite overwhelming. Failing to make the right decision can result in a library that no one actually uses.
+This blog will help you on your journey to building your own component library. It will discuss all major crossroads and provide concrete recommendations.
+Deciding on a development strategy
+
+
+Setting up a development environment
+
+
+Creating components
+
+
+Documenting components
+
+
+Building components
+
+
+Versioning components
+
+
+Publishing &amp; hosting components
+
+
+Generating adoption
+
+
+
+
+  
+  
+  Deciding on a development strategy
+
+
+Component libraries form the foundation of the organization&#x27;s frontend apps. They must be flexible to provide a proper solution to a wide range of predicted and unpredi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Java OOP Concepts</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/pramudaliyanage/java-oop-concepts-3g86">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;Java OOP Concepts&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+What is OOP?
+OOP Stands for Object-Oriented Programming.Object-Oriented Programming is paradigm that provides many concepts,such as inheritance,polymorphism etc.It simplifies software development and maintenance by providing some concepts.
+What are the OOPs Concepts?
+There are,
+
+Java Is an Object-Oriented Programming language.Everything in Java is associated with class and objects,along with it&#x27;s attributes and methods.Classes and Objects are two main aspects of object-oriented programming.
+Let us consider the above oop concepts one by one..
+Objects&#x3D;&gt; Any Entity that has state and behaviour is known as a object.Examples are Chair,Pen,Table etc.
+Class&#x3D;&gt; Class is a Collection of objects.It is a Logical Entity.So, Class is a Definition of object,tem…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Python Cheatsheet 🔥</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/tanwanimohit/python-cheatsheet-25a3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Cheatsheets are good when you want to revise some of the concepts, but an idle way to start learning 
+
+I would recommend you to learn in depth from this course: Udemy Course
+If you can self learn Repository: Github
+Python Cheatsheet
+
+
+Index
+Theory
+VSCODE extension:
+Making a virtual env:
+Why Virtual env?
+Comments in python
+Data Types:
+Naming conventions:
+Printing in Python:
+Numbers in Python:
+Using with variables:
+Variables makes it easy to understands the code.
+Strings in Python:
+Using directly with print:
+Taking Input
+Use , instead of + This will auto seprate them by spaces.
+Escape characters in python:
+Check the length of string:
+String indexing
+String Slicing
+String methods:
+Formatting strings:
+String Print alignment
+Lists in Python:
+Basic Usage
+Concat
+Append the list
+Poping objs
+Sortin…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is the spread operator in javascript?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/code_jedi/what-is-the-spread-operator-in-javascript-e91">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
-                    <span>Single Responsibility Principle (or SRP for short), states that:
-A class should have one and only one reason to change, meaning that a class should have only one job.
-This doesn&#x27;t mean that a class should contain only one method or one property, but its members must relate to its responsibility.
-For this example, we&#x27;re going to create an UserService, its responsibility, is to manage User data in a system.
-public class UserService
-{
-  public void CreateUser(string email, string password)
-  {
-    if(string.isNullOrEmpty(email)
-     throw new NullArgumentException(&quot;E-mail cannot be null or empty.&quot;);
+                    <span>The spread operator in JavaScript is useful for adding elements to an array, combining arrays and more!
 
-    if(string.IsNullOrEmpty(password)
-     throw new NullArgumentException(&quot;Password cannot be null or empty.&quot;);
 
-    User user &#x3D; new User(email, password);
+Here&#x27;s an example:
+let arr1 &#x3D; [1,2,3]; 
+let arr2 &#x3D; [4,5]; 
+let arr3 &#x3D; [...arr1,...arr2]; 
+console.log(arr3);
+// Output: [ 1, 2, 3, 4, 5 ] 
 
-    var smtpClient &#x3D; new SmtpClient(&quot;smtp.gmail.com&quot;)
-    {
-        Port &#x3D; 587,
-        Credentials &#x3D; new NetworkCredential(&quot;email&quot;, &quot;password&quot;),
-        EnableSsl &#x3D; true,
-    };
+As you can see the spread operator(represented as &quot;...&quot;) was able to combine &quot;arr1&quot; and &quot;arr2&quot; into &quot;arr3&quot;.
+The spread operator can also expand arrays:
+let arr &#x3D; [&quot;a&quot;,&quot;b&quot;]; 
+let arr2 &#x3D; [...arr,&quot;c&quot;,&quot;d&quot;]; 
+console.log(arr2); 
+// Output: [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]
 
-    smtpClient.Send(&quot;our.app@gmail.com&quot;, email, &quot;Welcome!&quot;, &quot;Welcome to our system!&quot;);
-  }
-}
+As you can see, the spread operator here was able to add elements &quot;c&quot; and &quot;d&quot; to &quot;arr&quot;, thus creating a bigger array.
+The spread operator can also merge objects:
+const Person &#x3D; { 
+    name: &quot;Bob&quot;, 
+    age: 45,
+}; 
+const ExtraInfo &#x3D; { 
+    country: &quot;Belgium&quot;, 
+    city: &quot;Brussels&quot;, 
+}; 
+const user &#x3D; {... Person, ... ExtraInfo};
+// Output: {  name: &quot;Bob&quot;,  age: 45, country: &quot;Belgium&quot;, city: &quot;Brussels&quot; }
 
-The example above violates the SRP principle because the CreateUsermethod is responsible for two things, creating an user and sending an e-mail.
-Let&#x27;s change it so it respects the SRP principle.
-public class UserService
-{
-  private readonly IEmailService _emailService;
+my newsletter!
 
-  public UserService(IEmailService emailService)
-  {
-    _emailService &#x3D; emailService;
-  }
 
-  public void CreateUser(string email, string password)
-  {
-    if(string.isNullOrEmpty(email)
-     throw new NullArgumentException(&quot;E-mail cannot be null or empty.&quot;);
 
-    if(string.IsNullOrEmpty(password)
-     throw new NullArgumentException(&quot;Password cannot be null or empty.&quot;);
-
-    User user &#x3D; new User(email, password);
-
-    _emailService.SendEmail(email, &quot;Welcome!&quot;, &quot;welcome to our system!&quot;);
-  }
-}
-
-Now the UserService is only responsible to create the user, and it delegates the e-mail to another class.</span>
+...
+Byeeeee👋</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Way Of Integrity Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/the-way-of-integrity-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;the-way-of-integrity-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>1-Sentence-Summary: The Way Of Integrity uses science, spirituality, humor, and Dante’s Divine Comedy to teach you how to find well-being, healing, a sense of purpose, and much more by rediscovering integrity, or the recently lost art of living true to yourself by what you do, think and say. Read in: 4 minutes Favorite quote from […]
+The post The Way Of Integrity Summary appeared first on Four Minute Books.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Too Smart</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.collaborativefund.com/blog/too-smart/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Introduction</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/eduardojuliao/introduction-3nmi">
+                <summary class="article-expander__title">Intel in talks to buy GlobalFoundries for about $30B</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/business/intel-talks-buy-globalfoundries-about-30-billion-wsj-2021-07-15/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Canada to donate 17.7M AstraZeneca doses</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cbc.ca/news/politics/covax-donations-astrazeneca-surplus-1.6099072">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">My take on the study from MIT that predicts “societal collapse”</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dana11235.medium.com/my-take-on-the-study-from-mit-that-predicts-societal-collapse-b351d8fbd4c2">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>First compiled by Robert C. Martin in 1990s, SOLID is a acronym that stands for:
-S: Single Responsibility Principle (SRP)
-O: Open closed Principle (OCP)
-L: Liskov substitution Principle (LSP)
-I: Interface Segregation Principle (ISP)
-D: Dependency Inversion Principle (DIP)
-These are a set of golden rules for object-oriented programming, that make it easier for developers to develop applications that are easy to maintain, refactor and expand.
-In this series, we&#x27;ll dive into what each of these principles are and how they are implemented</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to unlearn a disease</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nautil.us/issue/103/healthy-communication/how-to-unlearn-a-disease-rp">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Motion (YC W20) is hiring a lead fullstack engineer to change how we manage time</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.workatastartup.com/jobs/45050">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Paradox Game Converters Collected on GitHub</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ParadoxGameConverters">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Online ID / age verification: the death of online search</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://decoded.legal/blog/2021/07/online-id-age-verification-the-death-of-online-search-and-non-browser-web-access">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Algorithms for Cartographic Visualization (2012) [pdf]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.win.tue.nl/~kverbeek/PhDThesis.pdf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3724 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Show HN: Pay It Forward – P2P Crowdfunding for African Entrepreneurs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.zidisha.org/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Is This Prime?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://isthisprime.com/game/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Alphafold</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/deepmind/alphafold">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Generating JSON Directly from Postgres</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.crunchydata.com/blog/generating-json-directly-from-postgres">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Soldiers speak out about being blocked from repairing equipment by contractors</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://mattstoller.substack.com/p/a-real-s-show-soldiers-angrily-speak">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Valve Steam Deck</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.steamdeck.com/en/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How many real numbers exist? New proof moves closer to an answer</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.quantamagazine.org/how-many-numbers-exist-infinity-proof-moves-math-closer-to-an-answer-20210715/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Building a Curve25519 Hardware Accelerator</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.bunniestudios.com/blog/?p&#x3D;6140">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(17 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Launch HN: Weekday (YC W21) – Hire engineers vouched for by other engineers</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;27844728">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Facebook&#x27;s “see no evil” strategy</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.axios.com/facebooks-see-no-evil-strategy-6db4e714-ba14-4404-bd41-c4539bc8126e.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Porting QEMU to RedoxOS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://redox-os.org/news/rsoc-2021-qemu-1/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Josh: Get the advantages of a monorepo with multirepo setups</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/esrlabs/josh">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Elements of Product Design</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jamiemill.com/blog/elements-of-product-design/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Prison Memoirs of a Japanese Woman (1926)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://theanarchistlibrary.org/library/kaneko-fumiko-the-prison-memoirs-of-a-japanese-woman">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(289 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">K: War on Raze</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://gist.github.com/chrispsn/af6844b80687462814fc39d4b97399a6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Unexamined Life: The too many faces of Edward Said</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://thebaffler.com/salvos/unexamined-life-omar">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(22 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Learn the FARM Stack! (FastAPI, React, MongoDB)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-the-farm-stack-fastapi-reactjs-mongodb/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(28 min)</span>
+                    <span>The FARM stack is FastAPI, React, and MongoDB. It is a simpler form of the MERN stack that can make developing apps even faster. We just released a FARM stack course on the freeCodeCamp.org YouTube channel.  You will learn how to create a basic CRUD application. FastAPI is where</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Apache Cassandra Beginner Tutorial</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/the-apache-cassandra-beginner-tutorial/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(24 min)</span>
+                    <span>There are lots of data-storage options available today. You have to choose between managed or unmanaged, relational or NoSQL, write- or read-optimized, proprietary or open-source — and it doesn&#x27;t end there. Once you begin your search, you will end up in the universe that is database marketing. All of the vendors</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">ISR vs DPR: Big Words, Quick Explanation</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/isr-dpr-explained/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>There are two strategies for incrementally building websites that are growing in popularity: Incremental Static Regeneration and Distributed Persistent Rendering. What’s the difference? Let’s figure it out.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">You Can Do That With A JavaScript Data Grid?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/javascript-data-grid-kendo-ui/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>In this article, you’ll get to see some pretty groundbreaking things you can achieve with modern JavaScript grids and discover new ways to augment a data grid to make it engaging, responsive, and accessible. All this will be illustrated using Kendo UI Data Grids and their features.</span>
                   </div>
                 </a>
               </details>
@@ -326,158 +808,9 @@ The post Build Complex CSS Transitions using Custom Properties and cubic-bezier(
                 <summary class="article-expander__title">A Bashful Button Worth $8 Million</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://cloudfour.com/thinks/a-bashful-button-worth-8-million/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
+                    <span class="article-reading-time">(9 min)</span>
                     <span>Most of us grumble when running across a frustrating UX experience online (like not being able to complete a transaction because of a misplaced button). We might pen a whiny tweet. Jason Grigsby is like I’m going to write 2,000 …
 The post A Bashful Button Worth $8 Million appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">5 HTML Tags That Almost Nobody Knows</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/5-html-tags-that-almost-nobody-knows-5p5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>hello everyone, I&#x27;m Aya Bouchiha, today, I will talk about 5 HTML tags that almost nobody knows.
- is a tag used to highlight or mark a part of a text. This tag supports all HTML global attributes, the default color is black with a yellow background color.
-
-
-    
- 
-    
-        
- (
-                    color: black;                
-                    background-color: yellow;
-                )
-             --&gt;
-            highlighted
-        
-highlighted
-
-Output:
-
- is a tag that displays the contact information…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">BLOCKCHAIN ON AWS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/aws-builders/blockchain-on-aws-i6o">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Do you know about Blockchain? How to build solutions using Blockchain ? Anything about AWS Blockchain ? - Well no worries , the following discussion would dive into the basic details of Blockchain ,Blockchain benefits, the way Blockchain works, and finally the Blockchain services on AWS.
-The intersection between cloud computing and blockchain is leading to various changes in the approaches for conducting business. 
-Hence, the introduction of blockchain on AWS is extremely promising.  Indeed , it is inevitable to notice a growing interest in an AWS Blockchain in recent times.
-But first, back to basics!! Before going deep dive in Blockchain on AWS let’s do a run through on Blockchain technology.
-If you are thinking of cryptocurrency when you hear the term ‘Blockchain’ , then you are yet to d…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">HTML-first, JavaScript last: the secret to web speed!</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mhevery/html-first-javascript-last-the-secret-to-web-speed-4ic9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>All frameworks need to keep state. Frameworks build up the state by executing the templates. Most frameworks keep this state in the JavaScript heap in the form of references and closures. What is unique about Qwik is that the state is kept in the DOM in the form of attributes. (Note that neither references nor closures are wire serializable, but DOM attributes, which are strings, are. This is key for resumability!)
-The consequences of keeping state in the DOM have many unique benefits, including:
-DOM has HTML as its serialization format. By keeping state in the DOM in the form of string attributes, the application can be serialized into HTML at any point. The HTML can be sent over the wire and deserialized to DOM on a different client. The deserialized DOM can then be resumed.
-Each compone…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Creating a Sticky Table Column</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/jamiemcmanus/creating-a-sticky-table-column-2e8m">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>In this article I will show you how to create a sticky column on table scroll. 
-
-C messier
-This is a question that led the Ancient Greek Philosopher Socrates to his eventual death , some say when he questioned why you would use a non responsive html table in our mobile centric world and then complain that it was not user friendly. 
-
-
-
-
-
-  
-  
-  Postition:sticky
-
-
-The key to this solution is using the CSS position:sticky. Applying this to say a div element will make it stick to its parent element. The good news is that this will also work for Table Cells ! 
-position sticky cannot be used on tr &amp; thead elements ) 
-Create a container div element , and within this you can create a good ol&#x27; fashioned HTML table with enough columns so that we&#x27;ll be required to scroll horizontally.
-.films-contain…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">🎬Vertical Slider | JavaScript✨</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/robsonmuniz16/vertical-slider-javascript-kjl">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Hey DEVs, in today’s episode we are going to build a Vertical Slider using JavaScript; basically, we have content on both sides and 2 buttons in the middle, once you click it one side goes up and another one goes down, but it brings into place the correct text and correct image; its a really cool look slide you can use any type of content.
-
-
-
-
-
-
-
-Live Version | Source Code 👀:
-https://bit.ly/3raRQqD
-📚Resources:
-https://www.pexels.com 
-https://cdnjs.com/libraries/font-awesome</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Error 404 : Page not Found</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/iamrahul/error-404-page-not-found-5033">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>When you click on a link, but instead of arriving to the site you want, an error message appears, stating that the page you requested is unavailable. It should be something along the lines of &#x27;404 Not Found.&#x27;
-When website content is deleted or relocated to another URL, an error 404 message is commonly shown.
-The 404 status code is the most common HTTP status code.
-A server answer to a browser&#x27;s request is an HTTP status code. When you visit a website, your browser makes a request to the server, which the server responds to with a three-digit code called the HTTP status code.
-These status codes represent a communication between your browser and the server over the Internet. They convey if things are fine😊, touch-and-go👍, or if something is wrong😕 between them.
-
-Each three-digit status code starts with one of five integers, ranging from 1 to 5, and is written as 1xx or 5xx to signify status codes in that range. For example, 200, 301, 404, 500, and so on...
-100–199 - Informational responses: The server is thinking through the request.
-200–299  - Successful responses: The request was successfully completed and the server gave the browser the expected response.
-300–399  - Redirection: You got redirected somewhere else.
-400–499  - Client errors: Page not found. The site or page couldn’t be reached. 
-500–599  - Server errors:  A valid request was made by the client but the server failed to complete the request.
-
-HTTP Status Code 200 - OK
-HTTP Status Code 301 - Permanent Redirect
-HTTP Status Code 500 - Internal Server Error
-HTTP 404 errors can decreases a website’s ranking and reputation.
-👉Read more here (RFC 7231)
-Getting bored😑
-https://http.cat/[status_code]
-https://http.cat/404
-https://http.cat/450
-https://http.cat/500</span>
                   </div>
                 </a>
               </details>
@@ -511,7 +844,7 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
                 <summary class="article-expander__title">Faster sorted array unions by reducing branches</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/07/14/faster-sorted-array-unions-by-reducing-branches/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
+                    <span class="article-reading-time">(9 min)</span>
                     <span>When designing an index, a database or a search engine, you frequently need to compute the union of two sorted sets. When I am not using fancy low-level instructions, I have most commonly computed the union of two sorted sets using the following approach: v1 &#x3D; first value in input 1 v2 &#x3D; first value … Continue reading Faster sorted array unions by reducing branches</span>
                   </div>
                 </a>
@@ -525,107 +858,8 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Art of the Romanian Haystack</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.kuriositas.com/2013/09/the-art-of-romanian-haystack.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">GM warns some Bolt EV owners: Don’t park them inside or charge them unattended</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.cnbc.com/2021/07/14/gm-warns-some-bolt-ev-owners-dont-park-them-inside-or-charge-them-unattended-overnight.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Lowkey (YC S18) is hiring a senior front-end engineer who likes games</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.notion.so/lowkeygg/Lowkey-Job-Board-39a26c1b4a00493fadc26249185df748">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">iOS zero-day let SolarWinds hackers compromise fully updated iPhones</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://arstechnica.com/gadgets/2021/07/solarwinds-hackers-used-an-ios-0-day-to-steal-google-and-microsoft-credentials/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A Storage Crisis</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://blogs.harvard.edu/doc/2021/06/24/a-storage-crisis/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">macOS Monterey Beta 3: Apple Redesigns Safari Tab Interface Following Complaints</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.macrumors.com/2021/07/14/macos-monterey-safari-redesign/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Germany fines YouTube for removing video of anti-lockdown protest</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.mediaite.com/news/germany-fines-youtube-six-figures-for-removing-video-of-anti-lockdown-protest/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">High-resolution holographic interface [video]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://lookingglassfactory.com/8k">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Goodbye, Fleets</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.twitter.com/en_us/topics/product/2021/goodbye-fleets">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Increasing HTTPS Adoption</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.chromium.org/2021/07/increasing-https-adoption.html">
+                <summary class="article-expander__title">Learn Something Old Every Day</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.os2museum.com/wp/learn-something-old-every-day/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
                     <span>Comments</span>
@@ -635,10 +869,10 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Blender Studio Pipeline</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://cloud.blender.org/blog/the-blender-studio-pipeline/">
+                <summary class="article-expander__title">Public Suffix List</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://publicsuffix.org/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -646,153 +880,21 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Inside Facebook&#x27;s Data Wars</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nytimes.com/2021/07/14/technology/facebook-data.html">
+                <summary class="article-expander__title">Assertiveness is a virtue that anyone can develop with practice</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://psyche.co/ideas/assertiveness-is-a-virtue-that-anyone-can-develop-with-practice">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Zig, Skia, Clojure, Geometry and the Japanese TV Show: ICFP Contest 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://tonsky.me/blog/icfpc-2021/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Windows 365 Cloud PC</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.microsoft.com/en-us/microsoft-365/blog/2021/07/14/introducing-a-new-era-of-hybrid-personal-computing-the-windows-365-cloud-pc/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://bair.berkeley.edu/blog/2021/07/14/mappo/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A shift in American family values is fueling estrangement</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.theatlantic.com/family/archive/2021/01/why-parents-and-kids-get-estranged/617612/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The unreasonable effectiveness of just showing up everyday</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://typesense.org/blog/the-unreasonable-effectiveness-of-just-showing-up-everyday/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Monodraw: ASCII art editor for the Mac</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://monodraw.helftone.com/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Norman doors are everywhere (2016) [video]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;yY96hTb8WgI">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">WebAssembly from Scratch: From FizzBuzz to DooM</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/diekmann/wasm-fizzbuzz">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Svgbob – Create a graphical representation of text diagrams</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ivanceras/svgbob">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to win a hackathon without coming in first place</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://strdr4605.github.io/how-to-win-a-hackathon">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Launch HN: Onfolk (YC S21) – Modern HR and Payroll in One Place (For the UK)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;27830978">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Mr. Rafieh’s Tehran Pencil Shop</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.ana.press/photo/548339/دنیای-مداد-رنگی">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Sega sued for ‘rigged’ arcade machine</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.polygon.com/22573590/sega-key-master-arcade-game-class-action-lawsuit">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Failures That Made Ian Fleming</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://newrepublic.com/article/162964/failures-made-ian-fleming-james-bond-biography-review">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -817,7 +919,18 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">An Introduction to Web Server Scanning With Nikto</summary>
+                <summary class="article-expander__title">We&#x27;re Building a Data Science Curriculum with Advanced Mathematics and Machine Learning</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/building-a-data-science-curriculum-with-advanced-math-and-machine-learning/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>We&#x27;re expanding freeCodeCamp&#x27;s Python section into a full-blown data science curriculum. Currently, these data science skills are only taught at a few universities around the world. Our goal is for anyone, anywhere to be able to learn these advanced mathematics and machine learning concepts that data scientists use in the</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Web Server Scanning With Nikto – A Beginner&#x27;s Guide</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/an-introduction-to-web-server-scanning-with-nikto/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(4 min)</span>
@@ -828,11 +941,11 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Redis Crash Course</summary>
+                <summary class="article-expander__title">What is Redis? How to Install and Basic Commands</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/redis-crash-course/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
-                    <span>Redis is a type of database that can be added to your produciton level applicaiton to make it more performant.  In this article, I&#x27;ll go over the Redis basics and show a real world example of Redis in action.  Here&#x27;s everything we&#x27;ll go over:  What is Redis? Why the Hype</span>
+                    <span>Redis is a type of database that you can add to your production level applicaiton to make it more performant.  In this article, I&#x27;ll go over some Redis basics and show a real world example of Redis in action.  Here&#x27;s everything we&#x27;ll go over:  What is Redis? Why the Hype</span>
                   </div>
                 </a>
               </details>
@@ -928,43 +1041,10 @@ The post Journey Of Awakening Summary appeared first on Four Minute Books.</span
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Thinking in Events: From Databases to Distributed Collaboration Software [video]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://martin.kleppmann.com/2021/07/02/debs-keynote-thinking-in-events.html">
+                <summary class="article-expander__title">Farm – an experiment in distributed peer-to-peer computing</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/inkandswitch/farm">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Triumvirate: Coal, Iron, and Steam</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://technicshistory.com/2021/07/13/the-triumvirate-coal-iron-and-steam/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Mike Levin on using bioelectricity to study how cells form (2019)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://wyss.harvard.edu/news/mike-levin-on-electrifying-insights-into-how-bodies-form/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Optimizing inputs and becoming indistractable</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://sovereign-individual.xyz/posts/becoming-indistractable/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
+                    <span class="article-reading-time">(5 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -1015,7 +1095,7 @@ The post Journey Of Awakening Summary appeared first on Four Minute Books.</span
                 <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/ui-ux-design-guide/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(8 min)</span>
-                    <span>Have you noticed that User Interface and User Experience design are considered different topics nowadays? Or have you ever wondered which one is better?  You&#x27;re not the only one.  We live in a beautiful era of design, with new techniques and trends coming and going. Frontend development is also gaining</span>
+                    <span>Have you noticed how User Interface and User Experience design are considered different topics nowadays?  You&#x27;re not the only one.  We live in a beautiful era of design, with new techniques and trends coming and going. Frontend development is also gaining increased momentum, with more and more developers getting involved</span>
                   </div>
                 </a>
               </details>
@@ -1103,62 +1183,6 @@ The post Using the Specificity of :where() as a CSS Reset appeared first on CSS-
                     <span class="article-reading-time">(6 min)</span>
                     <span>1-Sentence-Summary: Feel Great Lose Weight by Dr. Rangan Chatterjee is a book that goes beyond fad diets and quick fixes for weight problems and instead dives into the science of how your body really works when you put food into it and how you can use this information to be fitter and feel better. Read […]
 The post Feel Great Lose Weight Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The vital art of talking to strangers</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.economist.com/books-and-arts/2021/07/10/the-vital-art-of-talking-to-strangers">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn How to Use SPSS to Explore and Analyze Data</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/spss-full-course/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(74 min)</span>
-                    <span>SPSS Statistics is a software package used for interactive, or batched, statistical analysis. We just released a full course on the freeCodeCamp.org YouTube channel that will teach you how to use the popular statistical application SPSS from IBM. This course provides a concise overview of how you can use</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">AI vs ML – What’s the Difference Between Artificial Intelligence and Machine Learning?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/ai-vs-ml-whats-the-difference/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Artificial intelligence and machine learning are two popular and often hyped terms these days. And people often use them interchangeably to describe an intelligent software or system.  But even though both AI and ML are based on statistics and mathematics, they are not the same thing. In this article, you</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google BigQuery Beginner&#x27;s Guide – How to Analyze Large Datasets</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/google-bigquery-beginners-guide/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Gone are the days of storing your data in a CSV file or an Excel spreadsheet. If you want to quickly analyze millions of data rows in seconds, BigQuery is the way to go. In this getting started guide, we&#x27;ll learn about BigQuery and how we can use it to</span>
                   </div>
                 </a>
               </details>
@@ -1434,27 +1458,6 @@ The post Boundaries Summary appeared first on Four Minute Books.</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Body Toggle</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/body-toggle/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>I appreciate the clarity of this trick that Mikael Ainalem posted over on Reddit:
-It’s a one-liner that toggles the class on the  so you can mock up different states and toggle between them on click.
-&lt;body onclick&#x3D;&quot;this.classList.toggle(&quot;active&quot;);&quot;
-Could …
-The post Body Toggle appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1573,24 +1576,6 @@ The post The Data Detective Summary appeared first on Four Minute Books.</span>
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-01">2021-07-01</time></h2>
     <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What Happened Summary</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/what-happened-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;what-happened-summary">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>1-Sentence-Summary: What Happened is Hillary Clinton’s post-mortem on the events and surprising result of her bid for the 2016 United States presidential election, including why she ran for president in the first place, what made it so hard for her to come out on top, and how the loss affected her after election night. Read […]
-The post What Happened Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
@@ -1940,30 +1925,8 @@ Thank you @PiyushLosalka</span>
                 <summary class="article-expander__title">Your Image Is Probably Not Decorative</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/img-alt-attribute-alternate-description-decorative/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
+                    <span class="article-reading-time">(5 min)</span>
                     <span>Image placement on the modern web is highly intentional, helping to communicate the overall purpose of a page or view. This means that nearly every image you declare needs to have an alternate description.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-06-16">2021-06-16</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A Complete Guide To Accessibility Tooling</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/complete-guide-accessibility-tooling/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>In a new short series of posts, we highlight some of the useful tools and techniques for developers and designers. Recently we’ve covered HTML Emails and SVG Generators. This time we look into different kinds of tools to help you streamline your accessibility testing process. Don’t miss the next one.</span>
                   </div>
                 </a>
               </details>
@@ -1974,7 +1937,7 @@ Thank you @PiyushLosalka</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-15T00:59:10.351Z">2021-07-15T00:59:10.351Z</time>
+    <time id="build-timestamp" datetime="2021-07-16T00:59:20.952Z">2021-07-16T00:59:20.952Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
