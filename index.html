@@ -16,6 +16,57 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-18">2021-07-18</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Resources to master 5 popular react libraries</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/resources-to-master-5-popular-react-libraries-2n81">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Hello everybody, I&#x27;m Aya Bouchiha today, I&#x27;m going to share with you useful resources to learn 5 libraries that you will use at least one of them in your next react project.
+React Router is used for developing Single Page Web Applications. It is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any &#x27;route&#x27; inside the router file, the user will be redirected to that particular route.
+more details
+documentation
+
+
+react-router-cheatsheet
+
+
+react-router by Dev Ed (30 min)
+
+
+react router crash course (40 min)
+
+
+
+
+  
+  
+  Material UI
+
+
+Material UI is the world&#x27;s most popular  UI framework, additionally, it is based on Google Material Design.
+documentation
+
+
+Material UI React tutorial (40 min)
+
+
+Material UI React cra…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-17">2021-07-17</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -24,22 +75,570 @@
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Explain the implementation principle of the Jest framework in a simple way</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/wscats/explain-the-implementation-principle-of-the-jest-framework-in-a-simple-way-4dio">
+                <summary class="article-expander__title">Run React Native Android App On Mac M1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ravics09/run-react-native-android-app-on-mac-m1-2goh">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Jest Architecture
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Hi Guys Ravi here...
+Android Emulator for M1 is not available on stable releases yet and I am also waiting for Android Studio to fully support M1 macs so that I can use it for developing my React Native project. 
+But!
+
+Android Studio Preview has supported M1 chips pretty well so I am using that one to test my android app.
+You can download Android Emulator for M1 from the below link:
+https://github.com/google/android-emulator-m1-preview/releases/tag/0.3
+1.Setup M1 Android Emulator:
+https://youtu.be/3clEUFzXPjA
+
+2.After Setting Android Emulator On Mac M1 edit your bash_profile. To edit it open your terminal and run below command
+open ~/.bash_profile
+
+Add this line to your bash_profile, and replace the user-name with your username
+export PATH&#x3D;&quot;$PATH:/Users/user-name/Library/Android/sdk/platform-tools&quot;
 
 
-https://github.com/wscats/jest-architecture
-Jest is a Javascript testing framework developed by Facebook. It is a JavaScript library for creating, running and writing tests.
-Jest is released as an NPM package and can be installed and run in any JavaScript project. Jest is currently one of the most popular test libraries for the front-end.
-In technical terms, testing means checking whether our code meets certain expectations. For example: a function called sum (sum) should return the expected output given some operation result.
-There are many types of tests, and you will soon be overwhelmed by the terminology, but the long story short tests fall into three categories:
-unit test
-Integration Testing
-E2E test
-In terms of testing, even the simplest code block may confuse beg…</span>
+source ~/.bash_profile
+
+3.Then In Terminal check available adb devices by running below command:
+adb devices
+
+It will show your Android Emulator
+
+4.Now Create React Native Project by running below command
+npx react-native init AndroidApp
+
+5.Once the project is created, Go to your react-native Project then go to android directory Create a file with following name &quot;local.properties&quot;.
+Open the file and paste your Android SDK path like below:
+sdk.dir &#x3D; /Users/USERNAME/Library/Android/sdk
+
+
+6.Now run your react native project by
+npx react-native run-android
+
+7.Now Your app will run in Android Emulator
+
+If you have any question or facing any issue you can ask me.
+If you like this post hit like button.
+Thanks for reading this post.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">a first look at postgraphile with railway</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ajcwebdev/a-first-look-at-postgraphile-with-railway-1k9d">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>PostGraphile builds a GraphQL API from a PostgreSQL schema in seconds that automatically detects tables, columns, indexes, relationships, views, types, functions, and comments.
+By combining features such as PostgreSQL&#x27;s role-based grant system and row-level security policies with Graphile Engine&#x27;s GraphQL look-ahead and plugin expansion technologies, PostGraphile ensures your generated schema is secure, performant and extensible.
+There are two ways to setup a PostgreSQL database with Railway, through the dashboard or through the CLI.
+Click dev.new and choose &quot;Provision PostgreSQL&quot; After the database is setup click &quot;PostgreSQL&quot; on the left and then choose &quot;Connect&quot;. Copy and paste the PostgreSQL client command.
+First you need to create a Railway account and install the Railway CLI.
+railway …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Javascript Modules</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/spartakyste/javascript-modules-hhf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Whats is a module ?
+Basically modules are pieces of code that can be imported anywhere in your application. A module is really easily recognizable, as soon as you see the import or export keyword, you&#x27;re dealing with a module.
+So... pretty much everything is a module ?
+What about the require keyword I&#x27;ve seen here and here ?
+How do I use them ?
+We&#x27;ll cover everything from this point onward.
+Grab a coffee, and let&#x27;s get started.
+As we can&#x27;t really understand something without the knowledge of why it exist, we&#x27;ll take a quick historical detour.
+Waaaaay back in the days, nothing known as modules existed. But also, Javascript wasn&#x27;t as widely used as it is today, it&#x27;s only purpose was pretty much to add interactivity on your website.
+And nobody like 2000 lines long of code within a single file…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Introduction to the Document Makeup Library (DML)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/efpage/introduction-to-the-document-makeup-library-dml-1aak">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The web has evolved a lot since the days of Tim Berners-Lee, but we are still using some of the initial concepts. From a technical view, HTML is superfuous: We can access the HTML-DOM-API directly to build the DOM. From a programmers view, there are good reasons to rethink the whole concept. 
+Maybe it´s time for a new approach.
+The Document Makeup Library (DML) is a new Javascript library that has just been released as Open Source. DML makes it increadibly easy to build complex web applications using just vanilla javascript (one language to rule them all...). It let´s you create DOM elements using the tags you are used to - not in html, but from within Javascript. h1() creates an 
+-element, p() a 
+ and so on. This makes it possible to &quot;bypass&quot; the traditional HTML-approach completely.…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to position items within a container using Flex Box ?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/danyson/how-to-position-items-within-a-container-using-flex-box-153o">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>1. Create a Container with items
+
+
+
+  
+  
+  Html
+
+
+
+
+
+
+    
+A
+    
+B
+    
+C
+
+
+
+.container{
+    width: 720px;
+    height: 480px;
+    background-color: blue;
+}
+
+.item{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid green;
+    background-color: orange;
+}
+
+.container{
+    display: flex; /* flex box applied here */
+    width: 720px;
+    height: 480px;
+    background-color: blue;
+}
+
+We can now add a ‘flex-direction’ property to the container and assign one of the following values:
+flex-direction: row; - Aligns items horizontally, left to right. 
+ 
+flex-direction: column; - Aligns items vertically, top to bottom.
+
+flex-direction: row-reverse;- Aligns items horizontally, right to left.;&#x60;
+
+flex-direction: column-reverse;- Aligns items vertically, bottom to top.
+
+We can place the items at different positions along the container’s main axis by using the ‘justify-content’ property coupled with one of the following values:
+justify-content: flex-start;
+
+justify-content: flex-end;
+
+justify-content: center;
+
+justify-content: space-between;
+
+justify-content: space-around;
+
+justify-content: space-evenly;
+
+We can place the items at different along the container’s cross axis by using the ‘align-items’ property coupled with one of the following values:
+align-items: flex-start;
+
+align-items: flex-end;
+
+align-items: center;
+
+align-items: strech;
+
+Our Tech works @ Matrix Automata</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Let’s say you’ve decided to start a startup in 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/sasha240100/let-s-say-you-ve-decided-to-start-a-startup-in-2021-9da">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>If you have just decided to begin your first startup journey — then you probably know nothing about startups. But no worries, the good thing about startups is that you will learn a lot. 82% of early-stage founders say they have to operate in areas they had almost no experience in before. For example, if you are a [former] Software Engineer (which is very common for early Tech startups), you are going to be involved in the design, marketing, management, sales, and even finance processes.
+Read more: https://medium.com/projectium-network/lets-say-you-ve-decided-to-start-a-startup-in-2021-8171ce5af694</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How I Deployed my First Machine Learning Model Using Streamlit (Part 2)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-2-103a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In this article I will be explaining how to deploy your machine learning model online.
+But before then here is the link to the part 1 of this article:
+https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-1-31h9
+After signing up on streamlit, you will get an invite from the app which would look like this.
+
+It takes 1-2days before it could get accepted, the acceptance invite looks like this.
+
+After signing in, you create a github repository and name it i.e Loan Prediction. Add the project files to the repository created.
+Some of the files you should add to the repository includes:
+The code for the project
+The python script for the project
+The pkl file which is classifier.pkl for this project
+Requirement.txt file
+To get the requirement.txt file…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How I Deployed my First Machine Learning Model Using Streamlit (Part 1)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-1-31h9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>I believe most of you must have done some form of data science project at some point in your lives, be it a machine learning project, a deep learning project, or even visualizations of your data. And the best part of these projects is to showcase them to others.
+But the question is how will you showcase your work to others? Well, this is where Model Deployment will help you.
+In this article I will be showing you how I was able to deploy my first machine learning model using Streamlit.
+Streamlit is a popular open-source framework used for model deployment by machine learning and data science teams. And the best part is it’s free of cost and purely in python.
+
+We will first build a loan prediction model and then deploy it using Streamlit.
+The project that I have picked for this particular ar…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Destructuring In JavaScript</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/capscode/destructuring-in-javascript-gcg">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Hello Devs, 
+In this article we will learn Destructuring in JavaScript
+Array Destructuring in JavaScript
+Additional use of Array Destructuring
+Assigning default values using destructuring assignment
+Destructuing of nested array
+Object Destructuring in JavaScript
+Nested object destructuring
+Combined Array and Object Destructuring
+Without wasting any time lets get into it,
+The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+But why do we need destructuring ?
+let arr &#x3D; [1,2,3,4]
+arr[2] //3
+
+let obj &#x3D; {
+   fname: &#x27;john&#x27;,
+   lname: &#x27;doe&#x27;
+}
+obj.fname //john
+//or
+obj[&quot;fname&quot;] //john
+
+Think of accessing elements or properties when the array or object is nested, its little complex.
+N…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NlphoseBuilder : A tool to create NLP pipelines via drag and drop</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/code2k13/nlphosebuilder-a-tool-to-create-nlp-pipelines-via-drag-and-drop-4cga">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>✨Checkout the live demo here
+Recently  I completed work on a tool called nlphoseGUIBuilder that allows creation of complex NLP pipelines visually, without writing a single line of code ! It uses Blockly to enable creation of NLP pipelines using drag and drop. 
+Currently following operations are supported:
+Sentiment Analysis (AFINN)
+NER (Spacy)
+Language Identification (FastText)
+Chunking (NLTK)
+Sentiment Analysis (Transformers)
+Question Answering (Transformers)
+Zero shot Classification (Transformers)
+The tool generates a nlphose command that can be executed in a docker container to run the pipeline. These pipelines can process streaming text like tweets or static data like files. They can be executed just like normal shell command using nlphose.  Let me show you what I mean !
+Below is pipel…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/sandordargo/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland-2073">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>I recently read Clean Agile by Uncle Bob and probably that&#x27;s why my Kindle recommended me to read Scrum: The Art of Doing Twice the Work in Half the Time on Agile by another founder of the Agile Manifesto.
+Well, if there is one person who is more equal among the 17 founders, maybe it&#x27;s Jeff Sutherland. At least in regards to Scrum. He clearly considers it the best way of doing things - if done right.
+He brings examples to support his points. Not one or two but many.
+The most fascinating one is probably the one of the FBI. The Federal Bureau of Investigation had been using an ancient computer system. Maybe it&#x27;d be better to say system, without &quot;computer&quot;. They had most of their reports on paper, but anyways, they used a gigantic mainframe system that was built in the 80s.
+It was called the …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Piped: A privacy-friendly YouTube front end which is efficient by design</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/TeamPiped/Piped">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nim on the Attack: Process Injection Using Nim and the Windows API</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://huskyhacks.dev/2021/07/17/nim-exploit-dev/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(13 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A man in Egypt keeping a 200-year-old tradition of tile-making [video]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://m.youtube.com/watch?v&#x3D;n5x7GLl-mMo">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Mysterious DNA sequences, known as ‘Borgs,’ recovered from California mud</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.sciencemag.org/news/2021/07/mysterious-dna-sequences-known-borgs-recovered-california-mud">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Solarpunk Manifesto</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://www.re-des.org/a-solarpunk-manifesto/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Mux (YC W16) is hiring devs to contribute to open source players</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://mux.com/jobs?hnj&#x3D;oss-players">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What happens in an IPO? – A Beginner&#x27;s Guide (Part 2/2)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.simplanations.in/people/2046200-vivek-raju">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">dhcpleased(8) and resolvd(8) enabled in base, replacing dhclient(8)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://undeadly.org/cgi?action&#x3D;article;sid&#x3D;20210717141912">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">12 Months, 850 Languages, 63 Fonts, No Waiting Or: Thank God for Google Noto</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://curiousnotions.com/blog/#7/14/2021">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(37 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">I&#x27;m a Frito-Lay Factory Worker. I Work 12-Hour Days, 7 Days a Week</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.vice.com/en/article/pkbmwy/im-a-frito-lay-factory-worker-i-work-12-hour-days-7-days-a-week">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Shapecatcher: Draw the Unicode character you want</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://shapecatcher.com/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Google Maps updates &#x27;dangerous&#x27; Ben Nevis route</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.bbc.co.uk/news/uk-scotland-highlands-islands-57873330">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">HaikuOS running on RISC-V hardware (HiFive Unmatched)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://discuss.haiku-os.org/t/my-progress-on-real-risc-v-hardware/10963/31">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(20 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Blurred Lines of Parasocial Relationships</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://every.to/cybernaut/the-blurred-lines-of-parasocial-relationships">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(18 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Laws of Showrunning (2016) [pdf]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://okbjgm.weebly.com/uploads/3/1/5/0/31506003/11_laws_of_showrunning_nice_version.pdf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GM has signed an agreement to extract lithium from beneath the Salton Sea</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.autoweek.com/news/green-cars/a37029490/gm-will-suck-lithium-from-the-salton-sea-to-make-batteries/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">TFTC (TIE Fighter Total Conversion) v1.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.moddb.com/mods/tie-fighter-total-conversion-tftc/news/tftc-v10-is-out-now">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Show HN: Gorse – An Out-of-the-box open-source Recommender System</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://gorse.io/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Short Guide to Iraq (1943)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/s/short-guide-to-iraq.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(60 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Elixir protocols vs. Clojure multimethods</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://mattmower.com/2021/07/17/elixir-protocols-vs-clojure-multimethods/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What Went Wrong?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://queue.acm.org/detail.cfm?id&#x3D;3475967">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Designing Synced Blocks</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.notion.so/blog/designing-synced-blocks">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The database ruins all good ideas</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://squarism.com/2021/07/08/databases-ruin-all-good-ideas/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -97,240 +696,6 @@ The post Some Typography Links appeared first on CSS-Tricks. You can support CSS
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Git Config and Git Aliases</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/gaurav24072002/git-config-and-git-aliases-5f2g">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Hey Guys🖐!! In this Blog I will tell you about git config command, Git aliases, which allow you to create shortcuts for frequently used Git operations. Becoming familiar with git config and the various Git configuration settings will help you create a powerful, customized Git workflow.
-Git Config and Git Aliases
-The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to .gitconfig text files.
-Mainly there are three config levels 
---local
---global
---system
-NOTE: the order of priority for configuration levels is: local, global, system. This means when looking for a configuration value, Git will start at the local level and bubble up to the system level.
-
-Let&#x27;s First check whether …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The 3 most commun DOM selectors</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/the-3-most-commun-dom-selectors-1mge">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Hello, on this amazing day, we&#x27;ll discuss the 3 most common Javascript selectors.
-getElementById is used to return an element using his id. If there is no element with the giving id, it returns null.
-Aya Bouchiha
-Hi
-Bonjour
-Salam
-To Blue
-
-const changeColor &#x3D; () &#x3D;&gt; {
-  document.querySelectorAll(&quot;div&quot;).forEach(div &#x3D;&gt; div.style.color&#x3D;&quot;blue&quot;)
-}
-
-
-
-getElementById: for selecting an element using his Id
-querySelector: for getting the first element that matches the giving css selector
-querySelectorAll: for returning as a NodeList object All elements that matche the giving css selector.
-Happy codding!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Outcome-based Development w/ Bryan Finster</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/linearb/outcome-based-development-w-bryan-finster-34am">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Continuous Delivery isn’t about how fast you can deliver, it’s about the outcome your delivery achieves. 
-In this week’s episode of the Dev Interrupted podcast we talk with Bryan Finster, author of 5-minute DevOps, about outcome-based development and why failing small is better than failing fast.
-Listen to the full episode
-
-
-
-
-
-
-
-  
-  
-  Episode Highlights include:
-
-
-
-What is Outcome-based Development?
-What is the true goal of Continuous Delivery?
-Why failing small is better than failing fast.
-The most common pitfalls dev teams find when trying to optimize their delivery process.
-Join the Dev Interrupted Discord Server
-
-
-With over 1200 members, the Dev Interrupted Discord Community is the best place for Engineering Leaders to engage in daily conversation. No sales people allowed. Join the community &gt;&gt;</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Creando Arte CSS Accesible</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/alvaromontoro/creando-arte-css-accesible-20dm">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>For an English version of this article, visit this other DEV post
-El arte y los dibujos CSS ha existido básicamente desde que se creo CSS. Son una manera perfecta de practicar y aprender y son interesantes como retos de programación. Pero tienen un gran problema: el arte CSS no es accesible.
-En este post no vamos a ver cómo crear dibujos e ilustraciones en CSS (hay muchos de esos posts). En lugar de eso, nos centraremos en consejos y buenas prácticas para hacer que los dibujos CSS sean más accesibles para todos.
-Después de aplicar estas técnicas, tus imágenes en CSS se llevarán mejor con los lectores de pantalla, personas con necesidades específicos de colores, gente con trastornos vestibulares o vértigo... y todo sin impactar negativamente tu arte o tu creatividad. Todos ganan.
-Para ver u…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">🎬Awesome Loading Animation HTML &amp; CSS✨</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-11pa">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Hey DEVs, in today&#x27;s video we will create a loading spinner animation for your website using html and css.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Django and Ajax: Building a Django live recording application</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/sirneij/django-and-ajax-building-a-recording-application-4j0a">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Motivation
-
-
-Recently, I was working on the Q and A section of a web application. And the requirements mandated that users should be provided the option of recording questions live in English or any other suppported languages. Not only that, customer support center should have same privilege of responding with live recorded answers. While scurring the web for some solutions, I came across Recording audio in Django model but the response is somehow outdated. I decided to re-implement a working example using the technologies he suggested.
-Django
-Videojs-record
-Ajax
-HTML
-Bulma CSS
-First off, it is assummed you pretty much familiar with Django. Since we&#x27;ll be using a lot of Ajax and JavaScript, you should have a working knowledge of JavaScript. Bulma CSS will be used for the presentation, thou…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Finding the Story in the EU Fisheries Data</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/benjamesdavis/finding-the-story-in-the-eu-fisheries-data-1gpc">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>As Brexit trade negotiations were dragging on at the start of the year, a lot of the discourse was focused on perceived inequities in fishing rights. I felt there was a story in the data that needed to be told. Despite having the largest Exclusive Economic Zone (EEZ) of all EU countries, and some of the richest fishing grounds, UK fleets are restricted to quite modest catches.
-Initially, I had grand plans to create a sort of ‘flow map’ that would trace the translocation of fish from fishing grounds to the country of landing. The Common Fisheries Policy provides EU states with mutual access to each other&#x27;s fishing grounds, but sets quotas that are largely based on catch figures from 40 years ago which today seem arbitrary. Earlier this year, the UK government was pushing to reverse this by …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Right-to-Left in a web platform (1/6)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/pffigueiredo/right-to-left-in-a-web-platform-1-6-51bj">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Introducing Right-to-Left
-
-
-If you are trying to build an international web platform and you want it to be accessible anywhere in the world, then, RTL (right-to-left) compatibility is not a just a &quot;luxury&quot;, it is a real necessity.
-This series are obviously being written by someone who is used to see and read things from a LTR (Left-to-Right) perspective his whole life, or else, this wouldn&#x27;t even make sense, because RTL would just be the standard.
-So let&#x27;s say, you wanna introduce RTL in your web platform, and you have no idea where to start. And so, you start to look around the internet or even ask your colleagues, and you come up to read or hear something like this:
-It&#x27;s just needed to change the direction in the html tag and it will be ready…
-Well kinda, but not really.
-Yes, it will sol…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">🎬Awesome Loading Animation HTML &amp; CSS✨</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-1gpe">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Hey DEVs, in today&#x27;s video we will create a loading spinner animation for your website using html and css.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Hoisting in JavaScript.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/belidenikhil/hoisting-in-javascript-1g7h">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Interviewer : Can you explain me the concept of Hoisting?
-Dev : Sure. Hoisting is a phenomenon in which JavaScript magically🤺 moves the code to the top.
-Interviewer :   
-Dev : Sure. Gives an example where we can call a function on a line which is before the function initialization.
-Interviewer : Hmm.
-In the end you wont get the Job.
-I too have seen many tutorials, blogs and sites where they mentioned the same. But programming is not magic. There lies a logic. So, lets actually see how actually HOISTING works.
-We know that when we run a script, a Global Execution Context (GEC) is created which consists of two phases. Memory creation phase and Execution phases i.e. run phase.
-memory creation phase all the magic happens.
-As soon as we run a script all the all the variables and functions are …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Creating Your First Chrome Extension.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/giwajossy/creating-your-first-chrome-extension-26l">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Every four seconds, this chrome extension replaces images on any webpage I visit, with random pictures of some of my friends and family. 
-Totally enjoyed the building process.
-
-...
-A fairly solid understanding of the DOM [Document Object Model] goes a long way when building browser extensions, as you would have to do lots of DOM manipulation.
-The project folder contains two files; manifest.json and content.js
-Project Folder/
-manifest.json
-content.js
-...
-manifest.json
-{
-
-    &quot;manifest_version&quot;: 2,
-    &quot;name&quot;: &quot;FriendsFX&quot;,
-    &quot;version&quot;: &quot;1.0.1&quot;,
-    &quot;description&quot;: &quot;Converts every image on a webpage to random pictures of some of my friends&quot;,
-    &quot;content_scripts&quot;: [
-        {
-            &quot;matches&quot;: [&quot;&quot;],
-            &quot;js&quot;: [&quot;content.js&quot;]
-        }
-    ]
-
-}
-
-
-Most of the keys in the …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
           <section class="articles-per-source">
             <article>
@@ -353,19 +718,8 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Computer Scientist Training AI to Think with Analogies</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.quantamagazine.org/melanie-mitchell-trains-ai-to-think-with-analogies-20210714/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Apple removes ‘Fakespot’ app from iOS App Store following Amazon request</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://9to5mac.com/2021/07/16/apple-removes-fakespot-app-from-ios-app-store-following-amazon-request/">
+                <summary class="article-expander__title">Down on &#x27;The Farm&#x27;: Learning How to Spy for the CIA (1980)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.washingtonpost.com/archive/local/1980/02/19/down-on-the-farm-learning-how-to-spy-for-the-cia/fbe2f23c-ab8d-4fba-aab2-1c1da55f1c53/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>Comments</span>
@@ -375,8 +729,8 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Last Mile Redis</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://fly.io/blog/last-mile-redis/">
+                <summary class="article-expander__title">OpenAI disbands its robotics research team</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://venturebeat.com/2021/07/16/openai-disbands-its-robotics-research-team/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
                     <span>Comments</span>
@@ -386,140 +740,8 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Trexo Robotics (YC W19) Is Hiring Mobile and Robotics Interns</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://angel.co/company/trexo-robotics">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How Dangerous Are Solar Storms?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://backreaction.blogspot.com/2021/07/blog-post.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(19 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linear Circuit Design Handbook (2008)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.analog.com/en/education/education-library/linear-circuit-design-handbook.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">We will win the war for general-purpose computing</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://cheapskatesguide.org/articles/war-on-gp-computing-farnell.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Voice clone of Anthony Bourdain prompts synthetic media ethics questions</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://techpolicy.press/voice-clone-of-anthony-bourdain-prompts-synthetic-media-ethics-questions/?mc_cid&#x3D;f76836fe27&amp;mc_eid&#x3D;4336df8131">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Four lessons from a year building tools for machine learning</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://humanloop.com/blog/4-lessons-from-a-year-building-tools-for-machine-learning/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Defense Motion: Bitcoin is not “money” within the meaning of 18 U.S..C. § 1960 [pdf]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://storage.courtlistener.com/recap/gov.uscourts.miwd.100639/gov.uscourts.miwd.100639.37.0.pdf">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">High Fidelity Image Generation Using Diffusion Models</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Why we&#x27;re blind to the color blue</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://calebkruse.com/10-projects/seeing-blue/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Only Train Once: A One-Shot Neural Network Training and Pruning Framework</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://arxiv.org/abs/2107.07467">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google Drive bans distribution of “misleading content”</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://support.google.com/docs/answer/148505#zippy&#x3D;%2Cmisleading-content">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Launch HN: MergeQueue (YC S21) – Automate rebasing and merging for your codebase</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;27858013">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Classified Challenger tank specs leaked online for videogame</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://ukdefencejournal.org.uk/classified-challenger-tank-specs-leaked-online-for-videogame/">
+                <summary class="article-expander__title">Speeding Up Reinforcement Learning with a New Physics Simulation Engine</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://ai.googleblog.com/2021/07/speeding-up-reinforcement-learning-with.html">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(10 min)</span>
                     <span>Comments</span>
@@ -529,8 +751,30 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">State Department to pay up to $10M for information on foreign cyberattacks</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.darkreading.com/attacks-breaches/state-dept-to-pay-up-to-$10m-for-information-on-foreign-cyberattacks/d/d-id/1341540">
+                <summary class="article-expander__title">Eat like Jane Austen with recipes from her sister-in-law’s cookbook</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.atlasobscura.com/articles/jane-austen-recipes-cookbook">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(13 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How George Saunders Is Making Sense of the World</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.esquire.com/entertainment/books/a35166045/george-saunders-interview-pandemic-donald-trump-a-swim-in-a-pond-in-the-rain/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(17 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">To help gamers on Twitch, Dr. K balances mental health advice and medical ethics</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.npr.org/2021/01/13/956315576/psychiatrist-criticized-for-addressing-mental-health-issues-on-twitch">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
                     <span>Comments</span>
@@ -540,65 +784,10 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The case for banning non-competes</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.slowboring.com/p/the-case-for-banning-non-competes">
+                <summary class="article-expander__title">WaveFunctionCollapse: Generates bitmaps that are locally similar to the input</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/mxgmn/WaveFunctionCollapse">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Print Shop Club: Create Apple II Print Shop Printouts in the Browser</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://theprintshop.club">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Hooking Candiru: Another mercenary spyware vendor comes into focus</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://citizenlab.ca/2021/07/hooking-candiru-another-mercenary-spyware-vendor-comes-into-focus/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Hubble telescope has new lease on life after computer swap appears to fix glitch</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.sciencemag.org/news/2021/07/hubble-back-famed-space-telescope-has-new-lease-life-after-computer-swap-appears-fix">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Show HN: A CLI tool to generate Cistercian numerals</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/rhardih/cistercian">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Alexander: Why did you build such a long piano?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.alexanderpiano.nz/page/the-alexander-piano">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
+                    <span class="article-reading-time">(12 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -676,67 +865,6 @@ The post How to Get a Pixel-Perfect, Linearly Scaled UI appeared first on CSS-Tr
                     <span class="article-reading-time">(6 min)</span>
                     <span>1-Sentence-Summary: The Way Of Integrity uses science, spirituality, humor, and Dante’s Divine Comedy to teach you how to find well-being, healing, a sense of purpose, and much more by rediscovering integrity, or the recently lost art of living true to yourself by what you do, think and say. Read in: 4 minutes Favorite quote from […]
 The post The Way Of Integrity Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Ethereum London Mainnet Announcement</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.ethereum.org/2021/07/15/london-mainnet-announcement/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Fat Dactyls</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://esoteric.codes/blog/fat-dactyls">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Researchers are studying the cooking traditions of the FARC</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.atlasobscura.com/articles/what-farc-ate-colombia">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Archaeologists “flabbergasted” to find Cerne Giant’s origins are medieval</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://arstechnica.com/science/2021/07/soil-samples-show-that-britains-rude-man-dates-back-to-medieval-period/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Qodana: Code Quality Monitoring Platform</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://lp.jetbrains.com/qodana/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -861,36 +989,8 @@ The post Make Money Trading Options Summary appeared first on Four Minute Books.
                 <summary class="article-expander__title">Faster sorted array unions by reducing branches</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/07/14/faster-sorted-array-unions-by-reducing-branches/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
+                    <span class="article-reading-time">(10 min)</span>
                     <span>When designing an index, a database or a search engine, you frequently need to compute the union of two sorted sets. When I am not using fancy low-level instructions, I have most commonly computed the union of two sorted sets using the following approach: v1 &#x3D; first value in input 1 v2 &#x3D; first value … Continue reading Faster sorted array unions by reducing branches</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Red: A programming language inspired by REBOL</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/red/red">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Paxos vs. Raft: Have we reached consensus on distributed consensus?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://charap.co/reading-group-paxos-vs-raft-have-we-reached-consensus-on-distributed-consensus/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -1805,24 +1905,13 @@ Thank you @PiyushLosalka</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Client-Side Routing In Next.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/06/client-side-routing-next-js/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
-                    <span>Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-07-17T00:56:59.429Z">2021-07-17T00:56:59.429Z</time>
+    <time id="build-timestamp" datetime="2021-07-18T01:00:24.687Z">2021-07-18T01:00:24.687Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

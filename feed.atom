@@ -1,295 +1,589 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-07-17T00:56:59.450Z</id>
+    <id>urn:2021-07-18T01:00:24.706Z</id>
     <title>osmos::feed</title>
-    <updated>2021-07-17T00:56:59.450Z</updated>
+    <updated>2021-07-18T01:00:24.706Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Explain the implementation principle of the Jest framework in a simple way]]></title>
-        <id>https://dev.to/wscats/explain-the-implementation-principle-of-the-jest-framework-in-a-simple-way-4dio</id>
-        <link href="https://dev.to/wscats/explain-the-implementation-principle-of-the-jest-framework-in-a-simple-way-4dio"/>
-        <updated>2021-07-17T00:30:38.000Z</updated>
-        <summary type="html"><![CDATA[Jest Architecture
+        <title type="html"><![CDATA[Resources to master 5 popular react libraries]]></title>
+        <id>https://dev.to/ayabouchiha/resources-to-master-5-popular-react-libraries-2n81</id>
+        <link href="https://dev.to/ayabouchiha/resources-to-master-5-popular-react-libraries-2n81"/>
+        <updated>2021-07-18T00:26:31.000Z</updated>
+        <summary type="html"><![CDATA[Hello everybody, I'm Aya Bouchiha today, I'm going to share with you useful resources to learn 5 libraries that you will use at least one of them in your next react project.
+React Router is used for developing Single Page Web Applications. It is used to define multiple routes in the application. When a user types a specific URL into the browser, and if this URL path matches any 'route' inside the router file, the user will be redirected to that particular route.
+more details
+documentation
 
 
-https://github.com/wscats/jest-architecture
-Jest is a Javascript testing framework developed by Facebook. It is a JavaScript library for creating, running and writing tests.
-Jest is released as an NPM package and can be installed and run in any JavaScript project. Jest is currently one of the most popular test libraries for the front-end.
-In technical terms, testing means checking whether our code meets certain expectations. For example: a function called sum (sum) should return the expected output given some operation result.
-There are many types of tests, and you will soon be overwhelmed by the terminology, but the long story short tests fall into three categories:
-unit test
-Integration Testing
-E2E test
-In terms of testing, even the simplest code block may confuse beg…]]></summary>
-        <author>
-            <name>Eno</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git Config and Git Aliases]]></title>
-        <id>https://dev.to/gaurav24072002/git-config-and-git-aliases-5f2g</id>
-        <link href="https://dev.to/gaurav24072002/git-config-and-git-aliases-5f2g"/>
-        <updated>2021-07-16T23:57:18.000Z</updated>
-        <summary type="html"><![CDATA[Hey Guys🖐!! In this Blog I will tell you about git config command, Git aliases, which allow you to create shortcuts for frequently used Git operations. Becoming familiar with git config and the various Git configuration settings will help you create a powerful, customized Git workflow.
-Git Config and Git Aliases
-The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to .gitconfig text files.
-Mainly there are three config levels 
---local
---global
---system
-NOTE: the order of priority for configuration levels is: local, global, system. This means when looking for a configuration value, Git will start at the local level and bubble up to the system level.
-
-Let's First check whether …]]></summary>
-        <author>
-            <name>Gaurav Maheshwari</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 3 most commun DOM selectors]]></title>
-        <id>https://dev.to/ayabouchiha/the-3-most-commun-dom-selectors-1mge</id>
-        <link href="https://dev.to/ayabouchiha/the-3-most-commun-dom-selectors-1mge"/>
-        <updated>2021-07-16T23:46:59.000Z</updated>
-        <summary type="html"><![CDATA[Hello, on this amazing day, we'll discuss the 3 most common Javascript selectors.
-getElementById is used to return an element using his id. If there is no element with the giving id, it returns null.
-<h1 id="logo">Aya Bouchiha</h1>
-<script>
-    const logo = document.getElememntById('logo');
-    const img  = document.getElementById('img'); // null
-</script>
-
-querySelector is used to return the first element that matches the giving CSS selector.
-<input type="search" placeholder="search" />
-<script>
-const searchInput = document.querySelector("[type='search']");
-</script>
-
-querySelectorAll is used to return all elements (as a NodeList object) that matche the giving css selector.
-<div>Hi</div>
-<div>Bonjour</div>
-<div>Salam</div>
-<button onclick="changeColor()">To Blue</button>
-<script>
-const changeColor = () => {
-  document.querySelectorAll("div").forEach(div => div.style.color="blue")
-}
-</script>
+react-router-cheatsheet
 
 
-getElementById: for selecting an element using his Id
-querySelector: for getting the first element that matches the giving css selector
-querySelectorAll: for returning as a NodeList object All elements that matche the giving css selector.
-Happy codding!]]></summary>
+react-router by Dev Ed (30 min)
+
+
+react router crash course (40 min)
+
+
+
+
+  
+  
+  Material UI
+
+
+Material UI is the world's most popular  UI framework, additionally, it is based on Google Material Design.
+documentation
+
+
+Material UI React tutorial (40 min)
+
+
+Material UI React cra…]]></summary>
         <author>
             <name>Aya Bouchiha</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Outcome-based Development w/ Bryan Finster]]></title>
-        <id>https://dev.to/linearb/outcome-based-development-w-bryan-finster-34am</id>
-        <link href="https://dev.to/linearb/outcome-based-development-w-bryan-finster-34am"/>
-        <updated>2021-07-16T23:21:03.000Z</updated>
-        <summary type="html"><![CDATA[Continuous Delivery isn’t about how fast you can deliver, it’s about the outcome your delivery achieves. 
-In this week’s episode of the Dev Interrupted podcast we talk with Bryan Finster, author of 5-minute DevOps, about outcome-based development and why failing small is better than failing fast.
-Listen to the full episode
+        <title type="html"><![CDATA[Run React Native Android App On Mac M1]]></title>
+        <id>https://dev.to/ravics09/run-react-native-android-app-on-mac-m1-2goh</id>
+        <link href="https://dev.to/ravics09/run-react-native-android-app-on-mac-m1-2goh"/>
+        <updated>2021-07-17T22:27:47.000Z</updated>
+        <summary type="html"><![CDATA[Hi Guys Ravi here...
+Android Emulator for M1 is not available on stable releases yet and I am also waiting for Android Studio to fully support M1 macs so that I can use it for developing my React Native project. 
+But!
+
+Android Studio Preview has supported M1 chips pretty well so I am using that one to test my android app.
+You can download Android Emulator for M1 from the below link:
+https://github.com/google/android-emulator-m1-preview/releases/tag/0.3
+1.Setup M1 Android Emulator:
+https://youtu.be/3clEUFzXPjA
+
+2.After Setting Android Emulator On Mac M1 edit your bash_profile. To edit it open your terminal and run below command
+open ~/.bash_profile
+
+Add this line to your bash_profile, and replace the user-name with your username
+export PATH="$PATH:/Users/user-name/Library/Android/sdk/platform-tools"
 
 
+source ~/.bash_profile
+
+3.Then In Terminal check available adb devices by running below command:
+adb devices
+
+It will show your Android Emulator
+
+4.Now Create React Native Project by running below command
+npx react-native init AndroidApp
+
+5.Once the project is created, Go to your react-native Project then go to android directory Create a file with following name "local.properties".
+Open the file and paste your Android SDK path like below:
+sdk.dir = /Users/USERNAME/Library/Android/sdk
 
 
+6.Now run your react native project by
+npx react-native run-android
 
+7.Now Your app will run in Android Emulator
 
-
-  
-  
-  Episode Highlights include:
-
-
-
-What is Outcome-based Development?
-What is the true goal of Continuous Delivery?
-Why failing small is better than failing fast.
-The most common pitfalls dev teams find when trying to optimize their delivery process.
-Join the Dev Interrupted Discord Server
-
-
-With over 1200 members, the Dev Interrupted Discord Community is the best place for Engineering Leaders to engage in daily conversation. No sales people allowed. Join the community >>]]></summary>
+If you have any question or facing any issue you can ask me.
+If you like this post hit like button.
+Thanks for reading this post.]]></summary>
         <author>
-            <name>Conor Bronsdon</name>
+            <name>RAVI SHARMA</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Creando Arte CSS Accesible]]></title>
-        <id>https://dev.to/alvaromontoro/creando-arte-css-accesible-20dm</id>
-        <link href="https://dev.to/alvaromontoro/creando-arte-css-accesible-20dm"/>
-        <updated>2021-07-16T23:13:04.000Z</updated>
-        <summary type="html"><![CDATA[For an English version of this article, visit this other DEV post
-El arte y los dibujos CSS ha existido básicamente desde que se creo CSS. Son una manera perfecta de practicar y aprender y son interesantes como retos de programación. Pero tienen un gran problema: el arte CSS no es accesible.
-En este post no vamos a ver cómo crear dibujos e ilustraciones en CSS (hay muchos de esos posts). En lugar de eso, nos centraremos en consejos y buenas prácticas para hacer que los dibujos CSS sean más accesibles para todos.
-Después de aplicar estas técnicas, tus imágenes en CSS se llevarán mejor con los lectores de pantalla, personas con necesidades específicos de colores, gente con trastornos vestibulares o vértigo... y todo sin impactar negativamente tu arte o tu creatividad. Todos ganan.
-Para ver u…]]></summary>
+        <title type="html"><![CDATA[a first look at postgraphile with railway]]></title>
+        <id>https://dev.to/ajcwebdev/a-first-look-at-postgraphile-with-railway-1k9d</id>
+        <link href="https://dev.to/ajcwebdev/a-first-look-at-postgraphile-with-railway-1k9d"/>
+        <updated>2021-07-17T22:04:09.000Z</updated>
+        <summary type="html"><![CDATA[PostGraphile builds a GraphQL API from a PostgreSQL schema in seconds that automatically detects tables, columns, indexes, relationships, views, types, functions, and comments.
+By combining features such as PostgreSQL's role-based grant system and row-level security policies with Graphile Engine's GraphQL look-ahead and plugin expansion technologies, PostGraphile ensures your generated schema is secure, performant and extensible.
+There are two ways to setup a PostgreSQL database with Railway, through the dashboard or through the CLI.
+Click dev.new and choose "Provision PostgreSQL" After the database is setup click "PostgreSQL" on the left and then choose "Connect". Copy and paste the PostgreSQL client command.
+First you need to create a Railway account and install the Railway CLI.
+railway …]]></summary>
         <author>
-            <name>Alvaro Montoro</name>
+            <name>anthony-campolo</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🎬Awesome Loading Animation HTML & CSS✨]]></title>
-        <id>https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-11pa</id>
-        <link href="https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-11pa"/>
-        <updated>2021-07-16T22:49:18.000Z</updated>
-        <summary type="html"><![CDATA[Hey DEVs, in today's video we will create a loading spinner animation for your website using html and css.]]></summary>
-        <author>
-            <name>Robson Muniz</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Django and Ajax: Building a Django live recording application]]></title>
-        <id>https://dev.to/sirneij/django-and-ajax-building-a-recording-application-4j0a</id>
-        <link href="https://dev.to/sirneij/django-and-ajax-building-a-recording-application-4j0a"/>
-        <updated>2021-07-16T22:46:19.000Z</updated>
-        <summary type="html"><![CDATA[Motivation
-
-
-Recently, I was working on the Q and A section of a web application. And the requirements mandated that users should be provided the option of recording questions live in English or any other suppported languages. Not only that, customer support center should have same privilege of responding with live recorded answers. While scurring the web for some solutions, I came across Recording audio in Django model but the response is somehow outdated. I decided to re-implement a working example using the technologies he suggested.
-Django
-Videojs-record
-Ajax
-HTML
-Bulma CSS
-First off, it is assummed you pretty much familiar with Django. Since we'll be using a lot of Ajax and JavaScript, you should have a working knowledge of JavaScript. Bulma CSS will be used for the presentation, thou…]]></summary>
-        <author>
-            <name>John Idogun</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Computer Scientist Training AI to Think with Analogies]]></title>
-        <id>https://www.quantamagazine.org/melanie-mitchell-trains-ai-to-think-with-analogies-20210714/</id>
-        <link href="https://www.quantamagazine.org/melanie-mitchell-trains-ai-to-think-with-analogies-20210714/"/>
-        <updated>2021-07-16T22:38:04.000Z</updated>
+        <title type="html"><![CDATA[Piped: A privacy-friendly YouTube front end which is efficient by design]]></title>
+        <id>https://github.com/TeamPiped/Piped</id>
+        <link href="https://github.com/TeamPiped/Piped"/>
+        <updated>2021-07-17T22:02:50.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Finding the Story in the EU Fisheries Data]]></title>
-        <id>https://dev.to/benjamesdavis/finding-the-story-in-the-eu-fisheries-data-1gpc</id>
-        <link href="https://dev.to/benjamesdavis/finding-the-story-in-the-eu-fisheries-data-1gpc"/>
-        <updated>2021-07-16T22:37:07.000Z</updated>
-        <summary type="html"><![CDATA[As Brexit trade negotiations were dragging on at the start of the year, a lot of the discourse was focused on perceived inequities in fishing rights. I felt there was a story in the data that needed to be told. Despite having the largest Exclusive Economic Zone (EEZ) of all EU countries, and some of the richest fishing grounds, UK fleets are restricted to quite modest catches.
-Initially, I had grand plans to create a sort of ‘flow map’ that would trace the translocation of fish from fishing grounds to the country of landing. The Common Fisheries Policy provides EU states with mutual access to each other's fishing grounds, but sets quotas that are largely based on catch figures from 40 years ago which today seem arbitrary. Earlier this year, the UK government was pushing to reverse this by …]]></summary>
+        <title type="html"><![CDATA[Javascript Modules]]></title>
+        <id>https://dev.to/spartakyste/javascript-modules-hhf</id>
+        <link href="https://dev.to/spartakyste/javascript-modules-hhf"/>
+        <updated>2021-07-17T21:42:06.000Z</updated>
+        <summary type="html"><![CDATA[Whats is a module ?
+Basically modules are pieces of code that can be imported anywhere in your application. A module is really easily recognizable, as soon as you see the import or export keyword, you're dealing with a module.
+So... pretty much everything is a module ?
+What about the require keyword I've seen here and here ?
+How do I use them ?
+We'll cover everything from this point onward.
+Grab a coffee, and let's get started.
+As we can't really understand something without the knowledge of why it exist, we'll take a quick historical detour.
+Waaaaay back in the days, nothing known as modules existed. But also, Javascript wasn't as widely used as it is today, it's only purpose was pretty much to add interactivity on your website.
+And nobody like 2000 lines long of code within a single file…]]></summary>
         <author>
-            <name>benjamesdavis</name>
+            <name>Chandelier Axel</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Right-to-Left in a web platform (1/6)]]></title>
-        <id>https://dev.to/pffigueiredo/right-to-left-in-a-web-platform-1-6-51bj</id>
-        <link href="https://dev.to/pffigueiredo/right-to-left-in-a-web-platform-1-6-51bj"/>
-        <updated>2021-07-16T22:33:13.000Z</updated>
-        <summary type="html"><![CDATA[Introducing Right-to-Left
-
-
-If you are trying to build an international web platform and you want it to be accessible anywhere in the world, then, RTL (right-to-left) compatibility is not a just a "luxury", it is a real necessity.
-This series are obviously being written by someone who is used to see and read things from a LTR (Left-to-Right) perspective his whole life, or else, this wouldn't even make sense, because RTL would just be the standard.
-So let's say, you wanna introduce RTL in your web platform, and you have no idea where to start. And so, you start to look around the internet or even ask your colleagues, and you come up to read or hear something like this:
-It's just needed to change the direction in the html tag and it will be ready…
-Well kinda, but not really.
-Yes, it will sol…]]></summary>
+        <title type="html"><![CDATA[Introduction to the Document Makeup Library (DML)]]></title>
+        <id>https://dev.to/efpage/introduction-to-the-document-makeup-library-dml-1aak</id>
+        <link href="https://dev.to/efpage/introduction-to-the-document-makeup-library-dml-1aak"/>
+        <updated>2021-07-17T21:32:46.000Z</updated>
+        <summary type="html"><![CDATA[The web has evolved a lot since the days of Tim Berners-Lee, but we are still using some of the initial concepts. From a technical view, HTML is superfuous: We can access the HTML-DOM-API directly to build the DOM. From a programmers view, there are good reasons to rethink the whole concept. 
+Maybe it´s time for a new approach.
+The Document Makeup Library (DML) is a new Javascript library that has just been released as Open Source. DML makes it increadibly easy to build complex web applications using just vanilla javascript (one language to rule them all...). It let´s you create DOM elements using the tags you are used to - not in html, but from within Javascript. h1() creates an <h1>-element, p() a <p> and so on. This makes it possible to "bypass" the traditional HTML-approach completely.…]]></summary>
         <author>
-            <name>pffigueiredo</name>
+            <name>Eckehard</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Apple removes ‘Fakespot’ app from iOS App Store following Amazon request]]></title>
-        <id>https://9to5mac.com/2021/07/16/apple-removes-fakespot-app-from-ios-app-store-following-amazon-request/</id>
-        <link href="https://9to5mac.com/2021/07/16/apple-removes-fakespot-app-from-ios-app-store-following-amazon-request/"/>
-        <updated>2021-07-16T22:11:28.000Z</updated>
+        <title type="html"><![CDATA[Nim on the Attack: Process Injection Using Nim and the Windows API]]></title>
+        <id>https://huskyhacks.dev/2021/07/17/nim-exploit-dev/</id>
+        <link href="https://huskyhacks.dev/2021/07/17/nim-exploit-dev/"/>
+        <updated>2021-07-17T21:30:43.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🎬Awesome Loading Animation HTML & CSS✨]]></title>
-        <id>https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-1gpe</id>
-        <link href="https://dev.to/robsonmuniz16/awesome-loading-animation-html-css-1gpe"/>
-        <updated>2021-07-16T22:08:47.000Z</updated>
-        <summary type="html"><![CDATA[Hey DEVs, in today's video we will create a loading spinner animation for your website using html and css.]]></summary>
+        <title type="html"><![CDATA[A man in Egypt keeping a 200-year-old tradition of tile-making [video]]]></title>
+        <id>https://m.youtube.com/watch?v=n5x7GLl-mMo</id>
+        <link href="https://m.youtube.com/watch?v=n5x7GLl-mMo"/>
+        <updated>2021-07-17T21:28:57.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>Robson Muniz</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hoisting in JavaScript.]]></title>
-        <id>https://dev.to/belidenikhil/hoisting-in-javascript-1g7h</id>
-        <link href="https://dev.to/belidenikhil/hoisting-in-javascript-1g7h"/>
-        <updated>2021-07-16T22:04:01.000Z</updated>
-        <summary type="html"><![CDATA[Interviewer : Can you explain me the concept of Hoisting?
-Dev : Sure. Hoisting is a phenomenon in which JavaScript magically🤺 moves the code to the top.
-Interviewer :   
-Dev : Sure. Gives an example where we can call a function on a line which is before the function initialization.
-Interviewer : Hmm.
-In the end you wont get the Job.
-I too have seen many tutorials, blogs and sites where they mentioned the same. But programming is not magic. There lies a logic. So, lets actually see how actually HOISTING works.
-We know that when we run a script, a Global Execution Context (GEC) is created which consists of two phases. Memory creation phase and Execution phases i.e. run phase.
-memory creation phase all the magic happens.
-As soon as we run a script all the all the variables and functions are …]]></summary>
-        <author>
-            <name>NikhilBelide</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating Your First Chrome Extension.]]></title>
-        <id>https://dev.to/giwajossy/creating-your-first-chrome-extension-26l</id>
-        <link href="https://dev.to/giwajossy/creating-your-first-chrome-extension-26l"/>
-        <updated>2021-07-16T22:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Every four seconds, this chrome extension replaces images on any webpage I visit, with random pictures of some of my friends and family. 
-Totally enjoyed the building process.
+        <title type="html"><![CDATA[How to position items within a container using Flex Box ?]]></title>
+        <id>https://dev.to/danyson/how-to-position-items-within-a-container-using-flex-box-153o</id>
+        <link href="https://dev.to/danyson/how-to-position-items-within-a-container-using-flex-box-153o"/>
+        <updated>2021-07-17T21:22:20.000Z</updated>
+        <summary type="html"><![CDATA[1. Create a Container with items
 
-...
-A fairly solid understanding of the DOM [Document Object Model] goes a long way when building browser extensions, as you would have to do lots of DOM manipulation.
-The project folder contains two files; manifest.json and content.js
-Project Folder/
-manifest.json
-content.js
-...
-manifest.json
-{
 
-    "manifest_version": 2,
-    "name": "FriendsFX",
-    "version": "1.0.1",
-    "description": "Converts every image on a webpage to random pictures of some of my friends",
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js": ["content.js"]
-        }
-    ]
 
+  
+  
+  Html
+
+
+
+
+
+<div class="container">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+</div>
+
+
+.container{
+    width: 720px;
+    height: 480px;
+    background-color: blue;
 }
 
+.item{
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid green;
+    background-color: orange;
+}
 
-Most of the keys in the …]]></summary>
+.container{
+    display: flex; /* flex box applied here */
+    width: 720px;
+    height: 480px;
+    background-color: blue;
+}
+
+We can now add a ‘flex-direction’ property to the container and assign one of the following values:
+flex-direction: row; - Aligns items horizontally, left to right. 
+ 
+flex-direction: column; - Aligns items vertically, top to bottom.
+
+flex-direction: row-reverse;- Aligns items horizontally, right to left.;`
+
+flex-direction: column-reverse;- Aligns items vertically, bottom to top.
+
+We can place the items at different positions along the container’s main axis by using the ‘justify-content’ property coupled with one of the following values:
+justify-content: flex-start;
+
+justify-content: flex-end;
+
+justify-content: center;
+
+justify-content: space-between;
+
+justify-content: space-around;
+
+justify-content: space-evenly;
+
+We can place the items at different along the container’s cross axis by using the ‘align-items’ property coupled with one of the following values:
+align-items: flex-start;
+
+align-items: flex-end;
+
+align-items: center;
+
+align-items: strech;
+
+Our Tech works @ Matrix Automata]]></summary>
         <author>
-            <name>Giwa Jossy</name>
+            <name>Danyson</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Last Mile Redis]]></title>
-        <id>https://fly.io/blog/last-mile-redis/</id>
-        <link href="https://fly.io/blog/last-mile-redis/"/>
-        <updated>2021-07-16T21:36:11.000Z</updated>
+        <title type="html"><![CDATA[Mysterious DNA sequences, known as ‘Borgs,’ recovered from California mud]]></title>
+        <id>https://www.sciencemag.org/news/2021/07/mysterious-dna-sequences-known-borgs-recovered-california-mud</id>
+        <link href="https://www.sciencemag.org/news/2021/07/mysterious-dna-sequences-known-borgs-recovered-california-mud"/>
+        <updated>2021-07-17T21:14:17.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Trexo Robotics (YC W19) Is Hiring Mobile and Robotics Interns]]></title>
-        <id>https://angel.co/company/trexo-robotics</id>
-        <link href="https://angel.co/company/trexo-robotics"/>
-        <updated>2021-07-16T21:00:47.000Z</updated>
+        <title type="html"><![CDATA[A Solarpunk Manifesto]]></title>
+        <id>http://www.re-des.org/a-solarpunk-manifesto/</id>
+        <link href="http://www.re-des.org/a-solarpunk-manifesto/"/>
+        <updated>2021-07-17T21:13:23.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mux (YC W16) is hiring devs to contribute to open source players]]></title>
+        <id>https://mux.com/jobs?hnj=oss-players</id>
+        <link href="https://mux.com/jobs?hnj=oss-players"/>
+        <updated>2021-07-17T21:01:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s say you’ve decided to start a startup in 2021]]></title>
+        <id>https://dev.to/sasha240100/let-s-say-you-ve-decided-to-start-a-startup-in-2021-9da</id>
+        <link href="https://dev.to/sasha240100/let-s-say-you-ve-decided-to-start-a-startup-in-2021-9da"/>
+        <updated>2021-07-17T20:52:24.000Z</updated>
+        <summary type="html"><![CDATA[If you have just decided to begin your first startup journey — then you probably know nothing about startups. But no worries, the good thing about startups is that you will learn a lot. 82% of early-stage founders say they have to operate in areas they had almost no experience in before. For example, if you are a [former] Software Engineer (which is very common for early Tech startups), you are going to be involved in the design, marketing, management, sales, and even finance processes.
+Read more: https://medium.com/projectium-network/lets-say-you-ve-decided-to-start-a-startup-in-2021-8171ce5af694]]></summary>
+        <author>
+            <name>Alexander Buzin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What happens in an IPO? – A Beginner's Guide (Part 2/2)]]></title>
+        <id>https://www.simplanations.in/people/2046200-vivek-raju</id>
+        <link href="https://www.simplanations.in/people/2046200-vivek-raju"/>
+        <updated>2021-07-17T20:52:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dhcpleased(8) and resolvd(8) enabled in base, replacing dhclient(8)]]></title>
+        <id>https://undeadly.org/cgi?action=article;sid=20210717141912</id>
+        <link href="https://undeadly.org/cgi?action=article;sid=20210717141912"/>
+        <updated>2021-07-17T20:48:21.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12 Months, 850 Languages, 63 Fonts, No Waiting Or: Thank God for Google Noto]]></title>
+        <id>https://curiousnotions.com/blog/#7/14/2021</id>
+        <link href="https://curiousnotions.com/blog/#7/14/2021"/>
+        <updated>2021-07-17T20:42:22.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Deployed my First Machine Learning Model Using Streamlit (Part 2)]]></title>
+        <id>https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-2-103a</id>
+        <link href="https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-2-103a"/>
+        <updated>2021-07-17T20:34:48.000Z</updated>
+        <summary type="html"><![CDATA[In this article I will be explaining how to deploy your machine learning model online.
+But before then here is the link to the part 1 of this article:
+https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-1-31h9
+After signing up on streamlit, you will get an invite from the app which would look like this.
+
+It takes 1-2days before it could get accepted, the acceptance invite looks like this.
+
+After signing in, you create a github repository and name it i.e Loan Prediction. Add the project files to the repository created.
+Some of the files you should add to the repository includes:
+The code for the project
+The python script for the project
+The pkl file which is classifier.pkl for this project
+Requirement.txt file
+To get the requirement.txt file…]]></summary>
+        <author>
+            <name>omale happiness Ojone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Deployed my First Machine Learning Model Using Streamlit (Part 1)]]></title>
+        <id>https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-1-31h9</id>
+        <link href="https://dev.to/codinghappinessweb/how-i-deployed-my-first-machine-learning-model-using-streamlit-part-1-31h9"/>
+        <updated>2021-07-17T20:31:39.000Z</updated>
+        <summary type="html"><![CDATA[I believe most of you must have done some form of data science project at some point in your lives, be it a machine learning project, a deep learning project, or even visualizations of your data. And the best part of these projects is to showcase them to others.
+But the question is how will you showcase your work to others? Well, this is where Model Deployment will help you.
+In this article I will be showing you how I was able to deploy my first machine learning model using Streamlit.
+Streamlit is a popular open-source framework used for model deployment by machine learning and data science teams. And the best part is it’s free of cost and purely in python.
+
+We will first build a loan prediction model and then deploy it using Streamlit.
+The project that I have picked for this particular ar…]]></summary>
+        <author>
+            <name>omale happiness Ojone</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm a Frito-Lay Factory Worker. I Work 12-Hour Days, 7 Days a Week]]></title>
+        <id>https://www.vice.com/en/article/pkbmwy/im-a-frito-lay-factory-worker-i-work-12-hour-days-7-days-a-week</id>
+        <link href="https://www.vice.com/en/article/pkbmwy/im-a-frito-lay-factory-worker-i-work-12-hour-days-7-days-a-week"/>
+        <updated>2021-07-17T19:42:53.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shapecatcher: Draw the Unicode character you want]]></title>
+        <id>http://shapecatcher.com/</id>
+        <link href="http://shapecatcher.com/"/>
+        <updated>2021-07-17T19:35:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Maps updates 'dangerous' Ben Nevis route]]></title>
+        <id>https://www.bbc.co.uk/news/uk-scotland-highlands-islands-57873330</id>
+        <link href="https://www.bbc.co.uk/news/uk-scotland-highlands-islands-57873330"/>
+        <updated>2021-07-17T19:06:08.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Destructuring In JavaScript]]></title>
+        <id>https://dev.to/capscode/destructuring-in-javascript-gcg</id>
+        <link href="https://dev.to/capscode/destructuring-in-javascript-gcg"/>
+        <updated>2021-07-17T19:05:32.000Z</updated>
+        <summary type="html"><![CDATA[Hello Devs, 
+In this article we will learn Destructuring in JavaScript
+Array Destructuring in JavaScript
+Additional use of Array Destructuring
+Assigning default values using destructuring assignment
+Destructuing of nested array
+Object Destructuring in JavaScript
+Nested object destructuring
+Combined Array and Object Destructuring
+Without wasting any time lets get into it,
+The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+But why do we need destructuring ?
+let arr = [1,2,3,4]
+arr[2] //3
+
+let obj = {
+   fname: 'john',
+   lname: 'doe'
+}
+obj.fname //john
+//or
+obj["fname"] //john
+
+Think of accessing elements or properties when the array or object is nested, its little complex.
+N…]]></summary>
+        <author>
+            <name>capscode</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NlphoseBuilder : A tool to create NLP pipelines via drag and drop]]></title>
+        <id>https://dev.to/code2k13/nlphosebuilder-a-tool-to-create-nlp-pipelines-via-drag-and-drop-4cga</id>
+        <link href="https://dev.to/code2k13/nlphosebuilder-a-tool-to-create-nlp-pipelines-via-drag-and-drop-4cga"/>
+        <updated>2021-07-17T19:05:23.000Z</updated>
+        <summary type="html"><![CDATA[✨Checkout the live demo here
+Recently  I completed work on a tool called nlphoseGUIBuilder that allows creation of complex NLP pipelines visually, without writing a single line of code ! It uses Blockly to enable creation of NLP pipelines using drag and drop. 
+Currently following operations are supported:
+Sentiment Analysis (AFINN)
+NER (Spacy)
+Language Identification (FastText)
+Chunking (NLTK)
+Sentiment Analysis (Transformers)
+Question Answering (Transformers)
+Zero shot Classification (Transformers)
+The tool generates a nlphose command that can be executed in a docker container to run the pipeline. These pipelines can process streaming text like tweets or static data like files. They can be executed just like normal shell command using nlphose.  Let me show you what I mean !
+Below is pipel…]]></summary>
+        <author>
+            <name>code2k13</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HaikuOS running on RISC-V hardware (HiFive Unmatched)]]></title>
+        <id>https://discuss.haiku-os.org/t/my-progress-on-real-risc-v-hardware/10963/31</id>
+        <link href="https://discuss.haiku-os.org/t/my-progress-on-real-risc-v-hardware/10963/31"/>
+        <updated>2021-07-17T18:57:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scrum: The Art of Doing Twice the Work in Half the Time by Jeff Sutherland]]></title>
+        <id>https://dev.to/sandordargo/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland-2073</id>
+        <link href="https://dev.to/sandordargo/scrum-the-art-of-doing-twice-the-work-in-half-the-time-by-jeff-sutherland-2073"/>
+        <updated>2021-07-17T18:18:32.000Z</updated>
+        <summary type="html"><![CDATA[I recently read Clean Agile by Uncle Bob and probably that's why my Kindle recommended me to read Scrum: The Art of Doing Twice the Work in Half the Time on Agile by another founder of the Agile Manifesto.
+Well, if there is one person who is more equal among the 17 founders, maybe it's Jeff Sutherland. At least in regards to Scrum. He clearly considers it the best way of doing things - if done right.
+He brings examples to support his points. Not one or two but many.
+The most fascinating one is probably the one of the FBI. The Federal Bureau of Investigation had been using an ancient computer system. Maybe it'd be better to say system, without "computer". They had most of their reports on paper, but anyways, they used a gigantic mainframe system that was built in the 80s.
+It was called the …]]></summary>
+        <author>
+            <name>Sandor Dargo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Blurred Lines of Parasocial Relationships]]></title>
+        <id>https://every.to/cybernaut/the-blurred-lines-of-parasocial-relationships</id>
+        <link href="https://every.to/cybernaut/the-blurred-lines-of-parasocial-relationships"/>
+        <updated>2021-07-17T17:10:09.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laws of Showrunning (2016) [pdf]]]></title>
+        <id>http://okbjgm.weebly.com/uploads/3/1/5/0/31506003/11_laws_of_showrunning_nice_version.pdf</id>
+        <link href="http://okbjgm.weebly.com/uploads/3/1/5/0/31506003/11_laws_of_showrunning_nice_version.pdf"/>
+        <updated>2021-07-17T16:49:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GM has signed an agreement to extract lithium from beneath the Salton Sea]]></title>
+        <id>https://www.autoweek.com/news/green-cars/a37029490/gm-will-suck-lithium-from-the-salton-sea-to-make-batteries/</id>
+        <link href="https://www.autoweek.com/news/green-cars/a37029490/gm-will-suck-lithium-from-the-salton-sea-to-make-batteries/"/>
+        <updated>2021-07-17T16:40:49.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TFTC (TIE Fighter Total Conversion) v1.0]]></title>
+        <id>https://www.moddb.com/mods/tie-fighter-total-conversion-tftc/news/tftc-v10-is-out-now</id>
+        <link href="https://www.moddb.com/mods/tie-fighter-total-conversion-tftc/news/tftc-v10-is-out-now"/>
+        <updated>2021-07-17T15:14:32.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Show HN: Gorse – An Out-of-the-box open-source Recommender System]]></title>
+        <id>https://gorse.io/</id>
+        <link href="https://gorse.io/"/>
+        <updated>2021-07-17T15:07:04.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Short Guide to Iraq (1943)]]></title>
+        <id>https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/s/short-guide-to-iraq.html</id>
+        <link href="https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/s/short-guide-to-iraq.html"/>
+        <updated>2021-07-17T14:30:29.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elixir protocols vs. Clojure multimethods]]></title>
+        <id>https://mattmower.com/2021/07/17/elixir-protocols-vs-clojure-multimethods/</id>
+        <link href="https://mattmower.com/2021/07/17/elixir-protocols-vs-clojure-multimethods/"/>
+        <updated>2021-07-17T11:47:12.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Went Wrong?]]></title>
+        <id>https://queue.acm.org/detail.cfm?id=3475967</id>
+        <link href="https://queue.acm.org/detail.cfm?id=3475967"/>
+        <updated>2021-07-17T11:34:18.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Designing Synced Blocks]]></title>
+        <id>https://www.notion.so/blog/designing-synced-blocks</id>
+        <link href="https://www.notion.so/blog/designing-synced-blocks"/>
+        <updated>2021-07-17T07:31:39.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The database ruins all good ideas]]></title>
+        <id>http://squarism.com/2021/07/08/databases-ruin-all-good-ideas/</id>
+        <link href="http://squarism.com/2021/07/08/databases-ruin-all-good-ideas/"/>
+        <updated>2021-07-17T05:59:20.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Down on 'The Farm': Learning How to Spy for the CIA (1980)]]></title>
+        <id>https://www.washingtonpost.com/archive/local/1980/02/19/down-on-the-farm-learning-how-to-spy-for-the-cia/fbe2f23c-ab8d-4fba-aab2-1c1da55f1c53/</id>
+        <link href="https://www.washingtonpost.com/archive/local/1980/02/19/down-on-the-farm-learning-how-to-spy-for-the-cia/fbe2f23c-ab8d-4fba-aab2-1c1da55f1c53/"/>
+        <updated>2021-07-16T22:09:12.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI disbands its robotics research team]]></title>
+        <id>https://venturebeat.com/2021/07/16/openai-disbands-its-robotics-research-team/</id>
+        <link href="https://venturebeat.com/2021/07/16/openai-disbands-its-robotics-research-team/"/>
+        <updated>2021-07-16T21:03:45.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -307,26 +601,6 @@ The post WordPress Admin Warnings in the Block Editor appeared first on CSS-Tric
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Dangerous Are Solar Storms?]]></title>
-        <id>http://backreaction.blogspot.com/2021/07/blog-post.html</id>
-        <link href="http://backreaction.blogspot.com/2021/07/blog-post.html"/>
-        <updated>2021-07-16T20:13:41.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linear Circuit Design Handbook (2008)]]></title>
-        <id>https://www.analog.com/en/education/education-library/linear-circuit-design-handbook.html</id>
-        <link href="https://www.analog.com/en/education/education-library/linear-circuit-design-handbook.html"/>
-        <updated>2021-07-16T19:17:40.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Style Your React App – 5 Ways to Write CSS in 2021]]></title>
         <id>60eef23666c61b07d458d43c</id>
         <link href="https://www.freecodecamp.org/news/how-to-style-react-apps-with-css/"/>
@@ -337,110 +611,40 @@ The post WordPress Admin Warnings in the Block Editor appeared first on CSS-Tric
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[We will win the war for general-purpose computing]]></title>
-        <id>https://cheapskatesguide.org/articles/war-on-gp-computing-farnell.html</id>
-        <link href="https://cheapskatesguide.org/articles/war-on-gp-computing-farnell.html"/>
-        <updated>2021-07-16T18:24:47.000Z</updated>
+        <title type="html"><![CDATA[Speeding Up Reinforcement Learning with a New Physics Simulation Engine]]></title>
+        <id>https://ai.googleblog.com/2021/07/speeding-up-reinforcement-learning-with.html</id>
+        <link href="https://ai.googleblog.com/2021/07/speeding-up-reinforcement-learning-with.html"/>
+        <updated>2021-07-16T18:29:38.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Voice clone of Anthony Bourdain prompts synthetic media ethics questions]]></title>
-        <id>https://techpolicy.press/voice-clone-of-anthony-bourdain-prompts-synthetic-media-ethics-questions/?mc_cid=f76836fe27&amp;mc_eid=4336df8131</id>
-        <link href="https://techpolicy.press/voice-clone-of-anthony-bourdain-prompts-synthetic-media-ethics-questions/?mc_cid=f76836fe27&amp;mc_eid=4336df8131"/>
-        <updated>2021-07-16T18:20:57.000Z</updated>
+        <title type="html"><![CDATA[Eat like Jane Austen with recipes from her sister-in-law’s cookbook]]></title>
+        <id>https://www.atlasobscura.com/articles/jane-austen-recipes-cookbook</id>
+        <link href="https://www.atlasobscura.com/articles/jane-austen-recipes-cookbook"/>
+        <updated>2021-07-16T17:53:24.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Four lessons from a year building tools for machine learning]]></title>
-        <id>https://humanloop.com/blog/4-lessons-from-a-year-building-tools-for-machine-learning/</id>
-        <link href="https://humanloop.com/blog/4-lessons-from-a-year-building-tools-for-machine-learning/"/>
-        <updated>2021-07-16T17:52:27.000Z</updated>
+        <title type="html"><![CDATA[How George Saunders Is Making Sense of the World]]></title>
+        <id>https://www.esquire.com/entertainment/books/a35166045/george-saunders-interview-pandemic-donald-trump-a-swim-in-a-pond-in-the-rain/</id>
+        <link href="https://www.esquire.com/entertainment/books/a35166045/george-saunders-interview-pandemic-donald-trump-a-swim-in-a-pond-in-the-rain/"/>
+        <updated>2021-07-16T17:46:25.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Defense Motion: Bitcoin is not “money” within the meaning of 18 U.S..C. § 1960 [pdf]]]></title>
-        <id>https://storage.courtlistener.com/recap/gov.uscourts.miwd.100639/gov.uscourts.miwd.100639.37.0.pdf</id>
-        <link href="https://storage.courtlistener.com/recap/gov.uscourts.miwd.100639/gov.uscourts.miwd.100639.37.0.pdf"/>
-        <updated>2021-07-16T17:44:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[High Fidelity Image Generation Using Diffusion Models]]></title>
-        <id>https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html</id>
-        <link href="https://ai.googleblog.com/2021/07/high-fidelity-image-generation-using.html"/>
-        <updated>2021-07-16T17:40:54.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why we're blind to the color blue]]></title>
-        <id>https://calebkruse.com/10-projects/seeing-blue/</id>
-        <link href="https://calebkruse.com/10-projects/seeing-blue/"/>
-        <updated>2021-07-16T17:20:04.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Only Train Once: A One-Shot Neural Network Training and Pruning Framework]]></title>
-        <id>https://arxiv.org/abs/2107.07467</id>
-        <link href="https://arxiv.org/abs/2107.07467"/>
-        <updated>2021-07-16T17:15:51.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Drive bans distribution of “misleading content”]]></title>
-        <id>https://support.google.com/docs/answer/148505#zippy=%2Cmisleading-content</id>
-        <link href="https://support.google.com/docs/answer/148505#zippy=%2Cmisleading-content"/>
-        <updated>2021-07-16T16:34:37.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: MergeQueue (YC S21) – Automate rebasing and merging for your codebase]]></title>
-        <id>https://news.ycombinator.com/item?id=27858013</id>
-        <link href="https://news.ycombinator.com/item?id=27858013"/>
-        <updated>2021-07-16T16:32:32.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Classified Challenger tank specs leaked online for videogame]]></title>
-        <id>https://ukdefencejournal.org.uk/classified-challenger-tank-specs-leaked-online-for-videogame/</id>
-        <link href="https://ukdefencejournal.org.uk/classified-challenger-tank-specs-leaked-online-for-videogame/"/>
-        <updated>2021-07-16T15:56:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State Department to pay up to $10M for information on foreign cyberattacks]]></title>
-        <id>https://www.darkreading.com/attacks-breaches/state-dept-to-pay-up-to-$10m-for-information-on-foreign-cyberattacks/d/d-id/1341540</id>
-        <link href="https://www.darkreading.com/attacks-breaches/state-dept-to-pay-up-to-$10m-for-information-on-foreign-cyberattacks/d/d-id/1341540"/>
-        <updated>2021-07-16T15:36:56.000Z</updated>
+        <title type="html"><![CDATA[To help gamers on Twitch, Dr. K balances mental health advice and medical ethics]]></title>
+        <id>https://www.npr.org/2021/01/13/956315576/psychiatrist-criticized-for-addressing-mental-health-issues-on-twitch</id>
+        <link href="https://www.npr.org/2021/01/13/956315576/psychiatrist-criticized-for-addressing-mental-health-issues-on-twitch"/>
+        <updated>2021-07-16T16:00:28.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -471,36 +675,6 @@ The post Some Typography Links appeared first on CSS-Tricks. You can support CSS
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The case for banning non-competes]]></title>
-        <id>https://www.slowboring.com/p/the-case-for-banning-non-competes</id>
-        <link href="https://www.slowboring.com/p/the-case-for-banning-non-competes"/>
-        <updated>2021-07-16T14:31:24.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Print Shop Club: Create Apple II Print Shop Printouts in the Browser]]></title>
-        <id>https://theprintshop.club</id>
-        <link href="https://theprintshop.club"/>
-        <updated>2021-07-16T13:28:36.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hooking Candiru: Another mercenary spyware vendor comes into focus]]></title>
-        <id>https://citizenlab.ca/2021/07/hooking-candiru-another-mercenary-spyware-vendor-comes-into-focus/</id>
-        <link href="https://citizenlab.ca/2021/07/hooking-candiru-another-mercenary-spyware-vendor-comes-into-focus/"/>
-        <updated>2021-07-16T13:21:35.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Three Insights I Gained While Researching Vue.js Accessibility]]></title>
         <id>https://smashingmagazine.com/2021/07/three-insights-vuejs-accessibility/</id>
         <link href="https://smashingmagazine.com/2021/07/three-insights-vuejs-accessibility/"/>
@@ -508,16 +682,6 @@ The post Some Typography Links appeared first on CSS-Tricks. You can support CSS
         <summary type="html"><![CDATA[Web app accessibility appears difficult because it seems that there is little information on the subject available online. Let’s take a closer look at the accessible use of framework features, concrete Vue.js traits, as well as community initiatives and vetted patterns.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Marcus Herrmann)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hubble telescope has new lease on life after computer swap appears to fix glitch]]></title>
-        <id>https://www.sciencemag.org/news/2021/07/hubble-back-famed-space-telescope-has-new-lease-life-after-computer-swap-appears-fix</id>
-        <link href="https://www.sciencemag.org/news/2021/07/hubble-back-famed-space-telescope-has-new-lease-life-after-computer-swap-appears-fix"/>
-        <updated>2021-07-16T12:54:29.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -532,20 +696,10 @@ The post What Are You Doing With Your Life Summary appeared first on Four Minute
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: A CLI tool to generate Cistercian numerals]]></title>
-        <id>https://github.com/rhardih/cistercian</id>
-        <link href="https://github.com/rhardih/cistercian"/>
-        <updated>2021-07-16T04:21:47.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Alexander: Why did you build such a long piano?]]></title>
-        <id>https://www.alexanderpiano.nz/page/the-alexander-piano</id>
-        <link href="https://www.alexanderpiano.nz/page/the-alexander-piano"/>
-        <updated>2021-07-16T00:38:09.000Z</updated>
+        <title type="html"><![CDATA[WaveFunctionCollapse: Generates bitmaps that are locally similar to the input]]></title>
+        <id>https://github.com/mxgmn/WaveFunctionCollapse</id>
+        <link href="https://github.com/mxgmn/WaveFunctionCollapse"/>
+        <updated>2021-07-16T05:57:15.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -604,16 +758,6 @@ The post How to Get a Pixel-Perfect, Linearly Scaled UI appeared first on CSS-Tr
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ethereum London Mainnet Announcement]]></title>
-        <id>https://blog.ethereum.org/2021/07/15/london-mainnet-announcement/</id>
-        <link href="https://blog.ethereum.org/2021/07/15/london-mainnet-announcement/"/>
-        <updated>2021-07-15T12:17:17.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Way Of Integrity Summary]]></title>
         <id>https://fourminutebooks.com/?p=6594</id>
         <link href="https://fourminutebooks.com/the-way-of-integrity-summary/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-way-of-integrity-summary"/>
@@ -625,46 +769,6 @@ The post The Way Of Integrity Summary appeared first on Four Minute Books.]]></s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fat Dactyls]]></title>
-        <id>https://esoteric.codes/blog/fat-dactyls</id>
-        <link href="https://esoteric.codes/blog/fat-dactyls"/>
-        <updated>2021-07-15T10:07:12.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers are studying the cooking traditions of the FARC]]></title>
-        <id>https://www.atlasobscura.com/articles/what-farc-ate-colombia</id>
-        <link href="https://www.atlasobscura.com/articles/what-farc-ate-colombia"/>
-        <updated>2021-07-15T09:37:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Archaeologists “flabbergasted” to find Cerne Giant’s origins are medieval]]></title>
-        <id>https://arstechnica.com/science/2021/07/soil-samples-show-that-britains-rude-man-dates-back-to-medieval-period/</id>
-        <link href="https://arstechnica.com/science/2021/07/soil-samples-show-that-britains-rude-man-dates-back-to-medieval-period/"/>
-        <updated>2021-07-15T05:35:54.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qodana: Code Quality Monitoring Platform]]></title>
-        <id>https://lp.jetbrains.com/qodana/</id>
-        <link href="https://lp.jetbrains.com/qodana/"/>
-        <updated>2021-07-15T05:28:42.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Stop Email Tracking in Gmail – Disable Images by Default]]></title>
         <id>60d4e7596e1a1407b6b0bb56</id>
         <link href="https://www.freecodecamp.org/news/stop-email-tracking-pixel-disable-images-gmail/"/>
@@ -672,16 +776,6 @@ The post The Way Of Integrity Summary appeared first on Four Minute Books.]]></s
         <summary type="html"><![CDATA[Did you know that marketers (and even hackers) can use images to track you in your email inbox? Here's how so-called tracking pixels work: Someone creates an image and host it on their server. Often a transparent 1x1 "tracking pixel" that you don't even see.They send you an email]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Red: A programming language inspired by REBOL]]></title>
-        <id>https://github.com/red/red</id>
-        <link href="https://github.com/red/red"/>
-        <updated>2021-07-14T17:05:25.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -745,16 +839,6 @@ The post A Bashful Button Worth $8 Million appeared first on CSS-Tricks. You can
 The post Make Money Trading Options Summary appeared first on Four Minute Books.]]></summary>
         <author>
             <name>Luke Rowley</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Paxos vs. Raft: Have we reached consensus on distributed consensus?]]></title>
-        <id>http://charap.co/reading-group-paxos-vs-raft-have-we-reached-consensus-on-distributed-consensus/</id>
-        <link href="http://charap.co/reading-group-paxos-vs-raft-have-we-reached-consensus-on-distributed-consensus/"/>
-        <updated>2021-07-14T10:39:26.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1268,16 +1352,6 @@ Thank you @PiyushLosalka]]></summary>
         <summary type="html"><![CDATA[Voice assistants are currently the most popular use case for voice user interfaces. However, due to the bad feedback loop resulting from voice assistants can only solve simple user tasks such as setting an alarm or playing music. In order for voice user interfaces to really break through, feedback to the user must be visual, not auditive.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Ottomatias Peura)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Client-Side Routing In Next.js]]></title>
-        <id>https://smashingmagazine.com/2021/06/client-side-routing-next-js/</id>
-        <link href="https://smashingmagazine.com/2021/06/client-side-routing-next-js/"/>
-        <updated>2021-06-18T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Next.js has a file-based routing system in which each page automatically becomes a route based on its file name. This article will guide you through almost everything you need to know about Routing in Next.js and point you in the direction of related topics and concepts.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Adebiyi Adedotun)</name>
         </author>
     </entry>
 </feed>
