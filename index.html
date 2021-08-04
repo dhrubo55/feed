@@ -16,6 +16,761 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-04">2021-08-04</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Test quantum mechanics in space – invest US$1B</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.nature.com/articles/d41586-021-02091-8">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-03">2021-08-03</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Serverless Functions as Proxies</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/serverless-functions-as-proxies/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The first time cloud functions / serverless functions clicked for me was when I saw and tried Auth0’s (now defunct) Webtask. It was a little CodePen-like IDE but you didn’t really see anything aside from code and logs. The …
+The post Serverless Functions as Proxies appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Automatic Daily GitHub Backups, Restored in Seconds</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://srv.buysellads.com/ads/long/x/TCZHURZTTTTTTT3IJZ7NTTTTTTTVINFLKTTTTTTTADBXPYTTTTTTTIDNVJR6YWS22M4647ZVKMPW454EQMNWVWPMPABT">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Any company that uses GitHub for critical applications needs a backup that can be restored quickly when needed. Cyberattacks, human errors, or a forced push are just some of the scenarios that can result in the loss of GitHub data. …
+The post Automatic Daily GitHub Backups, Restored in Seconds appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Deep Dive on Skipping to Content</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/a-deep-dive-on-skipping-to-content/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>While most people browsing the web on a computer use a mouse, many rely on their keyboard instead. Theoretically, using a web page with the keyboard should not be a problem — press the TAB key to move the keyboard …
+The post A Deep Dive on Skipping to Content appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Linux Terminal Cheat Sheet (Useful for Beginners)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/cleancodestudio/linux-terminal-cheat-sheet-useful-for-beginners-2e6c">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>A Linux cheat sheet for beginners (short, sweet, and to the point)
+Navigation Commands:
+passwd - change password
+ls - list directory (Can point at any point on the machine)
+
+
+
+-la a flag that lists all + permissions and hidden files
+pwd - print working directory - check where you&#x27;re at
+cd - change directory (Can address at any point in the machine file system)
+mkdir - make directory
+rmdir - remove director
+rm - remove files
+echo - sends data (if no destination is given than data is sent as output to the terminal)
+cp copy a file (cp [source] [desintation])
+mv - mv a file (mv [source] [desintation])
+locate - locate a file on the machine (locate [filename])
+updatedb - updates the directory database (must run before running locate)
+man - manual page of any command
+grep - search for the followi…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to create server files with Flask</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/nelsoncode/how-to-create-server-files-with-flask-4hdp">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>In this example I will show you how to upload, download, delete and obtain files with Flask
+
+from flask import Flask
+import os
+
+app &#x3D; Flask(__name__)
+
+@app.route(&quot;/upload&quot;, methods&#x3D;[&#x27;POST&#x27;])
+def upload_image():
+    if request.method &#x3D;&#x3D; &quot;POST&quot;:
+        file &#x3D; request.files[&#x27;file&#x27;]
+        try:
+            file.save(os.getcwd() + &quot;/images/&quot; + file.filename)
+            return &quot;Imagen saved&quot;
+        except FileNotFoundError:
+            return &quot;Folder not found&quot;
+
+if __name__ &#x3D;&#x3D; &#x27;__main__&#x27;:
+    app.run(debug&#x3D;True, port&#x3D;8000, host&#x3D;&quot;0.0.0.0&quot;)
+
+
+from flask import Flask
+import os
+
+app &#x3D; Flask(__name__)
+
+@app.route(&#x27;/download/file/&#x27;)
+def download_image(filename):
+    return send_from_directory(os.getcwd() + &quot;/images/&quot;, path&#x3D;filename, as_attachment&#x3D;True)
+
+if __name__ &#x3D;&#x3D; &#x27;__main__&#x27;:
+    app.run(debug&#x3D;True, port&#x3D;8000, host&#x3D;&quot;0.0.0.0&quot;)
+
+
+from flask import Flask
+import os
+
+app &#x3D; Flask(__name__)
+
+@app.route(&#x27;/file/&#x27;)
+def get_image(filename):
+    return send_from_directory(os.getcwd() + &quot;/images/&quot;, path&#x3D;filename, as_attachment&#x3D;False)
+
+if __name__ &#x3D;&#x3D; &#x27;__main__&#x27;:
+    app.run(debug&#x3D;True, port&#x3D;8000, host&#x3D;&quot;0.0.0.0&quot;)
+
+
+from flask import Flask
+import os
+
+app &#x3D; Flask(__name__)
+
+@app.route(&#x27;/delete&#x27;, methods&#x3D;[&#x27;POST&#x27;])
+def remove_image():
+    filename &#x3D; request.form[&#x27;filename&#x27;]
+
+    # CHECK IF EXISTS FILE
+    if os.path.isfile(os.getcwd() + &quot;/images/&quot; + filename) &#x3D;&#x3D; False:
+        return &quot;Esto no es un archivo&quot;
+    else:
+        try:
+            os.remove(os.getcwd() + &quot;/images/&quot; + filename)
+        except OSError:
+            return &quot;Error :((&quot;
+        return &quot;File deleted&quot;
+
+if __name__ &#x3D;&#x3D; &#x27;__main__&#x27;:
+    app.run(debug&#x3D;True, port&#x3D;8000, host&#x3D;&quot;0.0.0.0&quot;)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Renovando git: bye bye, checkout</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/cuarte4/renovando-git-bye-bye-checkout-28f5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Renovando git: bye bye, checkout
+
+
+Hay una serie de comandos de git que nos sabemos de memoria, pero existe uno en particular que tiene múltiples usos: git checkout.
+Ah pero que tenga múltiples uso significa que es más practico. Si, y más probable que te equivoques
+git checkout es un comando que podemos usar para crear y borrar branches, navegar entre ellas y eliminar cambios que no están en estado de stage.
+Ahora, la gente de git se despabiló y se dio cuenta de que sería mejor tener comandos más verbosos para las distintas acciones que hacemos con nuestro controlador de versiones.
+Cada uno de los siguientes comandos que te voy a mostrar realizan la misma acción que hacíamos antes con git checkout pero escrito de una forma más amigable
+Cuando queremos crear una rama, es normal que nos encontremos usando el comando git checkout mi-rama. Para hacerlo más entendible, lo vamos a cambiar por git branch mi-rama
+Es normal cambiar a una rama de un colega para revisar sus cambios o querer volver a develop para tener los últimos cambios. Yo siempre usé para esto git checkout rama-de-mi-colega. hasta que descubrí que existe un comando que es mucho más claro: git switch rama-de-mi-colega
+Cuando ya separé cuales son los cambios que van en el commit, lo demás se descarta, y para descartar recurrimos al git checkout -- .. Hoy en día git te recomienda utilizar git restore .
+Utilizar el mismo comando para todo puede ser super practico, pero si recién estas empezando, puede que te provoque un par de USB (USB? ABC? ACV!). Nuestros comandos y nuestros procesos deben dejar claras nuestras intenciones, de esta manera podemos compartir un paso a paso y ser lo más claros posibles en nuestra comunicación técnica.
+Fuentes:
+git branch
+git switch
+git retore</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reflections on 10,000 Hours of Programming</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mrick/reflections-on-10-000-hours-of-programming-ge4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>This post originally appeared in my free daily newsletter on startups and engineering. 
+https://matt-rickard.com/subscribe/
+The key to achieving world-class expertise in any skill, is to a large extent, a matter of practicing the correct way, for a total of around 10,000 hours — Malcolm Gladwell in Outsiders
+Well, I&#x27;m certainly not a world-class expert, but I have put my 10,000 hours of deliberate practice into programming. Here are 31 of my reflections on programming.
+These are reflections only about pure coding — no lessons sum up to &quot;programming is about people&quot; or &quot;how to be a senior technical leader&quot; (arguably more important to a career, but not the topic of this post).
+These reflections are just about deliberately writing code for 10,000 hours. Most don&#x27;t apply to beginners. These re…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">C# Loops - Part 3: Do..While and While Loops</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/gweaths/c-loops-part-3-do-while-and-while-loops-1idn">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Do...While loops
+
+
+Do while loops allow developers to repeat code execution as long as a condition is met. So whereas before we were instructing the code to run a number of times, or from beginning to end of an object. Now, we tailor it a little more and say only keep running this code &quot;until&quot; this condition is no longer valid. 
+do{
+   //Code goes here
+}
+while(condition)
+
+Unlike the For and Foreach loop, the code is executed a minimum time of once. As the do code is ran before the while check. 
+Example :
+
+var counter &#x3D;0;
+
+do {
+   Console.WriteLine(&quot;Keep Going&quot;);
+   counter++;
+}
+while (counter &#x3D;10 the loop will exit and no longer execute the do code. 
+Ok so the while loop works on a very similar concept to the do while, however rather than running the code first then checking. The check is done first. Meaning the code will only run whilst the condition is met. 
+var sum &#x3D; 0;
+var dartsThrown &#x3D; 0;
+while(sum &lt; 180 &amp;&amp; dartsThrown &lt;3)
+{
+  var dartScore &#x3D; new Random.Next(61);
+  sum+&#x3D; dartScore;
+}
+Console.WriteLine(&quot;Your score is &quot; + sum);
+
+There you go you&#x27;ve been introduced to the 4 ways of looping within C#. Each has there uses and are suited better for certain situations. 
+After you&#x27;ve played around with them yourself , you&#x27;ll see how easy they are to use, and which loop would suit your needs best.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">C# Loops - Part 2 : For Each Loops</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/gweaths/c-loops-part-2-for-each-loops-4n6h">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>For Each Loops
+
+
+The For Each Loop in concept works like any other loop in that it iterates over an object a number of times. However in a Foreach loop it will go from the first item all the way through to end in sequence. Unless, you manipulate the sequence by skipping items using the continue keyword. 
+The foreach loop can iterate over any object that inherits from the IEnumerable class (e.g lists, collections). 
+As already mentioned, it does this in order of the list, i.e order the items were loaded in / added to the list (or ordered). It does this because it iterates over the instances of the list. An instance is a concrete occurrence of any object, existing usually during runtime, from memory. 
+Example:
+var names &#x3D; new List();
+names.Add(&quot;Grant&quot;, &quot;Barry&quot;, &quot;Jenny”,&quot;Shaun&quot;);
+
+for…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to clean some disk space on a Linux instance ?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/lboix/how-to-clean-some-disk-space-on-a-linux-instance-pjl">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>If you are lucky, the disk usage was already monitored and you have been warned on time. Otherwise it&#x27;s already too late and some of your apps are simply not working anymore. To help you get back on track asap, here are some useful commands I found throughout the years to quickly and safely made room again on your instance / server.
+First connect to it via SSH of course and become root with sudo su -
+Then given your case, if you are using on it Docker to run containers :
+if your app is still running, clean Docker resources smoothly
+
+
+
+
+docker images -q | xargs docker rmi
+docker container prune -f
+docker image prune -a -f
+docker system prune -a -f
+
+if you app is already down, clean all Docker resources in one shot
+
+
+
+
+docker system prune
+
+if a container does not rotate its log, that may rep…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Hello Everyone,</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ahmedbounadar/hello-everyone-4mnk">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>I&#x27;m new in this platform. I hope I can help you, and you can help me. I really admired this website when I first discover it, It&#x27;s a fun and informative platform, it&#x27;ll help me to learn so many things about programming languages, coding and all the stuffs.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Mi experiencia en Laboratoria y la importancia de priorizar la salud mental</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/biokah/mi-experiencia-en-laboratoria-y-la-importancia-de-priorizar-la-salud-mental-30p7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Postulé a Laboratoria en julio de 2017. Una de mis grandes amigas me había contado sobre la iniciativa y me pareció muy bueno para ser verdad. La carrera que estudié no me ofrecía las posibilidades de acceder a un sueldo competitivo o a condiciones laborales justas. Laboratoria ofrecía brindar las herramientas técnicas y socioemocionales para incursionar al sector tecnológico, incluso sin poseer conocimientos previos sobre programación y al mismo tiempo, reducir la brecha de género que existe en las carreras pertenecientes a STEM.
+Después de un proceso de admisión largo y poco más de seis meses de bootcamp (estuve en la 5ta generación en la CDMX), egresé y conseguí mi primer empleo como software specialist.
+Es cierto que desde entonces mis ingresos han aumentado, tengo una carrera de tres …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Solid Design Principles</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/kalashin1/solid-design-principles-5621">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Objected Oriented Programming is a great software development approach on it&#x27;s own however as your software becomes more complex you might even realize that OOP introduces as much problem as it solves and you can end up having poorly maintained software. The need for a suitable format for handling the complexity that arises with OOP gave rise to the SOLID application design principle. The SOLID principles are a set of software design guidelines for creating readable and maintainable code. They serve as the building blocks for building large and complex software with OOP approach. 
+You should know that these principles are not some form of checklist that you should explicitly follow when writing software, however they just serve as guides that can aid you with your program design especially…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How Qovery simplifies Cloud Hosting</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/aggis15/how-qovery-simplifies-cloud-hosting-1n3e">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Who is Qovery?
+
+
+Qovery is a platform that aims to simplify cloud hosting. For those that may not have heard, Qovery is a CaaS and aims to provide beginners an easy alternative to what is usually a complicated process, hosting applications on the cloud. Qovery tries to make cloud hosting easy, without the end user having to worry about deploying and maintaining.
+But, let&#x27;s dive deeper, how does it work? Well, Qovery uses the power of Kubernetes, the reliability of AWS and the simplicity of Heroku to host applications. Their engine source code is available on Github for everyone to contribute! 
+ / 
+        engine
+      
+    
+Deploy your apps on any Cloud providers in just a few seconds ⚡
+
+
+  
+
+
+
+
+
+    
+
+
+Qovery Engine is an open-source abstraction layer library that turns easy apps deployme…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Basic TypeScript Insight for JavaScript Devs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/fllstck/a-basic-typescript-insight-for-javascript-devs-2d0n">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Since I started working on my SaaS product, I&#x27;ve learned and worked with TypeScript for some months now. My frontend, backend, and even infrastructure code is written in TypeScript, and I quite enjoy sharing interfaces between these parts of my application with a mono repo.
+TypeScript is an excellent addition to JavaScript, but some things took me some time to get into my head, one of them being union types.
+This all might seem obvious for people used to static typing, but for me, it wasn&#x27;t evident at first :D
+One of the essential features of TypeScript is annotating your variables and functions with types that are based on JavaScript types but will be entirely invisible for JavaScript later.
+Tools like ESBuild will throw away all TypeScript specific syntax and bundle up the remaining Java…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How fast can you pipe a large file to a C++ program?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/08/03/how-fast-can-you-pipe-a-large-file-to-a-c-program/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Under many operating systems, you can send data from from one process to another using ‘pipes’. The term ‘pipe’ is probably used by analogy with plumbing and we often use the the symbol ‘|‘ to represent a pipe (it looks like a vertical pipe). Thus, for example, you can sort a file and send it … Continue reading How fast can you pipe a large file to a C++ program?</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Chrome removing alert, prompt from cross-origin iframes, panic ensues</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://bugs.chromium.org/p/chromium/issues/detail?id&#x3D;1065085">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Bye CUPS: Printing with Netcat</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://retrohacker.substack.com/p/bye-cups-printing-with-netcat">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Where are the robotic bricklayers?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://constructionphysics.substack.com/p/where-are-the-robotic-bricklayers">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">VergeSense (YC S17) Is Hiring Multiple Roles (Full-Stack, Firmware, Product)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.workatastartup.com/companies/vergesense">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Sparse Array Beamforming with a Phase Coherent 21-Channel RTL-SDR Array</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.rtl-sdr.com/sparse-array-beamforming-with-a-phase-coherent-21-channel-rtl-sdr-array/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AlphaFold2: Are attention and symmetries all you need? [pdf]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://journals.iucr.org/d/issues/2021/08/00/rr5212/rr5212.pdf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(48 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Distributed consensus (blockchain) simulation and visualization</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://web3scout.github.io/forcecons-sim/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">This Can’t Go On</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.cold-takes.com/this-cant-go-on/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Archegos was too busy for margin calls</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/opinion/articles/2021-07-29/archegos-was-too-busy-for-margin-calls">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Apple iPhone charger teardown: quality in a tiny expensive package (2012)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://www.righto.com/2012/05/apple-iphone-charger-teardown-quality.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(53 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The 5-Hour CDN</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fly.io/blog/the-5-hour-content-delivery-network/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(8 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Amazon Unlawfully Confiscated Union Literature, NLRB Finds</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.vice.com/en/article/bvz3kv/amazon-unlawfully-confiscated-union-literature-nlrb-finds">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">LTTng 2.13 facilitates quick reaction to kernel/user-space instrumentation hit</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lists.lttng.org/pipermail/lttng-dev/2021-August/030046.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Satan should chair your meetings – a literature lover’s guide to office politics</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.economist.com/1843/2021/08/03/why-satan-should-chair-your-meetings">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How MDN&#x27;s Autocomplete Search Works</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://hacks.mozilla.org/2021/08/mdns-autocomplete-search/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Ray Ozzie&#x27;s latest venture is a cheap IoT board with flat rate connectivity</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blues.io/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">NSA Kubernetes Hardening Guidance [pdf]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://media.defense.gov/2021/Aug/03/2002820425/-1/-1/1/CTR_KUBERNETES%20HARDENING%20GUIDANCE.PDF">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(135 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Launch YC: 3D Web; Training; Child privacy; Pregnancy; Life science; Desk rental</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28049500">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(21 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why don&#x27;t tech companies pay their engineers to stay?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://marker.medium.com/why-dont-tech-companies-pay-their-engineers-to-stay-b9c7e4b751e9">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">South Korea: The only middle power of its kind</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nationalinterest.org/blog/korea-watch/south-korea-only-middle-power-its-kind-190911">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Show HN: A work-in-progress C compiler from scratch</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/riicchhaarrd/ocean">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Education of Melvyn Bragg</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.newyorker.com/culture/the-new-yorker-interview/the-education-of-melvyn-bragg">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(21 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Malicious PyPI packages stealing credit cards and injecting code</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jfrog.com/blog/malicious-pypi-packages-stealing-credit-cards-injecting-code/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">JavaScript For Loop – How to Loop Through an Array in JS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-for-loop-how-to-loop-through-an-array-in-js/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>There are various types of loops in JavaScript, and all of them essentially do the same thing: they repeat an action again and again.  Loops come in handy if you want to repeat the same block of code for a certain number of times. Basically, they are a fast and</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Developer Communities to Join to Help You Grow Your Tech Career</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/developer-communities-to-join-to-grow-your-career/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Alone, we can do so little; together, we can do so much.  Helen Keller  It’s true – when you lend someone a helping hand, you feel a lot better about yourself, and you will likely learn something new.  Helping others feels so rewarding because you know that you have contributed</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Access Clipboard in Android (and Clear it)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-access-clipboard-in-android-and-clear-it/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The copy and paste functionality on Android smartphones might seem to be a &quot;one-time&quot; thing. Once you copy a snippet of text, you need to paste it before copying or cutting another. If you don&#x27;t, you won&#x27;t have access to it anymore.  Also, if you copy text and</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">12 Free Coding Games to Learn Programming for Beginners</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/12-free-coding-games-to-learn-programming-for-beginners/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>A lot of beginners can become intimidated when they&#x27;re learning how to code. But learning through coding games can be fun and educational.  According to True Education Partnerships,  Gamification in learning involves using game-based elements such as point scoring, peer competition, team work, and score tables to drive engagement, help</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Free Coding Bootcamp Based on freeCodeCamp&#x27;s Curriculum</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/free-coding-bootcamp-based-on-freecodecamp/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Now you can join a free part-time, remote coding bootcamp. You&#x27;ll learn freeCodeCamp&#x27;s entire Responsive Web Design certification, together with friendly people around the world. 👋 Hi, I’m Jess. A long time ago, I was an educator who worked in special education and language education.  When I wanted to get</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How To Build Resilient JavaScript UIs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/08/build-resilient-javascript-ui/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Resilience is intrinsic to the web and therefore us, web developers. This article explores how graceful degradation, defensive coding, observability, and a healthy attitude towards failures better equips us before, during, and after an error occurs.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-02">2021-08-02</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -40,330 +795,9 @@ The post CSS Modules (The Native Ones) appeared first on CSS-Tricks. You can sup
                 <summary class="article-expander__title">How to Code a Playable Synth Keyboard</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-to-code-a-playable-synth-keyboard/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
+                    <span class="article-reading-time">(10 min)</span>
                     <span>With a little knowledge of music theory, we can use regular HTML, CSS and JavaScript — without any libraries or audio samples — to create a simple digital instrument. Let’s put that into practice and explore one method for creating …
 The post How to Code a Playable Synth Keyboard appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">[Opinión] El problema del liderazgo en los equipos de tecnología.</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/jresendiz27/opinion-el-problema-del-liderazgo-en-los-equipos-de-tecnologia-3m6p">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Esto es mi opinión, la comparto y espero poder generar conciencia y un poco de debate sano; con la finalidad de mejorar o bien, comenzar con el camino de un liderazgo integral en la industria de tecnología.
-Conforme pasan los años y uno va creciendo en TI (hablando específicamente en la industria del Software) te das cuenta de las fuertes deficiencias en educación emocional, comunicación y resolución de conflictos que existen en la industria.
-Desafortunadamente es algo de lo que pecamos muchos en el área, nuestro egoísmo y gatekeeping nos impiden buscar un crecimiento organizacional íntegro y orgánico sin tener que aspirar siempre a ser el mejor en todo.
-Estos problemas permean mucho más allá cuando contamos con posiciones de liderazgo y nos deja con una gran deficiencia al intentar ser lí…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">6 Helpful OS Module Methods</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/6-helpful-os-module-methods-5e3k">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Hello,
-Aya Bouchiha,
-6 useful os module methods.
-getcwd(): this method helps you to get the absolute path of the current working directory as a string.
-import os
-
-print(os.getcwd())
-# C:\Users\AyaBouchiha\Desktop\posts
-
-mkdir(): lets you create a new directory if it does not exists, else it raises an error (FileExistsError)
-import os
-
-os.mkdir(&#x27;python&#x27;) # done :)
-
-os.mkdir(&#x27;python&#x27;) # error (FileExistsError)
-
-rmdir(): helps you to remove an empty directory.
-import os
-
-# done
-os.mkdir(&#x27;python/newFolder&#x27;)  
-
-# done
-os.rmdir(&#x27;python/newFolder&#x27;)  
-
-# error (FileNotFoundError)
-os.rmdir(&#x27;something/does-not-exists&#x27;) 
-
-# error (NotADirectoryError)
-os.rmdir(&#x27;user.json&#x27;) 
-
-remove(): lets you delete a file. If it does not exists, this method raises an error.
-import os
-
-# done
-os.remove(&#x27;posts/python/…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Dev log for Wonder Wanderer 2: Day 2 #LOWREZJAM</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/michaelprimo/dev-log-for-wonder-wanderer-2-day-2-lowrezjam-18bm">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>It&#x27;s the second day for me on the LOWREZJAM.
-I managed to do today a basic movement for the character, adding gravity, the direction and the force of it with a little drawing of a map includes, and two buttons with a fake jump (without friction) and a button that changes gravity (it&#x27;s not like VVVVVV, you can use this ability to do some wall-running, but you will see). I hope to do better jumps, map collisions and some hazards next day.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Apprendre Vue.js 3 - Jour 3 : Vuex</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ericlecodeur/apprendre-vue-js-3-jour-3-vuex-28il">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Si vous désirez plus de contenu francophone comme celui-ci, cliquer Follow ou suivez-moi sur Twitter
-
-
-  
-  
-  Vuex - State Managment
-
-
-  
-  
-  Le state management pour votre application Vue
-
-
-La création de plusieurs components et plusieurs sous components entraine comme conséquence un partage des données et méthodes (via les Props et les Events) entre components qui devient vient très complex. Afin de simplifier cette gestion, Vue met à votre disposition la librairie Vuex.
-Vuex permet de centraliser la gestion du state (des données et méthodes) de vos components en un seul endroit. Cet endroit est appelé le Store. 
-Le store permet de sauvegarder et de modifier votre state et cela à partir de n&#x27;importe quel component de votre application.
-Du coup, le store est donc ce que l&#x27;on appel le &#x27;s…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How I went from struggling with math to becoming a data and analytics advocate</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mixpanel/how-i-went-from-struggling-with-math-to-becoming-a-data-and-analytics-advocate-1jm8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>This article was written by Mixpanel Community Manager Jaz Broughton and originally appeared on Mixpanel&#x27;s product analytics blog, The Signal.
-I’ve struggled with math since high school.
-It wasn’t that I was incapable of doing simple algebra here and there. My hangup was the topic in general. I always had a hard time applying any real focus on the abstract shapes and concepts with no tangible connection to what I actually cared about.
-I’m sure this was my dad’s philosophy rubbing off on me. He’s been a carpenter my whole life (and a DJ, but that’s a story for another time). As a child, I would hear him saying things like, “You’re not going to have me in a class just learning numbers for the sake of it.”
-Well, today I lead the  Mixpanel Community, a place full of stat-powered technical peop…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Go, Gorilla/mux and mongo demo</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/iamelesq/go-gorilla-mux-and-mongo-demo-10j4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>What are we going to do?
-Setup some tools for starting a containerised MongoDB and connecting to the shell.
-Create a connection to the database with Go
-perform some trivial CRUD.
-get an MVP knocked up, not paint the Sistine Chapel.
-Simple. Let&#x27;s go.
-I&#x27;m assuming you have docker installed, if not head over to the docker site, follow the installation instructions for you system. Please forgive anything in the following section that is Mac specific and an oversight to make it OS agnostic.  OK so all good, Docker installed. Let&#x27;s get an image of MongoDB.
-docker pull mongo
-
-Now we have an image successfully pulled you&#x27;ll want to be able to start a container running it. There&#x27;s couple of things here, you should read up on detached/interactive modes for docker. It&#x27;s fairly self explanatory and yo…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Passing Props to Child Components in React using TypeScript</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/franciscomendes10866/passing-props-to-child-components-in-react-using-typescript-2690">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>I believe that if you are reading this article, you already have an idea of component hireraquia and the normal flow is to pass props from the parent component to the child component.
-I believe we all had some friction trying to convert our JavaScript knowledge to TypeScript, even though it was the same the code became more verbose and suddenly you started questioning everything.
-I continue with several challenges on a daily basis, however today I am fully aware of the advantages that TypeScript brings to my application development experience in React.
-Exactly today I&#x27;m going to give a brief example of how we can pass props between components using TypeScript.
-Pretend that the main page of your application is as follows:
-// @src/App.tsx
-
-import React, { useState } from &quot;react&quot;;
-
-import For…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Como probar media queries con Chrome</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/equimancho/como-probar-media-queries-con-chrome-4kb5">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Lo quieras o no, el desarrollo web moderno está directamente relacionado al diseño responsivo (responsive design). 
-Tenemos media queries en todos lados inclusive Bootstrap y Tailwind tienen un sistema de grillas para poder adaptar con mayor facilidad el contenido según la pantalla o dispositivo.
-Algunas veces pensamos que los Media Query son difíciles de probar, pero las Herramientas de Desarrollo (DevTools) de Chrome tiene escondida una gema para lidiar y probar fácilmente esos puntos de inflexión (breakpoints).
-Para activar ese superpoder debemos realizar los siguientes pasos.
-Abrir las Herramientas de Desarrollo (DevTools) de Chrome
-Activar la vista Mobile
-Asegurarse de seleccionar &quot;Responsive&quot; en la lista de dispositivos.
-Mostrar media queries (show media queries)
-
-Dependiendo de la cantidad de media queries definidos en los estilos de la página vas a poder ver 4 barras de diferentes colores.
-Tamaño preestablecido (Gris):
-
-Ancho máximo (Azul):
-
-Ancho máximo y mínimo (Verde):
-
-Ancho mínimo (Naranja)
-
-La página de Bootstrap nos da una excelente oportunidad para ver esta utilidad en acción porque tiene definidos múltiples tipos de de media queries.
-
-Además también puedes sobre el media query seleccionado hacer click con el botón secundario y ver el código fuente.
-
-Si también quieres ver todos los media query en acción al mismo tiempo te recomiendo darle una mirada a Responsively.
-
-Es un increíble proyecto código abierto (open source) que nos puede hacer el trabajo más fácil en el desarrollo.
-That’s All Folks!
-Happy Coding 🖖</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How To Hide Your .env While You&#x27;re Livestreaming</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/cerchie/howto-hide-your-env-while-you-re-livestreaming-26hp">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Note: This article assumes basic knowledge of VSCode. 
-Here&#x27;s how to start using John Papa&#x27;s VSCode extension Cloak to hide .env secrets, especially helpful when you&#x27;re livestreaming! 
-Search &#x27;Cloak&#x27; in VSCode extensions and install it.
-
-Open up a .env file with your secrets in it. It should look something like this:
-
-Open up your Command Palette and hit &#x27;Cloak: Hide Secrets&#x27;
-
-And there you have it! Your secrets are hidden! You can un-hide them by running the &#x27;Cloak: Show Secrets&#x27; command. 
-Note: If you copy/paste, your secret will be visible in the file you pasted it in. 
-PS- many thanks to @nickytonline
- who pointed out the usefulness of this extension!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">This is How To Make JS Promises [From Scratch]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/cleancodestudio/this-is-how-to-implement-javascript-promises-from-scratch-357k">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>.ltag__user__id__386677 .follow-action-button {
-      background-color: #339d15 !important;
-      color: #ffffff !important;
-      border-color: #339d15 !important;
-    }
-  
-    
-      
-Clean Code StudioFollow
-
-    
-Clean Code Clean Life ~ Simplify
-    
-Today, we create our own JavaScript Promise implementation [From Scratch].
-To create a new promise we simply use new Promise like so:
-  new Promise((resolve, reject) &#x3D;&gt; {
-    ...
-    resolve(someValue)
-  })
-
-We pass a callback that defines the specific behavior of the promise.
-A promise is a container:
-Giving us an API to manage and transform a value
-That lets us manage and transform values that are not actually there yet.
-Using containers to wrap values is common practice in the functional programming paradigm. There are different kinds of…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">File structure of Svelte apps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/benjithorpe/file-structure-of-svelte-apps-18p0">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Hi again, the last time we talk about Getting Started with Svelte.
-Once you install the packages, the structure should look like this:
-my-app
-│    
-└── node_modules
-│   └─ bin
-│   │ ...
-└── public
-│   └─ build
-│      │  bundle.css
-│      │  bundle.js
-│      │  bundle.js.map
-│   favicon.png
-│   global.css
-│   index.html
-└── scripts
-│   │  setupTypeScript.js
-└── src
-│   │  App.svelte
-│   │  main.js
-│   .gitignore
-│   package-lock.json
-│   package.json
-│   README.md
-│   rollup.config.js
-
-If you are scared, don&#x27;t be! You won&#x27;t touch 80% of them.
-Now let&#x27;s discuss the use of each folder and file.
-In simple terms, these are just folders of all the tools(extra libraries or packages) the application needs to function. They are installed based on what is in the package.json file (will talk more on …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Myth: DSA is Required Only To Crack Interviews #Busted | Netlist Generation</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/kaustuv942/myth-dsa-is-required-only-to-crack-interviews-busted-netlist-generation-14ji">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Confused why every SDE/SWE 
-
-
-  
-  
-  You are on the right article!
-
-
-In this article we will take a look at particularly interesting instance of web-dev where DFS, a well known graph algorithm fit the problem just too well.
-Although day to day activities usually doesn&#x27;t require such knowledge of graph algorithms, however, once in a blue moon comes about a problem, which demands an efficient solution which is next to impossible without graph theory.
-Given a electrical circuit annotate its nodes. 
-
-Rules: 
-1. Equipotential points must given same names. 
-2. No two nodes having different potential must have same names. 
-3. A node is an endpoint of an circuit element. 
-For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
-4. N nodes are given to you. The graph is given to you in terms of…</span>
                   </div>
                 </a>
               </details>
@@ -376,74 +810,8 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">We Switched to Mattermost</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://netfoundry.io/why-we-switched-to-mattermost/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Catalytic converter thefts in California: Why they are everywhere</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.latimes.com/california/newsletter/2021-08-02/catalytic-converter-theft-essential-california">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Amazon should redo union election over improprieties, NLRB officer recommends</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.bloomberg.com/news/articles/2021-08-02/amazon-union-election-should-be-re-run-labor-official-says">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Yellowcake Shaped the West</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.hcn.org/articles/books-mining-how-yellowcake-shaped-the-west">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">FB users buying Oculus VR headsets to get customer service prioritization</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.npr.org/2021/08/02/1023801277/your-facebook-account-was-hacked-getting-help-may-take-weeks-or-299">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to improve your Docker containers security – [cheat sheet]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Vue.js is Wikimedia Foundation&#x27;s future JavaScript framework</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://lists.wikimedia.org/hyperkitty/list/wikitech-l@lists.wikimedia.org/thread/SOZREBYR36PUNFZXMIUBVAIOQI4N7PDU/">
+                <summary class="article-expander__title">Unix and Microservice Platforms</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.deref.io/unix-and-microservice-platforms/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>Comments</span>
@@ -453,162 +821,8 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">AssemblyAI (YC S17) Is Hiring Python Developers and Account Execs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://apply.workable.com/assemblyai/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SpaceX installed 29 Raptor engines on a Super Heavy rocket last night</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://arstechnica.com/science/2021/08/spacex-installed-29-raptor-engines-on-a-super-heavy-rocket-last-night/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Gpsd bug may create a 1024 week time warp on October 23</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://gitlab.com/gpsd/gpsd/-/issues/144">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">WireGuardNT, a high-performance WireGuard implementation for the Windows kernel</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://lists.zx2c4.com/pipermail/wireguard/2021-August/006887.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to boost your popularity on OkCupid using CSRF and a JSON type confusion</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.azuki.vip/csrf/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Astronomy Photographer of the Year 2021 shortlist images</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.rmg.co.uk/national-maritime-museum/astronomy-photographer-year-2021-shortlist-images">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Life before smartphones</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://mattruby.substack.com/p/the-most-unbelievable-things-about">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Why extraterrestrial life may not seem alien</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.quantamagazine.org/arik-kershenbaum-on-why-alien-life-may-be-like-life-on-earth-20210318/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Push for a “PBS for the Internet”</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.axios.com/pbs-internet-online-information-nonprofit-e9a78344-ae58-4214-9cb6-974ab9576cb1.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Ask HN: Who is hiring? (August 2021)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28037366">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(130 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Ask HN: Who wants to be hired? (August 2021)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28037364">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(37 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Pegasus spyware found on journalists’ phones, French intelligence confirms</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/news/2021/aug/02/pegasus-spyware-found-on-journalists-phones-french-intelligence-confirms">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Launch HN: Heimdal (YC S21) – Carbon neutral cement</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28036927">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(26 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Lisp as an Alternative to Java (2000)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://www.norvig.com/java-lisp.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Linux Kernel Module Programming Guide</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sysprog21/lkmpg/">
+                <summary class="article-expander__title">What we lost – a paean, perhaps, to RSS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://mattmower.com/2021/08/02/what-we-lost/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(2 min)</span>
                     <span>Comments</span>
@@ -618,10 +832,10 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The UK’s delta surge is collapsing</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://nymag.com/intelligencer/2021/08/the-u-k-s-delta-surge-is-collapsing-will-ours.html">
+                <summary class="article-expander__title">Fast, Efficient Neural Networks Copy Dragonfly Brains</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://spectrum.ieee.org/fast-efficient-neural-networks-copy-dragonfly-brains">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
+                    <span class="article-reading-time">(19 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -629,30 +843,8 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Six Years of Professional Clojure</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://engineering.nanit.com/6-years-of-professional-clojure-2b61cb6c1983">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Peg Parsing Series Overview (2019)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://medium.com/@gvanrossum_83706/peg-parsing-series-de5d41b2ed60">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The quiet battle raging around open banking</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://sifted.eu/articles/open-banking-finance-battle/">
+                <summary class="article-expander__title">The changing art of the subeditor: ‘You had to read the type upside down’</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/media/2021/aug/02/the-changing-art-of-the-subeditor-you-had-to-read-the-type-upside-down">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
                     <span>Comments</span>
@@ -662,10 +854,10 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">It looks like a product but is secretly a subscription</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://calpaterson.com/printers.html">
+                <summary class="article-expander__title">Beautiful ideas in programming: generators and continuations</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.hhyu.org/posts/generator_and_continuation/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
+                    <span class="article-reading-time">(11 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -673,21 +865,10 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Sentenced by Algorithm</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nybooks.com/articles/2021/06/10/prison-terms-sentenced-by-algorithm/">
+                <summary class="article-expander__title">Goose flying upside down is simply showing off, say experts</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://wgme.com/news/offbeat/goose-flying-upside-down-is-simply-showing-off-say-experts">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Red delicious apples weren’t always horrible</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://newengland.com/today/food/red-delicious-apple/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(17 min)</span>
+                    <span class="article-reading-time">(0 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -705,7 +886,7 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
                 <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-does-the-internet-work/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(1 min)</span>
-                    <span>The internet is a part of our daily life and we use it constantly. But how does it actually work? We just released a course on the freeCodeCamp.org YouTube channel that will teach you how the internet works and basic networking principles.  Ian Frost teaches this course. He is</span>
+                    <span>The internet is a big part of our daily lives and we use it constantly. But how does it actually work? We just published a course on the freeCodeCamp.org YouTube channel that will teach you how the internet works along with basic networking principles.  Ian Frost teaches this course.</span>
                   </div>
                 </a>
               </details>
@@ -723,28 +904,6 @@ For e.g. each resistor has 2 nodes marked 1 and 2 in Fig 1.
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(20 min)</span>
                     <span>In this article, we’ll take a deep dive into the refactoring process itself, and cover incremental refactoring strategy, visual regression testing, and maintaining the refactored codebase.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-01">2021-08-01</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Neat Elixir trick: Libraries can start processes too</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://mattmower.com/2021/08/01/libraries-can-start-processes-too/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -891,17 +1050,6 @@ The post Now, Discover Your Strengths Summary appeared first on Four Minute Book
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google Docs Voice Typing – How to Use Speech-to-Text in a Google Doc</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/google-docs-voice-typing-how-to-use-speech-to-text-in-a-google-doc/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Speech-to-Text is a really useful accessibility tool if typing is difficult for you. Or you can also use it if you like to think out loud and transcribe what you say. In this tutorial, I&#x27;ll show you how to use speech-to-text in Google Docs. Do note, though, that this feature</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -989,56 +1137,6 @@ The post Developer-Friendly Passwordless Auth appeared first on CSS-Tricks. You 
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Android Camera2 – How to Use the Camera2 API to Take Photos and Videos</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/android-camera2-api-take-photos-and-videos/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>We all use the camera on our phones and we use it a l-o-t. There are even some applications that have integrated the camera as a feature.  On one end, there is a standard way of interacting with the camera. On the other, there is a way to customize your</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Not Equal Sign – How to Type the Does Not Equal Symbol</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/not-equal-sign-how-to-type-the-does-not-equal-symbol/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The does not equal symbol, or ≠, is often not part of a standard keyboard setup – or it&#x27;s well hidden. So if you need to write it, how do you do it? How to Write the Not Equal Sign on Desktop DevicesOn Windows: Use the Character MapThe Character Map is a</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn How to Deploy 12 Apps to AWS, Azure, &amp; Google Cloud</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-how-to-deploy-12-apps-to-aws-azure-google-cloud/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(34 min)</span>
-                    <span>Dockerizing an app makes it simpler to deploy. We just published a full course on the freeCodeCamp.org YouTube channel that will teach you how to deploy 12 apps to 3 popular hosting services. Scalable Scripts developed this course. They create courses on all sorts of languages and frameworks on</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Visual Basic Excel Tutorial – How to Automate Repetitive Tasks in a Spreadsheet</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/automate-repetitive-tasks-in-excel-with-vba/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(16 min)</span>
-                    <span>I use VBA, or Visual Basic for Applications, to automate my repetitive tasks. This saves me quite a lot of time in my day-to-day life.  Based on the fact that you&#x27;re reading this tutorial, I assume that you would like to be able to do the same. So I will</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1080,7 +1178,7 @@ The post Safari 15 Opinions appeared first on CSS-Tricks. You can support CSS-Tr
                 <summary class="article-expander__title">Using Absolute Value, Sign, Rounding and Modulo in CSS Today</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/using-absolute-value-sign-rounding-and-modulo-in-css-today/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(22 min)</span>
+                    <span class="article-reading-time">(23 min)</span>
                     <span>For quite a while now, the CSS spec has included a lot of really useful mathematical functions, such as trigonometric functions (sin(), cos(), tan(), asin(), acos(), atan(), atan2()), exponential functions (…
 The post Using Absolute Value, Sign, Rounding and Modulo in CSS Today appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
                   </div>
@@ -1170,19 +1268,6 @@ The post CSS Logical Properties and Values appeared first on CSS-Tricks. You can
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Demystifying styled-components</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.joshwcomeau.com/react/demystifying-styled-components/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Joshua Comeau digs into how styled-components works by re-building the basics. A fun and useful journey. 
-styled-components seems like the biggest player in the CSS-in-React market. Despite being in that world, I haven’t yet been fully compelled by it. I’m …
-The post Demystifying styled-components appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -1207,36 +1292,6 @@ The post Demystifying styled-components appeared first on CSS-Tricks. You can su
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-07-26">2021-07-26</time></h2>
     <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How I Built a Cross-Platform Desktop Application with Svelte, Redis, and Rust</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-i-built-a-cross-platform-desktop-application-with-svelte-redis-and-rust/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>At Cloudflare, we have a great product called Workers KV which is a key-value storage layer that replicates globally. It can handle millions of keys, each of which is accessible from within a Worker script at exceptionally low latencies, …
-The post How I Built a Cross-Platform Desktop Application with Svelte, Redis, and Rust appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Slinkity</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://slinkity.dev/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Perhaps the #1 reason I love Astro is that it brings the JavaScript component authoring experience to the Static Site Generator world with zero JavaScript (except bits you very specifically opt-in to). That HTML-first approach is also why I like …
-The post Slinkity appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
@@ -1737,7 +1792,7 @@ The post The Way Of Integrity Summary appeared first on Four Minute Books.</span
                 <summary class="article-expander__title">An Introduction To Figma Interactive Components</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/introduction-figma-interactive-components/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
+                    <span class="article-reading-time">(14 min)</span>
                     <span>Interactive Components in Figma allows designers to create a component with states (hover, active, clicked, focus) and make it interactive so that every copy of the component will inherit those same interactions by default. Let’s explore how it can reduce the time and effort needed to create interactions for your mock-ups.</span>
                   </div>
                 </a>
@@ -1769,31 +1824,9 @@ The post The Way Of Integrity Summary appeared first on Four Minute Books.</span
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-05">2021-07-05</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Using HSL Colors In CSS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/hsl-colors-css/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>In this article, Ahmad Shadeed explains what HSL is, how to use it, and shares some of the useful use-cases and examples that you can use right away in your current projects.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-03T01:02:57.500Z">2021-08-03T01:02:57.500Z</time>
+    <time id="build-timestamp" datetime="2021-08-04T00:58:32.466Z">2021-08-04T00:58:32.466Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
