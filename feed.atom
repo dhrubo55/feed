@@ -1,396 +1,587 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2021-08-14T00:54:18.581Z</id>
+    <id>urn:2021-08-15T00:57:44.288Z</id>
     <title>osmos::feed</title>
-    <updated>2021-08-14T00:54:18.581Z</updated>
+    <updated>2021-08-15T00:57:44.288Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Understanding 11 Important Python File Handling Methods]]></title>
-        <id>https://dev.to/ayabouchiha/understanding-11-important-python-file-handling-methods-1o0d</id>
-        <link href="https://dev.to/ayabouchiha/understanding-11-important-python-file-handling-methods-1o0d"/>
-        <updated>2021-08-14T00:10:42.000Z</updated>
-        <summary type="html"><![CDATA[Hi, I'm Aya Bouchiha, today, we'll talk about 11 important python file handling methods.
-close(): helps you to close an opened file.
+        <title type="html"><![CDATA[Why Singletons Are Bad?]]></title>
+        <id>https://dev.to/amrtaher1234/why-singletons-are-bad-220o</id>
+        <link href="https://dev.to/amrtaher1234/why-singletons-are-bad-220o"/>
+        <updated>2021-08-15T00:42:16.000Z</updated>
+        <summary type="html"><![CDATA[Singleton is a widely known design pattern that generally allows you to create a global object that can be accessed from anywhere in your application and it will assure that this object will be initiated only once per lifetime of your application/code.
+Before digging into why such a pattern could cause lots of problems in your codebase let us first try and implement it and imagine a use case where it would fit.
+From its name a singleton is a single entity or object that would be created only once, how could we achieve something like that? how could we for example declare an object of type class A for example and disallow any other creations of instances of the same type?
+Let us look at the code and discuss it further:
+class Singleton {
+    private static instance: Singleton;
+    private co…]]></summary>
+        <author>
+            <name>Sekab</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 formas de ganar criptomonedas gratis haciendo cosas que haces de todos modos]]></title>
+        <id>https://dev.to/devtothemoon/5-formas-de-ganar-criptomonedas-gratis-haciendo-cosas-que-haces-de-todos-modos-2102</id>
+        <link href="https://dev.to/devtothemoon/5-formas-de-ganar-criptomonedas-gratis-haciendo-cosas-que-haces-de-todos-modos-2102"/>
+        <updated>2021-08-15T00:05:40.000Z</updated>
+        <summary type="html"><![CDATA[La comunidad de criptomonedas ha ido construyendo lentamente un universo alternativo donde todo está incentivado. Para cada tarea, hay un sitio o una aplicación que quiere pagarte con su token.
+Sin embargo, aquí está el secreto del éxito con estos grifos: no intente maximizar sus ganancias. Úselos por lo que son. Si intentas jugar con el sistema ejecutando varias cuentas o mantienes las cosas funcionando las 24 horas del día, los 7 días de la semana, te quemarás (o te prohibirán) unos pocos dólares. Si solo los usa, se divertirá y ganará dinero sin siquiera darse cuenta. Y tampoco se apresure a retirar dinero. Reinvierte ese dinero y mantenlo. 
+Entonces, sin más preámbulos, ¡veamos algunas formas de ganar criptografía gratis haciendo cosas que haces de todos modos!
+¿Te gusta usar Internet?…]]></summary>
+        <author>
+            <name>PRONET</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[برای دانلود نرم افزار Date.Time ,وارد ادامه مطلب بشوید..]]></title>
+        <id>https://dev.to/alimoosavi/date-time-3g8o</id>
+        <link href="https://dev.to/alimoosavi/date-time-3g8o"/>
+        <updated>2021-08-14T23:40:38.000Z</updated>
+        <summary type="html"><![CDATA[نرم افزار  Date.Time نرم افزاری هست که ساعت و تاریخ را به نمایش در می آورد و قابلیت ذخیره تاریخ و ساعت را هم دارد. از قابلیت های این نرم افزار می توان به : تبدیل تاریخ اشاره کرد و همینطور تغییر رنگ نمایش ساعت .
+برای دریافت نرم افزار لطفا با شماره ی 09132262747 تماس بگیرید یا  به alimousavi3006@gmail.com ایمیل ارسال کنید]]></summary>
+        <author>
+            <name>alimousavi3006</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Of The Most Amazing JS Libraries That Almost You Will Enjoy Using Them In Your Project!]]></title>
+        <id>https://dev.to/ayabouchiha/10-of-the-most-amazing-js-libraries-that-almost-you-will-enjoy-using-them-in-your-project-3amo</id>
+        <link href="https://dev.to/ayabouchiha/10-of-the-most-amazing-js-libraries-that-almost-you-will-enjoy-using-them-in-your-project-3amo"/>
+        <updated>2021-08-14T23:27:38.000Z</updated>
+        <summary type="html"><![CDATA[Hello everybody, I'm Aya Bouchiha, in this post, I'll share with you 10 amazing javascript libraries. 
+Chart.js is an open-source library that lets you visualize data.
+github
+docs
+demo
+tutorial
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+npm i chart.js
 
+Anime.js: is one of the most popular libraries which adds awesome animations to your web application.
+github
+docs
+tutorial
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+npm i animejs
 
-test_file = open('test.txt', 'r')
-first_line = test_file.readline()
-# do something...
-
-test_file.close()
-
-There is another method to close a file, that works automaticly without using close method:
-with open('test.txt', 'r') as test_file:
-    first_line = test_file.readline()
-    # do something
-
-
-readable(): checks if a specified file is readable.
-
-
-
-
-with open('test.txt', 'w') as test_file:
-    print(test_file.readable()) # False
-    print(test_file.readline()) # error
-
-with open('test.txt', 'r') as test_file:
-    print(test_file.readable()) # True
-
-read(size= -1): returns the given number of bytes (by default -1)  from a specified file. 
-test.txt
-Hello,…]]></summary>
+D3.js is a JavaScript library for manipulating documents based on data.
+github
+docs
+tutorial(13h!)
+<script src="https://cdnjs.cloudflare.…]]></summary>
         <author>
             <name>Aya Bouchiha</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Sam Zeloof's Upgraded Homemade Silicon IC Fab Process]]></title>
-        <id>http://sam.zeloof.xyz/second-ic/</id>
-        <link href="http://sam.zeloof.xyz/second-ic/"/>
-        <updated>2021-08-13T23:45:54.000Z</updated>
+        <title type="html"><![CDATA[MIT Researchers Make Hydrogen Fuel from Aluminum and Water]]></title>
+        <id>https://interestingengineering.com/mit-researchers-make-hydrogen-fuel-from-aluminum-and-water?_source=newsletter&amp;_campaign=2e7LL8NyzpLK4&amp;_uid=LDdwmgxga1&amp;_h=ea90de89f1bceca46d02cad80716fb4006725c29&amp;utm_source=newsletter&amp;utm_medium=mailing&amp;utm_campaign=Newsletter-14-08-2021</id>
+        <link href="https://interestingengineering.com/mit-researchers-make-hydrogen-fuel-from-aluminum-and-water?_source=newsletter&amp;_campaign=2e7LL8NyzpLK4&amp;_uid=LDdwmgxga1&amp;_h=ea90de89f1bceca46d02cad80716fb4006725c29&amp;utm_source=newsletter&amp;utm_medium=mailing&amp;utm_campaign=Newsletter-14-08-2021"/>
+        <updated>2021-08-14T23:18:46.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Software engineering is different from programming]]></title>
-        <id>https://dev.to/khaireddinetech/software-engineering-is-different-from-programming-12oh</id>
-        <link href="https://dev.to/khaireddinetech/software-engineering-is-different-from-programming-12oh"/>
-        <updated>2021-08-13T23:13:55.000Z</updated>
-        <summary type="html"><![CDATA[Software Engineering is different from Programming
-Some people don’t like the term Software Engineer because of the engineering metaphor. This article is not about that term. If you don’t like it you can substitute it with Software Author, Software Craftsperson, or Software Artist!
-By Software Engineer, I mean a person who looks at writing quality software as their profession. A person who applies science and statistics to that profession and does not look at it as just a job that earns money.
-Knowing how to program does not make you a software engineer.
-Anyone can learn to program. It’s easy. Anyone can create simple programs that work for them on their machines but that would not guarantee that the same programs will work for others.
-My favorite analogy about this is that everyone can si…]]></summary>
-        <author>
-            <name>khaireddine arbouch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stocks: Profit or loss indicator]]></title>
-        <id>https://dev.to/suryanshchopra/stocks-profit-or-loss-indicator-12fp</id>
-        <link href="https://dev.to/suryanshchopra/stocks-profit-or-loss-indicator-12fp"/>
-        <updated>2021-08-13T23:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Cover photo by @austindistel show some ❤️ to creator
-It's been a while since I uploaded a blog. The project I did recently was to make a Profit or loss indicator for Stocks.
-
-
-
-
-This is a project I created by using Vanilla JS, It inputs 3 parameters
-Stock symbol
-Initial investing amount
-Stock quantity
-Based on these 3 parameters, it will give output of the current price and and shows profit and loss according to it.
- / 
-        Profit-or-loss-Indicator
-      
-    
-Nothing to be feared, I got you
-Remember what you need in the project, 3 input parameters 
-A stock symbol
-A initial investing amount
-A stock quantity
-Start by including these 3 things in your index.html
-<form>
-<label><input id="input1" placeholder="Enter the stock symbol" type="text" required> Enter the stock symbol</label>      …]]></summary>
-        <author>
-            <name>Suryansh Chopra</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Script to compare Postgres data between two points in time]]></title>
-        <id>https://news.ycombinator.com/item?id=28175845</id>
-        <link href="https://news.ycombinator.com/item?id=28175845"/>
-        <updated>2021-08-13T22:56:34.000Z</updated>
+        <title type="html"><![CDATA[Fermat's Library: software to help illuminate academic papers]]></title>
+        <id>https://fermatslibrary.com/</id>
+        <link href="https://fermatslibrary.com/"/>
+        <updated>2021-08-14T22:39:25.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Actors Work Internally in Swift]]></title>
-        <id>https://swiftrocks.com/how-actors-work-internally-in-swift</id>
-        <link href="https://swiftrocks.com/how-actors-work-internally-in-swift"/>
-        <updated>2021-08-13T22:34:28.000Z</updated>
+        <title type="html"><![CDATA[A clean way to safely call your potentially destructive methods in PHP]]></title>
+        <id>https://dev.to/mattkenefick/a-clean-way-to-safely-call-your-potentially-destructive-methods-in-php-1pi7</id>
+        <link href="https://dev.to/mattkenefick/a-clean-way-to-safely-call-your-potentially-destructive-methods-in-php-1pi7"/>
+        <updated>2021-08-14T22:35:23.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been building an application with Laravel 8.0 recently that utilizes a lot of console commands for various housekeeping reasons. For most of these methods, I want to utilize a dry-run test to deny changes by default.
+The first most obvious approach is to use an option that you can check in each of your function calls. That would look like:
+public function myMethod() {
+    if ($this->dryrun) {
+        return;
+    }
+
+    // Execute destructive code...
+}
+
+This puts a little too much pressure on each function to know about what a dry-run even is, how to check against it, and it couples logic too directly.
+The approach I’ve chosen to use instead utilizes PHP’s magic __call() to help make better determinations; much of Laravel uses this as well.
+--
+For my commands, I have a BaseCommand.php …]]></summary>
+        <author>
+            <name>Matt Kenefick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High heat: Spain clocks prelim record of 47.2 C (116.96 F)]]></title>
+        <id>https://abcnews.go.com/Health/wireStory/europe-heat-wave-brings-concern-older-adults-homeless-79455026</id>
+        <link href="https://abcnews.go.com/Health/wireStory/europe-heat-wave-brings-concern-older-adults-homeless-79455026"/>
+        <updated>2021-08-14T22:32:36.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Beep Boop 2: Use Machine Learning Models to Prep Your Data]]></title>
-        <id>https://dev.to/azure/beep-boop-2-use-machine-learning-models-to-prep-your-data-jj1</id>
-        <link href="https://dev.to/azure/beep-boop-2-use-machine-learning-models-to-prep-your-data-jj1"/>
-        <updated>2021-08-13T22:21:59.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to everyone who joined us live for the 2nd episode of Beep Boop with the Microsoft Reactor- we had a lovely time getting right back into our Microsoft Learn module and creating a machine learning model to clean up our data! 👩‍💻👩🏽‍💻
-If you missed the fun live, don't worry- you can watch the replay here on YouTube, and in the embedded video below!
-
-
-
-
-On this episode we cover:
-7:36 Ornella and Chloe recap what we do on Beep Boop and the ~vibes~ we want to cultivate on the show! 🤖💕
-
-
-11:24 Previously on Beep Boop... we catch folks up on what we did last time, and revisit how to set up your local environment for data science coding and download VS Code so we can pick up where we left off! ☁️🏀
-
-
-16:56 Frank pops in to tell us what he thinks about AI and ML 🐶🦴
-
-
-18:21 We discover data that represents more than one population and talk about why that might be useful for other scenarios 🕵️‍♀️👥
-
-
-34:49 We manipulate the data so we can easily distinguish between Tune Squad players 🐰🐥 and real NBA players ⛹️‍♂️
-
-
-39:38 Magically impute (add in) data to our DataFrame, and get closer to a PERfect set of data 🤓
-
-
-47:27 Using Machine Learning techniques like linear regression and cross-validation to finally complete our dataset - no more NaNs! 😎
-
-
-
-Did you have fun? Check out Beep Boop 3: Create a Web App with Data and ML where we take our data on an adventure - see ya then, friends!]]></summary>
-        <author>
-            <name>Ornella Altunyan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The quest for a single API: one kid's journey into devrel]]></title>
-        <id>https://dev.to/jadenguitarman/the-quest-for-a-single-api-one-kid-s-journey-into-devrel-1p27</id>
-        <link href="https://dev.to/jadenguitarman/the-quest-for-a-single-api-one-kid-s-journey-into-devrel-1p27"/>
-        <updated>2021-08-13T22:00:33.000Z</updated>
-        <summary type="html"><![CDATA[The quest for a single API: one kid's journey into devrel
-
-
-So I decided to mess around with GPT-3 the other day. I typed in APIs are, and here's an excerpt of what I got back:
-The lack of standards makes it difficult to provide users with consistent experiences.
-sighs Even artificial intelligence gets it. APIs are tough to use because they're not consistent. 
-The first APIs used XML as a data transmission system, which gave it some semblance of structure. Later on we came up with REST, and that worked for a while, but it got a bit out of hand. 
-There are some logical issues with REST. For example, think about Stripe's API (one of my favorites). They expose the ability to retrieve both one customer as well as a list of customers. How should Stripe handle this? Should the API expose two end…]]></summary>
-        <author>
-            <name>Jaden Baptista</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[After criticism, Apple to only seek abuse images flagged in multiple nations]]></title>
-        <id>https://mobile.reuters.com/article/idUSKBN2FE21K</id>
-        <link href="https://mobile.reuters.com/article/idUSKBN2FE21K"/>
-        <updated>2021-08-13T21:49:37.000Z</updated>
+        <title type="html"><![CDATA[Avoiding Founder Burnout]]></title>
+        <id>https://waseem.substack.com/p/avoiding-founder-burnout</id>
+        <link href="https://waseem.substack.com/p/avoiding-founder-burnout"/>
+        <updated>2021-08-14T22:22:29.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using React and styled-components to generate PDFs]]></title>
-        <id>https://dev.to/useanvil/using-react-and-styled-components-to-generate-pdfs-22l1</id>
-        <link href="https://dev.to/useanvil/using-react-and-styled-components-to-generate-pdfs-22l1"/>
-        <updated>2021-08-13T21:36:53.000Z</updated>
-        <summary type="html"><![CDATA[Anvil's PDF generation API endpoint supports generating PDFs from HTML and CSS. For the sake of simplicity and interoperability, the endpoint only accepts vanilla HTML & CSS. Obviously writing vanilla HTML & CSS is painful and far out of fashion.
-Modern technologies like React, Vue, LESS, SASS, styled-components, etc. allow you to write more modular, reusable code. Fortunately these technologies all compile down to vanilla HTML and CSS.
-So, while the endpoint accepts only vanilla HTML and CSS, you can use any technologies you'd like to generate the HTML and CSS then send it to the API. For example, you can use the aforementioned libraries like React and Vue, or even your crazy homegrown template language. As long as a library can generate HTML and CSS strings, you can use it with the API!
-…]]></summary>
+        <title type="html"><![CDATA[Let's develop a QR Code Generator, part V: masking]]></title>
+        <id>https://dev.to/maxart2501/let-s-develop-a-qr-code-generator-part-v-masking-30dl</id>
+        <link href="https://dev.to/maxart2501/let-s-develop-a-qr-code-generator-part-v-masking-30dl"/>
+        <updated>2021-08-14T21:40:41.000Z</updated>
+        <summary type="html"><![CDATA[It's time for the final step to get our first working QR code!
+If you remember the final result from the previous part, we ended up with something that had some relatively large areas in dark or light, and that might be troublesome for QR code readers:
+
+So this final step is all about making it easier for readers to actually tell the modules apart in order to compose the square matrix. It goes something like this:
+for each of the 8 estabilished masks, apply it to the matrix we got at the end of the last part;
+compute the penalty score of the resulting output;
+your final QR code is the one with the mask with the lowest penalty score (duh!).
+Masks are, again, matrixes of dots of the same size of the QR code. Each dot has to be XOR'ed with the proto-QR code we got so far.
+Fortunately we don't…]]></summary>
         <author>
-            <name>Anvil Engineering</name>
+            <name>Massimo Artizzu</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GNU nano is my editor of choice]]></title>
-        <id>https://ariadne.space/2021/08/13/gnu-nano-is-my-editor-of-choice/</id>
-        <link href="https://ariadne.space/2021/08/13/gnu-nano-is-my-editor-of-choice/"/>
-        <updated>2021-08-13T21:31:59.000Z</updated>
+        <title type="html"><![CDATA[Amiga Music Preservation]]></title>
+        <id>http://www.dascene.net/home.php</id>
+        <link href="http://www.dascene.net/home.php"/>
+        <updated>2021-08-14T21:33:37.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Task new ViewModifier in iOS15. SwiftUI]]></title>
-        <id>https://dev.to/toni777772/task-new-viewmodifier-in-ios15-swiftui-16ke</id>
-        <link href="https://dev.to/toni777772/task-new-viewmodifier-in-ios15-swiftui-16ke"/>
-        <updated>2021-08-13T21:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple added a new ViewModifier task(priority:_:) in iOS 15. This modifier can be added to any SwiftUI View. 
-task(priority:_:) avalible since iOS15+ macOS 12.0+ Mac Catalyst 15.0+ watchOS 8.0+ tvOS 15.0+
-From official apple documentation:
-Adds an asynchronous task to perform when this view appears.
-func task(priority: TaskPriority = .userInitiated, _ action: @escaping () async -> Void) -> some View
-
-A view that runs the specified action asynchronously when the view appears.
-See details about parameters:
-1 Priority The task priority to use when creating the asynchronous task. The default priority is userInitiated.
-All priorities list:
-userInitiated
-high
-medium
-low
-utility
-background
-2 Action A closure that SwiftUI calls as an asynchronous task when the view appears. SwiftUI automatically ca…]]></summary>
+        <title type="html"><![CDATA[How to Create a Video Player in React]]></title>
+        <id>https://dev.to/franciscomendes10866/how-to-create-a-video-player-in-react-40jj</id>
+        <link href="https://dev.to/franciscomendes10866/how-to-create-a-video-player-in-react-40jj"/>
+        <updated>2021-08-14T21:22:09.000Z</updated>
+        <summary type="html"><![CDATA[One of the things that interested me most recently is creating a fully customized video player. Obviously, nowadays we have services that provide widgets to be used on our websites. 
+Or, on the other hand, you already have dependencies that you can install and start using. But these facilities come at a price, which in this case is the absence or difficulty of customization.
+That's why I had the idea of creating my own video player and apparently it's not as difficult as I had thought and in the end I found it fun.
+Exactly for this reason I had the idea of writing this article, to explain step by step how to make a simple video player, but with the same logic you can go much further.
+In today's example we are going to use this video, it has sound and is completely free.
+Today we are not go…]]></summary>
         <author>
-            <name>Anton Paliakou</name>
+            <name>Francisco Mendes</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[‘Likes’ and ‘shares’ teach people to express more outrage online: study]]></title>
-        <id>https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online</id>
-        <link href="https://news.yale.edu/2021/08/13/likes-and-shares-teach-people-express-more-outrage-online"/>
-        <updated>2021-08-13T21:07:25.000Z</updated>
+        <title type="html"><![CDATA[why you should not use console.log( ) for debugging ?]]></title>
+        <id>https://dev.to/danyson/why-you-should-not-use-console-log-for-debugging-4pgg</id>
+        <link href="https://dev.to/danyson/why-you-should-not-use-console-log-for-debugging-4pgg"/>
+        <updated>2021-08-14T21:07:37.000Z</updated>
+        <summary type="html"><![CDATA[Node.js console.log and console.error
+
+
+This built-in console module in Node.js lets you write log messages to stdout and stderr using the log and error functions.
+It might appear simple and tempt you to use.
+Lots of people prefer to use the console module.
+But, this is not the best practice.
+Lets say, you want to debug or log a response from an API
+const axios = require('axios');
+
+ axios.get('/user', {
+    params: {
+      ID: 12345
+    }
+  })
+  .then(function (response) {
+    console.log(response);
+    // do something with response data
+  })
+  .catch(function (error) {
+    console.log(error);
+    // do something with error
+  });
+
+Once you done with your debugging after developement phase, you need to remove the console.log() or comment it during production phase like follows.
+const axios = require('axios');
+
+ axios.get('/user', {
+    params: {
+      ID: 12345
+    }
+  })
+  .then(function (response) {
+    // console.log(response); <----- line commented
+    // do something with response data
+  })
+  .catch(function (error) {
+    // console.log(error); <----- line commented
+    // do something with error
+  });
+
+Now imagine a larger code base with 1000s of files.
+Its a tedious process to comment and uncomment, right ?
+The debug Module
+
+
+
+  
+  
+  Step 1
+
+
+npm install debug --save
+Now import and use the debug() replacing the console.log() or console.error() and set the environment variable as dev
+const axios = require('axios');
+var debug = require('debug')('dev') // dev is env variable
+
+ axios.get('/user', {
+    params: {
+      ID: 12345
+    }
+  })
+  .then(function (response) {
+    debug(response);
+    // do something with response data
+  })
+  .catch(function (error) {
+    debug(error);
+    // do something with error
+  });
+
+Now run the code by setting the environment variable during Developement phase
+$ DEBUG=dev node app.js
+
+//response data or error will be printed
+
+
+Simply, during Production phase remove environment variable and run code as follows
+node app.js
+
+// nothing gets printed]]></summary>
+        <author>
+            <name>Danyson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Path (YC S19) is hiring Engineers to automate Gen Z finance]]></title>
+        <id>https://www.notion.so/pathfinance/Fullstack-Engineer-Path-YC-S19-ff0fd31fa5d4410dafce77f83403ce0d</id>
+        <link href="https://www.notion.so/pathfinance/Fullstack-Engineer-Path-YC-S19-ff0fd31fa5d4410dafce77f83403ce0d"/>
+        <updated>2021-08-14T21:00:53.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to become a software Engineer Step-by-step (With or Without a Degree)]]></title>
-        <id>https://dev.to/cleancodestudio/how-to-become-a-software-engineer-step-by-step-with-or-without-a-degree-38fm</id>
-        <link href="https://dev.to/cleancodestudio/how-to-become-a-software-engineer-step-by-step-with-or-without-a-degree-38fm"/>
-        <updated>2021-08-13T21:00:09.000Z</updated>
-        <summary type="html"><![CDATA[Sections
-
-
-0:00 - Introduction Into How To Become A Software Engineer
-Clean Code StudioFollow
-
-    
-Clean Code Clean Life ~ Simplify
-    
-Picking a niche matters, the reasons that it matters
-Cardiologists don't do brain surgery. Web developers don't do network security.
-Have a niche? Great, choose a specific technology within that niche. (Hint: Quality Educational Resources)
-What makes Laracasts the BEST educational resource on the internet for web developers?
-What makes Laravel such a solid technology to work with inside the web development niche?
-Laracasts -- why promote a platform that teaches what we cover with zero gain for Clean Code Studio? 
-(Hint: Laracasts is that amazing ~ that's the only reason.)
-LinkedIn's the gateway to job interviews? Why?
-What are "recruiters" and why should you care?
-Check out my conversation as a recruiter "hunts" me down for a gig.
-Did you know that you can juice up your LinkedIn with a few really simple SEO tricks? Here's how.
-What makes github important?
-When should you start using github?
-How can you learn to use github (Hint: Laracasts).
-What types of products can you use github on (Hint: All of them except projects with NDA).
-Free lancing, where to get started.
-My personal experience with free lancing.
-What to expect from free lancing (Hint: It's not money).
-How do you get your first freelance gig (With Zero Real World Experience)?
-What reasons, other than most likely below minimum wage money, makes free lancing worth it?﻿
-Clean Code Studio
-Shiny button, Clean Code 𝗡𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 👇, juicy dev tips...wanna join? 
-
-
-(Discover [50+ pages] of my personal FAANG interview notes!)
-What advice would you give to a High Schooler considering the software 'computer science' career?
-Follow @cleancodestudio on Twitter!]]></summary>
-        <author>
-            <name>Clean Code Studio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EasyPost is building the logistics platform for ecommerce]]></title>
-        <id>https://www.easypost.com/careers</id>
-        <link href="https://www.easypost.com/careers"/>
-        <updated>2021-08-13T21:00:09.000Z</updated>
+        <title type="html"><![CDATA[Ask HN: Is it worth learning Elixir, from a jobs perspective?]]></title>
+        <id>https://news.ycombinator.com/item?id=28183901</id>
+        <link href="https://news.ycombinator.com/item?id=28183901"/>
+        <updated>2021-08-14T21:00:23.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Is the atmosphere an upside down ocean? [pdf]]]></title>
-        <id>https://empslocal.ex.ac.uk/people/staff/gv219/talks/trop-therm13.pdf</id>
-        <link href="https://empslocal.ex.ac.uk/people/staff/gv219/talks/trop-therm13.pdf"/>
-        <updated>2021-08-13T20:48:58.000Z</updated>
+        <title type="html"><![CDATA[D2X-XL – an OpenGL modification of the classic video game Descent 2]]></title>
+        <id>https://www.descent2.de/index.html</id>
+        <link href="https://www.descent2.de/index.html"/>
+        <updated>2021-08-14T20:56:25.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[📰 Contenedores: create-react-app + Storybook + Docker (Con repositorio)]]></title>
-        <id>https://dev.to/fernandocutire/contenedores-create-react-app-storybook-docker-con-repositorio-29f9</id>
-        <link href="https://dev.to/fernandocutire/contenedores-create-react-app-storybook-docker-con-repositorio-29f9"/>
-        <updated>2021-08-13T20:44:19.000Z</updated>
-        <summary type="html"><![CDATA[En este artículo crearemos una imagen de docker con base a una aplicación en storybook, esto servirá para que otros desarrolladores puedan correr la aplicación sin proble,as
-Cómo empaquetar una aplicación en un contenedor docker
-El desarrollo de un contenedor para una aplicación JS
-Cómo ver los puertos del contenedor
-Solución a errores comunes al empaquetar SPA (Single Page Application)
-Repositorio con código completo para que puedas probar la aplicación 
-Respuesta corta, te lo han pedido subirán el storybook a la nube y quieren tener tu sistema de diseño en un pipeline siempre atento.
-Puedes leer más sobre docker en mi artículo de Docker para desarrolladores
-Para este ejemplo decidí usar create-react-app para la aplicación npx create-react-app storybook-docker. Recuerda que storybook en s…]]></summary>
+        <title type="html"><![CDATA[Ocean Plastic Emissions by Country]]></title>
+        <id>https://ourworldindata.org/ocean-plastics</id>
+        <link href="https://ourworldindata.org/ocean-plastics"/>
+        <updated>2021-08-14T20:35:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
         <author>
-            <name>Fernando Cutire</name>
+            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A step-by-step guide to develop and deploy Vue apps with docker, part one]]></title>
-        <id>https://dev.to/tqbit/a-step-by-step-guide-to-vue-development-with-docker-part-one-5ap4</id>
-        <link href="https://dev.to/tqbit/a-step-by-step-guide-to-vue-development-with-docker-part-one-5ap4"/>
-        <updated>2021-08-13T19:44:42.000Z</updated>
-        <summary type="html"><![CDATA[Previously, I've described a very simple way to develop and deploy a Vue.js app using a combination of git and npm. This works fine to quickly prototype an app and see how it behaves in the wild. In case you're in for a productive project, you probably want to use a more predictable end-to-end workflow.
-This series of articles will equip you with the knowledge to create, develop and deploy a Vue project with Docker. With some tweaks, you can also use the featured Dockerfiles to deploy any project, using other frameworks such as React or Svelte.
-Docker is a tool to build and deploy containerized units of software. So next to the source code for the application, a Docker project will also bring the environment to run it.
-In a nutshell, compared to the quick & dirty approach I've described pr…]]></summary>
-        <author>
-            <name>tq-bit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Convert TS <-> JSON-Schema w/ typeconv]]></title>
-        <id>https://dev.to/crobinson42/convert-ts-json-schema-w-typeconv-1n9n</id>
-        <link href="https://dev.to/crobinson42/convert-ts-json-schema-w-typeconv-1n9n"/>
-        <updated>2021-08-13T19:44:33.000Z</updated>
-        <summary type="html"><![CDATA[https://github.com/grantila/typeconv#typescript]]></summary>
-        <author>
-            <name>Cory Robinson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Sieve of Eratosthenes]]></title>
-        <id>https://dev.to/nickymeuleman/the-sieve-of-eratosthenes-j64</id>
-        <link href="https://dev.to/nickymeuleman/the-sieve-of-eratosthenes-j64"/>
-        <updated>2021-08-13T19:16:39.000Z</updated>
-        <summary type="html"><![CDATA[The sieve of Eratosthenes finds all prime numbers up to a given limit.
-The algorithm starts out by assuming all numbers are prime, and marking them as such.
-The number 1 is a special case, so we start off by unmarking it.
-Then we go through the numbers one by one.
-If a number is still marked as prime when we get to it, that means it is prime.
+        <title type="html"><![CDATA[Backend shorts - Validate all your inputs]]></title>
+        <id>https://dev.to/hbgl/backend-shorts-validate-all-your-inputs-2ffh</id>
+        <link href="https://dev.to/hbgl/backend-shorts-validate-all-your-inputs-2ffh"/>
+        <updated>2021-08-14T20:34:49.000Z</updated>
+        <summary type="html"><![CDATA[Whenever you are dealing with untrusted data, such as input from a HTTP request, you must validate it thoroughly in the backend of your web application.
+function store(Request $request)
+{
+    $validated = $this->validate($request, [
+        'name' => 'required|string|max:255',
+        'unit_price' => 'required|int|min:0|max:10000',
+        'currency' => 'required|in:USD,EUR',
+        'stock' => 'required|int|min:0|max: 1000000',
+    ]);
 
-Before moving on to the next number, we first unmark every multiple of the found prime.
-Those multiples can be divided through the prime number we just found, so by definition isn't prime.
-We repeat this process until we reach the upper limit.
-Every number that is still marked as prime, is truly prime.
-By using some math we can do significantly less work while still getting the same result.
-TL;DR: Only check numbers up to the square root of the upper…]]></summary>
+    $product = new Product($validated);
+    $product->save();
+
+    return redirect()->route('products.show', ['product' => $product->id]);
+}
+
+One of the easiest and safest ways to read request data in Laravel is the $this->validate function inside a controller. It returns an array that contains the valid data (and only the valid data), or it throws a Valid…]]></summary>
         <author>
-            <name>Nicky Meuleman</name>
+            <name>hbgl</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Security Threat Model Review of the Apple Child Safety Features [pdf]]]></title>
-        <id>https://www.apple.com/child-safety/pdf/Security_Threat_Model_Review_of_Apple_Child_Safety_Features.pdf</id>
-        <link href="https://www.apple.com/child-safety/pdf/Security_Threat_Model_Review_of_Apple_Child_Safety_Features.pdf"/>
-        <updated>2021-08-13T19:10:16.000Z</updated>
+        <title type="html"><![CDATA[Leetcode: Longest Arithmetic Subsequence]]></title>
+        <id>https://dev.to/saurabhpro/leetcode-longest-arithmetic-subsequence-4jal</id>
+        <link href="https://dev.to/saurabhpro/leetcode-longest-arithmetic-subsequence-4jal"/>
+        <updated>2021-08-14T20:27:25.000Z</updated>
+        <summary type="html"><![CDATA[This is part of a series of Leetcode and other curated solution explanations (index).
+Leetcode Problem #1027 (Medium): Longest Arithmetic Subsequence
+Given an array nums of integers, return the length of the longest arithmetic subsequence in nums.
+Recall that a subsequence of an array nums is a list nums[i1], nums[i2], ..., nums[ik] with 0 <= i1 < i2 < ... < ik <= nums.length - 1, and that a sequence seq is arithmetic if seq[i+1] - seq[i] are all the same value (for 0 <= i < seq.length - 1).
+Example 1:
+Input: nums = [3,6,9,12]
+Example 2:
+Input: nums = [9,4,7,2,10]
+Example 3:
+Input: nums = [20,1,15,3,10,5,8]
+Constraints:
+2 <= nums.length <= 1000
+During high-school we learnt this concept with another name **Arithmetic Progression (AP)*.
+so, 1 8 15 is an AP as 1 (+7) 8 (+7) 15, we have a diff…]]></summary>
+        <author>
+            <name>Saurabh Kumar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cleaner data fetching with react-query]]></title>
+        <id>https://dev.to/sidv93/cleaner-data-fetching-with-react-query-4klg</id>
+        <link href="https://dev.to/sidv93/cleaner-data-fetching-with-react-query-4klg"/>
+        <updated>2021-08-14T20:04:41.000Z</updated>
+        <summary type="html"><![CDATA[Data-fetching is something I feel does not get the importance and limelight as say state management in the React world. People often combine client state and server state into their state management solution. By server state, I mean the data from your backend servers. For example, in a redux setup, client state and data from server are stored in stores and updates are handled through actions and reducers. Client state change usually causes a change in server state, so combining them makes sense in most cases. But I feel they are two separate entities and if handled properly, we can even get rid of client side state management solutions in some cases.
+I started looking at solutions to separate client and server state management. Coming into the React world from an Angular background, I want…]]></summary>
+        <author>
+            <name>Siddharth Venkatesh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Guide to NW.js versions]]></title>
+        <id>https://dev.to/thejaredwilcurt/guide-to-nw-js-versions-5d38</id>
+        <link href="https://dev.to/thejaredwilcurt/guide-to-nw-js-versions-5d38"/>
+        <updated>2021-08-14T19:57:39.000Z</updated>
+        <summary type="html"><![CDATA[This list is sorted by version number, not recommendation. The TLDR is, use the latest unless you have a good reason not to, then use one of the other versions detailed here.
+Remember, any time you pick an NW.js version to use, make sure your globally installed version of Node matches what is built in to NW.js. You can easily switch Node versions with one of these tools:
+Linux/OSX - nvm
+
+Windows 8+ - nvm-windows
+
+Windows 7 - nodist
+
+
+
+
+
+  
+  
+  TLDR Table of Contents
+
+
+
+Version
+Should you use
+
+
+
+
+0.12.3
+No. Too old, API out of date.
+
+
+0.13.0
+No. Newer versions offer all the same stuff
+
+
+0.14.7
+Only if you need to support legacy OS's, use newer version for newer OSs
+
+
+0.33.4
+Only if you need to do Tray app development on Win 7
+
+
+0.34.0
+No. Introduces Tray app bug that is fixed in 0.48.0
+
+
+0…]]></summary>
+        <author>
+            <name>The Jared Wilcurt</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let's write a compiler, part 1: Introduction, selecting a language, and planning]]></title>
+        <id>https://briancallahan.net/blog/20210814.html</id>
+        <link href="https://briancallahan.net/blog/20210814.html"/>
+        <updated>2021-08-14T18:53:53.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FOSS app removed from the Play Store for linking to the project's website]]></title>
-        <id>https://github.com/language-transfer/lt-app/pull/44</id>
-        <link href="https://github.com/language-transfer/lt-app/pull/44"/>
-        <updated>2021-08-13T18:28:46.000Z</updated>
+        <title type="html"><![CDATA[An Elephant Crackup? (2006)]]></title>
+        <id>https://www.nytimes.com/2006/10/08/magazine/08elephant.html</id>
+        <link href="https://www.nytimes.com/2006/10/08/magazine/08elephant.html"/>
+        <updated>2021-08-14T18:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Software Dev Can't Be Automated – It’s a Creative Process with an Unknown Goal]]></title>
+        <id>https://thehosk.medium.com/software-development-cannot-be-automated-because-its-a-creative-process-with-an-unknown-end-goal-2d4776866808</id>
+        <link href="https://thehosk.medium.com/software-development-cannot-be-automated-because-its-a-creative-process-with-an-unknown-end-goal-2d4776866808"/>
+        <updated>2021-08-14T17:51:40.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Philippine ethnic group has most Denisovan DNA]]></title>
+        <id>https://www.uu.se/en/news/article/?id=17306&amp;typ=artikel&amp;lang=en</id>
+        <link href="https://www.uu.se/en/news/article/?id=17306&amp;typ=artikel&amp;lang=en"/>
+        <updated>2021-08-14T16:25:56.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use Pixar's Story Formula to Win over Investors]]></title>
+        <id>https://startuppitch.substack.com/p/nail-your-startup-pitch-use-pixars</id>
+        <link href="https://startuppitch.substack.com/p/nail-your-startup-pitch-use-pixars"/>
+        <updated>2021-08-14T16:22:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I hate almost all software (2011)]]></title>
+        <id>https://tinyclouds.org/rant.html</id>
+        <link href="https://tinyclouds.org/rant.html"/>
+        <updated>2021-08-14T15:54:55.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Closing 45% of the open Emacs bugs]]></title>
+        <id>https://lars.ingebrigtsen.no/2021/08/14/10x10/</id>
+        <link href="https://lars.ingebrigtsen.no/2021/08/14/10x10/"/>
+        <updated>2021-08-14T15:48:01.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub seems to be enabling IPv6 for GitHub Pages]]></title>
+        <id>https://github.com/isaacs/github/issues/354</id>
+        <link href="https://github.com/isaacs/github/issues/354"/>
+        <updated>2021-08-14T13:06:08.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asahi Linux for Apple M1 progress report, August 2021]]></title>
+        <id>https://asahilinux.org/2021/08/progress-report-august-2021/</id>
+        <link href="https://asahilinux.org/2021/08/progress-report-august-2021/"/>
+        <updated>2021-08-14T12:32:07.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debian 11]]></title>
+        <id>https://www.debian.org/releases/bullseye/amd64/release-notes/</id>
+        <link href="https://www.debian.org/releases/bullseye/amd64/release-notes/"/>
+        <updated>2021-08-14T12:21:35.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How H. W. Lenstra Jr. completed an unfinished artwork by Escher (2020)]]></title>
+        <id>https://www.universiteitleiden.nl/en/news/2020/04/how-mathematician-hendrik-lenstra-completed-an-unfinished-artwork-by-escher</id>
+        <link href="https://www.universiteitleiden.nl/en/news/2020/04/how-mathematician-hendrik-lenstra-completed-an-unfinished-artwork-by-escher"/>
+        <updated>2021-08-14T10:19:59.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thoughts On Lisp And Racket (2019)]]></title>
+        <id>https://www.macadie.net/2019/08/11/thoughts-on-lisp-and-racket/</id>
+        <link href="https://www.macadie.net/2019/08/11/thoughts-on-lisp-and-racket/"/>
+        <updated>2021-08-14T09:59:52.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keyboard Walk Processor (2018)]]></title>
+        <id>https://github.com/hashcat/kwprocessor</id>
+        <link href="https://github.com/hashcat/kwprocessor"/>
+        <updated>2021-08-14T08:37:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Proposal for the Dartmouth Research Project on Artificial Intelligence (1955)]]></title>
+        <id>http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html</id>
+        <link href="http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html"/>
+        <updated>2021-08-14T06:29:30.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YAML and Configuration Files]]></title>
+        <id>https://utcc.utoronto.ca/~cks/space/blog/programming/YAMLAndConfigurationFiles</id>
+        <link href="https://utcc.utoronto.ca/~cks/space/blog/programming/YAMLAndConfigurationFiles"/>
+        <updated>2021-08-14T04:51:47.000Z</updated>
+        <summary type="html"><![CDATA[Comments]]></summary>
+        <author>
+            <name>Hacker News</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The uncanny absence of nihilism]]></title>
+        <id>https://meaningness.com/nihilism-is-not-an-ism</id>
+        <link href="https://meaningness.com/nihilism-is-not-an-ism"/>
+        <updated>2021-08-14T04:47:22.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -409,76 +600,6 @@ The post Unicode Arrows appeared first on CSS-Tricks. You can support CSS-Tricks
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Apple Regrets Confusion over 'iPhone Scanning']]></title>
-        <id>https://www.bbc.com/news/technology-58206543</id>
-        <link href="https://www.bbc.com/news/technology-58206543"/>
-        <updated>2021-08-13T18:07:04.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Archaeologists discover 4k-year-old ancient city in Iraqi desert]]></title>
-        <id>https://www.theartnewspaper.com/news/archaeologists-discover-4-000-year-old-ancient-city-in-iraqi-desert</id>
-        <link href="https://www.theartnewspaper.com/news/archaeologists-discover-4-000-year-old-ancient-city-in-iraqi-desert"/>
-        <updated>2021-08-13T17:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[To make programming easier, first be conscious of what makes it hard (2014)]]></title>
-        <id>http://lighttable.com/2014/05/16/pain-we-forgot/</id>
-        <link href="http://lighttable.com/2014/05/16/pain-we-forgot/"/>
-        <updated>2021-08-13T17:32:57.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Anti Anti-Money Laundering Services for Crooks]]></title>
-        <id>https://krebsonsecurity.com/2021/08/new-anti-anti-money-laundering-services-for-crooks/</id>
-        <link href="https://krebsonsecurity.com/2021/08/new-anti-anti-money-laundering-services-for-crooks/"/>
-        <updated>2021-08-13T17:31:03.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Abandoned Motorola Headquarters (2020)]]></title>
-        <id>https://www.abandonedspaces.com/industry/motorola.html</id>
-        <link href="https://www.abandonedspaces.com/industry/motorola.html"/>
-        <updated>2021-08-13T16:33:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Show HN: Instantly listen to any URL]]></title>
-        <id>https://per.quest/</id>
-        <link href="https://per.quest/"/>
-        <updated>2021-08-13T15:57:44.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WinCompose – A Compose Key for Windows]]></title>
-        <id>https://github.com/samhocevar/wincompose</id>
-        <link href="https://github.com/samhocevar/wincompose"/>
-        <updated>2021-08-13T15:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Building a Cool Front End Thing Generator]]></title>
         <id>https://css-tricks.com/?p=345944</id>
         <link href="https://css-tricks.com/building-a-cool-front-end-thing-generator/"/>
@@ -490,40 +611,10 @@ The post Building a Cool Front End Thing Generator appeared first on CSS-Tricks.
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Launch HN: FirstIgnite (YC S21) – Matching scientists with relevant businesses]]></title>
-        <id>https://news.ycombinator.com/item?id=28168813</id>
-        <link href="https://news.ycombinator.com/item?id=28168813"/>
-        <updated>2021-08-13T13:51:41.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Interactive Linear Algebra (2019)]]></title>
-        <id>http://textbooks.math.gatech.edu/ila/index.html</id>
-        <link href="http://textbooks.math.gatech.edu/ila/index.html"/>
-        <updated>2021-08-13T13:03:22.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launch HN: Iona Mind (YC S21) – App-based cognitive behavioural therapy]]></title>
-        <id>https://news.ycombinator.com/item?id=28168336</id>
-        <link href="https://news.ycombinator.com/item?id=28168336"/>
-        <updated>2021-08-13T13:03:10.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Develop Native Mobile Apps with JVM Clojure, GraalVM, SCI and Skia]]></title>
-        <id>https://news.ycombinator.com/item?id=28168065</id>
-        <link href="https://news.ycombinator.com/item?id=28168065"/>
-        <updated>2021-08-13T12:30:19.000Z</updated>
+        <title type="html"><![CDATA[There Is a Tennis Ball Shortage Too Now]]></title>
+        <id>https://www.vice.com/en/article/k78y5e/there-is-a-tennis-ball-shortage-too-now</id>
+        <link href="https://www.vice.com/en/article/k78y5e/there-is-a-tennis-ball-shortage-too-now"/>
+        <updated>2021-08-13T13:06:03.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -541,70 +632,40 @@ The post Global Content Marketing Summary appeared first on Four Minute Books.]]
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How Google bought Android]]></title>
-        <id>https://arstechnica.com/information-technology/2021/08/excerpt-the-history-of-android-as-written-by-a-longtime-android-developer/</id>
-        <link href="https://arstechnica.com/information-technology/2021/08/excerpt-the-history-of-android-as-written-by-a-longtime-android-developer/"/>
-        <updated>2021-08-13T11:30:05.000Z</updated>
+        <title type="html"><![CDATA[How to teach programming and other things (2019) [video]]]></title>
+        <id>https://www.youtube.com/watch?v=g1ib43q3uXQ</id>
+        <link href="https://www.youtube.com/watch?v=g1ib43q3uXQ"/>
+        <updated>2021-08-13T11:48:05.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dasher: Information-efficient text entry (2007)]]></title>
-        <id>https://www.youtube.com/watch?v=wpOxbesRNBc</id>
-        <link href="https://www.youtube.com/watch?v=wpOxbesRNBc"/>
-        <updated>2021-08-13T11:12:15.000Z</updated>
+        <title type="html"><![CDATA[What we can learn from Google Plus (2014)]]></title>
+        <id>https://www.intercom.com/blog/what-we-can-learn-from-google-plus/</id>
+        <link href="https://www.intercom.com/blog/what-we-can-learn-from-google-plus/"/>
+        <updated>2021-08-13T07:10:53.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Show HN: Alicorn Cloud – Easily move between AWS, GCP and Azure]]></title>
-        <id>https://alicorncloud.io/</id>
-        <link href="https://alicorncloud.io/"/>
-        <updated>2021-08-13T10:28:40.000Z</updated>
+        <title type="html"><![CDATA[Teaching Paradox, Victoria II, Part I: Mechanics and Gears]]></title>
+        <id>https://acoup.blog/2021/08/13/collections-teaching-paradox-victoria-ii-part-i-mechanics-and-gears/</id>
+        <link href="https://acoup.blog/2021/08/13/collections-teaching-paradox-victoria-ii-part-i-mechanics-and-gears/"/>
+        <updated>2021-08-13T06:00:24.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Egui: An easy-to-use immediate mode GUI]]></title>
-        <id>https://github.com/emilk/egui</id>
-        <link href="https://github.com/emilk/egui"/>
-        <updated>2021-08-13T08:13:12.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chemical analysis of woolly mammoth’s tusk reveals the distances it travelled]]></title>
-        <id>https://www.nature.com/articles/d41586-021-02206-1</id>
-        <link href="https://www.nature.com/articles/d41586-021-02206-1"/>
-        <updated>2021-08-13T06:36:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple's child protection features spark concern within its own ranks: sources]]></title>
-        <id>https://www.reuters.com/technology/exclusive-apples-child-protection-features-spark-concern-within-its-own-ranks-2021-08-12/</id>
-        <link href="https://www.reuters.com/technology/exclusive-apples-child-protection-features-spark-concern-within-its-own-ranks-2021-08-12/"/>
-        <updated>2021-08-12T22:26:42.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buddha and Mind]]></title>
-        <id>https://www.neh.gov/article/buddha-and-mind</id>
-        <link href="https://www.neh.gov/article/buddha-and-mind"/>
-        <updated>2021-08-12T21:58:13.000Z</updated>
+        <title type="html"><![CDATA[Machu Picchu older than expected, study reveals]]></title>
+        <id>https://news.yale.edu/2021/08/04/machu-picchu-older-expected-study-reveals</id>
+        <link href="https://news.yale.edu/2021/08/04/machu-picchu-older-expected-study-reveals"/>
+        <updated>2021-08-13T04:46:21.000Z</updated>
         <summary type="html"><![CDATA[Comments]]></summary>
         <author>
             <name>Hacker News</name>
@@ -649,16 +710,6 @@ The post Stay alert appeared first on CSS-Tricks. You can support CSS-Tricks by 
         <summary type="html"><![CDATA[In this day and age, it seems like everyone is learning to code. Maybe you want to know how websites work, or you think back fondly on the old blogging platforms where you could hack together some HTML to personalize them. Or maybe you are curious to learn what all]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On the Nature of Merge Conflicts]]></title>
-        <id>https://neverworkintheory.org/2021/08/12/on-the-nature-of-merge-conflicts.html</id>
-        <link href="https://neverworkintheory.org/2021/08/12/on-the-nature-of-merge-conflicts.html"/>
-        <updated>2021-08-12T18:06:19.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -751,16 +802,6 @@ The post Using Web Components in WordPress is Easier Than You Think appeared fir
         <summary type="html"><![CDATA[One of the end goals of a React Native project is to have a minimal amount of platform-specific logic and code. Most APIs can be built so the platform-specific code is abstracted away by the framework. This gives you a single way to interact with them and easily create cross-platform]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Descartes’s Evil Genius]]></title>
-        <id>https://lareviewofbooks.org/article/descartess-evil-genius/</id>
-        <link href="https://lareviewofbooks.org/article/descartess-evil-genius/"/>
-        <updated>2021-08-11T22:32:14.000Z</updated>
-        <summary type="html"><![CDATA[Comments]]></summary>
-        <author>
-            <name>Hacker News</name>
         </author>
     </entry>
     <entry>
@@ -1241,26 +1282,6 @@ The post Soundtracks Summary appeared first on Four Minute Books.]]></summary>
         <summary type="html"><![CDATA[Web app accessibility appears difficult because it seems that there is little information on the subject available online. Let’s take a closer look at the accessible use of framework features, concrete Vue.js traits, as well as community initiatives and vetted patterns.]]></summary>
         <author>
             <name>hello@smashingmagazine.com (Marcus Herrmann)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISR vs DPR: Big Words, Quick Explanation]]></title>
-        <id>https://smashingmagazine.com/2021/07/isr-dpr-explained/</id>
-        <link href="https://smashingmagazine.com/2021/07/isr-dpr-explained/"/>
-        <updated>2021-07-15T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are two strategies for incrementally building websites that are growing in popularity: Incremental Static Regeneration and Distributed Persistent Rendering. What’s the difference? Let’s figure it out.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Cassidy Williams)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Can Do That With A JavaScript Data Grid?]]></title>
-        <id>https://smashingmagazine.com/2021/07/javascript-data-grid-kendo-ui/</id>
-        <link href="https://smashingmagazine.com/2021/07/javascript-data-grid-kendo-ui/"/>
-        <updated>2021-07-15T13:45:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, you’ll get to see some pretty groundbreaking things you can achieve with modern JavaScript grids and discover new ways to augment a data grid to make it engaging, responsive, and accessible. All this will be illustrated using Kendo UI Data Grids and their features.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Zara Cooper)</name>
         </author>
     </entry>
 </feed>
