@@ -16,7 +16,7 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-15">2021-08-15</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-08-17">2021-08-17</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
@@ -24,37 +24,109 @@
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Electron Adventures: Episode 23: Display Information about Files</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/taw/electron-adventures-episode-23-display-information-about-files-2656">
+                <summary class="article-expander__title">Importing Typescript files in Angular with Barrels.</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/rareyesrd/importing-typescript-files-in-angular-with-barrels-11dp">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Let&#x27;s improve our file manager. There&#x27;s a lot of information we&#x27;d like to display. Let&#x27;s start with just a few:
-file size
-last modified time
-for symlink, where does it lead to
-preload.js
-
-
-This tiny change already requires restructuring the code a bit, as getting this information in node is - obviously async.
-let { readdir } &#x3D; require(&quot;fs/promises&quot;)
-
-let directoryContents &#x3D; async (path) &#x3D;&gt; {
-  let results &#x3D; await readdir(path, {withFileTypes: true})
-  return await Promise.all(results.map(entry &#x3D;&gt; fileInfo(path, entry)))
-}
-
-I&#x27;m not sure how node actually executes it. Pretty much every other language will run system calls one at a time, so we could do return results.map(entry &#x3D;&gt; await fileInfo(path, entry)), but on an off chance that this actually runs in parallel I&#x27;m first constructing big …</span>
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Get your projects more readable and organize using this technique.
+https://youtu.be/iiRnt3XBBmg</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Pompeii’s fast food joint unearthed in 2019 opens to public</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/science/2021/aug/09/pompeis-fast-food-joint-unearthed-in-2019-opens-to-public">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-16">2021-08-16</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Tabs in HTML?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://bkardell.com/blog/SpicySections.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Brian Kardell shares a bit about the progress of bringing &quot;Tabs&quot; to HTML. We kinda think we know what they are, but you have to be really specific when dealing with specs and defining them. It&#x27;s tricky.
+The post Tabs in HTML? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Making GET And POST Request Using AXIOS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/making-get-and-post-request-using-axios-7g8">
+                <summary class="article-expander__title">Cutouts</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://ishadeed.com/article/thinking-about-the-cut-out-effect/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Hi, I&#x27;m Aya Bouchiha, today, we&#x27;ll cover sending POST and GET requests in react.js using axios.
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Ahmad Shadeed dug into shape “cutouts” the other day. Imagine a shape with another smaller shape carved out of it. In his typical comprehensive way, Ahmad laid out the situation well—looking at tricky situations that complicate things. 
+The first thing …
+The post Cutouts appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">HTML is Not a Programming Language?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/html-is-not-a-programming-language/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>HTML is not a programming language.
+I’ve heard that sentence so many times and it’s tiring. Normally, it is followed by something like, It doesn’t have logic, or, It is not Turing complete,.so… obviously it is not a programming …
+The post HTML is Not a Programming Language? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Best Social Media Posting and Scheduling APIs of 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/gbourne/best-social-media-posting-and-scheduling-apis-of-2021-jno">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Last year we published one of our most popular articles on the best social media APIs for posting and scheduling. It got a lot of attention from platforms, CMS, agencies, and companies that want to programmatically post on behalf themselves or their users. For 2021, we’re updating the the list and giving more in-depth analysis so you can find the right solutions for your business.
+&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;
+If you want to manually post and schedule social media to networks like Twitter, Instagram, Facebook, LinkedIn, or YouTube, there are some excellent web-based posting tools out there. However, if you run an app or platform, say for example a CMS that allows user to create content, your users typically want a simple process to post to social media networks without having to download the…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Making PUT &amp; DELETE Request Using Axios In React.js</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/making-put-delete-request-using-axios-in-react-js-j07">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Hi, I&#x27;m Aya Bouchiha, today, we&#x27;ll cover sending PUT and DELETE requests in react.js using axios.
+POST &amp; GET Request using axios in react.js
 axios: is a popular Javascript library used for making HTTP requests to an API.
   docs
 
@@ -99,203 +171,300 @@ yarn add axios
 
 bower install axios
 
-GET: is a request used for getting or retrieving data or information from a specified server.
+PUT: is a request used for creating or updating a resource in a specific server.
 import { useEffect } from &#x27;react&#x27;;
 import axios from &#x27;axios&#x27;;
-const App &#x3D; () &#x3D;&gt; {
-    useEffect(() &#x3D;&gt; {
-        const getTodo &#x3D; () &#x3D;&gt; {
-    …</span>
+
+const todo &#x3D; {
+    id: 10,
+    title: &#x27;go to …</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How I built and Published My First React Native App (Daily Discomfort)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/jeff_codes/how-i-built-and-published-my-first-react-native-app-daily-discomfort-311d">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>🏃🏻‍♂️TLDR
-
-
-
-React Native + Redux + NodeJs + MongoDB Atlas + Heroku &#x3D; Daily Discomfort
-Daily Discomfort is an app that allows users to swipe on different prompts that are designed to get them out of their comfort zones. After the user swipes right on a prompt their mission is to go out into the real word to complete the challenge. Once completed, or failed, the user comes back to the app to journal about their experiences trying to complete the prompt.  It can be found on  the Apple AppStore &amp; Google Play Store.
-
-The whole reason that I created this app is because I recognize I am terrified to get out of my own comfort zone. I wanted something that would force me each and every day to try something new and to experience things that I might have not had the chance to otherwise. After real…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">HNG Internship 8: My Goals</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/yinkakun/hng-internship-8-my-goals-9fk">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>About The Internship
-
-
-HNG Internship is a virtual internship program for people learning to code or design. It usually runs for around 3 months. 
-The program has 10 stages. Those who are able to fulfill the given tasks within a stated timeframe advance to the next stage.
-HNGi8 is the eighth cohort of the program and it&#x27;s organized by the Zuri Team.
-I&#x27;ve read a lot about HNG on Twitter and how its finalist turns out to be prodigies. And also how it&#x27;s challenging and fast-paced.  I  wanted to challenge myself with the intent to be among the finalists.
-Learn how to work in a team. - As a self-taught, I don&#x27;t have much experience working in teams.
-
-
-Meet and connect with other developers and designers.
-
-
-Work on challenging projects to improve my skills.
-
-
-Access to Job opportunities - HNG matches finalists to its pool of potential employers.
-
-
-Get an HNG T-Shirt and bragging rights on Twitter (IYKYK)
-
-
-
-
-  
-  
-  Some Learning Resources I find Useful
-
-
-As a self-taught, I use a lot of resources while honing my front-end development skills. Some of the beginner-friendly ones I find includes:
-HTML &amp; CSS - Kevin Powell&#x27;s HTML &amp; CSS Playlist on Youtube.
-
-
-Figma - Getting started with Figma Video by Kevin Powell.
-
-
-Git - Git Tutorial for Beginners by Mos on Youtube.
-
-
-Javascript - Javascript For Beginners by Dev Ed on Youtube.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to build your own natural language image search engine (Part 1)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/rkouye/how-to-build-your-own-natural-language-image-search-engine-part-1-3bbp">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Last month, I started working on a really fun side project: a natural language image search engine.
-
-Try it.
-The idea came after reading about Open AI&#x27;s CLIP. 
-CLIP is a neural network able to connect text and images. It allows us to compute how similar a text corpus and a picture are.
-If we can compute a similarity score between a text corpus and a picture, we can build a simple search engine. Imagine we had a million pictures of cute animals.
-1- The user would type a query, let&#x27;s say, &quot;cats with hats&quot;.
-Et voilà!
-However, because we are computing the similarity score on each image, the search time will keep growing with the number of images. It is not scalable.
-Also, search engines usually allow multiple facets search (for example, the image&#x27;s primary color) in conjunction with the text query.
-To improve our implementation, let understand how CLIP work.
-(Coming in Part 2)</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Simple Tailwind CSS Clean Up</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/turpp/simple-tailwind-css-clean-up-3fji">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Tailwind CSS is a utility first CSS framework. This allows you to create dynamic and beautiful webpages without having to go back and forth between CSS files. No more having to come up with crazy descriptive but short class names. All this power does come with some draw backs. One of the major draw backs is how messy you code can look, but no worries there is a way to clean this up. Today we will talk about base styles and extracting component classes.
-Tailwind CSS styles your applications by using utilities. Utilities are just specific class names that relate to some css property and value. This is great till you have tons of utilities listed like below.
-&lt;button class&#x3D;&quot;py-2 px-4 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 focus:outline-none focus:ring-2 f…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">I want help with this problem</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mh0386/i-want-help-with-this-problem-4n5j">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Diamond Card Layout with CSS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/veedjohnson/diamond-card-layout-with-css-3acm">
+                <summary class="article-expander__title">Setting up a CI/CD with Jenkins</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/kennethatria/setting-up-a-ci-cd-with-jenkins-4hln">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
-                    <span>Today, I&#x27;ll show you how to design a diamond card layout (items should be exactly four) with a few steps using HTML and CSS
-Step 1 - Setting up the HTML structure of the layout
-The simple trick is that the two cards we want to be at the top and bottom of the diamond should be wrapped together in a container, see the code below:
- 
-Diamond Card section design with CSS
-Launch your product
-Lorem ipsum dolor sit amet consectetur.
+                    <span>** What you need ? **
 
-              …</span>
+
+
+Dockerhub and Github Account
+Server with linux setup. For this case ubuntu
+Your application is already need to be configured on your test instances
+*This tutorial assumes you have set up a Jenkins file in your project. View reference make necessary changes
+*sudo apt update
+search of all available packages &amp; pick one from the options
+For this case I will be using version 11, so 
+sudo apt install openjdk-11-jdk
+Confirm installation with running version check
+java -version
+Now we are ready to install Jenkins. We start off by appending the Debian package repository address to the server&#x27;s sources.list
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add - sudo sh -c &#x27;echo deb https://pkg.jenkins.io/debian-stable binary/ &gt; \
+
+
+We&#x27;ll run update so that apt will use the new repo
+sudo apt-get update
+Installing Jenkins
+sudo apt-get install jenkins&#x3D;2.289.3
+That&#x27;s all 
+Login into your Github, and head over to your developer settings : Profile -&gt; Settings -&gt; Developer settings -&gt; Personal access tokens
+Note: I wouldn&#x27;t consider this optional but it&#x27;s good practice to set an expiration duration for your token.
+Select admin:repo_hook
+
+Lastly set repo: repo_status. Jenkins likes to access the repo commit status 
+Click &quot;Generate token&quot; and save your token somewhere.
+1.SSH in your Jenkins instance
+sudo &quot;cat /var/lib/jenkins/secrets/initialAdminPassword&quot;
+your-instance-ip:8080
+1.Log into Jenkins
+3.Set up docker hub credentials: 
+4.Set up global properties in Jenkins for staging server
+5.Set up Jenkins project
+Under branch sources: click add source -&gt; GitHub 
+Select github_key for credentials
+Jenkins will scan your repo and run an initial build
+In Jenkins, In the project- click “ master “ -&gt; click. “ Build now ”
+Powering up and down developer AWS instances using Slack and Jenkins</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">I want help with this problem</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mh0386/i-want-help-with-this-problem-402a">
+                <summary class="article-expander__title">How good health leads to better productivity ?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/hinanshis4/how-good-health-leads-to-better-productivity-4nj9">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>https://app.codesignal.com/arcade/code-arcade/intro-gates/SZB5XypsMokGusDhX</span>
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Anyone who might be following some healthy routine will definitely argue upon why the old mantra &#x27;Health is Wealth&#x27; is still gold. Ask any of them and they will make you get up(obviously, from sitting hours on end in the same position and probably not thinking about their spine) and do some stretches. 
+But I will tell you one thing. It literally takes no time everyday to take care of your spine and overall health with little or no efforts. Because, you accept or not everyone suffers from back pain.
+Here are my personal favorite habits that I follow to keep a check on my health.
+Getting enough water everyday helps you mentally. It keeps you active throughout the day. You may feel less lethargic. Consider it as oxygen for your brain.
+I know this is obvious. But still do you do that?. Spend 2…</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">CSS Graph Paper</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mrwolferinc/css-graph-paper-3e1i">
+                <summary class="article-expander__title">Data Structure Series: Hash Table</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/chuckchoiboi/data-structure-series-hash-table-5h16">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>A graph paper pattern with HTML and CSS. I decided to make this CSS design because my previous design became extremely successful.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Last Week I Wrote Some jQuery (and no one fired me 🤓)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/dekel/last-week-i-wrote-some-jquery-and-no-one-fired-me-3iao">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Short disclaimer - Yes. The title of this post is a bit of a clickbait. Not 100%, but you can definitely read it as one. I’m not your standard full-time employee, so it’s gonna be a bit hard to fire me, but I still decided to write some jQuery code, and everyone was happy with it.
-I started using jQuery ~15 years ago (around the time it was released). It was the “go-to” for everything you needed to do, and I think it’s safe to assume that almost every website back in the day included the  line in it. It was even before the days of cdnjs (where the standard for using jquery became &lt;script src&#x3D;&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js&quot; integrity&#x3D;&quot;sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWG…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Introduction to JavaScript Bitwise Operators</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/isiakaabd/introduction-to-javascript-bitwise-operators-4i5e">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
+                    <span class="article-reading-time">(9 min)</span>
                     <span>Introduction
 
 
-Recently on twitter, a tweep asked how to determine if a number is even or odd. I hurriedly answered using modulus. Yeah, my answer was right, but any other approach? I was hinted about bitwise operator. JavaScript operates using different type of operator which includes 
-Assignment operators
-Arithmetic operators
-Ternary operators
-Logical operators
-Comparison operators
-Typeof operator 
-Bitwise operators
-We commonly use most of these operators in our routine but sparingly use bitwise operator especially if you just getting started with JavaScript.
-Bitwise is a level of operations that involves working with individual bits, which are the smallest units of data in a computer. a bit can be 0 or 1. All bitwise operations are performed with 32bits binary numbers and later converte…</span>
+
+We use forks to eat pasta, spoons to eat soup, and chopsticks to eat dumplings. Each silverwares have its advantages/disadvantages, hence working better than the other for the food that it interacts well with. Just like that, different data structures are better suited and perform better than the others based on the situations/use cases. They each have their pros and cons. Understanding these pros and cons can help you be a better programmer, as it will allow you to choose an appropriate data structure(s) based on the circumstances/goals you have, and it helps to drastically improve the performance of the algorithm being applied. I will be putting these blog series together on well known programming data structures in JavaScript, and link them all in one blog post in the fu…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Um Quase Guia de Como Contribuir em Projetos Open Sources</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/augustoasilva/um-quase-guia-de-como-contribuir-em-projetos-open-sources-5069">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Hoje eu trago um post inspirado em uma thread no twitter: como começar a contribuir para projetos open-sourc . Bom e hoje eu vim trazer um pouco da minha experiência de como comecei a contribuir e assim, talvez, possa te ajudar também.
+Bem, hoje eu vejo que tem 3 caminhos a se seguir daqui:
+Você procurar o repositório de algum projeto que você já usa e curti usar e quer contribuir;
+
+
+Você pode procurar lista de projetos open-sources que muitas pessoas fazem (eu não serei essa pessoa hoje &#x3D;/);
+
+
+Você pode começar a procurar por tags no github, como a good first issue.
+
+
+
+Bem agora eu explicar cada uma delas e como elas funcionaram para mim.
+Existem vários projetos open-sources que muita gente usa como GIMP, OBS Studio, Inkscape, Kdenlive, Krita, entre outros, que já trazem uma página em seu…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Some useful tools for a web developer.</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/namanvyas/some-useful-tools-for-a-web-developer-3d1f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>wappalyzer:
+wappalyzer is a chrome extension to find out the technology stack of any website. Instantly reveal the technology stack any website, such as CMS, ecommerce platform or payment processor, as well as company and contact details.
+Link
+
+LogoTester by http://thework.market:
+LogoTester instantly checks if your logo is up to the top industry standards. It checks industry standards in your logo like - Uniqueness, Scalability, Background tolerance, Colors.
+Link
+
+Fake Filler:
+It&#x27;s another useful chrome extension. Fake Filler is THE form filler to fill all input fields on a page with randomly generated fake data. This productivity-boosting extension is a must for developers and testers who work with forms.
+Link
+
+WhatTheFont:
+With this web tool, you can find a font with just an image. WhatTheFont uses deep learning to search our collection of over 133,000 font styles and find the best match for the fonts in your photo.
+Link
+
+http://remove.bg:
+http://Remove.bg removes backgrounds from photos Automatically. You just have to upload your photo and wait for a few seconds and boom you got your background removed images without all that photoshop efforts.
+Link
+Thanks for reading :)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">HOW I WILL USE KODECAMP AND WIN HNG TROPHY.</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/devtonia/how-i-will-use-kodecamp-and-win-hng-trophy-3lp5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>During my last post,  I told you how I was accepted into the HNGi8 internship and my plan to win the HNG trophy which is the T-shirt.
+After some much wondering on the internet trying to find a helping hand on my journey on the ongoing HNG internship, I came across KODECAMP I immediately hop into their Bootcamp as it is running the same time with the HNGI8 internship, you know it&#x27;s a bonus for me as I will be learning and at same participating on the on going internship.
+Why I Joined KODECAMP BootCamp.
+Master my act in Frontend development.
+
+
+Be able to take on any project that was thrown my way with fear. 
+
+
+I have been battling impostor syndrome, by the expiration of the 16 weeks, impostor syndrome is no longer part of me. 
+
+
+It will give the right focus during the ongoing internship as I will be standing on their training to tackle all the tasks thrown my way during the HNGi8 internship. 
+
+
+
+The truth is that by the end of the internship and this current Bootcamp I&#x27;m jumping into a job as a web developer majoring mainly on the frontend stack using REACT. . 
+Stay as I will be updating on my journey from the internship and the Bootcamp..</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">My Journey Into Web Development</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/deeppsy/my-journey-into-web-development-73n">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Hi.
+I&#x27;m Dipo and welcome to my little talk about how my journey into web development has been for about 6 months. 
+I am actually writing this article because of an internship role Im currently interested in. And that&#x27;s the HNG Internship. Many Nigerians and some non-nigerians are familiar with this internship. Anyone can sign up for this internship using this link: https://internship.zuri.team
+To move from the stage I currently am, I was required to make this write-up as I typically don&#x27;t like writing. But, here goes nothing.
+Like everybody else who is into software engineering, I started my learning from freecodecamp as it it completely free to use and easily accessible to anyone. But, I honestly got bored and wanted more. So I went on Udemy to look for courses that would help me and I fo…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">My Training process In KodeCamp</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/daveeedu/my-training-process-in-kodecamp-2f7a">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Introduction
+
+
+I am David Edu, certified in Data analytics/Business Intelligence, presently pursuing a career in decision making using Data science. I&#x27;m fascinated about the application of machine learning in solving real life problems and Artificial intelligence in general. My hobbies include Coding, reading, gaming, and networking.
+Front-End
+I am currently undergoing a web Front-End training course with KodeCamp. KodeCamp is a tech training platform that provides training tracks in web Front-End dev, Back-End dev and UI/UX designs. The training is designed to last for 12 weeks and during this time my goals are to:
+Advance my html and css skills
+Get hands on experience by applying my skills on real life 
+projects.
+Networking with industry experts and fellow tech enthusiasts.
+Building up my digital portfolio.
+Thank you for reading my second article, I will be posting updates on the training process.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Website Setup Essentials</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/prim4t/website-setup-essentials-447o">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Everything you need to start your minimal, fast and secure Blog
+
+
+   
+  
+Mailfence | Criptext
+
+
+
+  
+  
+  🔗 Get Git: GitHub | GitLab
+
+
+
+  
+  
+  💻 Host your Git:  Netlify | Vercel
+
+
+
+  
+  
+  🌐 Register Domain : Namecheap | UnstoppableD...
+
+
+
+  
+  
+  🎨 Get a Theme/Template: Hugo | Jekyll | Gatsby
+
+
+
+Chalk
+TeXt
+Anatole
+
+
+
+
+
+
+
+
+
+
+Emoji | Emojipedia.org | on Github| on Dev.to | 😄 😁 😢
+Icons | Simpleicons.org 
+Gif Libraries | on Github 
+Badge | Shield.io | Aleen42 
+Pictures/Photos | Pexels | Wikipedia | 📷
+Markdown Editors | jbt | Cool | Upmath 
+ List of Static Site generators | Jamstack.org
+
+Automation | Integromat | zapier | ifttt | ⚙️ 
+Cross blog | Dev.to | Medium | 📝
+  
+Web Setup Essentials from Primitive Tutorials \
+contribute!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Adapt Summary</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/adapt-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;adapt-summary">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>1-Sentence-Summary: Adapt proposes a surprising approach to accepting failure as a part of the innovation process. Read in: 4 minutes Favorite quote from the author: Growth implies an ongoing process of trial and error and gradual maturity. Whenever we face an opportunity, a challenge, or maybe just an experience that might turn into a life lesson, […]
+The post Adapt Summary appeared first on Four Minute Books.</span>
                   </div>
                 </a>
               </details>
@@ -308,10 +477,10 @@ Bitwise is a level of operations that involves working with individual bits, wh
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">“San Jose Fire had an impossibly complex incident scene..” (2019)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.facebook.com/groups/firebuffing/posts/715890382181744/">
+                <summary class="article-expander__title">Generate ASCII-art representations of mathematical equations</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://asciitex.sourceforge.net">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(3 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -319,173 +488,8 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Veterans push for medical marijuana in conservative South</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.stripes.com/veterans/2021-08-15/veterans-push-medical-marijuana-us-south-2563514.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Paperspace (YC W15) is hiring developers to build the future of MLOps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.paperspace.com/careers">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">T-Mobile investigating claims of 100M customer data breach</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/article/t-mobile-us-data/update-1-t-mobile-investigating-claims-of-customer-data-breach-idUSL1N2PM0K7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to prevent email spoofing, using an unholy combination of silly standards</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://simonandrews.ca/articles/how-to-set-up-spf-dkim-dmarc">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What domain name to use for your home network</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.ctrl.blog/entry/homenet-domain-name.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What can be learned from studying long gone development practices?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://shape-of-code.coding-guidelines.com/2021/08/01/what-can-be-learned-from-studying-long-gone-development-practices/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Bullshit</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://walterkirn.substack.com/p/the-bullshit">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">You can list a directory containing 8M files, but not with ls</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://be-n.com/spw/you-can-list-a-million-files-in-a-directory-but-not-with-ls.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The best books on assassinations</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://fivebooks.com/best-books/assassination-michael-burleigh/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(25 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Sri Lankan teenager builds solar-powered tuk-tuk from scraps [video]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.bbc.co.uk/news/av/world-asia-58192468">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Sea snakes are washing up on New Zealand’s shores</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/world/2021/aug/14/case-of-the-mystery-sea-snakes-why-are-reptiles-washing-up-on-new-zealands-shores">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Show HN: Burst – start a cloud server, run your code, turn it off</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://burstable.ai">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">OpenAI&#x27;s Codex sure knows a lot about HN</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.youtube.com/watch?v&#x3D;aneK0TUUAfA">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Loom: Project Loom Early-Access Builds</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://jdk.java.net/loom/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Programming Idioms</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://programming-idioms.org/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Rooms Where It Happened</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.wilsonquarterly.com/quarterly/conflict-resolution/the-rooms-where-it-happened/">
+                <summary class="article-expander__title">Lumen – self-hosted Lisp for Lua and JavaScript</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/sctb/lumen">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(8 min)</span>
                     <span>Comments</span>
@@ -495,8 +499,8 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Why query planning for streaming systems is hard</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://scattered-thoughts.net/writing/why-query-planning-for-streaming-systems-is-hard">
+                <summary class="article-expander__title">Optical Adversarial Attack Can Change the Meaning of Road Signs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.unite.ai/optical-adversarial-attack-can-change-the-meaning-of-road-signs/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
                     <span>Comments</span>
@@ -506,10 +510,10 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Carvana’s success rides on used-car loans</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.wsj.com/articles/carvanas-success-rides-on-used-car-loans-11629019801">
+                <summary class="article-expander__title">You are quite right, and my original response was wrong. I withdraw my claim</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://golem.ph.utexas.edu/category/2011/09/the_inconsistency_of_arithmeti.html">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
+                    <span class="article-reading-time">(66 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -517,63 +521,8 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Introducing the PineNote</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.pine64.org/2021/08/15/introducing-the-pinenote/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(24 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Reining in the thundering herd: Getting to 80% CPU utilization with Django</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.clubhouse.com/reining-in-the-thundering-herd-with-django-and-gunicorn/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Wigner Crystals (2017)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://johncarlosbaez.wordpress.com/2017/12/07/wigner-crystals/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React Renderer for Three.js</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/pmndrs/react-three-fiber">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The time Pepsi got sued for a $33M fighter jet</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://thehustle.co/leonard-v-pepsi-harrier-jet-lawsuit">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Why is learning functional programming so damned hard? (2019)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://cscalfani.medium.com/why-is-learning-functional-programming-so-damned-hard-bfd00202a7d1">
+                <summary class="article-expander__title">Something is killing gray whales</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.latimes.com/projects/gray-whale-deaths-how-humans-climate-change-hurt-oceans/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(18 min)</span>
                     <span>Comments</span>
@@ -583,10 +532,10 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Rails 6 with Webpacker 6, Tailwind 2 with JIT, Postcss 8 and some default setup</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://nauman.medium.com/my-rails-project-default-setup-a577677703d2">
+                <summary class="article-expander__title">The US federal government has spent $6.4T dollars on the post-9/11 wars</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://watson.brown.edu/costsofwar/costs/economic">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
+                    <span class="article-reading-time">(2 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -594,22 +543,364 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">MeiliSearch: A Minimalist Full-Text Search Engine</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://tech.marksblogg.com/meilisearch-full-text-search.html">
+                <summary class="article-expander__title">Endless Sky: an open source space trading and combat game</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://endless-sky.github.io/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Psst: Fast Spotify client with native GUI, without Electron, built in Rust</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/jpochyla/psst">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">LeafletJS: a JavaScript library for interactive maps</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://leafletjs.com/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Rally (YC S20) Is Hiring a Product Designer Who Can Code</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.ycombinator.com/companies/rally/jobs/4ijjeMbu7-ui-ux-developer">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">T-Mobile Confirms It Was Hacked</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.vice.com/en/article/y3d4dw/t-mobile-confirms-it-was-hacked">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Go 1.17 Release Notes</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://golang.org/doc/go1.17">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Computer simulation helps test land management techniques to help bumblebees</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.exeter.ac.uk/news/research/title_872443_en.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">To remember everything you learn, surrender to this algorithm (2008)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.wired.com/2008/04/ff-wozniak/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(21 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Discontinuing FlickType Keyboard for iPhone</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/FlickType/status/1427292830523744257">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Plaid settled $58M lawsuit over alleged consumer data sharing</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://finledger.com/2021/08/09/plaid-settled-58-million-lawsuit-over-alleged-consumer-data-sharing/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Object-Oriented Entity-Component-System Design</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://voxely.net/blog/object-oriented-entity-component-system-design/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(11 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Pico-1K Jam: Make Something Cool in Pico-8 in 1024 Characters</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://itch.io/jam/pico-1k">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Alda – Text-Based Programming Language for Music Composition</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://alda.io/tutorial/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Let&#x27;s write a compiler, part 3: A parser</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://briancallahan.net/blog/20210816.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Launch HN: SigmaOS (YC S21) – A MacOS web browser designed for faster work</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28197537">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(57 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why is it so hard to be rational?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.newyorker.com/magazine/2021/08/23/why-is-it-so-hard-to-be-rational">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(18 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Many Americans not aware of being tracked with facial recognition while shopping</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.techradar.com/news/many-americans-arent-aware-theyre-being-tracked-with-facial-recognition-while-shopping">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">U.S. opens probe into Tesla’s Autopilot over emergency vehicle crashes</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.reuters.com/business/autos-transportation/us-opens-formal-safety-probe-into-tesla-autopilot-crashes-2021-08-16/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Programmer’s Introduction to Mathematics</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.bit-101.com/blog/2021/08/a-programmers-introduction-to-mathematics/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why Doesn&#x27;t Software Show Up in Productivity?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://austinvernon.eth.link/blog/softwareisprocess.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(14 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Nokia 9000 Communicator was launched 25 years ago</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.dw.com/en/nokias-smartphone-25-years-since-it-changed-the-world/a-58841329">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Coding Interview Tree Traversal Crash Course – The Only One You&#x27;ll Ever Need</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/coding-interview-tree-traversal-crash-course-the-only-one-youll-ever-need/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Are you preparing for coding interviews? I designed a crash course series to help you out.  I&#x27;m Lynn, a software engineer and a recent graduate from the University of Chicago. This is the second course in my Coding Interview Crash Course Series. Feel free to check out my YouTube channel,</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is a Hyperlink? HTML Links Explained with Examples</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Let&#x27;s begin with a quick question: How did you land on this article and this site today?  Well, quite literally, by clicking or tapping on a link, right? That&#x27;s how powerful this element is – it will get you to any part of the Internet just by clicking on a link.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is a Promise? JavaScript Promises for Beginners</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-promise-in-javascript-for-beginners/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>If you&#x27;re a JavaScript beginner, you might be struggling to understand what a promise really is.  I recently published this as a thread on Twitter and was blown away by the responses. So I decided to expand this into an introductory tutorial on JavaScript promises. I have read a lot</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Use GitHub Actions to Automate Android App Development</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/use-github-actions-to-automate-android-development/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>There are many repetitive tasks that we have to do every day. And they can be a bit boring, difficult, and monotonous.  But instead of laboring away at those daily tasks, you can delegate them so someone or something else does them for you. That way, you can have more</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">HTML Button onclick – JavaScript Click Event Tutorial</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(9 min)</span>
-                    <span>Comments</span>
+                    <span>Whenever you visit a website, you&#x27;ll probably click on something like a link or button.  Links take you to a certain part of the page, another page of the website, or another website entirely. Buttons, on the other hand, are usually manipulated by JavaScript events so they can trigger certain</span>
                   </div>
                 </a>
               </details>
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Tunable stiffness enables fast and efficient swimming in fish-like robots</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://robotics.sciencemag.org/content/6/57/eabe4088">
+                <summary class="article-expander__title">IF Statement Excel – If Function Examples</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/if-statement-excel-if-function-examples/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>If you are analysing data in Excel and need to set the value of a cell conditionally, you can use an IF statement to do so. The syntax is IF(logical_test, [value_if_true], [value_if_false]), where: logical_test is an expression that evaluates to TRUE or FALSE,</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is Web Development? How to Become a Web Developer [2021 Career Path]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-web-development-how-to-become-a-web-developer-career-path/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>You have just decided to learn how to code and you want to pursue a career in web development. But what exactly is web development? Where can you start learning? How much do web developers make? How do you get a job as a web developer? When I first started</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Setup Babel in Node.js</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/setup-babel-in-nodejs/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Node.js is one of the most popular back-end technologies out there right now. It is friendly, robust, and well-maintained and it&#x27;s not going anywhere anytime soon.  To help you learn how to use it effectively, in this article we will create a simple server using Node with Babel configured</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why Learning to Code is Hard – And How to Make it Easier</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/why-learning-to-code-is-hard-and-how-to-make-it-easier/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Are you struggling to learn to code? If you are, I want to help. So I have collected some tips from my personal experience to guide you so that you won&#x27;t struggle unnecessarily again.‌‌ Why is Learning to Code Hard?Learning to code can be very hard especially for beginners.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is HTTPS? HTTP vs HTTPS Meaning and How it Works</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Have you ever noticed the &quot;HTTP&quot; or &quot;HTTPS&quot; at the beginning of a URL in your browser? Well, what is HTTP and what is HTTPS? How are they different?  In order to understand the differences, it helps to demistify to meaning of these two terms and</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How To Develop Your Business’ Technology Roadmap</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/08/develop-business-technology-roadmap/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Software development without a roadmap is akin to driving off a cliff — an undertaking that seriously jeopardizes your product’s life. Here’s how to develop a business technology roadmap that ensures your project safely reaches its final destination.</span>
                   </div>
                 </a>
               </details>
@@ -619,7 +910,7 @@ Bitwise is a level of operations that involves working with individual bits, wh
     </ul>
   </section>
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-08-14">2021-08-14</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-08-15">2021-08-15</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
@@ -627,10 +918,10 @@ Bitwise is a level of operations that involves working with individual bits, wh
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Tapedeck.org</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://tapedeck.org/">
+                <summary class="article-expander__title">Progress Quest</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://progressquest.com">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
+                    <span class="article-reading-time">(1 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -638,10 +929,10 @@ Bitwise is a level of operations that involves working with individual bits, wh
             </article>
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Evidence of Cosmic Impact at Abu Hureyra, Syria, 12500 Years Ago</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nature.com/articles/s41598-020-60867-w">
+                <summary class="article-expander__title">Decoding AVIF: Deep dive with cats and imgproxy</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://evilmartians.com/chronicles/decoding-avif-deep-dive-with-cats-and-imgproxy">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(51 min)</span>
+                    <span class="article-reading-time">(11 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -716,7 +1007,7 @@ The post Global Content Marketing Summary appeared first on Four Minute Books.</
                 <summary class="article-expander__title">Stay alert</summary>
                 <a class="article-summary-link article-summary-box-outer" href="https://dev.to/richharris/stay-alert-d">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(32 min)</span>
+                    <span class="article-reading-time">(33 min)</span>
                     <span>A few days ago, Chris wrote up his thoughts about how alert(), confirm(), and prompt() were being deprecated by Chrome and collected a bunch of thoughts from developers. If certain features can essentially be turned off by …
 The post Stay alert appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
                   </div>
@@ -732,100 +1023,6 @@ The post Stay alert appeared first on CSS-Tricks. You can support CSS-Tricks by 
                     <span>Now that we’ve seen that web components and interactive web components are both easier than you think, let’s take a look at adding them to a content management system, namely WordPress.
 There are three major ways we can add them. …
 The post Using Web Components in WordPress is Easier Than You Think appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">JavaScript Online – HTML, CSS, and JS Code Editor List [Browser IDE Tools]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-online-html-css-js-code-editor-list-browser-ide-tools/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>There are many benefits to coding in an online IDE or code editor. With these tools you don&#x27;t need to set anything up locally, you can easily share your work, and they are often free to use. In this article, you&#x27;ll learn what a code editor and an IDE are.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">HTML and CSS – Inline Style, External Stylesheet, CSS Code Examples</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/html-and-css-inline-style-external-stylesheet-css-code-examples/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>When you&#x27;re learning about web development, you probably hear about HTML and CSS pretty quickly. Well, what are these tools and how do you use them?  You can think of HTML as the structure and framing of a house. And when you want to make that structure look good, you</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Coding Websites Where You Can Learn How to Code for Free</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/coding-websites-where-you-can-learn-how-to-code-for-free/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>In this day and age, it seems like everyone is learning to code. Maybe you want to know how websites work, or you think back fondly on the old blogging platforms where you could hack together some HTML to personalize them. Or maybe you are curious to learn what all</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Laravel Authentication Tutorial – How to Set Up Basic Auth in Laravel 8</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/basic-authentication-in-laravel8-using-laravel-breeze/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Authentication is an important feature and basic requirement in web applications these days. And developers spend lots of time building authentication modules for every application they create.  But this manual approach can get tiring and is a bit unproductive. This is where Laravel really shines. It, along with Laravel Breeze,</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Install and Set Up Flutter on Ubuntu 16.04+</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-install-and-setup-flutter-on-ubuntu/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Flutter is a Dart-based toolkit that helps you build the front end of your apps. It really shines in cross-platform mobile app development and aims to be a viable option for web and desktop as well.  In its mobile app flavor, Flutter provides many UI abstractions to build interfaces. You</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build Modern Clean Architecture</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/modern-clean-architecture/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Clean Architecture is a term coined by Robert C. Martin. The main idea is that entities and use cases are independent of frameworks, UI, the database, and external services. A Clean Architecture style has a positive effect on maintainability because: We can test domain entities and use cases without a</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">HTML Form – Input Type and Submit Button Example</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/html-form-input-type-and-submit-button-example/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Forms are one of the most important parts of the web. Without them, there wouldn&#x27;t be an easy way to collect data, search for resources, or sign up to receive valuable information.  You can embed forms on websites with the HTML form element. Inside the form element, several inputs are</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">FastAPI Course – Code APIs Quickly</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/fastapi-helps-you-develop-apis-quickly/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(30 min)</span>
-                    <span>FastAPI makes it quicker and easier to develop APIs with Python. We just published a crash course on the freeCodeCamp.org YouTube channel that will teach you how to use FastAPI.  Tomi Tokko developed this course. Tomi has made many popular courses both on his own channel and the freeCodeCamp</span>
                   </div>
                 </a>
               </details>
@@ -910,34 +1107,6 @@ The post Napkin appeared first on CSS-Tricks. You can support CSS-Tricks by bein
                     <span class="article-reading-time">(5 min)</span>
                     <span>1-Sentence-Summary: The Origins of Political Order emphasizes how the historical development of political systems worldwide can be traced back to the natural inclination of humans to favor blood relationships. Read in: 4 minutes Favorite quote from the author: Human nature is a curious thing. We all have different aspirations, principles, various perspectives on life, yet we’re […]
 The post The Origins of Political Order Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Binary Search Tree Algorithms for JavaScript Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/binary-tree-algorithms-for-javascript-beginners/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>I recently had the chance to teach high school students how to code. There are not that many beginner-friendly tutorials on algorithms coded in JavaScript which is the language they were learning. So I decided to make one. In this article, I will try my best to explain some core</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Implement iOS-Specific Components and APIs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-implement-ios-components-apis/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>One of the end goals of a React Native project is to have a minimal amount of platform-specific logic and code. Most APIs can be built so the platform-specific code is abstracted away by the framework. This gives you a single way to interact with them and easily create cross-platform</span>
                   </div>
                 </a>
               </details>
@@ -1086,30 +1255,6 @@ The post Choice Words about the Upcoming Deprecation of JavaScript Dialogs appea
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Large, Small, and Dynamic Viewports</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>We’ve got viewport units (e.g. vw, vh, vmin, vmax), and they are mostly pretty great. It’s cool to always have a unit available that is relative to the entire screen. But when you ask people what …
-The post The Large, Small, and Dynamic Viewports appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Exploring the CSS Paint API: Image Fragmentation Effect</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/exploring-the-css-paint-api-image-fragmentation-effect/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>In my previous article, I created a fragmentation effect using CSS mask and custom properties. It was a neat effect but it has one drawback: it uses a lot of CSS code (generated using Sass). This time I am …
-The post Exploring the CSS Paint API: Image Fragmentation Effect appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
       <li class="source">
@@ -1152,26 +1297,6 @@ The post Kaizen Summary appeared first on Four Minute Books.</span>
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-06">2021-08-06</time></h2>
     <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SVG Gobbler</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/svg-gobbler/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Great little project from Ross Moody: 
-SVG Gobbler is a browser extension that finds the vector content on the page you’re viewing and gives you the option to download, optimize, copy, view the code, or export it as an image.
-…
-The post SVG Gobbler appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
@@ -1575,24 +1700,6 @@ The post The Kindness Method Summary appeared first on Four Minute Books.</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Soundtracks Summary</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://fourminutebooks.com/soundtracks-summary/?utm_source&#x3D;rss&amp;utm_medium&#x3D;rss&amp;utm_campaign&#x3D;soundtracks-summary">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>1-Sentence-Summary: Soundtracks is New York Times bestselling author Jon Acuff’s 2021 book that teaches you how to beat overthinking by challenging whether your thoughts are true, retiring unhelpful and unkind ideas, adopting thought-boosting mantras from others, using symbols to reinforce positive thoughts, and more. Read in: 4 minutes Favorite quote from the author: Is there […]
-The post Soundtracks Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1700,7 +1807,7 @@ The post Soundtracks Summary appeared first on Four Minute Books.</span>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-16T00:57:39.167Z">2021-08-16T00:57:39.167Z</time>
+    <time id="build-timestamp" datetime="2021-08-17T00:57:17.657Z">2021-08-17T00:57:17.657Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
