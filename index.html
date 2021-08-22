@@ -16,6 +16,677 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-22">2021-08-22</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">This Is You Complete Guide For Sending Requests Using fetch in JS</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/this-is-you-complete-guide-for-sending-requests-using-fetch-in-js-53ae">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Hi, I&#x27;m Aya Bouchiha, on this beautiful day, I&#x27;m going to discuss sending requests in javascript using fetch.
+GET: is a request used for getting or retrieving data or information from a specified server.
+const getTodo &#x3D; (id) &#x3D;&gt; {
+    const url &#x3D; &#x60;https://jsonplaceholder.typicode.com/todos/${id}&#x60;;
+    fetch(url)
+        .then((response) &#x3D;&gt; response.json())
+        .then((todo) &#x3D;&gt; console.log(todo))
+        .catch((e) &#x3D;&gt; console.log(&#x27;something went wrong ;(&#x27;, e));
+};
+getTodo(1);
+
+const getTodo &#x3D; async (id) &#x3D;&gt; {
+    const url &#x3D; &#x60;https://jsonplaceholder.typicode.com/todos/${id}&#x60;;
+    try {
+        const response &#x3D; await fetch(url);
+        const data &#x3D; await response.json();
+        console.log(data);
+    } catch (e) {
+        console.log(&#x27;something went wrong :(&#x27;, e);
+    }
+};
+getTodo(1);
+
+co…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-08-21">2021-08-21</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Windows Terminal Preview Context Menu</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/rescenic/windows-terminal-preview-context-menu-1oo5">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>If you use multiple Linux WSL, you can enhance your productivity with this tool.
+Clone this repo
+git clone https://github.com/rescenic/wt.context.menu
+
+Configure your settings.json in Windows Terminal Preview folder &amp; config.json
+C:\Users\%USERNAME%\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json
+
+
+Copy folder icons to C:\Users\%USERNAME%\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\icons\
+
+Run powershell (no need to get admin access right)
+Change the execution policy Set-ExecutionPolicy Unrestricted -scope CurrentUser
+
+Run SetupContextMenu.ps1 script
+
+
+
+
+
+
+
+  
+  
+  Uninstall
+
+
+Run SetupContextMenu.ps1 -uninstall:$true
+This script will parse the settings.json file to generate menu items. However you can customize it.
+
+Put any icon file into icon folder and modify the config.json like the following.
+{
+    &quot;global&quot;: {
+        &quot;extended&quot;: false
+    },
+    &quot;profiles&quot;: {
+        &quot;{a5a97cb8-8961-5535-816d-772efe0c6a3f}&quot;: {
+            &quot;icon&quot;: &quot;arch.ico&quot;,
+            &quot;label&quot;: &quot;Arch Linux&quot;
+        },
+        &quot;{61c54bbd-c2c6-5271-96e7-009a87ff44bf}&quot;: {
+            &quot;showRunAs&quot;: true
+        },
+        &quot;{b453ae62-4e3d-5e58-b989-0a998ec441b8}&quot;: {
+            &quot;hidden&quot;: true
+        }
+    }
+}
+
+Config reference
+  global
+
+
+  extended[bool]: if set this to true, context menu will only show up when right click with shift
+
+
+
+
+
+  profiles
+
+
+  guid[string]: this GUID of your profile defined in settings.json
+
+
+  hidden[bool]: overwrites the visibility of the profile, if defined
+  icon[string]: filename of your ico file, you must put this file in icon folder
+
+  label[string]: context menu label
+  showRunAs[bool]: add run as administrator item for this profile</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Gradle plugins and extensions: A primer for the bemused</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/autonomousapps/gradle-plugins-and-extensions-a-primer-for-the-bemused-51lp">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>All the code for this project is on Github. (Github drop ICE.)
+It&#x27;s recently occurred to me that not everyone has spent their time as poorly as I have, and therefore may not know how to created custom nested DSLs in Gradle plugins. While surprisingly useful, this is, more importantly, very aesthetic.
+// app/build.gradle
+theState {
+  theDeepState {
+    theDeepestState {
+      undermine &#x27;the will of the people&#x27;
+    }
+  }
+}
+
+Proof that the IDE kinda-almost provides type hints even for good ol&#x27; Groovy DSL (more on that in a bit)
+
+Proof that the IDE understands Kotlin DSL better than the Groovy version
+
+Soon after I took those screencaps, I upgraded this project&#x27;s version of Gradle from 7.1.1 to 7.2, and my IDE (IntelliJ IDEA Ultimate) got confused and no longer gives me DSL hints for Groovy sc…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Authentication vulnerabilities</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ms_74/authentication-vulnerabilities-15po">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>It has become very common for almost all websites to have a login functionality for their users. A user sign up with an email or username and a password without thinking twice, as it has become easier to visit the website back again with the help of browser&#x27;s or plugin&#x27;s caching and third-party authentication services.
+Unfortunately, the security threats are also on the rise and it has become easier for hackers to sell the credentials on the dark web or publish breached data on paste sites, hijack social media accounts for click baiting or fund transactions.
+We will look into how the authentication works, how attackers compromise an account and how to defend against such attacks. 
+Authentication framework is provided by HTTP, which is used by a server to challenge a client request with a 4…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why is Javascript Debounce important for our Web Applications</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/brayanarrieta/why-is-javascript-debounce-important-for-our-web-applications-359f">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>One of the biggest mistakes we can see when optimizing existing code is the absence of the debounce function.  When we use Javascript for our web applications or even frameworks like React, Vue, and Angular, a debounce function is essential to ensuring a given task does not fire so often that it bricks the browser performance.
+Bouncing is the tendency of any two metal contacts in an electronic device to generate multiple signals as the contacts close or open; debouncing is any kind of hardware device or software that ensures that only a single signal will be acted upon for a single opening or closing of a contact.
+For example, when you press a key on your computer keyboard, you expect a single contact to be recorded by your computer. In fact, however, there is initial contact, a slight bou…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Build a Modal (Pop up) With  HTML, CSS and JavaScript</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/veedjohnson/build-a-modal-pop-up-with-html-css-and-javascript-4md3">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>In this article I will show you how to create a modal that pops up whenever you click a button. The main focus of the article will not be on the CSS but on what you will need to achieve this functionality so feel free to copy the CSS styles.
+There are three major elements you will need to achieve the modal functionality:
+A button to trigger the modal
+The modal itself (Well obviously 😅)
+A button to close the modal
+Let&#x27;s go ahead to create them in our HTML
+  
+      
+      Log In
+
+      
+      
+×
+
+         
+Welcome back, friend😍
+         
+        …</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">10 Awesome Ruby Gems for Ruby on Rails Web Development</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/brayanarrieta/10-awesome-ruby-gems-for-ruby-on-rails-web-development-4964">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Ruby on Rails is one of the most popular for developing web applications with influential features that aid to increase the speed of your web app development utilizing an MVC pattern.  It is intended in such a manner that it can be simply prolonged employing the most popular Ruby gems presented by the Rails community.
+Ruby Gems is known as the package administrator for Ruby language that presents a classic format for dispensing Ruby libraries and programs. It distributes in an independent format termed a gem a tool designed to provide some awesome features for our project.
+In the next list, we will see some Ruby useful Gems that developers often use for adding various functionalities to their projects.
+RSpec
+
+
+One of the most popular Ruby Gems that’s also been downloaded the most, RSpec is…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Reverse Engineering Keyboard Driver: Part 1 (Introduction)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/rishit/reverse-engineering-keyboard-driver-part-1-introduction-2hdg">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Tldr; (What is the series about)
+
+
+This post is an introductory post to a series that will describe my journey to analyze and learn how the keyboard backlight driver on my laptop works, and then re-implement it on my own. I wanted a place to dump my thoughts and different things I try, and learn in the process. 
+I recently upgraded to a new laptop (HP Omen 15-en0037AX). The laptop has a four-zone RGB LED backlight on the keyboard. Like most laptops that ship with such a keyboard, the manufacturer shipped a preinstalled app (Omen Light Studio) on windows to customize the various lighting modes on the keyboard. 
+
+HP Omen Light Studio
+  
+Unfortunately, this app is only available for Windows, which is a problem, as I am primarily a Linux user.
+Since I have always been interested in cybersecurity and have taken part in multiple CTF (Capture the Flag) events, I have a basic understanding of how to Reverse Engineer C/C++ binaries using tools like Ghidra but have never reversed an actual real-life application. In this series I want to (hopefully) achieve two things:
+Reverse Engineer the Omen Light Studio App, and figure out how it interfaces with the hardware on the laptop to control the keyboard&#x27;s lighting.
+Re implementing the functionality on Linux (maybe in C/C++/Python/NodeJS) and possibly make a similar desktop app.
+This series is going to be me documenting all my approaches (right or wrong), and also explaining various concepts I learned in the process. Currently, I have no idea where this will lead to or what tools/languages I need to know/learn, but all that begins from the next post. See you there!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Mytemplate.xyz | A no-code personal website builder for developers</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/bodhish/mytemplate-xyz-a-no-code-personal-website-builder-for-developers-52p7">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>A No-Code developer website builder side project created with ReScript.
+
+Its super hard to find time updating a personal website. I wanted a simple flow with which I could take out that pain. The editor tries to make the personal website management simple with features like display blogs from Dev.to and projects from Github
+Once you are done with editing click the download button. Commit the &#x27;index.html&#x27; file that you downloaded to your github repository. Open Github setting and enable &#x27;Github Pages&#x27;. Set source as your &#x27;main&#x27; branch and folder as root. Commit the &#x27;_redirects&#x27; file to your repo. Your site will be live in few minutes. _redirects file,  Watch Video
+Once you are done with editing click the download button. Commit the index.html file that you downloaded to your github repository. Open Netlify and click &#x27;New site from Git&#x27; button. Choose your repository from Github and click &#x27;deploy site&#x27;. Add netlify.toml file to your repo if you have added a blog. netlify.toml
+
+You can easly import the index file exported from mytemplate. Click the import button on the top right corner of this page. Enter your Github repositor in the required format and press the check icon on the import tab. This will import the file from Github, once the import is complete you can click the &#x27;Open in Editor&#x27; button to complete import. Watch Video
+The editor is created with ReasonReact(Rescript) and TailwindCSS.
+Create a issue with details of the bug in mytemplate repo
+Examples
+bodhish.in
+
+
+
+gigin.dev</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">1 Line Caesar Cipher</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/tebohom/1-line-caesar-cipher-2pa6">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>In cryptography, a Caesar cipher, also known as Caesar&#x27;s cipher, the shift cipher, Caesar&#x27;s code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.[1]
+The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern pract…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">React Draggable Bottom Panel</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/josiahbryan/react-draggable-bottom-panel-17f0">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>TL;DR: Source for BottomPanel.jsx and BottomPanel.module.scss is at
+https://gist.github.com/josiahbryan/c220708256f7c8d79760aff37f64948f.
+Live Demo: https://josiahbryan.com/#/bottompanel-demo
+I&#x27;ve been working on a couple of different projects lately, one involves working on the next-generation marketplace for fringe.us, and the other project is an app for a luxury driving service.
+Both of these projects called for a bottom panel that can be partially exposed and then dragged/swiped up to reveal content. 
+I searched high and low and could not find any acceptable implementations of just such a UI component in React - which was rather shocking, I thought surely someone had solved this rather common UI paradigm already for React!
+I found many implementations of the paradigm in non-web-React f…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Anatomy of a Dockerfile</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/mbaris/anatomy-of-a-dockerfile-4b4p">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>What is a Dockerfile?
+
+
+Dockerfile is a text document containing commands which can be run in sequence to assemble a docker image.
+A sample Dockerfile from the official docs looks like this
+# syntax&#x3D;docker/dockerfile:1
+FROM node:12-alpine
+RUN apk add --no-cache python g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD [&quot;node&quot;, &quot;src/index.js&quot;]
+
+There are millions of images on dockerhub that we can directly start using with a command like this.
+docker run -it --rm -d -p 8080:80 --name web nginx
+
+For various reasons, we may want to customize these base images. Docker images are immutable, so we can&#x27;t exactly modify them.
+new image with these modifications using the commit command but there is a better way to accomplish this task 
+layers in docker
+Each Docker container consists o…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://lemire.me/blog">Daniel Lemire&#x27;s blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The big-load anti-pattern</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://lemire.me/blog/2021/08/21/the-big-load-anti-pattern/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>When doing data engineering, it is common for engineers to want to first load all of the data in memory before processing the data. If you have sufficient memory and the loaded data is not ephemeral or you have small volumes, it is a sensible approach. After all, that is how a spreadsheet typically works: … Continue reading The big-load anti-pattern</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Tikz.net – Graphics with TikZ in LaTeX</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://tikz.net/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">AtoB (YC S20) – Stripe for Transportation – hiring early engineers and operators</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://careers.atob.com/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Schema on write is better to live by</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://hrishioa.github.io/schema-on-write-is-better-to-live-by/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Cyber Attack, Possible Serious Breach, at U.S. State Department</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/JacquiHeinrich/status/1429173367643516936">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Don’t starve, Diablo – Parallax 7 (2016)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://simonschreibt.de/gat/dont-starve-diablo-parallax-7/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Project Jupyter Celebrates 20 Years, Fernando Pérez Reflects on How It Started</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://data.berkeley.edu/news/project-jupyter-celebrates-20-years-fernando-perez-reflects-how-it-started-open-sciences">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(13 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">EFF Joins Global Coalition Asking Apple CEO Tim Cook to Stop Phone-Scanning</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.eff.org/deeplinks/2021/08/eff-joins-global-coalition-asking-apple-ceo-tim-cook-stop-phone-scanning">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Strict Tables – Column type constraints in SQLite - Draft</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.sqlite.org/draft/stricttables.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Parser generators vs. handwritten parsers: surveying major languages in 2021</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://notes.eatonphil.com/parser-generators-vs-handwritten-parsers-survey-2021.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Beware state surveillance of your lives – governments can change for the worse</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theguardian.com/commentisfree/2021/aug/21/beware-state-surveillance-of-your-lives-governments-can-change-afghanistan">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">GitHub Issues-only project management</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.placemark.io/2021/07/19/issues-only-management.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">An Opinionated Guide to Xargs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.oilshell.org/blog/2021/08/xargs.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Facebook suppressed report that made it look bad</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theverge.com/2021/8/20/22634841/facebook-most-viewed-content-report-look-bad">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The /bin/true Command and Copyright (2009)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Launch HN: Fella (YC W20) – Tackling men&#x27;s obesity using medication and coaching</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28257352">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(47 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">IceFireDB: Distributed disk storage database based on Raft and Redis protocol</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.com/gitsrc/IceFireDB">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Thoughts of work invaded my life until I learned how to unplug</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.sciencemag.org/careers/2021/08/thoughts-work-invaded-my-life-until-i-learned-how-unplug">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Snap: A microkernel approach to host networking (2019)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.google/pubs/pub48630/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">An Introduction to AI Story Generation</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://thegradient.pub/an-introduction-to-ai-story-generation/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(22 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">We don&#x27;t &#x27;do&#x27; learning. It does us</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://danielbmarkham.com/we-dont-do-learning-we-direct-it/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Simple Interpreter in Python</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://ruslanspivak.com/lsbasi-part1/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">DNA→RNA: What Do Students Think the Arrow Means? (2014)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://europepmc.org/backend/ptpmcrender.fcgi?accid&#x3D;PMC4041510&amp;blobtype&#x3D;pdf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Working in One Bit</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://dukope.itch.io/mars-after-midnight/devlog/285964/working-in-one-bit">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Why do the children pretend play? [pdf]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://ctheory.sitehost.iu.edu/img/Lillard,%20Why%20Do%20the%20Children%20(Pretend)%20Play.pdf">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(58 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Patterns in Confusing Explanations</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/confusing-explanations/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(14 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Remember What You Read</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://fs.blog/2021/08/remember-books/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(16 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">New phone can make calls and send texts, but it cannot access social media</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.wsj.com/articles/minimalist-phones-try-to-give-users-what-they-neednot-always-what-they-want-11629370801">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Airliner Number 4</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://en.wikipedia.org/wiki/Airliner_Number_4">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Comments</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-08-20">2021-08-20</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -53,329 +724,6 @@ The post Creating a Headless WordPress Site With Frontity appeared first on CSS-
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://dev.to">DEV Community</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Sending DELETE Request In JS Using fetch</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ayabouchiha/sending-delete-request-in-js-using-fetch-293b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Sending DELETE request using then &amp; catch
-
-
-
-
-
-const id &#x3D; 5;
-const deleteTodo &#x3D; (todoId) &#x3D;&gt; {
-  const url &#x3D; &#x60;https://jsonplaceholder.typicode.com/posts/${todoId}&#x60;;
-  const method  &#x3D; &#x27;DELETE&#x27;
-  fetch(url,{method})
-  .then(response &#x3D;&gt; console.log(response.status)/*200*/)
-  .catch(e&#x3D;&gt; console.log(&#x27;something went wrong&#x27;,e))
-};
-deleteTodo(id);
-
-const id &#x3D; 5;
-const deleteTodo &#x3D; async (todoId) &#x3D;&gt; {
-  const url &#x3D; &#x60;https://jsonplaceholder.typicode.com/posts/${todoId}&#x60;;
-  const method  &#x3D; &#x27;DELETE&#x27;;
-  try {
-    const response &#x3D; fetch(url, {method});
-    console.log((await response).status)// 200
-  }catch(e){
-    console.log(&#x27;something went wrong&#x27;, e);
-  }
-} 
-deleteTodo(id);
-
-Have a good day</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Computer networking in 5 minutes: Static IP vs dynamic IP</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/educative/computer-networking-in-5-minutes-static-ip-vs-dynamic-ip-1pen">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>IP addresses are an essential part of computer networking. They play an important role in sending and receiving information on the internet. Every device that connects to an internet network has an IP address, which means there are billions of IP addresses that exist. Today, we’re going to discuss IP addresses, how they work, static IP vs dynamic IP, and more.
-We&#x27;ll cover:
-What is an IP address?
-How does an IP address work?
-Static IP addresses
-Dynamic IP addresses
-Static IP vs dynamic IP
-Wrapping up and next steps
-
-
-
-
-
-An Internet Protocol address, or IP address, is a unique identifier assigned to every device on a TCP/IP network. The Internet Protocol is the set of rules that outlines how data should be transported across the internet or local networks. IP addresses help identify devices …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">JavaScript Execution Context</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/harshvardhan22/javascript-execution-context-57gc">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>JavaScript is a beautiful language, since it is loosely typed it is super easy to start coding with it. But to take full advantage of this powerful language one should always know the basics and what else is a better place to start than the execution context!
-I am writing this article to help people who are beginners or at intermediate level, so I will try to explain everything in the simplest way possible. Let&#x27;s begin!
-Execution context is a box that is created every time a javascript code is executed. The box is divided into two parts : &quot;memory creation&quot; and &quot;code execution&quot;.
-Lets take a simple code to understand what goes inside these parts of execution context box.
-1.  var x &#x3D; 5;
-2. 
-3.  //calculates the cubic value of input
-4.  function cube (input) {
-5.  var result &#x3D; input*input*inpu…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Some soft skills that we should keep in mind and remember often ✨</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/antoomartini/some-soft-skills-that-we-should-keep-in-mind-and-remember-often-2da7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Some things I learned and some things I am still learning. Once my mentor told me that soft skills are very important, and before programmers, we are people, we are humans. So it&#x27;s good to remember these tips often. 
-There are a million technologies. And you&#x27;re not expected to know them all, so ask! [I don&#x27;t understand what these words mean&quot; From what source can I read about this? Remember there are no dummy questions, only fools who don&#x27;t ask.
-The IT world is full of hostile opinions and we all want the best results. That is not why you have to become an unpleasant and arrogant person. Radiate kindness. You&#x27;re going to go far.
-Look for existing solutions before starting a task. Understand the coding paradigms used. Look at your team&#x27;s code. Present your solution in the best way.
-It is imp…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Open sourced react eccomerce web app with PayPal checkout</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/abodmicheal/open-sourced-react-eccomerce-web-app-with-paypal-checkout-404b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Github  - https://github.com/abodmicheal/React-projects/
-live project - https://abod-zone.web.app</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Rails on Kubernetes with Minikube and Tilt</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ndrean/rails-on-kubernetes-with-minikube-and-tilt-25ka">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(16 min)</span>
-                    <span>We expose (lengthy) notes on Kubernetes manifests. We use them to deploy a full stack Rails app on a local Kubernetes cluster, powered by Minikube with the help of Tilt.
-no Helm charts, just plain Kubernetes yaml manifests.
-To orchestrate the containers with Kubernetes, you build and push images and then deploy manually on the local cluster.
-Starlark code.
-In a following post, we will use another tool GruCloud. It is designed to go live in the cloud (you can deploy on Minikube as well). You can select the main providers, AWS EKS or GCC or Azure for example. It uses the more familiar Javascript language instead.
-1. Demo app
-
-
-2. Vocabulary
-
-
-3. Local Kubernetes cluster with persistent volumes
-3.1 Postgres
-3.2 Web Server Nginx
-3.3 Redis
-3.4 Rails
-3.5 Cable and Sidekiq
-3.6 Access to the Kuber…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Beep Boop 3: Create a Web App with Data and ML</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/ornella/beep-boop-3-create-a-web-app-with-data-and-ml-3gld">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Thanks to everyone who joined us live for the 3nd episode of Beep Boop with the Microsoft Reactor- we started an awesome new Microsoft Learn module where we used a machine learning model to simulate basketball games with the data we cleaned up last time! 👩‍💻👩🏽‍💻
-If you missed the fun live, don&#x27;t worry- you can watch the replay here on YouTube, and in the embedded video below!
-
-
-
-
-On this episode we cover:
-5:20 Chloe tells us about an AI/ML talk she did this weekend where she mentioned Beep Boop 🤖💕
-
-
-9:20 Previously on Beep Boop... we catch folks up on what they missed last episode! 🔁
-
-
-14:17 We introduce what we&#x27;ll be working on this week, a Microsoft Learn module where we&#x27;ll learn how to create a web app that uses data to make decisions on the basketball court 🏀 
-
-
-15:08 One of our awesome viewers tells us about a VS Code extension that rainbow-ifies CSV files! 🌈📁
-
-
-16:20 A refresher on what tools you&#x27;ll need to download to follow along with this session - VS Code, an Azure account, and a few other bits and bobs ☁️🧵
-
-
-18:04 Now that our data is squeaky clean 🧼, let&#x27;s double check that we&#x27;ve set up our local environment
-
-
-25:14 We merge the two datasets, and add identifiers to our DataFrame so that we know who&#x27;s who 👀🐰
-
-
-30:38 We start our new machine learning adventure by making a model, and calculating some standard deviations ➗🤓
-
-
-43:32 First glimpse of our LIVE web app that we just made together! 😳💻
-
-
-50:45 We learn about the Code Tour extension in VS Code and how it can guide you through adding the JavaScript to your web app 👩🏽‍💻
-
-
-55:55 Franklin gives us the scoop on how he feels about creating basketball game simulations with the Tune Squad 🐶🦴
-
-
-
-Did you have fun? Check out Beep Boop 4: Add AI to Your Web App where we add even more cool features to our web app - see ya then, friends!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Introducing Slim 4</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/cherif_b/introducing-slim-4-55j9">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Slim framework is a PHP micro framework that could be used to write web applications and web services APIs, unlike other known frameworks like, Symfony, CakePHP or Laravel, Slim doesn’t have any opinion on what templating engine or what ORM should be used, all it provides is a routing system that takes a web request and returns a response depending on the application logic behind the route.
-The article assumes that composer is already installed and the reader knows how to use it in the command line.
-$ mkdir slim-from-scratch &amp;&amp; cd slim-from-scratch
-
-$ composer init
-
-Is it possible to leave the default answers for the composer questions in the command line.
-Depending on the composer installed version, a src folder can be created and the autoloading is configured, form me is:
-{
-    &quot;name&quot;: &quot;…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What is a Pure Function ?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/genakalinovskiy/what-is-a-pure-function-1h3j">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>A Pure Function is a function which :
-Given the same input, will always return the same output.
-Produces no side effects.
-A side effect is when function modifies some state variable value(s) outside its local environment.
-Logging to the console
-Making a HTTP request
-Mutating data
-Writing to the screen
-Writing to a file
-DOM query or manipulation
-Triggering any external process
-Calling any other functions with side-effects
-Let&#x27;s see example and try to understand.
-1  const f &#x3D; () &#x3D;&gt; {
-2    y &#x3D; Math.pow(x,2);
-3  }
-4
-5  let x, y;
-6 
-7  x &#x3D; 2;
-8
-9  f() // y &#x3D; 4
-10
-11 x &#x3D; 3;
-12
-13 f() // y &#x3D; 9
-
-In the example above the function f doesn’t return value. It has variable x as indirect input and there is no direct output. It sets state to the outside variable, so it is a side effect. Why should we avo…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to add Geo Location Search with AWS Amplify and ElasticSearch</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/aws-builders/how-to-add-geo-location-search-with-aws-amplify-and-elasticsearch-22e7">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>ElasticSearch is a powerful tool that allows flexible searches based on all kinds of parameters, which also happens to include geospatial data.
-It just so happens that AWS Amplify supports ElasticSearch with a few commands and with a little bit of tweaking, we can modify CloudFormation to integrate Geo Locations.
-I&#x27;ll walk you throw how to use Amplify and GraphQL Api via AppSync to set up ElasticSearch for geo searches.
-This tutorial assumes you have some familiarity with Amplify and have already initiated a project
-Step 1:
-Add an Establishment Type w/ @searchable directive and type GPS
-type Establishment @searchable {
-  gps: GPS
-}
-
-type GPS {
-  lon: Float
-  lat:  Float
-}
-
-Then in the terminal
-$: amplify api push
-
-(This usually takes about 15-20 minutes as its waiting for the deployment of…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">React Router &amp; multi-page apps</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/isaaccodes2021/react-router-multi-page-apps-3o41">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>The main function of this blog is to help me remember the process of building a multi page react app 
-React router is short hand for a NPM package react-router-dom that allows developers like yourself to build out multi page application through a practice called client side routing. Typically servers handle web routing, react router gives the illusion of a normal web page.
-after you have created your app using npm create-react-app double check if react-router-dom is installed with:
-npm i react-router-dom
-next you will need to import the following code into your index.js
-import {BrowserRouter} from &#x27;react-router-dom&#x27;
-
-after you have imported browser router some modification will need to be made to the body of the file
-ReactDOM.render(
-   
-     // &lt;-- here
- …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">One-Tap Deployments with Nginx and Docker: Configuring for Load Balancing ⚖</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dev.to/paulafahmy/one-tap-deployments-with-nginx-and-docker-configuring-for-load-balancing-56b">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Welcome back, in the previous article, we briefly introduced reverse proxies, and how we could use some of them, namely Nginx, to load balance our app, for an easier scale-out and serving. We also concluded the final architecture we&#x27;ll be after as our final result:
-
-Today, we&#x27;ll jump right into the basics of Nginx, so first up, make sure you have it installed on your machine.
-Once you have it installed, we can navigate to the configuration folder where all the magic really happens. Start off by navigating to this path /etc/nginx/ (if you&#x27;re on Linux), you should be able to see an nginx.conf file, launch it using your favorite text editor, and let&#x27;s have a look in there.
-We will learn today 3 basic setups:
-Serving local files
-Serving a hosted URL
-Accessing multiple instances through Load Ba…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://fourminutebooks.com">Summaries – Four Minute Books</a></h3>
           <section class="articles-per-source">
             <article>
@@ -398,274 +746,10 @@ The post Set Boundaries Find Peace Summary appeared first on Four Minute Books.<
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">14M ton of carbon offset forest is burning in California</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://twitter.com/BodieCabiyo/status/1427683107788845056">
+                <summary class="article-expander__title">Intel Brings Chiplets to Data Center CPUs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.eetimes.com/intel-brings-chiplets-to-data-center-cpus/#">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Chatroullete – Collaborative filtering doesn&#x27;t work for us</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://about.chatroulette.com/posts/better-match-making-part-1/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Full-body tracking in VR using AprilTag markers</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ju1ce/April-Tag-VR-FullBody-Tracker">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(15 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">FFmpeg for browser and node, powered by WebAssembly</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://ffmpegwasm.netlify.app/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">We Will Do Anything to Get You to Work for Us Except Pay You Enough [McSweeneys]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.mcsweeneys.net/articles/we-will-do-anything-to-get-you-to-work-for-us-except-pay-you-enough">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">View your browser&#x27;s TLS fingerprint</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://tlsfingerprint.io/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Google&#x27;s payments team is seeing an exodus of executives and employees</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.businessinsider.com/google-pay-payments-team-seeing-executive-exodus-turnover-caesar-sengupta-2021-8">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">An inside look at the custom CPUs in Tesla&#x27;s Dojo Supercomputer</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://semianalysis.com/tesla-dojo-ai-super-computer-unique-packaging-and-chip-design-allow-an-order-magnitude-advantage-over-competing-ai-hardware/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">OneSignal (YC S11) Is Hiring a Head of Product Engineering</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://onesignal.com/careers/5accd5c2-4a81-45ca-9813-701cae3cbec4">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">DevTools Leverage</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://explog.in/notes/devtools/leverage.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">macOS 11’s hidden security improvements</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.malwarebytes.com/mac/2021/08/macos-11s-hidden-security-improvements/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(17 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Facebook hacker beat my 2FA, bricked my Oculus, and hit the company credit card</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://codewriteplay.com/2021/08/20/a-facebook-hacker-beat-my-2fa-bricked-my-oculus-quest-and-hit-the-company-credit-card/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Your devices and your employer</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://rachelbythebay.com/w/2021/08/20/phones/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The mutation that helps Delta spread</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nature.com/articles/d41586-021-02275-2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Chronically lonely flies overeat and lose sleep</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.nature.com/articles/d41586-021-02194-2">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">CS/A65: A 6502 computer with USB, Ethernet and co-processors</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://www.6502.org/users/andre/csa/index.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Ruin of War</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://acoup.blog/2021/08/20/collections-teaching-paradox-victoria-ii-part-ii-the-ruin-of-war/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(58 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Launch HN: Ancana (YC S21) – Fractional ownership of vacation homes</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://news.ycombinator.com/item?id&#x3D;28247379">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(31 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Scratching the surface: perf stat and Hyper-Threading</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.uninformativ.de/blog/postings/2021-08-19/0/POSTING-en.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Manim: An animation engine for explanatory math videos</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://github.com/ManimCommunity/manim">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Peru is reviving a pre-Incan technology for water</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.bbc.com/future/article/20210510-perus-urgent-search-for-slow-water">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Show HN: Duedilly.io – Accuracy of Reddit Trading Ideas</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://duedilly.io/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Another free CA as an alternative to Let&#x27;s Encrypt</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://scotthelme.co.uk/heres-another-free-ca-as-an-alternative-to-lets-encrypt/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Index 1,600M Keys with Automata and Rust</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://blog.burntsushi.net/transducers/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(59 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Cuttlefish remember the what, when, and where of meals, even into old age</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://arstechnica.com/science/2021/08/cuttlefish-remember-the-what-when-and-where-of-meals-even-into-old-age/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
+                    <span class="article-reading-time">(9 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -801,43 +885,10 @@ The post Implementing a single GraphQL across multiple data sources appeared fir
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">For precision, the sapphire clock outshines even the best atomic clocks</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://spectrum.ieee.org/for-precision-the-sapphire-clock-outshines-even-the-best-atomic-clocks">
+                <summary class="article-expander__title">Google’s ‘Project Hug’ paid out huge sums to keep game devs in the Play Store</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.theverge.com/2021/8/19/22632818/google-project-hug-game-developers-play-store-millions-epic-lawsuit-complaint">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(18 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Unix shell programming: the next 50 years</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://dl.acm.org/doi/10.1145/3458336.3465294">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How Does FaceTime Work?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://matduggan.com/how-does-facetime-work/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>Comments</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The web browser as a tool of thought</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://thesephist.com/posts/browser/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
+                    <span class="article-reading-time">(3 min)</span>
                     <span>Comments</span>
                   </div>
                 </a>
@@ -983,23 +1034,6 @@ The post Native Search vs. Jetpack Instant Search in Headless WordPress With Gat
                     <span class="article-reading-time">(5 min)</span>
                     <span>1-Sentence-Summary: Eat Better, Feel Better is a go-to guide for combating modern dietary problems and adopting a healthier lifestyle. Read in: 4 minutes Favorite quote from the author: Food has the power to influence our entire life. It can fuel happiness and most importantly, our health. Therefore, our relationship with it is not something we should […]
 The post Eat Better Feel Better Summary appeared first on Four Minute Books.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://news.ycombinator.com/">Hacker News</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The geoglyph known as the Cerne Abbas Giant has a new estimated age</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.atlasobscura.com/articles/cerne-abbas-giant-geoglyph">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>Comments</span>
                   </div>
                 </a>
               </details>
@@ -1746,31 +1780,9 @@ The post Now, Discover Your Strengths Summary appeared first on Four Minute Book
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-07-23">2021-07-23</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.smashingmagazine.com/">Articles on Smashing Magazine — For Web Designers And Developers</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A Guide To Attracting Clients To Your Agency</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://smashingmagazine.com/2021/07/guide-attracting-clients-agency/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Many web design agencies consider it a badge of honor that they win work exclusively through word-of-mouth recommendations. In this article, Paul Boag explains why that is entirely the wrong attitude and what to do about it.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-08-21T00:55:47.498Z">2021-08-21T00:55:47.498Z</time>
+    <time id="build-timestamp" datetime="2021-08-22T00:56:35.248Z">2021-08-22T00:56:35.248Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>
